@@ -1,6 +1,6 @@
 {
   "name": "ai-website-clone-template",
-  "version": "0.3.1",
+  "version": "0.5.0",
   "private": true,
   "description": "Clone any website into a clean, modern Next.js codebase using AI coding agents",
   "author": "JCodesMore",
@@ -31,6 +31,7 @@
     "build": "next build",
     "start": "next start",
     "clone:prepare": "node scripts/prepare-clone-target.mjs",
+    "clone:test": "node --test scripts/prepare-clone-target.test.mjs",
     "design:check": "node scripts/check-design-workbench.mjs",
     "design:handoff": "node scripts/print-design-handoff.mjs",
     "design:pack": "node scripts/print-design-handoff.mjs --pack",
@@ -49,7 +50,7 @@
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^1.6.0",
-    "next": "16.2.1",
+    "next": "16.3.5",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "shadcn": "^4.1.0",
@@ -63,7 +64,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
-    "eslint-config-next": "16.2.1",
+    "eslint-config-next": "16.3.5",
     "tailwindcss": "^4",
     "typescript": "^5"
   }

@@ -28,15 +28,19 @@ Thumbs.db
 *.swo
 
 # Agent / AI tool configs (not needed at runtime)
+.agents
 .claude
 .codex
 .cursor
+.opencode
 .windsurf
 .gemini
 .continue
 .amazonq
 .augment
-.opencode
+.cline
+.roo
+.kiro
 .aider.conf.yml
 .clinerules
 .windsurfrules

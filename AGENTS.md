@@ -12,7 +12,7 @@ A reusable template for reverse-engineering any website into a clean, modern Nex
 ## One-Link Operating Mode
 When the user provides a URL in this workbench and asks to clone, copy, rebuild, reverse-engineer, or simply sends the URL as the next target, treat it as `/clone-website <url>`.
 
-Do not require the user to remember internal commands. First run `npm run clone:prepare -- <url1> [<url2> ...]` to create the target folders and `docs/research/CURRENT_TARGETS.*`, then follow the local `/clone-website` skill end to end. Ask follow-up questions only when scope cannot be inferred safely, such as whether multiple pages are required or whether the clone should be exact versus adapted.
+Do not require the user to remember internal commands. First run `npm run clone:prepare -- <url1> [<url2> ...]` to create the target folders and `docs/research/CURRENT_TARGETS.*`, then follow the canonical `.agents/skills/clone-website/SKILL.md` end to end. Read the generated output plan before editing: preserve existing routes, use collision-resistant site/page namespaces, and resolve multi-origin or route conflicts before writing. Ask follow-up questions only when scope cannot be inferred safely, such as whether multiple pages are required or whether the clone should be exact versus adapted.
 
 ## Tech Stack
 - **Framework:** Next.js 16 (App Router, React 19, TypeScript strict)
@@ -56,15 +56,13 @@ src/
   app/              # Next.js routes
   components/       # React components
     ui/             # shadcn/ui primitives
-    icons.tsx       # Extracted SVG icons as React components
+    sites/          # Site/page namespaces and shared extracted icons
   lib/
     utils.ts        # cn() utility (shadcn)
   types/            # TypeScript interfaces
   hooks/            # Custom React hooks
 public/
-  images/           # Downloaded images from target site
-  videos/           # Downloaded videos from target site
-  seo/              # Favicons, OG images, webmanifest
+  sites/            # Namespaced site/page images, fonts, videos, and SEO assets
 docs/
   research/         # Inspection output (design tokens, components, layout)
   design-references/ # Screenshots and visual references
@@ -125,6 +123,10 @@ Run `npm run design:brief-check -- "<target-project>"` after `.design-agent/work
 Run `npm run design:target-audit -- "<target-project>" --write` whenever you need a compact readiness report for the target repository.
 When updating the universal design workbench, run `npm run design:check` after syncing agent rules and product UI skills.
 
+## Optional Local Resources
+
+The published fork includes reusable design knowledge, Blender instructions, and scripts. Downloaded vendor bundles, generated media, private/local session files, and external skill checkouts may exist only in a local workbench and are not published. Inspect referenced paths before using them; an absent optional resource does not block the core website-cloning workflow. Do not automatically commit these resources.
+
 ## Blender Workbench
 Blender and web-3D work lives in `blender-workbench/`. Before changing any Blender asset, read `blender-workbench/HANDOFF.md`, `blender-workbench/CURRENT_STATE.md`, and `blender-workbench/QUALITY_GATE.md`.
 
@@ -137,7 +139,7 @@ For every Blender task, first read `blender-workbench/AGENT_START_HERE.md` and c
 ## MOST IMPORTANT NOTES
 - When launching Claude Code agent teams, ALWAYS have each teammate work in their own worktree branch and merge everyone's work at the end, resolving any merge conflicts smartly since you are basically serving the orchestrator role and have full context to our goals, work given, work achieved, and desired outcomes.
 - After editing `AGENTS.md`, run `bash scripts/sync-agent-rules.sh` to regenerate platform-specific instruction files.
-- After editing `.claude/skills/clone-website/SKILL.md`, run `node scripts/sync-skills.mjs` to regenerate the skill for all platforms.
+- Edit `.agents/skills/clone-website/SKILL.md` and its `references/` as the canonical cloning workflow. Run `node scripts/sync-skills.mjs` to regenerate compatibility skills, references, and commands for all supported platforms; never edit generated copies directly.
 
 @docs/research/INSPECTION_GUIDE.md
 

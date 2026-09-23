@@ -8,6 +8,14 @@ A reusable template for reverse-engineering any website into a clean, modern Nex
 
 Point it at a URL, run `/clone-website`, and your AI agent will inspect the site, extract design tokens and assets, write component specs, and dispatch parallel builders to reconstruct every section.
 
+## Enhanced Fork
+
+This fork combines the upstream cloning workflow with a one-link target planner, reusable design knowledge, landing and commerce blueprints, Blender workflows, and compatibility integrations for additional coding agents. The canonical clone skill is [.agents/skills/clone-website/SKILL.md](.agents/skills/clone-website/SKILL.md); generated platform copies all come from that source.
+
+Each target gets collision-resistant site/page namespaces for research, screenshots, components, and assets. Existing pages are preserved, source pathnames map to destination routes, and styles or metadata are scoped when sites share an application. See [ONE_LINK_CLONER.md](ONE_LINK_CLONER.md) for the one-link workflow.
+
+Reusable instructions and scripts are published. Downloaded vendor bundles, generated media, local session files, and external skill checkouts are optional local resources and are not published with this fork. Install or provide them only for a task that needs them; core cloning does not require them.
+
 ## Universal Design Knowledge Base
 
 This repository also contains a reusable design-agent workbench for projects outside this template. Start at:
@@ -134,6 +142,7 @@ Run `npm run design:target-audit -- "C:\path\to\target-project" --write` to crea
 | [Cursor](https://cursor.com/)                                 | Supported                  |
 | [Windsurf](https://codeium.com/windsurf)                      | Supported                  |
 | [Gemini CLI](https://github.com/google-gemini/gemini-cli)     | Supported                  |
+| [Kiro](https://kiro.dev/)                                  | Supported                  |
 | [Cline](https://github.com/cline/cline)                       | Supported                  |
 | [Roo Code](https://github.com/RooCodeInc/Roo-Code)            | Supported                  |
 | [Continue](https://continue.dev/)                             | Supported                  |
@@ -184,14 +193,12 @@ src/
   app/              # Next.js routes
   components/       # React components
     ui/             # shadcn/ui primitives
-    icons.tsx       # Extracted SVG icons
+    sites/          # Namespaced page components and shared extracted icons
   lib/utils.ts      # cn() utility
   types/            # TypeScript interfaces
   hooks/            # Custom React hooks
 public/
-  images/           # Downloaded images from target
-  videos/           # Downloaded videos from target
-  seo/              # Favicons, OG images
+  sites/            # Namespaced site/page images, fonts, videos, and SEO assets
 docs/
   research/         # Extraction output & component specs
   design-references/ # Screenshots
@@ -238,9 +245,9 @@ Two source-of-truth files power all platform support. Edit the source, then run 
 | What                   | Source of truth                         | Sync command                       |
 | ---------------------- | --------------------------------------- | ---------------------------------- |
 | Project instructions   | `AGENTS.md`                             | `bash scripts/sync-agent-rules.sh` |
-| `/clone-website` skill | `.claude/skills/clone-website/SKILL.md` | `node scripts/sync-skills.mjs`     |
+| `/clone-website` skill | `.agents/skills/clone-website/SKILL.md` | `node scripts/sync-skills.mjs`     |
 
-Each script regenerates the platform-specific copies automatically. Agents that read the source files natively need no regeneration.
+Each script regenerates the platform-specific copies automatically. The skill generator also copies the inspection reference beside each generated skill and rewrites reference links in command wrappers. Claude Code retains an invocable generated skill; Codex, Cursor, and OpenCode can also discover the canonical cross-agent skill. Keep the generated files committed and verify synchronization after editing the source.
 
 
 ## Star History
