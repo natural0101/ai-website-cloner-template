@@ -22,6 +22,8 @@ Do not require the user to remember internal commands. First run `npm run clone:
 - **Deployment:** Vercel
 
 ## Commands
+Run verification locally only. Do not add, enable, dispatch, or restore GitHub Actions workflows in this repository, including when merging upstream updates. GitHub Actions are disabled by the repository owner's explicit instruction.
+
 - `npm run dev` — Start dev server
 - `npm run build` — Production build
 - `npm run lint` — ESLint check

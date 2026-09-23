@@ -10,6 +10,8 @@ Point it at a URL, run `/clone-website`, and your AI agent will inspect the site
 
 ## Enhanced Fork
 
+All checks run locally. GitHub Actions are disabled for this fork; upstream workflow files must not be restored.
+
 This fork combines the upstream cloning workflow with a one-link target planner, reusable design knowledge, landing and commerce blueprints, Blender workflows, and compatibility integrations for additional coding agents. The canonical clone skill is [.agents/skills/clone-website/SKILL.md](.agents/skills/clone-website/SKILL.md); generated platform copies all come from that source.
 
 Each target gets collision-resistant site/page namespaces for research, screenshots, components, and assets. Existing pages are preserved, source pathnames map to destination routes, and styles or metadata are scoped when sites share an application. See [ONE_LINK_CLONER.md](ONE_LINK_CLONER.md) for the one-link workflow.

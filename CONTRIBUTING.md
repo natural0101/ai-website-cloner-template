@@ -33,7 +33,7 @@ npm run check   # lint + typecheck + build
 
 Project instructions live in `AGENTS.md`. The canonical cloning workflow lives in `.agents/skills/clone-website/`. This enhanced fork retains generated compatibility files for additional agents alongside upstream's canonical workflow.
 
-Edit the canonical skill and its references directly, then run `node scripts/sync-skills.mjs`. After changing `AGENTS.md`, run `bash scripts/sync-agent-rules.sh`. Commit generated files with their sources; CI verifies that they stay synchronized. Also run `npm run clone:test` and `npm run design:check` when changing the cloning or design workbench.
+Edit the canonical skill and its references directly, then run `node scripts/sync-skills.mjs`. After changing `AGENTS.md`, run `bash scripts/sync-agent-rules.sh`. Commit generated files with their sources and verify synchronization locally. Also run `npm run clone:test` and `npm run design:check` locally when changing the cloning or design workbench. GitHub Actions are disabled: do not add, enable, or trigger workflows, including during upstream merges.
 
 ## Submitting a pull request
 
