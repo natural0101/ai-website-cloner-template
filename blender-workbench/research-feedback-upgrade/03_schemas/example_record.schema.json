@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verified Blender Example Record",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "task",
+    "tags",
+    "representation",
+    "workflow",
+    "source_files",
+    "success_criteria",
+    "evidence"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "task": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "representation": {
+      "type": "string"
+    },
+    "workflow": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "parameters": {
+      "type": "object"
+    },
+    "source_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "success_criteria": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "known_failures": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "blender_version": {
+      "type": "string"
+    },
+    "evidence": {
+      "type": "object",
+      "required": [
+        "status",
+        "notes"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "RUNTIME_TESTED",
+            "STATIC_ONLY",
+            "RESEARCH_PATTERN"
+          ]
+        },
+        "notes": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

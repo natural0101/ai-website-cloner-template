@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kibo UI Catalog"
+  short_description: "Choose verified Kibo UI product components."
+  default_prompt: "Use $kibo-ui-catalog to choose verified Kibo UI components for a landing plan."

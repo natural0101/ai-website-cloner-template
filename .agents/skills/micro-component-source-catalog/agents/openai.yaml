@@ -1,0 +1,4 @@
+interface:
+  display_name: "Micro Component Source Catalog"
+  short_description: "Choose verified shadcn micro-components"
+  default_prompt: "Use $micro-component-source-catalog to choose verified Kibo UI or Origin/Coss micro-components for a landing plan."

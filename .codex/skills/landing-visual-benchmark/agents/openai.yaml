@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Visual Benchmark"
+  short_description: "Benchmark landing visuals against references"
+  default_prompt: "Use $landing-visual-benchmark to compare this landing page against strong references and produce visual gaps."

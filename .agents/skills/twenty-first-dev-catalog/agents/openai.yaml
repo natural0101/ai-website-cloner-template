@@ -1,0 +1,4 @@
+interface:
+  display_name: "21st.dev Catalog"
+  short_description: "Gate 21st.dev component choices"
+  default_prompt: "Use $twenty-first-dev-catalog to select exact 21st.dev components for a landing plan."

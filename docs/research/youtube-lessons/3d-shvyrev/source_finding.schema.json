@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "3D SHVYREV source review finding",
+  "type": "object",
+  "required": [
+    "video_id",
+    "review_status",
+    "disposition",
+    "canonical_technique_ids",
+    "candidate_topics",
+    "addon_mentions",
+    "notes"
+  ],
+  "properties": {
+    "video_id": {
+      "type": "string",
+      "minLength": 6
+    },
+    "review_status": {
+      "enum": [
+        "TRANSCRIPT_REVIEWED",
+        "VISUALLY_REVIEWED"
+      ]
+    },
+    "disposition": {
+      "enum": [
+        "new_improvement",
+        "duplicate_or_supporting_source",
+        "addon_inventory",
+        "mixed",
+        "showcase_only",
+        "not_applicable"
+      ]
+    },
+    "canonical_technique_ids": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "candidate_topics": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "addon_mentions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "name",
+          "claim",
+          "verification"
+        ],
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "verification": {
+            "enum": [
+              "unverified_caption",
+              "visually_confirmed",
+              "vendor_verified",
+              "rejected"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,9 @@
+{
+  "schema_version": "1.0",
+  "aliases": {
+    "shvyrev_polygon_budget_scene_preflight": "shvyrev_polygon_budget_preflight",
+    "shvyrev_backend_performance_benchmark": "shvyrev_render_backend_benchmark",
+    "shvyrev_cross_app_tracking_interchange_contract": "shvyrev_tracking_interchange_preflight"
+  },
+  "policy": "Alias records were merged into the canonical target; audit links were rewritten."
+}

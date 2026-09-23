@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Motion Reference Mining"
+  short_description: "Map motion references to landing sections"
+  default_prompt: "Use $landing-motion-reference-mining to map real motion references to landing-page sections before choosing animation recipes."

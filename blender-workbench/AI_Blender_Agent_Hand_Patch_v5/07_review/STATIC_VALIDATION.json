@@ -1,0 +1,37 @@
+{
+  "status": "pass",
+  "generated_utc": "2026-06-22T17:45:44.067508+00:00",
+  "tests": [
+    {
+      "name": "json_syntax_and_schema",
+      "status": "pass"
+    },
+    {
+      "name": "manifest_entry_points",
+      "status": "pass"
+    },
+    {
+      "name": "release_path_hygiene",
+      "status": "pass"
+    },
+    {
+      "name": "skill_frontmatter",
+      "status": "pass"
+    },
+    {
+      "name": "validator_and_board_generator",
+      "status": "pass"
+    }
+  ],
+  "counts": {
+    "json_files": 4,
+    "python_files": 3,
+    "markdown_files": 12,
+    "new_mcp_tools": 0,
+    "blender_runtime_code_files": 0
+  },
+  "limitations": [
+    "No Blender runtime geometry code is added by this patch.",
+    "The example board is synthetic and does not reconstruct the user reference."
+  ]
+}

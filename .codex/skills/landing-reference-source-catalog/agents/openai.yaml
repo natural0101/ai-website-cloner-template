@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Reference Source Catalog"
+  short_description: "Choose landing reference galleries with risk gates."
+  default_prompt: "Use $landing-reference-source-catalog to choose landing reference sources and map them to sections."

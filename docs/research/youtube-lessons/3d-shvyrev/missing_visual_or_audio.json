@@ -1,0 +1,26 @@
+[
+  {
+    "video_id": "6GLHDS2vRd0",
+    "source_kind": "video",
+    "position": 11,
+    "title": "Тайна мастерской | Мульт в Blender",
+    "reason": "All storyboard pages show only the finished animated short and credits. No Blender interface, production breakdown, readable tool name, modifier, addon, or parameter is visible, and captions/audio are unavailable. A production technique cannot be inferred safely from the rendered result.",
+    "storyboard_available": true
+  },
+  {
+    "video_id": "u9n5PJZMzLU",
+    "source_kind": "short",
+    "position": 149,
+    "title": "Тот самый критик в BLENDER #blender",
+    "reason": "The sole low-resolution storyboard repeats vertically cropped footage of a person or television scene. It contains no readable Blender interface, technique, addon, or technical on-screen text; metadata and title alone are insufficient.",
+    "storyboard_available": true
+  },
+  {
+    "video_id": "kvYqHYgHXSI",
+    "source_kind": "short",
+    "position": 196,
+    "title": "Добавил снег очень просто #blender #shorts",
+    "reason": "The storyboards visibly show a stylized snow mesh being added around the house, then manually stretched and refined, but the triggering operator or addon name and its settings are never legible. The audio caption at that moment is corrupted as «нажимаем отно». The evidence cannot distinguish a snow addon/operator from a manual, metaball, remesh, particle, or other geometry workflow, so no exact technique or addon was assigned.",
+    "storyboard_available": true
+  }
+]

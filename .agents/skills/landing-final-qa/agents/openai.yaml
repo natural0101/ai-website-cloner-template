@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Final QA"
+  short_description: "Final QA for landing implementation"
+  default_prompt: "Use $landing-final-qa to review the implemented landing page against screenshots, accessibility, performance, motion, and plan compliance."

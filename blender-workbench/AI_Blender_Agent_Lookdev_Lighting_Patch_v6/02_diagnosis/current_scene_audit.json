@@ -1,0 +1,25 @@
+{
+  "path": "/mnt/data/AI_Blender_Agent_Lookdev_Lighting_Patch_v6/reference/current_scene.png",
+  "width": 1234,
+  "height": 712,
+  "mean_luma": 0.3132823407649994,
+  "median_luma": 0.04203607887029648,
+  "p01_luma": 0.0036384316626936197,
+  "p05_luma": 0.003921568859368563,
+  "p95_luma": 1.0,
+  "p99_luma": 1.0,
+  "near_black_pct": 30.70527470726422,
+  "near_white_pct": 11.424662648188953,
+  "any_channel_exactly_clipped_pct": 15.540605139038115,
+  "all_channels_exactly_clipped_pct": 9.173032797333965,
+  "any_channel_near_clipped_pct": 16.103996321453938,
+  "all_channels_near_clipped_pct": 9.417055159980332,
+  "warnings": [
+    "Exact full-white clipping exceeds 1%; inspect emitters and exposure.",
+    "Exact channel clipping exceeds 5%; saturated highlights may lose hue/detail.",
+    "Near-white plateau is large; preserve highlight texture before adding bloom.",
+    "More than 30% is near-black; verify intentional background vs crushed detail.",
+    "95th percentile is clipped; highlights occupy too much of the frame."
+  ],
+  "status": "REVIEW_REQUIRED"
+}

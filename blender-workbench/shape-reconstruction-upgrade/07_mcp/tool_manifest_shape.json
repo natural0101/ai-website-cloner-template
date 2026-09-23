@@ -1,0 +1,547 @@
+{
+  "manifest_version": "1.0",
+  "target": "Blender 5.1.x",
+  "namespace": "shape",
+  "activation": "Only load for volumetric figures, hands, sculpt/blockout, or reference-image reconstruction.",
+  "tools": [
+    {
+      "name": "blender_shape_report",
+      "action": "shape.scene_report",
+      "description": "Inspect generated/source/export objects and reference camera.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "blender_shape_create_part",
+      "action": "shape.create_part",
+      "description": "Create one named semantic mass: ellipsoid, rounded box, or tapered Bezier tube.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "kind": {
+            "type": "string",
+            "enum": [
+              "ELLIPSOID",
+              "ROUNDED_BOX",
+              "TUBE"
+            ]
+          },
+          "name": {
+            "type": "string"
+          },
+          "location": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number"
+            }
+          },
+          "scale": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number"
+            }
+          },
+          "dimensions": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number"
+            }
+          },
+          "radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "rotation": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number"
+            }
+          },
+          "segments": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 128
+          },
+          "rings": {
+            "type": "integer",
+            "minimum": 3,
+            "maximum": 64
+          },
+          "points": {
+            "type": "array",
+            "minItems": 2,
+            "items": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 3,
+              "items": {
+                "type": "number"
+              }
+            }
+          },
+          "radii": {
+            "oneOf": [
+              {
+                "type": "number",
+                "exclusiveMinimum": 0
+              },
+              {
+                "type": "array",
+                "items": {
+                  "type": "number",
+                  "exclusiveMinimum": 0
+                }
+              }
+            ]
+          },
+          "bevel_resolution": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 12
+          },
+          "curve_resolution": {
+            "type": "integer",
+            "minimum": 2,
+            "maximum": 64
+          },
+          "add_round_endcaps": {
+            "type": "boolean"
+          },
+          "collection_name": {
+            "type": "string"
+          },
+          "material": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "base_color": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 4,
+                "items": {
+                  "type": "number"
+                }
+              },
+              "metallic": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "roughness": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "export": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "kind",
+          "name"
+        ]
+      }
+    },
+    {
+      "name": "blender_shape_voxel_union",
+      "action": "shape.voxel_union",
+      "description": "Fuse overlapping source parts into a soft manifold mesh while preserving all source objects.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "source_names": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "string"
+            }
+          },
+          "name": {
+            "type": "string"
+          },
+          "voxel_size": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "adaptivity": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "smooth_factor": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 2
+          },
+          "smooth_iterations": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 20
+          },
+          "output_collection": {
+            "type": "string"
+          },
+          "material": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "base_color": {
+                "type": "array",
+                "minItems": 3,
+                "maxItems": 4,
+                "items": {
+                  "type": "number"
+                }
+              },
+              "metallic": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              },
+              "roughness": {
+                "type": "number",
+                "minimum": 0,
+                "maximum": 1
+              }
+            },
+            "additionalProperties": false
+          },
+          "export": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "source_names"
+        ]
+      }
+    },
+    {
+      "name": "blender_shape_create_hand_sphere",
+      "action": "shape.create_hand_sphere",
+      "description": "Create a from-scratch editable stylized sphere held by two semantic hands.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string"
+          },
+          "sphere_radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "sphere_color": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 4,
+            "items": {
+              "type": "number"
+            }
+          },
+          "hand_color": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 4,
+            "items": {
+              "type": "number"
+            }
+          },
+          "cuff_color": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 4,
+            "items": {
+              "type": "number"
+            }
+          },
+          "merge_hands": {
+            "type": "boolean"
+          },
+          "voxel_size": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "blender_shape_create_cupping_hand",
+      "action": "shape.create_cupping_hand",
+      "description": "Create one left or right stylized hand from palm, tapered fingers, thumb, wrist and cuff.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "side": {
+            "type": "string",
+            "enum": [
+              "LEFT",
+              "RIGHT"
+            ]
+          },
+          "sphere_radius": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "name": {
+            "type": "string"
+          },
+          "merge": {
+            "type": "boolean"
+          },
+          "voxel_size": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "side"
+        ]
+      }
+    },
+    {
+      "name": "blender_shape_import_contours",
+      "action": "shape.import_contours",
+      "description": "Import hole-preserving contour JSON as a front-matched 2.5D relief.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "contour_json": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "thickness": {
+            "type": "number",
+            "minimum": 0
+          },
+          "bevel": {
+            "type": "number",
+            "minimum": 0
+          },
+          "bevel_resolution": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 12
+          },
+          "scale": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "location": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number"
+            }
+          },
+          "collection_name": {
+            "type": "string"
+          },
+          "convert_mesh": {
+            "type": "boolean"
+          },
+          "export": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "contour_json"
+        ]
+      }
+    },
+    {
+      "name": "blender_shape_import_layer_stack",
+      "action": "shape.import_layer_stack",
+      "description": "Import multiple contour layers with explicit front/back depth ordering.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "config_json": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "config_json"
+        ]
+      }
+    },
+    {
+      "name": "blender_shape_setup_reference_camera",
+      "action": "shape.setup_reference_camera",
+      "description": "Create an exact orthographic camera matched to reference resolution and vertical world height.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "width": {
+            "type": "integer",
+            "minimum": 16
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 16
+          },
+          "world_height": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "distance": {
+            "type": "number",
+            "exclusiveMinimum": 0
+          },
+          "name": {
+            "type": "string"
+          },
+          "target": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number"
+            }
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "width",
+          "height"
+        ]
+      }
+    },
+    {
+      "name": "blender_shape_render_silhouette",
+      "action": "shape.render_silhouette",
+      "description": "Render selected/tagged objects as a white-on-black silhouette mask.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filepath": {
+            "type": "string"
+          },
+          "object_names": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "width": {
+            "type": "integer",
+            "minimum": 16
+          },
+          "height": {
+            "type": "integer",
+            "minimum": 16
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "filepath"
+        ]
+      }
+    },
+    {
+      "name": "blender_shape_apply_reference_fit",
+      "action": "shape.apply_reference_fit",
+      "description": "Apply measured root translation/scale from a silhouette report; requires explicit confirmation.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "report_json": {
+            "type": "string"
+          },
+          "root_object": {
+            "type": "string"
+          },
+          "mode": {
+            "type": "string",
+            "enum": [
+              "UNIFORM",
+              "SCREEN_NONUNIFORM"
+            ]
+          },
+          "confirm": {
+            "type": "boolean",
+            "const": true
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "report_json",
+          "root_object",
+          "confirm"
+        ]
+      }
+    },
+    {
+      "name": "blender_shape_validate",
+      "action": "shape.validate",
+      "description": "Validate export meshes for triangle budget, closed topology, degenerate faces and materials.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "object_names": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "max_triangles": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "require_closed": {
+            "type": "boolean"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "blender_shape_export_glb",
+      "action": "shape.export_glb",
+      "description": "Export only specified or tagged output objects to GLB.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "filepath": {
+            "type": "string"
+          },
+          "object_names": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false,
+        "required": [
+          "filepath"
+        ]
+      }
+    }
+  ]
+}

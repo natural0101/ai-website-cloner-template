@@ -2,11 +2,81 @@
 
 <a href="https://github.com/JCodesMore/ai-website-cloner-template/blob/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="MIT License" /></a> <a href="https://github.com/JCodesMore/ai-website-cloner-template/stargazers"><img src="https://img.shields.io/github/stars/JCodesMore/ai-website-cloner-template?style=flat" alt="Stars" /></a> <a href="https://discord.gg/hrTSX5yTpB"><img src="https://img.shields.io/discord/1400896964597383279?label=discord" alt="Discord" /></a>
 
-A reusable template for reverse-engineering any website into a clean, modern Next.js codebase using AI coding agents. 
+A reusable template for reverse-engineering any website into a clean, modern Next.js codebase using AI coding agents.
 
 **Recommended: [Claude Code](https://docs.anthropic.com/en/docs/claude-code) with Opus 4.7 for best results** — but works with a variety of AI coding agents.
 
 Point it at a URL, run `/clone-website`, and your AI agent will inspect the site, extract design tokens and assets, write component specs, and dispatch parallel builders to reconstruct every section.
+
+## Universal Design Knowledge Base
+
+This repository also contains a reusable design-agent workbench for projects outside this template. Start at:
+
+```text
+docs/design-workbench/AGENT_START_HERE.md
+```
+
+Use it for dashboards, admin panels, SaaS product UI, AI design studios, canvas editors, component systems, websites, motion, 3D/WebGL, proof/data integrity, and final UI QA. It is intentionally not landing-only.
+
+For handoff prompts and the product UI completion gate, read:
+
+```text
+docs/design-workbench/EXTERNAL_AGENT_HANDOFF.md
+docs/design-workbench/AGENT_PROMPTS.md
+docs/design-workbench/DESIGN_WORKBENCH_MANIFEST.json
+docs/design-workbench/UNIVERSAL_DESIGN_RUNBOOK.md
+docs/design-workbench/UNIVERSAL_PRODUCT_DESIGN_BRIEF.md
+docs/design-workbench/PRODUCT_SURFACE_BLUEPRINTS.md
+docs/design-workbench/PRODUCT_UI_SCREEN_RECIPES.md
+docs/design-workbench/PRODUCT_UI_DASHBOARD_ADMIN_PLAYBOOK.md
+docs/design-workbench/PRODUCT_UI_INFORMATION_ARCHITECTURE.md
+docs/design-workbench/PRODUCT_UI_INTERACTION_MODEL.md
+docs/design-workbench/PRODUCT_UI_COPY_STATUS_LANGUAGE.md
+docs/design-workbench/PRODUCT_UI_DECISION_REVIEW_COCKPIT.md
+docs/design-workbench/AI_DESIGN_APP_TRUSTED_VERTICAL.md
+docs/design-workbench/AI_DESIGN_APP_SCREEN_BLUEPRINT.md
+docs/design-workbench/AI_WORKBENCH_INTERACTION_FLOWS.md
+docs/design-workbench/AI_WORKBENCH_IMPLEMENTATION_SLICES.md
+docs/design-workbench/PRODUCT_UI_DESIGN_SYSTEM_BASELINE.md
+docs/design-workbench/PRODUCT_UI_IMPLEMENTATION_SLICE_CONTRACT.md
+docs/design-workbench/PRODUCT_UI_COMPONENT_BLUEPRINTS.md
+docs/design-workbench/COMPONENT_STATE_SPEC.md
+docs/design-workbench/PRODUCT_UI_COMPONENT_SOURCING.md
+docs/design-workbench/PRODUCT_UI_QUALITY_GATE.md
+docs/design-workbench/PRODUCT_UI_TOP_DESIGN_BENCHMARK.md
+docs/design-workbench/PRODUCT_UI_REVIEW_RUBRIC.md
+docs/design-workbench/PRODUCT_UI_VISUAL_QA.md
+docs/design-workbench/VISUAL_QA_EVIDENCE_PLAYBOOK.md
+docs/design-workbench/AGENT_REPORT_EXAMPLES.md
+.codex/skills/product-ui-design-orchestrator/SKILL.md
+.codex/skills/product-design-taste/SKILL.md
+.codex/skills/product-ui-component-sourcing/SKILL.md
+.codex/skills/product-ui-visual-qa/SKILL.md
+.codex/skills/design-ai-workbench-screens/SKILL.md
+```
+
+To verify that the design workbench, generated agent rules, and product UI skills are still wired together, run:
+
+```bash
+npm run design:check
+```
+
+This checks key design-workbench anchors plus local `.codex/skills`, `.agents/skills`, and global Codex skill copies.
+For machine-readable routing, use `docs/design-workbench/DESIGN_WORKBENCH_MANIFEST.json`.
+
+To print a ready prompt for an agent working in another project, run:
+
+```bash
+npm run design:handoff -- "C:\path\to\target-project"
+```
+
+Modes: `auto`, `handoff`, `universal`, `forgestudio`, `dashboard`, `scratch`, `qa`. `auto` inspects the target folder and is the default.
+Add `--write` to create `DESIGN_AGENT_HANDOFF.md` inside the target project.
+Use `--pack` or `npm run design:pack -- "C:\path\to\target-project"` to create `DESIGN_AGENT_HANDOFF.md` plus `.design-agent/README.md`, `.design-agent/prompt.txt`, `.design-agent/working-brief.md`, `.design-agent/manifest.json`, `.design-agent/acceptance-checklist.md`, `.design-agent/final-report-template.md`, and `.design-agent/AGENTS_SNIPPET.md` in the target project.
+Run `npm run design:install-agent-rules -- "C:\path\to\target-project"` when the target project should receive a managed `AGENTS.md` block pointing future agents to the packet.
+Then run `npm run design:packet-check -- "C:\path\to\target-project"` to verify the packet before handing it to another agent.
+After the agent fills `.design-agent/working-brief.md`, run `npm run design:brief-check -- "C:\path\to\target-project"` before coding. Before final handoff, run `npm run design:final-check -- "C:\path\to\target-project"`.
+Run `npm run design:target-audit -- "C:\path\to\target-project" --write` to create `.design-agent/readiness-report.md` with packet, brief, final-report, and next-command status.
 
 ## Demo
 
@@ -126,6 +196,8 @@ docs/
   research/         # Extraction output & component specs
   design-references/ # Screenshots
 scripts/
+  check-design-workbench.mjs # Verify universal design workbench wiring
+  print-design-handoff.mjs # Print/write a ready prompt or design packet for another agent/project
   sync-agent-rules.sh  # Regenerate agent instruction files
   sync-skills.mjs      # Regenerate /clone-website for all platforms
 AGENTS.md           # Agent instructions (single source of truth)
@@ -141,6 +213,15 @@ npm run build  # Production build
 npm run lint   # ESLint check
 npm run typecheck # TypeScript check
 npm run check  # Run lint + typecheck + build
+npm run design:check # Verify design workbench wiring
+npm run design:handoff -- "<target-project>" # Print auto-selected design handoff prompt
+npm run design:handoff -- "<target-project>" --write # Write DESIGN_AGENT_HANDOFF.md into target project
+npm run design:pack -- "<target-project>" # Write DESIGN_AGENT_HANDOFF.md plus .design-agent packet into target project
+npm run design:install-agent-rules -- "<target-project>" # Install managed design-agent block into target AGENTS.md
+npm run design:packet-check -- "<target-project>" # Verify the target project's .design-agent packet
+npm run design:brief-check -- "<target-project>" # Verify working brief was filled before coding
+npm run design:final-check -- "<target-project>" # Verify final report has real evidence before handoff
+npm run design:target-audit -- "<target-project>" --write # Write .design-agent/readiness-report.md
 ```
 
 ### If using docker

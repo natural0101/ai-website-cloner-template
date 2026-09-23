@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Source Forensics"
+  short_description: "Collect evidence-rich landing dossiers"
+  default_prompt: "Use $landing-source-forensics to inspect this landing page and create an evidence-rich landing-source-dossier.md."

@@ -1,0 +1,85 @@
+{
+  "status": "pass_with_runtime_boundary",
+  "timestamp_utc": "2026-06-22T09:50:44+00:00",
+  "scope": "research_feedback_upgrade v4",
+  "checks": {
+    "pure_python_unittest": {
+      "status": "pass",
+      "tests": 4,
+      "details": [
+        "JSON assets",
+        "example retrieval",
+        "security preflight/path allowlist",
+        "stage scope/bounded memory"
+      ]
+    },
+    "python_ast": {
+      "status": "pass",
+      "files": 6
+    },
+    "research_audit": {
+      "status": "pass",
+      "sources": 32,
+      "formats": [
+        "CSV",
+        "JSON"
+      ],
+      "unique_ids": true,
+      "https_urls": true
+    },
+    "example_library": {
+      "status": "pass",
+      "records": 11,
+      "evidence_labels": [
+        "RUNTIME_TESTED",
+        "STATIC_ONLY",
+        "RESEARCH_PATTERN"
+      ],
+      "source_files_checked": 23
+    },
+    "optional_mcp_contracts": {
+      "status": "pass",
+      "count": 4,
+      "read_only": 3,
+      "mutating": 1
+    },
+    "blender_v4_runtime": {
+      "status": "not_run_here",
+      "reason": "Blender executable is not installed in the build container",
+      "required_action": "Run 09_review/FIRST_RUNTIME_CHECK_RU.md in the owner Blender 5.1 installation"
+    },
+    "preserved_prior_runtime": {
+      "status": "present",
+      "blender": "5.1.2",
+      "scope": "v3/base runtime artifacts and reports only"
+    },
+    "package_integrity": {
+      "status": "pass",
+      "checks": 12,
+      "json_files": 35,
+      "referenced_paths": 45,
+      "v4_entry_points": 10,
+      "example_source_files": 23,
+      "namespace_collisions": 0,
+      "release_path_offenders": 0
+    },
+    "release_hygiene": {
+      "status": "pass",
+      "generated_cache_files": 0,
+      "build_machine_paths": 0
+    }
+  },
+  "dependency_review": {
+    "new_required_dependencies": [],
+    "optional": [
+      "OpenCV venv for v3 masks/overlay",
+      "Qdrant/embeddings only after hundreds of verified examples"
+    ]
+  },
+  "limitations": [
+    "AST preflight is advisory, not an OS sandbox",
+    "AABB contact analysis is heuristic",
+    "research preprints are not independent production guarantees",
+    "single-view references do not reveal hidden geometry"
+  ]
+}

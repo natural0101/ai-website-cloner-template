@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Implementation Handoff"
+  short_description: "Turn a landing plan into an implementation prompt"
+  default_prompt: "Use $landing-implementation-handoff to turn this completed landing plan into a precise implementation prompt for another agent."

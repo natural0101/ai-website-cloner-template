@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Brand DNA Preservation"
+  short_description: "Preserve brand DNA in redesigns"
+  default_prompt: "Use $landing-brand-dna-preservation to extract what the current landing must preserve before redesign."

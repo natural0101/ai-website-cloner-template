@@ -1,0 +1,2364 @@
+{
+  "generated_at": "2026-07-30T15:27:20.270477+00:00",
+  "counts": {
+    "total": 237,
+    "transcript_ready": 233,
+    "missing": 4
+  },
+  "records": [
+    {
+      "video_id": "lVflgFmmxfA",
+      "source_kind": "video",
+      "title": "Пейзаж в Blender 5.2 с нуля! | Добавление растений",
+      "caption_file": "lVflgFmmxfA.ru-orig.vtt",
+      "cue_count": 1472,
+      "segment_count": 737,
+      "character_count": 27659,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "99lAzxKeV9c",
+      "source_kind": "video",
+      "title": "Обновления Blender 5.2 | Новая симуляция",
+      "caption_file": "99lAzxKeV9c.ru-orig.vtt",
+      "cue_count": 601,
+      "segment_count": 301,
+      "character_count": 11241,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "WfF-W8WqDqY",
+      "source_kind": "video",
+      "title": "Запекание в Blender ПРОСТО! | Основы процедурных материалов",
+      "caption_file": "WfF-W8WqDqY.ru-orig.vtt",
+      "cue_count": 883,
+      "segment_count": 442,
+      "character_count": 16751,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "T_MlDrVk1m8",
+      "source_kind": "video",
+      "title": "Обновления Blender 5.1 | Новые вершины",
+      "caption_file": "T_MlDrVk1m8.ru-orig.vtt",
+      "cue_count": 503,
+      "segment_count": 252,
+      "character_count": 9371,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "59HavvH5H_8",
+      "source_kind": "video",
+      "title": "Игрушка Hornet в Blender | Уроки для начинающих",
+      "caption_file": "59HavvH5H_8.ru-orig.vtt",
+      "cue_count": 1365,
+      "segment_count": 683,
+      "character_count": 25411,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "v0KOSJrnltU",
+      "source_kind": "video",
+      "title": "Обновления Blender 5.0 | Новый рубеж",
+      "caption_file": "v0KOSJrnltU.ru-orig.vtt",
+      "cue_count": 719,
+      "segment_count": 360,
+      "character_count": 13516,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "kGblQk16MY0",
+      "source_kind": "video",
+      "title": "Фатальные ошибки новичков в Blender | Полная версия",
+      "caption_file": "kGblQk16MY0.ru-orig.vtt",
+      "cue_count": 1025,
+      "segment_count": 513,
+      "character_count": 19223,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "diQZpgDNKhg",
+      "source_kind": "video",
+      "title": "Плюшевый олень в Blender | Уроки для начинающих",
+      "caption_file": "diQZpgDNKhg.ru-orig.vtt",
+      "cue_count": 951,
+      "segment_count": 476,
+      "character_count": 17851,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "O8W6oAZG6LU",
+      "source_kind": "video",
+      "title": "Как легко анимировать все в Blender, используя Shape Keys",
+      "caption_file": "O8W6oAZG6LU.ru-orig.vtt",
+      "cue_count": 869,
+      "segment_count": 435,
+      "character_count": 16344,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "hA1--jm52dM",
+      "source_kind": "video",
+      "title": "Обновления Blender 4.5 | Обзор всех функций",
+      "caption_file": "hA1--jm52dM.ru-orig.vtt",
+      "cue_count": 371,
+      "segment_count": 186,
+      "character_count": 7038,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "6GLHDS2vRd0",
+      "source_kind": "video",
+      "title": "Тайна мастерской | Мульт в Blender",
+      "transcript_ready": false
+    },
+    {
+      "video_id": "5DHDe23K6Fw",
+      "source_kind": "video",
+      "title": "Поясняю за камеру в Blender 3D | Топ 8 крутых фишек!",
+      "caption_file": "5DHDe23K6Fw.ru-orig.vtt",
+      "cue_count": 761,
+      "segment_count": 381,
+      "character_count": 14326,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "zo7uEXdoH2Q",
+      "source_kind": "video",
+      "title": "Самый точный 3D Трекинг в Blender ПРОСТО! | Новый способ",
+      "caption_file": "zo7uEXdoH2Q.ru-orig.vtt",
+      "cue_count": 803,
+      "segment_count": 402,
+      "character_count": 15120,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "3xK18Su0LzM",
+      "source_kind": "video",
+      "title": "Игровая модель гранаты Red Bull в Blender с нуля! | Запекание",
+      "caption_file": "3xK18Su0LzM.ru-orig.vtt",
+      "cue_count": 3347,
+      "segment_count": 1674,
+      "character_count": 62846,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "dg8K1-IN1Jo",
+      "source_kind": "video",
+      "title": "Урок по 3D для начинающих в Blender - Комната с рабочим местом (изометрия)",
+      "caption_file": "dg8K1-IN1Jo.ru-orig.vtt",
+      "cue_count": 1799,
+      "segment_count": 901,
+      "character_count": 33791,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "5cH_GWLoS4M",
+      "source_kind": "video",
+      "title": "Обновлении Blender 4.4 | Что нового?",
+      "caption_file": "5cH_GWLoS4M.ru-orig.vtt",
+      "cue_count": 357,
+      "segment_count": 180,
+      "character_count": 6663,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "pdUO34s1BZs",
+      "source_kind": "video",
+      "title": "Blender 1.0 - Каким он был? Обзор всех версий самой популярной программы для 3D моделирования",
+      "caption_file": "pdUO34s1BZs.ru-orig.vtt",
+      "cue_count": 589,
+      "segment_count": 295,
+      "character_count": 11164,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "TY78w-UwBfk",
+      "source_kind": "video",
+      "title": "Риг и анимации авто в Blender | RBC + Rig a car",
+      "caption_file": "TY78w-UwBfk.ru-orig.vtt",
+      "cue_count": 632,
+      "segment_count": 318,
+      "character_count": 11863,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "p--JWcnPLYU",
+      "source_kind": "video",
+      "title": "Моделирование авто в Blender | Porsche Cayman 718",
+      "caption_file": "p--JWcnPLYU.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 610,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "UPrLOsq2sO0",
+      "source_kind": "video",
+      "title": "Стилизованный рендер в Blender | Создание шейдеров",
+      "caption_file": "UPrLOsq2sO0.ru-orig.vtt",
+      "cue_count": 1019,
+      "segment_count": 513,
+      "character_count": 19231,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "id0CIaa5pFQ",
+      "source_kind": "video",
+      "title": "Комната в изометрии | Уроки для начинающих в Blender",
+      "caption_file": "id0CIaa5pFQ.ru-orig.vtt",
+      "cue_count": 1002,
+      "segment_count": 504,
+      "character_count": 18646,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "fNZxLaSbWPg",
+      "source_kind": "video",
+      "title": "ТОП аддонов для Blender | Уроки по Blender",
+      "caption_file": "fNZxLaSbWPg.ru-orig.vtt",
+      "cue_count": 630,
+      "segment_count": 316,
+      "character_count": 11763,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "MquvWMNAjpo",
+      "source_kind": "video",
+      "title": "Обновление BLENDER 4.3 | Обзор новых фишек",
+      "caption_file": "MquvWMNAjpo.ru-orig.vtt",
+      "cue_count": 480,
+      "segment_count": 242,
+      "character_count": 9042,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "MKXq00mBwY8",
+      "source_kind": "video",
+      "title": "Интерьер спальни в Blender просто!",
+      "caption_file": "MKXq00mBwY8.ru-orig.vtt",
+      "cue_count": 2257,
+      "segment_count": 1136,
+      "character_count": 41738,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "_lBD0a385vw",
+      "source_kind": "video",
+      "title": "Пейзаж в Blender с нуля! | Растения в блендер",
+      "caption_file": "_lBD0a385vw.ru-orig.vtt",
+      "cue_count": 1378,
+      "segment_count": 693,
+      "character_count": 25848,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "_uhF3s9H6L4",
+      "source_kind": "video",
+      "title": "3D Трекинг лица в Blender! | GeoTracker | Трекинг видео",
+      "caption_file": "_uhF3s9H6L4.ru-orig.vtt",
+      "cue_count": 926,
+      "segment_count": 468,
+      "character_count": 17250,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "BWT83uzCe34",
+      "source_kind": "video",
+      "title": "3D Сканирование ПРОСТО! | Запечка в BLENDER",
+      "caption_file": "BWT83uzCe34.ru-orig.vtt",
+      "cue_count": 687,
+      "segment_count": 345,
+      "character_count": 12948,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "1FvBi03Lp40",
+      "source_kind": "video",
+      "title": "BLENDER 4.2 | Обзор функций и нового рендера!",
+      "caption_file": "1FvBi03Lp40.ru-orig.vtt",
+      "cue_count": 382,
+      "segment_count": 193,
+      "character_count": 7214,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "OmqtNJREy80",
+      "source_kind": "video",
+      "title": "Реалистичная вода и капли в BLENDER ПРОСТО! | Набор аддонов",
+      "caption_file": "OmqtNJREy80.ru-orig.vtt",
+      "cue_count": 833,
+      "segment_count": 419,
+      "character_count": 15556,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "4Txc9qQ0UeE",
+      "source_kind": "video",
+      "title": "Трекинг в Blender ОЧЕНЬ ПРОСТО! | GeoTracker | Трекинг вертикального видео",
+      "caption_file": "4Txc9qQ0UeE.ru-orig.vtt",
+      "cue_count": 1492,
+      "segment_count": 747,
+      "character_count": 27977,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "qxtmJbDLDUQ",
+      "source_kind": "video",
+      "title": "Текстурить шины в Blender ПРОСТО! | Tyre in Blender",
+      "caption_file": "qxtmJbDLDUQ.ru-orig.vtt",
+      "cue_count": 787,
+      "segment_count": 400,
+      "character_count": 14686,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "Tp2d-nDZ2lw",
+      "source_kind": "video",
+      "title": "Гэри в BLENDER за 1 МИНУТУ и 1 ЧАС",
+      "caption_file": "Tp2d-nDZ2lw.ru-orig.vtt",
+      "cue_count": 288,
+      "segment_count": 148,
+      "character_count": 5354,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "QrXsUw6y5YM",
+      "source_kind": "video",
+      "title": "3D Трекинг в Blender ПРОСТО! | GeoTracker | Трекинг по видео",
+      "caption_file": "QrXsUw6y5YM.ru-orig.vtt",
+      "cue_count": 1035,
+      "segment_count": 518,
+      "character_count": 19326,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "g65crfy9jWk",
+      "source_kind": "video",
+      "title": "Добавление растений на сцену в BLENDER 3D | Аддон Gscatter",
+      "caption_file": "g65crfy9jWk.ru-orig.vtt",
+      "cue_count": 349,
+      "segment_count": 175,
+      "character_count": 6638,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "LGcIQky9ftc",
+      "source_kind": "video",
+      "title": "3D модели на фотографиях в Blender | Размещение 3д моделей",
+      "caption_file": "LGcIQky9ftc.ru-orig.vtt",
+      "cue_count": 391,
+      "segment_count": 196,
+      "character_count": 7247,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "SEz2ynPfdsY",
+      "source_kind": "video",
+      "title": "Горох за 1 МИНУТУ / 10 МИНУТ / 1 ЧАС В BLENDER 3D",
+      "transcript_ready": false
+    },
+    {
+      "video_id": "fJOgMvhHMb8",
+      "source_kind": "video",
+      "title": "3D Трекинг в Blender и After Effects | Трекинг по видео",
+      "caption_file": "fJOgMvhHMb8.ru-orig.vtt",
+      "cue_count": 628,
+      "segment_count": 316,
+      "character_count": 11800,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "8_oRBFeHjFc",
+      "source_kind": "video",
+      "title": "Гайд по риггингу ( rigacar ) и анимации автомобилей в BLENDER",
+      "caption_file": "8_oRBFeHjFc.ru-orig.vtt",
+      "cue_count": 576,
+      "segment_count": 291,
+      "character_count": 10848,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "m6UTEa9jw9I",
+      "source_kind": "video",
+      "title": "Наклейки в Blender 3D просто и быстро!",
+      "caption_file": "m6UTEa9jw9I.ru-orig.vtt",
+      "cue_count": 228,
+      "segment_count": 115,
+      "character_count": 4208,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "eJWJwrELsvI",
+      "source_kind": "video",
+      "title": "Создание дома и снега в BLENDER за 33 мин для начинающих",
+      "caption_file": "eJWJwrELsvI.ru-orig.vtt",
+      "cue_count": 1523,
+      "segment_count": 770,
+      "character_count": 28188,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "5tvJso63hbs",
+      "source_kind": "short",
+      "title": "Чиним Blender новыми аддонами #blender #addons",
+      "caption_file": "5tvJso63hbs.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 521,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "UXxlGK2YPHI",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "UXxlGK2YPHI.ru-orig.vtt",
+      "cue_count": 43,
+      "segment_count": 22,
+      "character_count": 828,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "2OBe_vMVVCU",
+      "source_kind": "short",
+      "title": "Зачем соблюдать топологию в Blender 3D? #blender3d",
+      "caption_file": "2OBe_vMVVCU.ru-orig.vtt",
+      "cue_count": 35,
+      "segment_count": 18,
+      "character_count": 635,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "Srf5JoiOgu0",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "Srf5JoiOgu0.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 577,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "vgnjkCHpdiI",
+      "source_kind": "short",
+      "title": "Обновление Blender 5.2 | Симуляция ткани и волос #blender",
+      "caption_file": "vgnjkCHpdiI.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 460,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "pwXFv3m8Alg",
+      "source_kind": "short",
+      "title": "ИИ помощник в Blender | Новый аддон #blender #addons",
+      "caption_file": "pwXFv3m8Alg.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 604,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "QIF3D7K96T4",
+      "source_kind": "short",
+      "title": "Аддоны для Blender для упрощения жизни #blender #addons",
+      "caption_file": "QIF3D7K96T4.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 540,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "BzfrEuZW4vc",
+      "source_kind": "short",
+      "title": "Меня взломали в BLENDER #blender",
+      "caption_file": "BzfrEuZW4vc.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 527,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "oSu4RP6NY2Y",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "oSu4RP6NY2Y.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 602,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "mgeJyPGD14g",
+      "source_kind": "short",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "mgeJyPGD14g.ru-orig.vtt",
+      "cue_count": 45,
+      "segment_count": 23,
+      "character_count": 854,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "3Ers7j1WAOQ",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "3Ers7j1WAOQ.ru-orig.vtt",
+      "cue_count": 33,
+      "segment_count": 17,
+      "character_count": 623,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "xlKy4tZ8T9A",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "xlKy4tZ8T9A.ru-orig.vtt",
+      "cue_count": 33,
+      "segment_count": 17,
+      "character_count": 617,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "TzvE3eMoJPs",
+      "source_kind": "short",
+      "title": "Запекание пирожков в BLENDER #blender",
+      "caption_file": "TzvE3eMoJPs.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 458,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "iudXYCtK2gQ",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "iudXYCtK2gQ.ru-orig.vtt",
+      "cue_count": 43,
+      "segment_count": 22,
+      "character_count": 816,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "SGVWZM_7Iqw",
+      "source_kind": "short",
+      "title": "Лучшие аддоны для BLENDER #blender",
+      "caption_file": "SGVWZM_7Iqw.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 588,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "L4_VKuEsWks",
+      "source_kind": "short",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "caption_file": "L4_VKuEsWks.ru-orig.vtt",
+      "cue_count": 41,
+      "segment_count": 21,
+      "character_count": 772,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "-oZF9047MKc",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "-oZF9047MKc.ru-orig.vtt",
+      "cue_count": 37,
+      "segment_count": 19,
+      "character_count": 664,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "xBnnxgo-ReY",
+      "source_kind": "short",
+      "title": "Анимация в BLENDER | Фатальные ошибки #blender",
+      "caption_file": "xBnnxgo-ReY.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 578,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "5ZwdROOkjic",
+      "source_kind": "short",
+      "title": "Водичка в BLENDER | Фатальные ошибки #blender",
+      "caption_file": "5ZwdROOkjic.ru-orig.vtt",
+      "cue_count": 33,
+      "segment_count": 17,
+      "character_count": 594,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "3yq_bTq4p4Y",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "3yq_bTq4p4Y.ru-orig.vtt",
+      "cue_count": 39,
+      "segment_count": 20,
+      "character_count": 697,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "cZTJP6RwktQ",
+      "source_kind": "short",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "cZTJP6RwktQ.ru-orig.vtt",
+      "cue_count": 41,
+      "segment_count": 21,
+      "character_count": 804,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "9ZZlE9k9BW0",
+      "source_kind": "short",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "9ZZlE9k9BW0.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 567,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "_l0tOEl8AAs",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "_l0tOEl8AAs.ru-orig.vtt",
+      "cue_count": 43,
+      "segment_count": 22,
+      "character_count": 830,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "A1jMRP_y0OY",
+      "source_kind": "short",
+      "title": "Лайфхак для BLENDER | Деформация подошвы #blender",
+      "caption_file": "A1jMRP_y0OY.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 597,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "m2_5HekCcT8",
+      "source_kind": "short",
+      "title": "Шаловливые пальчики в Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "m2_5HekCcT8.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 516,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "E5gKtNYWg0s",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "E5gKtNYWg0s.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 538,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "nMHUAoneJ-w",
+      "source_kind": "short",
+      "title": "Обновление в BLENDER 5.1 #blender",
+      "caption_file": "nMHUAoneJ-w.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 543,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "vmAaWmfu1tc",
+      "source_kind": "short",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "vmAaWmfu1tc.ru-orig.vtt",
+      "cue_count": 39,
+      "segment_count": 20,
+      "character_count": 712,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "pZ_q2HdI3xs",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "pZ_q2HdI3xs.ru-orig.vtt",
+      "cue_count": 33,
+      "segment_count": 17,
+      "character_count": 601,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "9zljFrgtJ8k",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "9zljFrgtJ8k.ru-orig.vtt",
+      "cue_count": 39,
+      "segment_count": 20,
+      "character_count": 734,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "IcRZnc4QOW4",
+      "source_kind": "short",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "IcRZnc4QOW4.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 558,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "buI97T9QsZw",
+      "source_kind": "short",
+      "title": "Управляю рулем в BLENDER #blender",
+      "caption_file": "buI97T9QsZw.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 499,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "i-Aa5AHbex8",
+      "source_kind": "short",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "i-Aa5AHbex8.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 505,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "FtLu69K30pI",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "FtLu69K30pI.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 542,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "VwlDeEt0wdE",
+      "source_kind": "short",
+      "title": "Forza Horizon в Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "VwlDeEt0wdE.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 531,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "z9FU3UQWEdY",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "z9FU3UQWEdY.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 587,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "v028VSznhb4",
+      "source_kind": "short",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "v028VSznhb4.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 523,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "F6Wsf1kfF6I",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "F6Wsf1kfF6I.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 587,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "SVIx7V1VTiw",
+      "source_kind": "short",
+      "title": "Подсказки в BLENDER 3D #blender",
+      "caption_file": "SVIx7V1VTiw.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 481,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "rWV5lbDiORc",
+      "source_kind": "short",
+      "title": "Hornet в BLENDER 3D #blender",
+      "caption_file": "rWV5lbDiORc.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 493,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "JcYuvA_oYbA",
+      "source_kind": "short",
+      "title": "Космос в Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "JcYuvA_oYbA.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 486,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "v7lyGNGD9m0",
+      "source_kind": "short",
+      "title": "Автоматический риг в BLENDER #blender",
+      "caption_file": "v7lyGNGD9m0.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 396,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "ISH_0OfL4mU",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "ISH_0OfL4mU.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 590,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "63SwHTVw82I",
+      "source_kind": "short",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "63SwHTVw82I.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 574,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "Zo1uUwUIjDI",
+      "source_kind": "short",
+      "title": "Зачем моделить авто в Blender 3D? #blender",
+      "caption_file": "Zo1uUwUIjDI.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 550,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "RBolbabR_c8",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "RBolbabR_c8.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 570,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "VG8gK7JXimg",
+      "source_kind": "short",
+      "title": "Анимация и лианы в Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "VG8gK7JXimg.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 582,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "fy9Ktp8WtU8",
+      "source_kind": "short",
+      "title": "Обновление BLENDER 5.0 #blender",
+      "caption_file": "fy9Ktp8WtU8.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 441,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "bYyE3QsK6qE",
+      "source_kind": "short",
+      "title": "Города и туман в Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "bYyE3QsK6qE.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 469,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "6gdzCQvcKXg",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "6gdzCQvcKXg.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 551,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "PfQE5fzR_WE",
+      "source_kind": "short",
+      "title": "Укрощение камеры в Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "PfQE5fzR_WE.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 512,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "S8ydlb7ZMl4",
+      "source_kind": "short",
+      "title": "Камень из куба в Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "S8ydlb7ZMl4.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 491,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "br_S9ZiB644",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "br_S9ZiB644.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 537,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "J6M7FVDqD7I",
+      "source_kind": "short",
+      "title": "Дома в Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "J6M7FVDqD7I.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 537,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "VO_0mw_rYk8",
+      "source_kind": "short",
+      "title": "Волосня в BLENDER | Фатальные ошибки #blender",
+      "caption_file": "VO_0mw_rYk8.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 416,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "OkWlo7DSkJg",
+      "source_kind": "short",
+      "title": "Трава в Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "OkWlo7DSkJg.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 502,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "IcxqCp3lW9k",
+      "source_kind": "short",
+      "title": "Скрытые функции в BLENDER #blender",
+      "caption_file": "IcxqCp3lW9k.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 480,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "pKtSQaCPwXk",
+      "source_kind": "short",
+      "title": "Genshin теперь в Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "pKtSQaCPwXk.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 512,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "NOUFi0hcV9w",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "NOUFi0hcV9w.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 598,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "a50wnyWioVM",
+      "source_kind": "short",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "a50wnyWioVM.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 471,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "7rIxqWyix3Q",
+      "source_kind": "short",
+      "title": "Фатальные ошибки анимации в BLENDER #blender",
+      "caption_file": "7rIxqWyix3Q.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 617,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "uFC0uX9ZmOs",
+      "source_kind": "short",
+      "title": "Одежда в Blender | Топ 3 аддонов #blender #addons",
+      "caption_file": "uFC0uX9ZmOs.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 498,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "oF3YktDtmMs",
+      "source_kind": "short",
+      "title": "Новый аддон для 3D трекинга в BLENDER #blender",
+      "caption_file": "oF3YktDtmMs.ru-orig.vtt",
+      "cue_count": 19,
+      "segment_count": 10,
+      "character_count": 378,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "bv69HaUp3yo",
+      "source_kind": "short",
+      "title": "Мнем кота в BLENDER #blender",
+      "caption_file": "bv69HaUp3yo.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 556,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "wj5lwtQGmnI",
+      "source_kind": "short",
+      "title": "Дикий ТОП аддонов для Blender #blender #addons",
+      "caption_file": "wj5lwtQGmnI.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 490,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "Ipkze1Nfitw",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "Ipkze1Nfitw.ru-orig.vtt",
+      "cue_count": 33,
+      "segment_count": 17,
+      "character_count": 613,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "YkTKz-b1IGI",
+      "source_kind": "short",
+      "title": "Топ полезных аддонов для Blender #blender #addons",
+      "caption_file": "YkTKz-b1IGI.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 473,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "Heqed0Mu_iQ",
+      "source_kind": "short",
+      "title": "Управление телефоном в Blender #blender",
+      "caption_file": "Heqed0Mu_iQ.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 431,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "-52atAJ2a2U",
+      "source_kind": "short",
+      "title": "Фишки обновления Blender 4.5 #blender",
+      "caption_file": "-52atAJ2a2U.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 509,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "D2TseFz9ESM",
+      "source_kind": "short",
+      "title": "Топ крутых аддонов для Blender #blender #addons",
+      "caption_file": "D2TseFz9ESM.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 456,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "MgAO4lgtkiI",
+      "source_kind": "short",
+      "title": "Лайфхаки с камерой в Blender #blender",
+      "caption_file": "MgAO4lgtkiI.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 408,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "9uCmeGcCKxQ",
+      "source_kind": "short",
+      "title": "Топ полезных аддонов для Blender #blender #addons",
+      "caption_file": "9uCmeGcCKxQ.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 432,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "ELbRLFYjsvo",
+      "source_kind": "short",
+      "title": "Аддон c котом в Blender #blender #addons",
+      "caption_file": "ELbRLFYjsvo.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 499,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "FtJd0wmcTUQ",
+      "source_kind": "short",
+      "title": "Паук в Blender с риггингом и анимацией #blender",
+      "caption_file": "FtJd0wmcTUQ.ru-orig.vtt",
+      "cue_count": 37,
+      "segment_count": 19,
+      "character_count": 650,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "SZTu3TMvneU",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "SZTu3TMvneU.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 552,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "uKL8XDr6o28",
+      "source_kind": "short",
+      "title": "Аддоны для физики в Blender #blender #addons",
+      "caption_file": "uKL8XDr6o28.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 453,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "GUdQvlo3ANE",
+      "source_kind": "short",
+      "title": "Простой 3D Трекинг в Blender и AE #blender",
+      "caption_file": "GUdQvlo3ANE.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 544,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "gmeqnk8oxqo",
+      "source_kind": "short",
+      "title": "Аддоны для анимаций в Blender #blender #addons",
+      "caption_file": "gmeqnk8oxqo.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 462,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "MEnbuvD-M3g",
+      "source_kind": "short",
+      "title": "Запекание в Blender это ПРОСТО! #blender",
+      "caption_file": "MEnbuvD-M3g.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 525,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "jSkRjW1zmxI",
+      "source_kind": "short",
+      "title": "Топ аддонов для лысых в Blender #blender #addons",
+      "caption_file": "jSkRjW1zmxI.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 442,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "cyz_V8J0-PQ",
+      "source_kind": "short",
+      "title": "ТУН ТУН ТУН за 1 час! В BLENDER 3D #blender",
+      "caption_file": "cyz_V8J0-PQ.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 427,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "ukxepXJOqXc",
+      "source_kind": "short",
+      "title": "Топ аддонов для \"долбежки\" моделей в Blender #blender #addons",
+      "caption_file": "ukxepXJOqXc.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 437,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "0Jrgm9rPqpE",
+      "source_kind": "short",
+      "title": "Топ фишек в BLENDER #blender",
+      "caption_file": "0Jrgm9rPqpE.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 505,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "Ip3aHlgj0-4",
+      "source_kind": "short",
+      "title": "Полезные аддоны для BLENDER #blender",
+      "caption_file": "Ip3aHlgj0-4.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 407,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "ilqX1FgfcL4",
+      "source_kind": "short",
+      "title": "Гайды для новичков в BLENDER #blender3d",
+      "caption_file": "ilqX1FgfcL4.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 477,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "BUOWAELJYWo",
+      "source_kind": "short",
+      "title": "Аддоны для всего! (Blender) #blender #addons",
+      "caption_file": "BUOWAELJYWo.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 432,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "RGke93XQdrQ",
+      "source_kind": "short",
+      "title": "Топ фишек в BLENDER #blender",
+      "caption_file": "RGke93XQdrQ.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 439,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "sWNQ1sHCELY",
+      "source_kind": "short",
+      "title": "Топ 3 лучших аддонов для Blender #blender #addons",
+      "caption_file": "sWNQ1sHCELY.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 481,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "Fhc3_u7kNZc",
+      "source_kind": "short",
+      "title": "Обновление Blender 4.4 #blender",
+      "caption_file": "Fhc3_u7kNZc.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 559,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "akyLP0Jqz64",
+      "source_kind": "short",
+      "title": "Идеальные модельки в Blender #blender",
+      "caption_file": "akyLP0Jqz64.ru-orig.vtt",
+      "cue_count": 26,
+      "segment_count": 14,
+      "character_count": 494,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "qtliVoopEdg",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "qtliVoopEdg.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 493,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "d_F06saX1HY",
+      "source_kind": "short",
+      "title": "Первая версия Blender 1.0 #blender",
+      "caption_file": "d_F06saX1HY.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 512,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "3GPYwG-RQdU",
+      "source_kind": "short",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "caption_file": "3GPYwG-RQdU.ru-orig.vtt",
+      "cue_count": 16,
+      "segment_count": 9,
+      "character_count": 328,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "JLglRfOZtGg",
+      "source_kind": "short",
+      "title": "Топ Аддонов для Blender #blender #addons",
+      "caption_file": "JLglRfOZtGg.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 429,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "xQo5bAw-xJE",
+      "source_kind": "short",
+      "title": "Анимация и RIG авто в BLENDER просто! #blender",
+      "caption_file": "xQo5bAw-xJE.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 471,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "p_8rgT3e1Hc",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "p_8rgT3e1Hc.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 539,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "sDeAgPFTrq4",
+      "source_kind": "short",
+      "title": "Аддоны для Blender #blender #addons",
+      "caption_file": "sDeAgPFTrq4.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 430,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "UCegsTRP_ZQ",
+      "source_kind": "short",
+      "title": "Ам Ням в Blender 3D #blender",
+      "caption_file": "UCegsTRP_ZQ.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 537,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "7yz11GiSICk",
+      "source_kind": "short",
+      "title": "Как сделать 2д рендер в Blender #blender",
+      "caption_file": "7yz11GiSICk.ru-orig.vtt",
+      "cue_count": 33,
+      "segment_count": 17,
+      "character_count": 607,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "ipsM6qkaDzA",
+      "source_kind": "short",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "caption_file": "ipsM6qkaDzA.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 442,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "GLbO-PaxhtY",
+      "source_kind": "short",
+      "title": "Как сделать монитор из старого iPad #blender",
+      "caption_file": "GLbO-PaxhtY.ru-orig.vtt",
+      "cue_count": 26,
+      "segment_count": 14,
+      "character_count": 464,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "lV60JmMzCek",
+      "source_kind": "short",
+      "title": "Топ 3 аддонов для Blender #blender #addons",
+      "caption_file": "lV60JmMzCek.ru-orig.vtt",
+      "cue_count": 12,
+      "segment_count": 7,
+      "character_count": 240,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "b_YN3yg7MHw",
+      "source_kind": "short",
+      "title": "Анимация паука в Blender #blender",
+      "caption_file": "b_YN3yg7MHw.ru-orig.vtt",
+      "cue_count": 18,
+      "segment_count": 10,
+      "character_count": 303,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "4Jik8JalLiE",
+      "source_kind": "short",
+      "title": "Обоюдные аддоны для Blender #blender #addons",
+      "caption_file": "4Jik8JalLiE.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 471,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "UaBKW0ytxoY",
+      "source_kind": "short",
+      "title": "Своя комната в Blender #blender",
+      "caption_file": "UaBKW0ytxoY.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 488,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "WaMdeafgWYs",
+      "source_kind": "short",
+      "title": "Лучшие аддоны для Blender #blender #addons",
+      "caption_file": "WaMdeafgWYs.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 487,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "v5CW1hTDJ0c",
+      "source_kind": "short",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "caption_file": "v5CW1hTDJ0c.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 437,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "8IIX6Mfta_o",
+      "source_kind": "short",
+      "title": "Топ нужных аддонов для Blender #blender #addons",
+      "caption_file": "8IIX6Mfta_o.ru-orig.vtt",
+      "cue_count": 19,
+      "segment_count": 10,
+      "character_count": 377,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "qhAmNpLSaws",
+      "source_kind": "short",
+      "title": "Когда крашнулся Blender #blender #addons",
+      "caption_file": "qhAmNpLSaws.ru.vtt",
+      "cue_count": 9,
+      "segment_count": 5,
+      "character_count": 130,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "9Lt1NrTKRa4",
+      "source_kind": "short",
+      "title": "Топ аддонов для домов в Blender #blender #addons",
+      "caption_file": "9Lt1NrTKRa4.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 516,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "cB8Im9LAq1o",
+      "source_kind": "short",
+      "title": "Подсолнух из Plants VS Zombies в Blender 3D #blender",
+      "caption_file": "cB8Im9LAq1o.ru-orig.vtt",
+      "cue_count": 32,
+      "segment_count": 17,
+      "character_count": 574,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "tDc04by68Rs",
+      "source_kind": "short",
+      "title": "Топ 3 аддонов для Blender #blender #addons",
+      "caption_file": "tDc04by68Rs.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 399,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "D70oeIOg23o",
+      "source_kind": "short",
+      "title": "Обновление Blender 4.3 #blender",
+      "caption_file": "D70oeIOg23o.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 499,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "MCosgbR0NzI",
+      "source_kind": "short",
+      "title": "Подборка аддонов для Blender #blender #addons",
+      "caption_file": "MCosgbR0NzI.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 444,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "Ccayarl2HKA",
+      "source_kind": "short",
+      "title": "Топ аддон для Blender и Substance painter #blender #addons",
+      "caption_file": "Ccayarl2HKA.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 519,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "0bwyw3vy7hY",
+      "source_kind": "short",
+      "title": "Реалистичный свет в Blender #blender",
+      "caption_file": "0bwyw3vy7hY.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 396,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "lNSdFEU5zQE",
+      "source_kind": "short",
+      "title": "Сборка аддонов для Blender #blender #addons",
+      "caption_file": "lNSdFEU5zQE.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 475,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "LKCnGRdXyCE",
+      "source_kind": "short",
+      "title": "Физика ткани в Blender для интерьера #blender",
+      "caption_file": "LKCnGRdXyCE.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 484,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "4QsslVcswgc",
+      "source_kind": "short",
+      "title": "Аддон с нейронкой для Blende #blender #addons",
+      "caption_file": "4QsslVcswgc.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 426,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "MUAp0IWJPEs",
+      "source_kind": "short",
+      "title": "Спидран по Blender 3D #blender",
+      "caption_file": "MUAp0IWJPEs.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 569,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "82TRY4y1gXE",
+      "source_kind": "short",
+      "title": "Аддоны для Blender для простой жизни #blender #addons",
+      "caption_file": "82TRY4y1gXE.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 516,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "-pURcXWTUV0",
+      "source_kind": "short",
+      "title": "Растения для Blender #blender #addons",
+      "caption_file": "-pURcXWTUV0.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 420,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "BV7w2b3BItY",
+      "source_kind": "short",
+      "title": "Аддоны для Blender для упрощения жизни #blender #addons",
+      "caption_file": "BV7w2b3BItY.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 415,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "I8G9aZBxPok",
+      "source_kind": "short",
+      "title": "Пейзаж и растения в BLENDER Просто! #blender",
+      "caption_file": "I8G9aZBxPok.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 382,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "grh5GtFakSM",
+      "source_kind": "short",
+      "title": "Основные ошибки в Blender #blender",
+      "caption_file": "grh5GtFakSM.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 544,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "ggwOqONDcdE",
+      "source_kind": "short",
+      "title": "Базовые ADDONS для Blender 3D #blender",
+      "caption_file": "ggwOqONDcdE.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 417,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "0mSSv9uZQ0E",
+      "source_kind": "short",
+      "title": "Основные ADDONS для Blender 3D #blender",
+      "caption_file": "0mSSv9uZQ0E.ru-orig.vtt",
+      "cue_count": 19,
+      "segment_count": 10,
+      "character_count": 368,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "cXlxM7fQybU",
+      "source_kind": "short",
+      "title": "Трекинг в Blender #blender",
+      "caption_file": "cXlxM7fQybU.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 419,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "sTHQ3Yl1kQs",
+      "source_kind": "short",
+      "title": "Базовые ошибки в BLENDER  #blender",
+      "caption_file": "sTHQ3Yl1kQs.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 572,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "v0TdPJv1uGw",
+      "source_kind": "short",
+      "title": "Аддоны для BLENDER, которые все изменят #blender",
+      "caption_file": "v0TdPJv1uGw.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 424,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "8FRQDWucQBg",
+      "source_kind": "short",
+      "title": "Подборка полезных аддонов для BLENDER #blender",
+      "caption_file": "8FRQDWucQBg.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 444,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "xVP5MIK2nYI",
+      "source_kind": "short",
+      "title": "Сканирование в BLENDER ПРОСТО! #blender",
+      "caption_file": "xVP5MIK2nYI.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 514,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "1k144TNB3bI",
+      "source_kind": "short",
+      "title": "BLENDER не для слабонервных #blender",
+      "caption_file": "1k144TNB3bI.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 509,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "_ZXBv5j-KH8",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "_ZXBv5j-KH8.ru-orig.vtt",
+      "cue_count": 28,
+      "segment_count": 15,
+      "character_count": 513,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "NRXgdoocmBM",
+      "source_kind": "short",
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "caption_file": "NRXgdoocmBM.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 393,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "NhlqUJRxBwo",
+      "source_kind": "short",
+      "title": "Топ крутых аддонов для Blender 3D #blender",
+      "caption_file": "NhlqUJRxBwo.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 392,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "k0HyJ9_Vczs",
+      "source_kind": "short",
+      "title": "Пряня из \"Шрек\" в Blender 3D #blender",
+      "caption_file": "k0HyJ9_Vczs.ru-orig.vtt",
+      "cue_count": 34,
+      "segment_count": 18,
+      "character_count": 638,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "3HnVcGn_e9g",
+      "source_kind": "short",
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "caption_file": "3HnVcGn_e9g.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 572,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "Qtvsy0HhneM",
+      "source_kind": "short",
+      "title": "Фатальные ошибки в BLENDER #blender",
+      "caption_file": "Qtvsy0HhneM.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 610,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "t1iL-VlOt18",
+      "source_kind": "short",
+      "title": "Набор аддонов для BLENDER #blender",
+      "caption_file": "t1iL-VlOt18.ru-orig.vtt",
+      "cue_count": 24,
+      "segment_count": 13,
+      "character_count": 454,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "VAlhrx7eni8",
+      "source_kind": "short",
+      "title": "Новый BLENDER 4.2 стал лучше? #blender",
+      "caption_file": "VAlhrx7eni8.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 601,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "76czTtc3Tu8",
+      "source_kind": "short",
+      "title": "Полезные аддоны для BLENDER #blender",
+      "caption_file": "76czTtc3Tu8.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 489,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "1-FstUy3Tf0",
+      "source_kind": "short",
+      "title": "Вода и капли в BLENDER ПРОСТО! #blender",
+      "caption_file": "1-FstUy3Tf0.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 380,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "RgQa0uZth3I",
+      "source_kind": "short",
+      "title": "Бимо из \"Время приключений\" в Blender 3D #blender",
+      "caption_file": "RgQa0uZth3I.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 12,
+      "character_count": 372,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "jwii_ri6xaU",
+      "source_kind": "short",
+      "title": "Подборка аддонов для BLENDER #blender",
+      "caption_file": "jwii_ri6xaU.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 472,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "6fUbz3-v7NQ",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "caption_file": "6fUbz3-v7NQ.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 573,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "RUklAwciH14",
+      "source_kind": "short",
+      "title": "Аддоны для BLENDER \"...Админки, х.....\" #blender",
+      "caption_file": "RUklAwciH14.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 384,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "_hxnSgq5jig",
+      "source_kind": "short",
+      "title": "Аддоны для BLENDER \"на черный день\" #blender",
+      "caption_file": "_hxnSgq5jig.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 440,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "u9n5PJZMzLU",
+      "source_kind": "short",
+      "title": "Тот самый критик в BLENDER #blender",
+      "transcript_ready": false
+    },
+    {
+      "video_id": "4s2_7rjWrNY",
+      "source_kind": "short",
+      "title": "Трекинг в Blender ПРОСТО! #blender",
+      "caption_file": "4s2_7rjWrNY.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 526,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "LoGjUIZG7tM",
+      "source_kind": "short",
+      "title": "Топ 3 крутых аддонов для BLENDER 2ч. #blender",
+      "caption_file": "LoGjUIZG7tM.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 413,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "Z_FYNvjPLEI",
+      "source_kind": "short",
+      "title": "Ошибки новичков в BLENDER #blender",
+      "caption_file": "Z_FYNvjPLEI.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 490,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "S373SvrinrA",
+      "source_kind": "short",
+      "title": "Аддоны для BLENDER, которые все изменят #blender",
+      "caption_file": "S373SvrinrA.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 495,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "kx9Nv5BE0_A",
+      "source_kind": "short",
+      "title": "Аддоны для BLENDER упрощающие жизнь #blender",
+      "caption_file": "kx9Nv5BE0_A.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 485,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "xDFvjKEubrQ",
+      "source_kind": "short",
+      "title": "Текстуры шин в Blender #blender",
+      "caption_file": "xDFvjKEubrQ.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 545,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "XhrZGN6RcX4",
+      "source_kind": "short",
+      "title": "Топ дополнений для BLENDER (тянка в комплекте) #blender",
+      "caption_file": "XhrZGN6RcX4.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 494,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "-QUc4W1gyU8",
+      "source_kind": "short",
+      "title": "Гэри из Губки Боба в Blender 3D #blender",
+      "caption_file": "-QUc4W1gyU8.ru-orig.vtt",
+      "cue_count": 45,
+      "segment_count": 23,
+      "character_count": 787,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "QeNhqHb_daM",
+      "source_kind": "short",
+      "title": "Ошибки новичков в BLENDER  #blender",
+      "caption_file": "QeNhqHb_daM.ru-orig.vtt",
+      "cue_count": 27,
+      "segment_count": 14,
+      "character_count": 482,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "yjwlhZX0Gu8",
+      "source_kind": "short",
+      "title": "Топ крутых аддонов для BLENDER #blender",
+      "caption_file": "yjwlhZX0Gu8.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 472,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "ZuuZmzGdx_I",
+      "source_kind": "short",
+      "title": "Растения в Blender 3D (Plants VS Zombies) #blender",
+      "transcript_ready": false
+    },
+    {
+      "video_id": "x8lq3bDPX9w",
+      "source_kind": "short",
+      "title": "Выдаю базу про освещение в BLENDER #blender",
+      "caption_file": "x8lq3bDPX9w.ru-orig.vtt",
+      "cue_count": 35,
+      "segment_count": 18,
+      "character_count": 668,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "lzCxhI2Qo0w",
+      "source_kind": "short",
+      "title": "Топовые аддоны для BLENDER | Еще больше ассетов и материалов! #blender",
+      "caption_file": "lzCxhI2Qo0w.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 425,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "pHLbdd7p3OU",
+      "source_kind": "short",
+      "title": "3D Трекинг в Blender #blender",
+      "caption_file": "pHLbdd7p3OU.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 580,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "DiAb82taWqo",
+      "source_kind": "short",
+      "title": "Топ полезных аддонов для BLENDER #blender",
+      "caption_file": "DiAb82taWqo.ru-orig.vtt",
+      "cue_count": 19,
+      "segment_count": 10,
+      "character_count": 345,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "zXk1VV_9kkQ",
+      "source_kind": "short",
+      "title": "WALL-E в Blender 3D #blender",
+      "caption_file": "zXk1VV_9kkQ.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 539,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "T1MWBFMWDNE",
+      "source_kind": "short",
+      "title": "Пончик в BLENDER #blender",
+      "caption_file": "T1MWBFMWDNE.ru.vtt",
+      "cue_count": 7,
+      "segment_count": 4,
+      "character_count": 154,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "tUOR7TJPNDU",
+      "source_kind": "short",
+      "title": "Бесплатные аддоны для BLENDER #blender",
+      "caption_file": "tUOR7TJPNDU.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 392,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "jZwWJ3Pl9Kc",
+      "source_kind": "short",
+      "title": "Ошибки новичков в BLENDER  #blender",
+      "caption_file": "jZwWJ3Pl9Kc.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 580,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "wHC3aDUqctk",
+      "source_kind": "short",
+      "title": "Топ аддонов для Блендер 3D #blender",
+      "caption_file": "wHC3aDUqctk.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 438,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "juAnIF1169g",
+      "source_kind": "short",
+      "title": "Горох из Plants VS Zombies в Blender 3D #blender",
+      "caption_file": "juAnIF1169g.ru-orig.vtt",
+      "cue_count": 24,
+      "segment_count": 13,
+      "character_count": 462,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "UmfFilj4br8",
+      "source_kind": "short",
+      "title": "Противостояние BLENDER и 3ds MAX #blender",
+      "caption_file": "UmfFilj4br8.ru-orig.vtt",
+      "cue_count": 13,
+      "segment_count": 7,
+      "character_count": 208,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "-4pVGMGLoN8",
+      "source_kind": "short",
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "caption_file": "-4pVGMGLoN8.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 413,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "KDJ21WfZ_8w",
+      "source_kind": "short",
+      "title": "Очевидные ошибки при моделировании в BLENDER  #blender",
+      "caption_file": "KDJ21WfZ_8w.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 432,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "baR4SoykYF4",
+      "source_kind": "short",
+      "title": "3D Трекинг в Blender и After Effects #blender",
+      "caption_file": "baR4SoykYF4.ru-orig.vtt",
+      "cue_count": 26,
+      "segment_count": 14,
+      "character_count": 498,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "629L0vGCp_Y",
+      "source_kind": "short",
+      "title": "Топ крутых аддонов для Blender 3D #blender",
+      "caption_file": "629L0vGCp_Y.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 435,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "R_FDVkqlzUA",
+      "source_kind": "short",
+      "title": "Как заригать любое авто в BLENDER #blender",
+      "caption_file": "R_FDVkqlzUA.ru-orig.vtt",
+      "cue_count": 43,
+      "segment_count": 22,
+      "character_count": 804,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "G3JmvP9Y2MU",
+      "source_kind": "short",
+      "title": "Типичный BLENDER  #blender",
+      "caption_file": "G3JmvP9Y2MU.ru.vtt",
+      "cue_count": 2,
+      "segment_count": 2,
+      "character_count": 10,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "sujkcPtvXNE",
+      "source_kind": "short",
+      "title": "Топ 3 полезных аддона для BLENDER #blender",
+      "caption_file": "sujkcPtvXNE.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 414,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "jZ1JcpBQoww",
+      "source_kind": "short",
+      "title": "Топ крутых аддонов для BLENDER #blender",
+      "caption_file": "jZ1JcpBQoww.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 448,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "H-BM3X4Z8oM",
+      "source_kind": "short",
+      "title": "Прыгающий арбуз в blender 3D #blender",
+      "caption_file": "H-BM3X4Z8oM.ru-orig.vtt",
+      "cue_count": 17,
+      "segment_count": 9,
+      "character_count": 323,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "Ut-oa4GrTlk",
+      "source_kind": "short",
+      "title": "Признаки зрелого парня в BLENDER 3д #blender",
+      "caption_file": "Ut-oa4GrTlk.ru-orig.vtt",
+      "cue_count": 23,
+      "segment_count": 12,
+      "character_count": 413,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "9XJlhD-Z0L4",
+      "source_kind": "short",
+      "title": "Топ 3 полезных аддонов для BLENDER #blender",
+      "caption_file": "9XJlhD-Z0L4.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 413,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "i6WDjfNARq4",
+      "source_kind": "short",
+      "title": "Ошибки при моделировании в BLENDER  #blender",
+      "caption_file": "i6WDjfNARq4.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 464,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "w2spIBARjPk",
+      "source_kind": "short",
+      "title": "Топ аддонов для BLENDER #blender",
+      "caption_file": "w2spIBARjPk.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 404,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "igfZMVpGfMY",
+      "source_kind": "short",
+      "title": "Рик и Морти! В BLENDER 3D #blender",
+      "caption_file": "igfZMVpGfMY.ru-orig.vtt",
+      "cue_count": 19,
+      "segment_count": 11,
+      "character_count": 317,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "8IItaPEQHnA",
+      "source_kind": "short",
+      "title": "Аддоны для блендер, которые изменят вашу жизнь #blender",
+      "caption_file": "8IItaPEQHnA.ru-orig.vtt",
+      "cue_count": 21,
+      "segment_count": 11,
+      "character_count": 415,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "VzpuLqER2Ss",
+      "source_kind": "short",
+      "title": "Робот за 1 час! В BLENDER 3D #blender",
+      "caption_file": "VzpuLqER2Ss.ru-orig.vtt",
+      "cue_count": 31,
+      "segment_count": 16,
+      "character_count": 578,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "mmMubNMUXeM",
+      "source_kind": "short",
+      "title": "Топ 3 полезных аддона для блендер #blender",
+      "caption_file": "mmMubNMUXeM.ru-orig.vtt",
+      "cue_count": 17,
+      "segment_count": 9,
+      "character_count": 316,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "w5Znomr7lrs",
+      "source_kind": "short",
+      "title": "Кто еще не делал пончик в блендере? #blender",
+      "caption_file": "w5Znomr7lrs.ru.vtt",
+      "cue_count": 3,
+      "segment_count": 1,
+      "character_count": 10,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "qL5Rb7SnORk",
+      "source_kind": "short",
+      "title": "Наклейки в blender 3d #blender",
+      "caption_file": "qL5Rb7SnORk.ru-orig.vtt",
+      "cue_count": 25,
+      "segment_count": 13,
+      "character_count": 451,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "8EEymZjwtsA",
+      "source_kind": "short",
+      "title": "Новый вид газировки \"Гори оно все огнем\" (Timelapse)",
+      "caption_file": "8EEymZjwtsA.ru.vtt",
+      "cue_count": 2,
+      "segment_count": 2,
+      "character_count": 11,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "RBHkWp3Vbog",
+      "source_kind": "short",
+      "title": "Топ 3 бесплатных аддона для блендер #blender",
+      "caption_file": "RBHkWp3Vbog.ru-orig.vtt",
+      "cue_count": 19,
+      "segment_count": 10,
+      "character_count": 360,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "adB6HtZIU64",
+      "source_kind": "short",
+      "title": "Кружка пива в 3д #blender #blender3d #blendertutorial #блендер3д",
+      "caption_file": "adB6HtZIU64.ru-orig.vtt",
+      "cue_count": 29,
+      "segment_count": 15,
+      "character_count": 532,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "d0uhsrQdSks",
+      "source_kind": "short",
+      "title": "Спидран по блендеру | Speedrun by blender #blender",
+      "caption_file": "d0uhsrQdSks.ru-orig.vtt",
+      "cue_count": 6,
+      "segment_count": 4,
+      "character_count": 52,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "GkaJvxCovFs",
+      "source_kind": "short",
+      "title": "Уточка застряла в 3д машине #blender",
+      "caption_file": "GkaJvxCovFs.ru-orig.vtt",
+      "cue_count": 39,
+      "segment_count": 20,
+      "character_count": 742,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "kvYqHYgHXSI",
+      "source_kind": "short",
+      "title": "Добавил снег очень просто #blender #shorts",
+      "caption_file": "kvYqHYgHXSI.ru-orig.vtt",
+      "cue_count": 53,
+      "segment_count": 27,
+      "character_count": 951,
+      "transcript_ready": true
+    },
+    {
+      "video_id": "61ssGWuPxqk",
+      "source_kind": "short",
+      "title": "Учу лепить грибочек в blender #shorts",
+      "caption_file": "61ssGWuPxqk.ru-orig.vtt",
+      "cue_count": 53,
+      "segment_count": 27,
+      "character_count": 996,
+      "transcript_ready": true
+    }
+  ]
+}

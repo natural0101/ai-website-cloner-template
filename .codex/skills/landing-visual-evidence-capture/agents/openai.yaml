@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Visual Evidence Capture"
+  short_description: "Capture and register landing screenshots"
+  default_prompt: "Use $landing-visual-evidence-capture to capture and register desktop, mobile, hero, and interaction screenshots for this landing plan."

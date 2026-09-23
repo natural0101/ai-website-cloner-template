@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Dossier Schema"
+  short_description: "Create and validate source landing dossiers"
+  default_prompt: "Use $landing-dossier-schema to create or validate a landing-source-dossier.md before planning a landing upgrade."

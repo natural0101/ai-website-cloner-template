@@ -1,0 +1,986 @@
+00:02 The time has come to UV unwrap and texture our mug. So, we did a little bit
+00:06 texture our mug. So, we did a little bit with our icing, our donut, and our
+00:08 with our icing, our donut, and our plate. We got most of that for free.
+00:11 plate. We got most of that for free. Um it those were very simple objects.
+00:12 Um it those were very simple objects. This is a little more complex, so we're
+00:14 This is a little more complex, so we're going to have some fun with it. So,
+00:16 going to have some fun with it. So, first things first, we need to apply a
+00:17 first things first, we need to apply a texture to it so that we can see the UV
+00:19 texture to it so that we can see the UV unwrapping and see that it's working
+00:21 unwrapping and see that it's working well. So, I'm going to hit N to bring up
+00:23 well. So, I'm going to hit N to bring up my properties and uh I'm using the
+00:26 my properties and uh I'm using the polygon add-on and I'm going to apply
+00:28 polygon add-on and I'm going to apply the ceramic texture that we're going to
+00:29 the ceramic texture that we're going to use. So, the free one that we're using
+00:31 use. So, the free one that we're using for this tutorial you can find by typing
+00:32 for this tutorial you can find by typing in donut 5. That'll bring up all the
+00:35 in donut 5. That'll bring up all the ones we're going to use in this
+00:36 ones we're going to use in this tutorial. And uh the one we're using is
+00:38 tutorial. And uh the one we're using is this one, this rustic gold uh ceramic
+00:41 this one, this rustic gold uh ceramic texture. So, I've already downloaded it,
+00:43 texture. So, I've already downloaded it, so you'll see uh download. It'll look
+00:44 so you'll see uh download. It'll look like download like that. Um and then
+00:47 like download like that. Um and then with the mug selected, you want to hit
+00:50 with the mug selected, you want to hit apply. If the mug isn't selected like
+00:52 apply. If the mug isn't selected like that, you'll see import, which would
+00:53 that, you'll see import, which would just like load it in as a like fake user
+00:57 just like load it in as a like fake user material that you could reference. But
+00:58 material that you could reference. But anyways, so select the mug and then say
+01:00 anyways, so select the mug and then say apply. And now we can close that and
+01:02 apply. And now we can close that and let's take a look. Now, you might be
+01:04 let's take a look. Now, you might be surprised at how well that came in.
+01:06 surprised at how well that came in. Like, the handle's no good, but the rest
+01:08 Like, the handle's no good, but the rest of it is semi okay, right? There's some
+01:12 of it is semi okay, right? There's some stretching on the rim and the base, but
+01:14 stretching on the rim and the base, but like why did that come in okay? So, if
+01:17 like why did that come in okay? So, if you go to the UV editor here, you can
+01:19 you go to the UV editor here, you can see we got some islands and this matches
+01:22 see we got some islands and this matches exactly what you would expect if you
+01:24 exactly what you would expect if you created a cylinder. So, when we modeled
+01:27 created a cylinder. So, when we modeled this mug, you remember we started with a
+01:29 this mug, you remember we started with a cylinder. And that's a primitive object
+01:31 cylinder. And that's a primitive object and Blender automatically UV unwraps the
+01:33 and Blender automatically UV unwraps the primitive objects for us. So, everything
+01:34 primitive objects for us. So, everything that is still a cylinder form
+01:37 that is still a cylinder form is okay, but everything else that we
+01:39 is okay, but everything else that we created from scratch like this handle
+01:40 created from scratch like this handle here, it has no idea what to do with it.
+01:42 here, it has no idea what to do with it. So, it's all stretched and all screwed
+01:44 So, it's all stretched and all screwed up. So, basically we have to start from
+01:45 up. So, basically we have to start from scratch and um and do this again. But
+01:48 scratch and um and do this again. But that's okay, that's the point of this
+01:49 that's okay, that's the point of this tutorial to learn how to do UV
+01:51 tutorial to learn how to do UV unwrapping.
+01:52 unwrapping. So, as I explained with the icing, the
+01:54 So, as I explained with the icing, the best way to think about uh UV unwrapping
+01:57 best way to think about uh UV unwrapping is to imagine that this object was made
+02:00 is to imagine that this object was made of paper and we have to lay it flat onto
+02:03 of paper and we have to lay it flat onto a 2D surface, which is what this is over
+02:05 a 2D surface, which is what this is over here. This is the 3D uh object. This is
+02:09 here. This is the 3D uh object. This is the flat surface it's being laid on. So,
+02:11 the flat surface it's being laid on. So, it's like we are turning this into paper
+02:13 it's like we are turning this into paper and we have to lay it flat. Where would
+02:15 and we have to lay it flat. Where would you put the cuts on this object in order
+02:18 you put the cuts on this object in order to make it flat there?
+02:21 to make it flat there? And so, the most obvious place you could
+02:22 And so, the most obvious place you could think of if you're looking at doing this
+02:24 think of if you're looking at doing this is like I know for sure this handle has
+02:26 is like I know for sure this handle has to be separated from the rest of it in
+02:28 to be separated from the rest of it in order to start to lay it flat. By the
+02:30 order to start to lay it flat. By the way, uh before we start, it would
+02:32 way, uh before we start, it would probably help with your um
+02:34 probably help with your um uh mug selected, in the modifiers,
+02:36 uh mug selected, in the modifiers, you've got this little box there that
+02:38 you've got this little box there that says uh on cage. So, if it's turned off,
+02:41 says uh on cage. So, if it's turned off, it'll show you like the un subdivided
+02:43 it'll show you like the un subdivided result around it, but then like parts of
+02:45 result around it, but then like parts of it get hidden by the mesh. So, I usually
+02:47 it get hidden by the mesh. So, I usually turn it on just so that I can see it and
+02:49 turn it on just so that I can see it and like all the mesh is visible. Just makes
+02:51 like all the mesh is visible. Just makes UV unwrapping it uh a little bit easier.
+02:53 UV unwrapping it uh a little bit easier. Okay, so the handle needs to be
+02:54 Okay, so the handle needs to be separated. So, right here is an incision
+02:57 separated. So, right here is an incision point, right? So, I'm going to select
+02:58 point, right? So, I'm going to select these vertices here by holding down
+03:00 these vertices here by holding down shift and just shift selecting. Then I'm
+03:02 shift and just shift selecting. Then I'm going to hit control E and then select
+03:05 going to hit control E and then select mark seam. Now, Blender won't have
+03:08 mark seam. Now, Blender won't have updated yet, so this hasn't changed over
+03:09 updated yet, so this hasn't changed over here. So, if in order to see that, we
+03:11 here. So, if in order to see that, we would first have to select the whole
+03:13 would first have to select the whole mesh, then go U and then select unwrap.
+03:16 mesh, then go U and then select unwrap. Or the method that I prefer to do, and I
+03:18 Or the method that I prefer to do, and I would suggest you do this too, in your
+03:19 would suggest you do this too, in your 3D view over here, there's a little
+03:21 3D view over here, there's a little options drop-down at the top there. If
+03:23 options drop-down at the top there. If you click that and then select live
+03:25 you click that and then select live unwrap. Now, whenever you do um a seam,
+03:29 unwrap. Now, whenever you do um a seam, so let's just do another seam here, mark
+03:30 so let's just do another seam here, mark seam on the same spot, um it will
+03:33 seam on the same spot, um it will automatically do that UV unwrap for you.
+03:34 automatically do that UV unwrap for you. So, that's really helpful. Um now, it
+03:37 So, that's really helpful. Um now, it looks worse. You have to go backwards
+03:38 looks worse. You have to go backwards before you can go forwards, um but
+03:40 before you can go forwards, um but that's okay. So, we've only got one uh
+03:42 that's okay. So, we've only got one uh incision, so let's do another one, the
+03:44 incision, so let's do another one, the other half of the handle. So, down here,
+03:46 other half of the handle. So, down here, I'm going to select these points
+03:47 I'm going to select these points like so and then hit control E and then
+03:50 like so and then hit control E and then mark seam. Okay. So, now it has changed.
+03:53 mark seam. Okay. So, now it has changed. So, we've got the handle here. Now, if
+03:56 So, we've got the handle here. Now, if you want to select just the handle, by
+03:57 you want to select just the handle, by the way, in the 3D viewport, if you just
+04:00 the way, in the 3D viewport, if you just mouse over that part of the motion of
+04:02 mouse over that part of the motion of the the motion the mesh and then hit L,
+04:06 the the motion the mesh and then hit L, then in this little um
+04:08 then in this little um uh last used box here, if you select
+04:10 uh last used box here, if you select seam, it'll now just select the parts of
+04:13 seam, it'll now just select the parts of the mesh that match that seam. Um by the
+04:15 the mesh that match that seam. Um by the way, I should also be in edge select
+04:17 way, I should also be in edge select mode, that would definitely be helpful
+04:19 mode, that would definitely be helpful um because we're placing seams on edges.
+04:21 um because we're placing seams on edges. But yeah, if I do that now, uh that
+04:22 But yeah, if I do that now, uh that selection, you can clearly see that this
+04:24 selection, you can clearly see that this is the part of the mesh, which is this
+04:26 is the part of the mesh, which is this handle over here. So, it's been
+04:28 handle over here. So, it's been separated, okay? So, we've got like two
+04:30 separated, okay? So, we've got like two parts of the mesh. We've got all of them
+04:32 parts of the mesh. We've got all of them this part of the mug, which is this mess
+04:34 this part of the mug, which is this mess over here, and then we've got this
+04:35 over here, and then we've got this handle here, which is this part over
+04:37 handle here, which is this part over here. So, this is like somewhat uh
+04:40 here. So, this is like somewhat uh unwrapped, but again, if this was made
+04:42 unwrapped, but again, if this was made of paper, to lay it flat, we would have
+04:44 of paper, to lay it flat, we would have to do another incision. So, when I'm
+04:46 to do another incision. So, when I'm placing a incision like this, like I
+04:48 placing a incision like this, like I have to place an incision somewhere
+04:50 have to place an incision somewhere here, right? Like here, here, here, or
+04:52 here, right? Like here, here, here, or here. And because a uh a seam generally
+04:57 here. And because a uh a seam generally makes a seam like a visible line in a
+05:01 makes a seam like a visible line in a texture that will often not be um like
+05:03 texture that will often not be um like lined up, that that can look ugly,
+05:05 lined up, that that can look ugly, right? It's like it's not a good look
+05:07 right? It's like it's not a good look for a model. So, often when you're
+05:09 for a model. So, often when you're placing a seam, you put it in a place
+05:10 placing a seam, you put it in a place that is hidden. So, I mean, it it would
+05:13 that is hidden. So, I mean, it it would be a really good spot if we had like a
+05:14 be a really good spot if we had like a line right down the middle of the mug
+05:16 line right down the middle of the mug there, but next best thing, I'll place
+05:18 there, but next best thing, I'll place it just to the side there. So, holding
+05:20 it just to the side there. So, holding down alt, select that edge. Now, I'm
+05:21 down alt, select that edge. Now, I'm going to hit control E and then say
+05:23 going to hit control E and then say seam. And now, look at that. This now
+05:27 seam. And now, look at that. This now has been pretty well UV unwrapped, okay?
+05:32 has been pretty well UV unwrapped, okay? That section there. That's pretty good.
+05:34 That section there. That's pretty good. So, now we just have to do the same for
+05:36 So, now we just have to do the same for the rest of the mug here. And this is
+05:37 the rest of the mug here. And this is pretty easy to do. So, it's I mean, you
+05:39 pretty easy to do. So, it's I mean, you can tell like one place we would have to
+05:41 can tell like one place we would have to put a cut um would be like the base of
+05:44 put a cut um would be like the base of it, like right here
+05:46 it, like right here um inside of our mug. So, I'm going to
+05:48 um inside of our mug. So, I'm going to hold down alt just on this face at the
+05:50 hold down alt just on this face at the bottom there and I'm going to hit
+05:51 bottom there and I'm going to hit control E and I'm going to say seam just
+05:53 control E and I'm going to say seam just to separate that that single circle
+05:55 to separate that that single circle there out by itself. Now, I I need to
+05:58 there out by itself. Now, I I need to put one cut that goes right down the um
+06:01 put one cut that goes right down the um right down like here, like this part of
+06:04 right down like here, like this part of a mesh. Like I need to do a cut right
+06:05 a mesh. Like I need to do a cut right there. But again, that can create like a
+06:08 there. But again, that can create like a visible like line, so I want to try to
+06:10 visible like line, so I want to try to hide it by putting it on like close to
+06:12 hide it by putting it on like close to this handle here.
+06:14 this handle here. Because also there are other seams here
+06:16 Because also there are other seams here and it will just kind of help to just
+06:17 and it will just kind of help to just have it on one part of the mesh. Um
+06:19 have it on one part of the mesh. Um because like you you could like move it
+06:21 because like you you could like move it and hide it by the camera and stuff like
+06:22 and hide it by the camera and stuff like that. So, it just helps to put it all in
+06:23 that. So, it just helps to put it all in one place. So, holding down alt here, so
+06:26 one place. So, holding down alt here, so alt, click on that. So, it goes all the
+06:29 alt, click on that. So, it goes all the way down to there. And then it kind of
+06:31 way down to there. And then it kind of stops here on the handle there. So, I'm
+06:32 stops here on the handle there. So, I'm going to select this line just holding
+06:34 going to select this line just holding down shift. And then I also want to do
+06:35 down shift. And then I also want to do it right there. So,
+06:37 it right there. So, um holding down alt on that and now I'm
+06:40 um holding down alt on that and now I'm going to hit control E and then say mark
+06:42 going to hit control E and then say mark seam.
+06:43 seam. Okay. So, now that's looking a lot more
+06:45 Okay. So, now that's looking a lot more uh released, right? There's less uh
+06:47 uh released, right? There's less uh tension in there, but there is still
+06:49 tension in there, but there is still this like pinching effect happening at
+06:50 this like pinching effect happening at the bottom there. So, just like in the
+06:52 the bottom there. So, just like in the middle there, when we selected that and
+06:53 middle there, when we selected that and separated it, I want to select this part
+06:56 separated it, I want to select this part of the mesh, which is underneath the
+06:57 of the mesh, which is underneath the mug, and I want to unwrap that. Or
+06:59 mug, and I want to unwrap that. Or sorry, I I place a seam there. By the
+07:01 sorry, I I place a seam there. By the way, if you want to like like cuz we
+07:02 way, if you want to like like cuz we can't really get to that very easily,
+07:05 can't really get to that very easily, if you want to just see an object by
+07:07 if you want to just see an object by itself, you can hit forward slash. So,
+07:09 itself, you can hit forward slash. So, in object mode with the mug selected,
+07:11 in object mode with the mug selected, forward slash. And now everything has
+07:14 forward slash. And now everything has vanished. Now, Blender doesn't do a very
+07:16 vanished. Now, Blender doesn't do a very good job of showing you that you have
+07:18 good job of showing you that you have you're just looking at an isolated view
+07:20 you're just looking at an isolated view except for at the top there where it
+07:22 except for at the top there where it says local. So, there's many times when
+07:24 says local. So, there's many times when I'm using Blender and I think I'm like,
+07:25 I'm using Blender and I think I'm like, "Where's the rest of my scene?" And then
+07:28 "Where's the rest of my scene?" And then I remember, "Oh, that's right. I'm in
+07:29 I remember, "Oh, that's right. I'm in isolated mode." And you only know
+07:31 isolated mode." And you only know because it says local there. So, you
+07:33 because it says local there. So, you just have to remember if like you ever
+07:34 just have to remember if like you ever get to that point of like, "Where is
+07:35 get to that point of like, "Where is everything? What?" Just forward slash
+07:38 everything? What?" Just forward slash and it'll bring it back, okay? So,
+07:39 and it'll bring it back, okay? So, forward slash, uh there we go. And by
+07:41 forward slash, uh there we go. And by the way, if you don't have a uh forward
+07:43 the way, if you don't have a uh forward slash key, you can go to view um and
+07:46 slash key, you can go to view um and then go local view, toggle local view
+07:48 then go local view, toggle local view like that. All right. So, now that I've
+07:49 like that. All right. So, now that I've done that, I can get underneath my mug
+07:51 done that, I can get underneath my mug edit mode and I'll select this, say
+07:53 edit mode and I'll select this, say control E, and then I'm going to say
+07:55 control E, and then I'm going to say mark seam. Okay. So, now when we look at
+07:59 mark seam. Okay. So, now when we look at this, you can see we've we've now we
+08:01 this, you can see we've we've now we have pretty well successfully UV
+08:03 have pretty well successfully UV unwrapped this, okay? Cuz these points
+08:05 unwrapped this, okay? Cuz these points are now they're they they've been
+08:07 are now they're they they've been flattened out. Now, there's there's some
+08:09 flattened out. Now, there's there's some stretching. There's always going to be
+08:11 stretching. There's always going to be some stretching, but as long it is not
+08:13 some stretching, but as long it is not like obvious, it's generally okay. But
+08:15 like obvious, it's generally okay. But now what I want to do um is I want to
+08:17 now what I want to do um is I want to load in the actual texture that's that's
+08:18 load in the actual texture that's that's being viewed here. So, I can see where
+08:21 being viewed here. So, I can see where this like line is being uh viewed on the
+08:23 this like line is being uh viewed on the um on the mug there. So, from the
+08:25 um on the mug there. So, from the drop-down here, I'm going to select that
+08:26 drop-down here, I'm going to select that base color, this little ceramic mug
+08:28 base color, this little ceramic mug here, which by the way was actually
+08:30 here, which by the way was actually scanned from a real mug um that we uh we
+08:33 scanned from a real mug um that we uh we we bought and then scanned around it.
+08:34 we bought and then scanned around it. So, this actually matches like what
+08:36 So, this actually matches like what you'd find in a store. Um so, it's
+08:38 you'd find in a store. Um so, it's loaded in there and now with this island
+08:41 loaded in there and now with this island uh which I can select by hitting L like
+08:43 uh which I can select by hitting L like that, I can now, hitting R, I can start
+08:46 that, I can now, hitting R, I can start to rotate and move it around like this.
+08:49 to rotate and move it around like this. Okay. So, I'm going to place this. Let's
+08:50 Okay. So, I'm going to place this. Let's go right I'm just kind of guessing, but
+08:53 go right I'm just kind of guessing, but that is yeah, that's the bottom of my
+08:55 that is yeah, that's the bottom of my mesh. So, if you don't know, like you
+08:56 mesh. So, if you don't know, like you can go into like face select mode and
+08:58 can go into like face select mode and just like select a few faces and you can
+09:00 just like select a few faces and you can see them like update over there like
+09:02 see them like update over there like that, which is cool.
+09:03 that, which is cool. Um but yeah, so that's the bottom of the
+09:05 Um but yeah, so that's the bottom of the mug, which is good. And let's get that
+09:07 mug, which is good. And let's get that like, you know, try and get try and get
+09:10 like, you know, try and get try and get a straight line there, okay? And you can
+09:12 a straight line there, okay? And you can see we can't.
+09:15 see we can't. Right? We've got the line like going up
+09:17 Right? We've got the line like going up here and then we've got another line
+09:19 here and then we've got another line coming down here. And obviously we want
+09:21 coming down here. And obviously we want these to meet, but how can we do that,
+09:24 these to meet, but how can we do that, right? Because the lines are doing that
+09:26 right? Because the lines are doing that because this part of the mesh is all the
+09:28 because this part of the mesh is all the way uh over here and then the other part
+09:30 way uh over here and then the other part of the mesh is like yeah, much higher
+09:32 of the mesh is like yeah, much higher up, right? So, we essentially, in order
+09:34 up, right? So, we essentially, in order to get this to to line up, we need to
+09:37 to get this to to line up, we need to make this island here look straight.
+09:39 make this island here look straight. Basically like almost like what it was
+09:41 Basically like almost like what it was before when it was uh the default
+09:43 before when it was uh the default cylinder view. Now, there are some tools
+09:45 cylinder view. Now, there are some tools in Blender that let you like quickly
+09:47 in Blender that let you like quickly align like one line, right? So, if I
+09:50 align like one line, right? So, if I selected this line here, I could right
+09:52 selected this line here, I could right click and then I could say align auto
+09:54 click and then I could say align auto and you could see it would give me a
+09:56 and you could see it would give me a pretty straight line for for that one
+10:00 pretty straight line for for that one there. The problem is is that it just
+10:01 there. The problem is is that it just does that one line. If I wanted to do
+10:04 does that one line. If I wanted to do all of it, I would have to do these like
+10:06 all of it, I would have to do these like one by one like this. So, Blender really
+10:09 one by one like this. So, Blender really needs a tool
+10:11 needs a tool that would like let this happen like
+10:13 that would like let this happen like easily across an entire island. And
+10:15 easily across an entire island. And although Blender doesn't have this tool,
+10:17 although Blender doesn't have this tool, there is a free extension and it's a
+10:19 there is a free extension and it's a great excuse to talk about extensions in
+10:21 great excuse to talk about extensions in Blender and how to install them.
+10:23 Blender and how to install them. But yeah, there's a free one and it's
+10:24 But yeah, there's a free one and it's amazing and so I'm going to show you how
+10:26 amazing and so I'm going to show you how to get it. So, go to edit, then
+10:28 to get it. So, go to edit, then preferences, then go get extensions. And
+10:32 preferences, then go get extensions. And with a fresh install, it'll first ask
+10:34 with a fresh install, it'll first ask you do want to let Blender read the
+10:36 you do want to let Blender read the internet cuz it's not going to do that
+10:37 internet cuz it's not going to do that without your permission. So, say allow
+10:39 without your permission. So, say allow online access. And by the way, you can
+10:41 online access. And by the way, you can change that in the future if you want
+10:43 change that in the future if you want inside of system, allow online access.
+10:45 inside of system, allow online access. Anyways, now that you're here in the top
+10:48 Anyways, now that you're here in the top right-hand corner of the get extensions,
+10:50 right-hand corner of the get extensions, there's a little unassuming drop down.
+10:53 there's a little unassuming drop down. Then click on visit extensions platform.
+10:56 Then click on visit extensions platform. find them by just going to
+10:57 find them by just going to extensions.blender.org.
+10:59 extensions.blender.org. Anyways, so these are all extensions
+11:02 Anyways, so these are all extensions that
+11:03 that they're not made by Blender. So, they're
+11:05 they're not made by Blender. So, they're not like official, but they are all
+11:07 not like official, but they are all free. So, they all have to meet the
+11:08 free. So, they all have to meet the criteria of free. I believe there's some
+11:10 criteria of free. I believe there's some other things in there like it has to I
+11:12 other things in there like it has to I don't know, probably like safety checks
+11:13 don't know, probably like safety checks and things like that. But these just
+11:15 and things like that. But these just like expand the capabilities of Blender
+11:17 like expand the capabilities of Blender by the community. So, the one that we're
+11:18 by the community. So, the one that we're looking for is actually this one here,
+11:20 looking for is actually this one here, Moi 3D UV, which you could find by just
+11:23 Moi 3D UV, which you could find by just I think typing in UV. Weirdly, when I
+11:25 I think typing in UV. Weirdly, when I was typing in Moi 3D,
+11:28 was typing in Moi 3D, oh no, that's right. Oh, it's Mio. Oh,
+11:30 oh no, that's right. Oh, it's Mio. Oh, that's why I wasn't finding it. It's Mio
+11:32 that's why I wasn't finding it. It's Mio 3D. Okay, there you go. I I thought
+11:34 3D. Okay, there you go. I I thought Blender's search was so bad, but it was
+11:36 Blender's search was so bad, but it was just a Mio 3D, not Moi. All right. Mio
+11:39 just a Mio 3D, not Moi. All right. Mio 3D UV. Okay. So, this is the extension.
+11:43 3D UV. Okay. So, this is the extension. And you might think like I have to
+11:44 And you might think like I have to download something, unzip and do that.
+11:46 download something, unzip and do that. No, it's actually really simple. So, all
+11:48 No, it's actually really simple. So, all you do is you grab your browser like
+11:49 you do is you grab your browser like this, just like separate it to make it
+11:52 this, just like separate it to make it like a half window like this.
+11:55 like a half window like this. Then, all you're going to do is
+11:58 Then, all you're going to do is you're going to in the bottom corner of
+12:00 you're going to in the bottom corner of this little window here where it says
+12:02 this little window here where it says get add-on, you're going to click that.
+12:04 get add-on, you're going to click that. And then you get this like little
+12:05 And then you get this like little outline box there. And see how your
+12:06 outline box there. And see how your cursor changes to this little like
+12:08 cursor changes to this little like crosshair thing? You just click and drag
+12:11 crosshair thing? You just click and drag out from that and then drop it into
+12:13 out from that and then drop it into Blender. And it'll now say do you want
+12:16 Blender. And it'll now say do you want to install it? And you say yes, I do.
+12:19 to install it? And you say yes, I do. And then that's it.
+12:21 And then that's it. You can see at the bottom there it says
+12:22 You can see at the bottom there it says installed Mio 3D UV. UV. And now in our
+12:26 installed Mio 3D UV. UV. And now in our UV editor over here in this window, if I
+12:29 UV editor over here in this window, if I hit N to bring up properties, you can
+12:31 hit N to bring up properties, you can see I've got a little option here that
+12:33 see I've got a little option here that says Mio 3D. And look, we've got a bunch
+12:36 says Mio 3D. And look, we've got a bunch of options that I honestly have not
+12:38 of options that I honestly have not played with most of them.
+12:40 played with most of them. Most of the ones I'm looking for are
+12:41 Most of the ones I'm looking for are right at the top here. So, the one that
+12:44 right at the top here. So, the one that I use all the time is gridify. Okay, and
+12:46 I use all the time is gridify. Okay, and look what happens as I click this.
+12:48 look what happens as I click this. Da da. It does what we're looking for.
+12:51 Da da. It does what we're looking for. It converted that from this like
+12:54 It converted that from this like stretched like kind of view to making it
+12:58 stretched like kind of view to making it look actually squarish and and like a
+13:01 look actually squarish and and like a grid. And that is perfect. And now you
+13:03 grid. And that is perfect. And now you can see that line there across the
+13:06 can see that line there across the ceramic is lining up across it. So, that
+13:08 ceramic is lining up across it. So, that is absolutely perfect. I have no
+13:11 is absolutely perfect. I have no complaints. It is it's worked perfectly
+13:14 complaints. It is it's worked perfectly well. I do though just want to apply it
+13:16 well. I do though just want to apply it to this part of the handle as well
+13:18 to this part of the handle as well because the same thing would apply to
+13:19 because the same thing would apply to that. Make sure I do it in face select
+13:21 that. Make sure I do it in face select mode, so I'll hit L. So, I'm just
+13:23 mode, so I'll hit L. So, I'm just selecting the handle by itself. And then
+13:26 selecting the handle by itself. And then here with this Oh, you can also just do
+13:27 here with this Oh, you can also just do it on the island itself there like that.
+13:29 it on the island itself there like that. And then go to Mio again and I'm looking
+13:32 And then go to Mio again and I'm looking for gridify.
+13:34 for gridify. Okay, and there we go.
+13:36 Okay, and there we go. Great. Now,
+13:38 Great. Now, you you can position these however you
+13:40 you you can position these however you want. So, you can select an island by
+13:41 want. So, you can select an island by hitting L and then you can like find a
+13:43 hitting L and then you can like find a different portion of it. By the way, if
+13:46 different portion of it. By the way, if you don't want to see the like cuz you
+13:48 you don't want to see the like cuz you can't really see the texture under it
+13:49 can't really see the texture under it very well, sometimes I just disable the
+13:52 very well, sometimes I just disable the overlay at the top of the screen there.
+13:53 overlay at the top of the screen there. That will just like disable all the
+13:55 That will just like disable all the overlays so you can't see anything on
+13:57 overlays so you can't see anything on the mesh there at all.
+13:58 the mesh there at all. So, you just have to remember that it's
+13:59 So, you just have to remember that it's doing that. But when I've got that, now
+14:02 doing that. But when I've got that, now I can like move things around
+14:04 I can like move things around and I can see them visualized on the
+14:06 and I can see them visualized on the actual mesh there, which is helpful. So,
+14:08 actual mesh there, which is helpful. So, if I wanted to be like a larger looking
+14:10 if I wanted to be like a larger looking texture, I could make it smaller, right?
+14:12 texture, I could make it smaller, right? That's a kind of a look. Or I could make
+14:14 That's a kind of a look. Or I could make it bigger and I'll probably make it like
+14:15 it bigger and I'll probably make it like somewhere in between.
+14:17 somewhere in between. About
+14:18 About about there I think actually looks kind
+14:20 about there I think actually looks kind of good.
+14:22 of good. Actually, yeah, basically filling the
+14:23 Actually, yeah, basically filling the space like that from like left to right,
+14:25 space like that from like left to right, which is nice. And then for the handle,
+14:28 which is nice. And then for the handle, I need to also resize that. So, I'm
+14:30 I need to also resize that. So, I'm going to select this part of the handle.
+14:32 going to select this part of the handle. And by the way, you'll notice as you
+14:33 And by the way, you'll notice as you slide it off the screen there, it
+14:35 slide it off the screen there, it doesn't matter where it is because it's
+14:36 doesn't matter where it is because it's just going to be tiled. Okay? So, that
+14:38 just going to be tiled. Okay? So, that texture is just tiling all the way to
+14:40 texture is just tiling all the way to the left and to the right and and above
+14:41 the left and to the right and and above it.
+14:42 it. So, yeah. So, I can position this
+14:44 So, yeah. So, I can position this wherever I want like so.
+14:46 wherever I want like so. Now, you can see here this little empty
+14:48 Now, you can see here this little empty patch here, right? This is one part of
+14:51 patch here, right? This is one part of the handle cut, right? It's that
+14:53 the handle cut, right? It's that section. And then this section here
+14:56 section. And then this section here would be this right here. So, if you
+14:57 would be this right here. So, if you actually wanted to line it up to be
+14:59 actually wanted to line it up to be perfect and also get the texture, it's
+15:02 perfect and also get the texture, it's it's called like matching the texel
+15:04 it's called like matching the texel density across the islands.
+15:06 density across the islands. But yeah, you could like scale this down
+15:08 But yeah, you could like scale this down to be
+15:10 to be like roughly the same portion, like the
+15:12 like roughly the same portion, like the same part of the mesh if you want to.
+15:14 same part of the mesh if you want to. There's still like this extra stretching
+15:16 There's still like this extra stretching and stuff in there.
+15:17 and stuff in there. The other thing I sometimes do is like I
+15:19 The other thing I sometimes do is like I look at the size of a square like this
+15:22 look at the size of a square like this and then I go like what is the size of
+15:24 and then I go like what is the size of the square over here? And it's like, all
+15:26 the square over here? And it's like, all right, that's pretty close, but I can
+15:27 right, that's pretty close, but I can see it needs to be stretched like
+15:29 see it needs to be stretched like further this way, right? Cuz this is
+15:31 further this way, right? Cuz this is more rectangular than this. This is more
+15:33 more rectangular than this. This is more kind of squarish. So, I'm going to
+15:34 kind of squarish. So, I'm going to select this whole island and I could hit
+15:36 select this whole island and I could hit S and then Y
+15:39 S and then Y like so.
+15:41 like so. So, till they're kind of kind of the
+15:43 So, till they're kind of kind of the same size like that. And then just to
+15:45 same size like that. And then just to make them fit, I would scale that down
+15:47 make them fit, I would scale that down again.
+15:48 again. And there you go. And now I'm just going
+15:50 And there you go. And now I'm just going to move that up a little bit just so
+15:53 to move that up a little bit just so that this part here
+15:55 that this part here of my my texture. I want it to kind of
+15:56 of my my texture. I want it to kind of line up there. I don't even know
+15:58 line up there. I don't even know actually if this is physically possible.
+15:59 actually if this is physically possible. Maybe somebody who works in pottery will
+16:01 Maybe somebody who works in pottery will tell me. But like see how it looks like
+16:03 tell me. But like see how it looks like it's kind of like dipped in something? I
+16:05 it's kind of like dipped in something? I don't even know if that's like something
+16:07 don't even know if that's like something that is like painted or like branded or
+16:09 that is like painted or like branded or something. Like can it go halfway up the
+16:12 something. Like can it go halfway up the handle as well?
+16:14 handle as well? I'm assuming it did. Maybe I thought it
+16:15 I'm assuming it did. Maybe I thought it was like dipped in something, but that
+16:16 was like dipped in something, but that could be like this could be a completely
+16:18 could be like this could be a completely implausible mug is all I'm saying.
+16:21 implausible mug is all I'm saying. But that that's how it is in 3D like you
+16:24 But that that's how it is in 3D like you have artists that have like never done
+16:27 have artists that have like never done engineering before and they design a
+16:28 engineering before and they design a robot. And then like everyone's like,
+16:30 robot. And then like everyone's like, yeah, that looks cool. And then like all
+16:31 yeah, that looks cool. And then like all the people in engineering are like, you
+16:33 the people in engineering are like, you know, that's never going to fly, you
+16:35 know, that's never going to fly, you know?
+16:37 know? But that's that's fine. It's part of the
+16:39 But that's that's fine. It's part of the part of the fun of it.
+16:40 part of the fun of it. Okay, now there's there's a lot of
+16:42 Okay, now there's there's a lot of stretching going on right here. And
+16:44 stretching going on right here. And that's because this gridify thing as
+16:45 that's because this gridify thing as good as as good as it is, you could see
+16:48 good as as good as it is, you could see that this part, right? It's really like
+16:51 that this part, right? It's really like shrunk it in there and it's made it a
+16:52 shrunk it in there and it's made it a really thin line. So, all I'm going to
+16:54 really thin line. So, all I'm going to do is I'm going to go into edge select
+16:56 do is I'm going to go into edge select mode by hitting two. I'm going to select
+16:58 mode by hitting two. I'm going to select that edge. Oh, okay, I can't select that
+17:00 that edge. Oh, okay, I can't select that edge very well. I'll just shift select
+17:02 edge very well. I'll just shift select them one by one like that. And then I'm
+17:04 them one by one like that. And then I'm just going to pull it up just to add
+17:06 just going to pull it up just to add more detail there like so. And I think
+17:09 more detail there like so. And I think it is also like
+17:12 it is also like stretched a little bit because it's kind
+17:13 stretched a little bit because it's kind of like wrapped around it and it's kind
+17:16 of like wrapped around it and it's kind of like peeling outwards a little bit. I
+17:18 of like peeling outwards a little bit. I think it works a little bit better if
+17:19 think it works a little bit better if you also scale that part out a little
+17:22 you also scale that part out a little more. So, I'm just scaling out that
+17:23 more. So, I'm just scaling out that line. And you can see that has now
+17:25 line. And you can see that has now blended in pretty seamlessly. Like
+17:28 blended in pretty seamlessly. Like that's about I mean, it's a little messy
+17:30 that's about I mean, it's a little messy there, but it's about as good as it
+17:31 there, but it's about as good as it would get on that. That's that's pretty
+17:33 would get on that. That's that's pretty good. And then I'll just do the same for
+17:35 good. And then I'll just do the same for the bottom part here. So, I'll select
+17:37 the bottom part here. So, I'll select these edges.
+17:39 these edges. Actually, no, I'll do it over here. You
+17:40 Actually, no, I'll do it over here. You can see you get both parts of it, right?
+17:42 can see you get both parts of it, right? Cuz that line there exists across two
+17:45 Cuz that line there exists across two islands, right? This island and then
+17:47 islands, right? This island and then this island here. So, anyways, I'll
+17:49 this island here. So, anyways, I'll select this in the editor here.
+17:52 select this in the editor here. And then I'm going to pull it down to
+17:54 And then I'm going to pull it down to give me more data. And then I'm going to
+17:56 give me more data. And then I'm going to scale it out a little bit as well.
+17:59 scale it out a little bit as well. And look at that. That's pretty good.
+18:03 And look at that. That's pretty good. We've got a pretty seamless looking
+18:05 We've got a pretty seamless looking result.
+18:07 result. I mean, and honestly, that's that's
+18:08 I mean, and honestly, that's that's about as good as it gets. And by the
+18:10 about as good as it gets. And by the way, I I should have said like it
+18:11 way, I I should have said like it doesn't actually matter that the UV
+18:13 doesn't actually matter that the UV islands are overlapping here. But it
+18:15 islands are overlapping here. But it does matter if you were to be painting
+18:18 does matter if you were to be painting onto this.
+18:19 onto this. And the reason that that that makes a
+18:21 And the reason that that that makes a difference is like you can imagine if
+18:22 difference is like you can imagine if you were doing a paintbrush and you had
+18:24 you were doing a paintbrush and you had painted parts of the mesh here and like
+18:26 painted parts of the mesh here and like one part was for the handle and this
+18:28 one part was for the handle and this part was for that. If you had islands
+18:30 part was for that. If you had islands that were overlapping each other, then
+18:32 that were overlapping each other, then you would have like different parts of
+18:33 you would have like different parts of the painting like appearing twice across
+18:35 the painting like appearing twice across it. So, there's kind of like two styles
+18:38 it. So, there's kind of like two styles to UV unwrapping. This is the simplest
+18:40 to UV unwrapping. This is the simplest one, which is just like if you've got an
+18:41 one, which is just like if you've got an image that you've got off the internet
+18:43 image that you've got off the internet or a texture or whatever that's just
+18:44 or a texture or whatever that's just being tiled across it or even not tiled.
+18:47 being tiled across it or even not tiled. Like it doesn't matter if things are
+18:49 Like it doesn't matter if things are overlapping because, you know, the
+18:51 overlapping because, you know, the texture is different enough your eyes
+18:53 texture is different enough your eyes not going to spot it. But if it's
+18:54 not going to spot it. But if it's painted, yes, they do have to be
+18:56 painted, yes, they do have to be separate parts. And another thing as
+18:58 separate parts. And another thing as well, if you're UV unwrapping for a game
+19:00 well, if you're UV unwrapping for a game asset, it's even more complex because
+19:03 asset, it's even more complex because all the islands have to be separated,
+19:05 all the islands have to be separated, but there's also like margin because
+19:07 but there's also like margin because like in games you develop like multiple
+19:09 like in games you develop like multiple versions of a mesh at different
+19:10 versions of a mesh at different resolutions, then there's different
+19:12 resolutions, then there's different texture resolutions. So, you have to
+19:14 texture resolutions. So, you have to create like big margins. And it gets all
+19:16 create like big margins. And it gets all like complicated. It it's like a
+19:17 like complicated. It it's like a completely separate thing. So, if you
+19:19 completely separate thing. So, if you wanted to texture for games, you should
+19:21 wanted to texture for games, you should probably look at like game texturing
+19:23 probably look at like game texturing type tutorials if you really wanted to
+19:25 type tutorials if you really wanted to go into that. But anyways, the rest of
+19:27 go into that. But anyways, the rest of it is fine. Like that part of it, all
+19:29 it is fine. Like that part of it, all this like stretching in here if you
+19:31 this like stretching in here if you wanted to fix that, you could. It
+19:32 wanted to fix that, you could. It doesn't matter cuz we're going to put
+19:34 doesn't matter cuz we're going to put some like coffee foam along the top
+19:35 some like coffee foam along the top there. The base of it doesn't matter cuz
+19:38 there. The base of it doesn't matter cuz we're not going to see it.
+19:40 we're not going to see it. So, yeah.
+19:42 So, yeah. But that's that's also the the the thing
+19:43 But that's that's also the the the thing to consider is like, you know, when
+19:45 to consider is like, you know, when people are like on Twitter and they're
+19:46 people are like on Twitter and they're like, look at this model. Look how
+19:47 like, look at this model. Look how terrible it is. It's like, yeah, it
+19:49 terrible it is. It's like, yeah, it might be for a purpose like this. It's
+19:51 might be for a purpose like this. It's designed to be viewed from above, and
+19:53 designed to be viewed from above, and that's all it needs to do. Like, if
+19:55 that's all it needs to do. Like, if you've like pulled it apart and it's
+19:57 you've like pulled it apart and it's like, "How terrible does it look?" It's
+19:58 like, "How terrible does it look?" It's like, "Yeah, the camera was never going
+20:00 like, "Yeah, the camera was never going to go in there or under there, so that's
+20:02 to go in there or under there, so that's why it doesn't matter."
+20:05 why it doesn't matter." Anyways, all right. So, the mug is
+20:07 Anyways, all right. So, the mug is pretty good. The only thing I'll do is
+20:09 pretty good. The only thing I'll do is I'm going to go to my material over
+20:11 I'm going to go to my material over here. Uh actually, oh, sorry. I'll go to
+20:13 here. Uh actually, oh, sorry. I'll go to my shading tab at the top there, so that
+20:15 my shading tab at the top there, so that I can access the nodes here, and I'll
+20:17 I can access the nodes here, and I'll just make a few tweaks to it. Just like
+20:19 just make a few tweaks to it. Just like before
+20:21 before when I mentioned these maps here, like,
+20:23 when I mentioned these maps here, like, this is going to give you the physically
+20:24 this is going to give you the physically accurate um
+20:26 accurate um data from the actual ceramic that we
+20:28 data from the actual ceramic that we scanned, right? And it's like color
+20:29 scanned, right? And it's like color calibrated and everything like that. Um
+20:32 calibrated and everything like that. Um but sometimes you want artistic control,
+20:34 but sometimes you want artistic control, and I want this to look shinier. This is
+20:36 and I want this to look shinier. This is a little dull for me. So, I'm going to
+20:38 a little dull for me. So, I'm going to disconnect my roughness here, and then
+20:40 disconnect my roughness here, and then I'm just going to play with this slider.
+20:43 I'm just going to play with this slider. Like so. So, I've still got the bumps,
+20:44 Like so. So, I've still got the bumps, so like most of the detail that I want
+20:46 so like most of the detail that I want is still there, but like I don't need I
+20:48 is still there, but like I don't need I don't need um I don't need to look as
+20:50 don't need um I don't need to look as dull as it was, so that is pretty good.
+20:52 dull as it was, so that is pretty good. I also don't need the metallic shader,
+20:54 I also don't need the metallic shader, like that's just superfluous. Um there's
+20:56 like that's just superfluous. Um there's another one here, ORM. Oh, sorry, not
+20:58 another one here, ORM. Oh, sorry, not ORM.
+21:00 ORM. Uh ambient occlusion or AO. This is
+21:02 Uh ambient occlusion or AO. This is another one which is completely
+21:03 another one which is completely unnecessary. Um it's just for like
+21:05 unnecessary. Um it's just for like crevices of information, but this is
+21:07 crevices of information, but this is like flat ceramic, so there's no
+21:09 like flat ceramic, so there's no crevices. Um we have to provide it like
+21:11 crevices. Um we have to provide it like standardized for all of our materials,
+21:13 standardized for all of our materials, so they're all uniform, but a lot of
+21:15 so they're all uniform, but a lot of materials just don't need it. So, in a
+21:16 materials just don't need it. So, in a case like this, um I just don't want the
+21:19 case like this, um I just don't want the AO, like this map here. So, I could just
+21:22 AO, like this map here. So, I could just like disconnect that. Or actually, if
+21:24 like disconnect that. Or actually, if you want to delete something like this
+21:25 you want to delete something like this and you want it to retain its
+21:27 and you want it to retain its connection, rather than just deleting
+21:29 connection, rather than just deleting it, cuz then you have to manually
+21:30 it, cuz then you have to manually connect it, um if instead,
+21:33 connect it, um if instead, if you hit control X, it will delete it
+21:36 if you hit control X, it will delete it and retain its connection. So, that's
+21:37 and retain its connection. So, that's just a little tip there for you.
+21:39 just a little tip there for you. Okay, great. So, now let's go back to my
+21:43 Okay, great. So, now let's go back to my layout mode over here. Let's have a look
+21:44 layout mode over here. Let's have a look at it without lighting, and that is
+21:47 at it without lighting, and that is pretty good.
+21:48 pretty good. Now, the only thing I would change
+21:50 Now, the only thing I would change though, looking at this, is
+21:52 though, looking at this, is this concrete is mighty pale. It doesn't
+21:55 this concrete is mighty pale. It doesn't look very good. It doesn't look very
+21:57 look very good. It doesn't look very luxury like a like a cafe, like a high
+22:00 luxury like a like a cafe, like a high highfalutin, "Ooh, look at me. I'm
+22:02 highfalutin, "Ooh, look at me. I'm paying $9 for a coffee. Aren't I fancy?"
+22:04 paying $9 for a coffee. Aren't I fancy?" Doesn't look like that, right? It looks
+22:06 Doesn't look like that, right? It looks like dusty, like a workman floor. So, we
+22:09 like dusty, like a workman floor. So, we can adjust this by going to the shame
+22:11 can adjust this by going to the shame touch. This is a great excuse to go a
+22:13 touch. This is a great excuse to go a little a little into the nodes, right?
+22:15 little a little into the nodes, right? So, this is the one that we actually
+22:16 So, this is the one that we actually manually set up, so it's you know, it's
+22:18 manually set up, so it's you know, it's pretty clean. We just got a base color,
+22:20 pretty clean. We just got a base color, and we've got a normal map, right? But
+22:22 and we've got a normal map, right? But between here and here, where it
+22:24 between here and here, where it connects, we can adjust the color of
+22:26 connects, we can adjust the color of this, and I'm going to show you how
+22:29 this, and I'm going to show you how simple you can you can completely
+22:31 simple you can you can completely transform the look of a texture.
+22:33 transform the look of a texture. So, if I hit
+22:35 So, if I hit uh shift A or just go to add at the top
+22:36 uh shift A or just go to add at the top there, then go to color, and there's a
+22:39 there, then go to color, and there's a bunch of different color options like
+22:40 bunch of different color options like brightness and contrast. I wouldn't use
+22:42 brightness and contrast. I wouldn't use that. That's like a
+22:43 that. That's like a like what is brightness? What is
+22:44 like what is brightness? What is contrast? There's a whole like color
+22:46 contrast? There's a whole like color debate and things. Color ramp can be
+22:48 debate and things. Color ramp can be useful if you just want to like convert
+22:49 useful if you just want to like convert something to like your own set of
+22:51 something to like your own set of colors. Uh hue saturation value, we use
+22:53 colors. Uh hue saturation value, we use that. The one I'm looking for though is
+22:55 that. The one I'm looking for though is RGB curves. So, if I drop this in here,
+22:58 RGB curves. So, if I drop this in here, this will give me if you're familiar
+23:00 this will give me if you're familiar with RGB curves from like Photoshop or
+23:02 with RGB curves from like Photoshop or DaVinci or anything like that, this will
+23:04 DaVinci or anything like that, this will let you do like an S-log uh kind of
+23:06 let you do like an S-log uh kind of curve. So, essentially,
+23:08 curve. So, essentially, this data at the bottom here, this is
+23:10 this data at the bottom here, this is your uh your dark dark tones. Uh this
+23:13 your uh your dark dark tones. Uh this would be your midtones. This would be
+23:14 would be your midtones. This would be your highlights, and this is like your
+23:15 your highlights, and this is like your clipped like highlights at the top
+23:17 clipped like highlights at the top there. But you can see if I make this
+23:18 there. But you can see if I make this look like a like a ramp like this, it
+23:21 look like a like a ramp like this, it starts to look more contrasted,
+23:23 starts to look more contrasted, right? And I pull it all the way down. I
+23:25 right? And I pull it all the way down. I can like really transform this and make
+23:27 can like really transform this and make it look really contrasted. Look at how
+23:29 it look really contrasted. Look at how different that looks already, right?
+23:31 different that looks already, right? From just this one little thing, you
+23:34 From just this one little thing, you wouldn't imagine you could convert it
+23:35 wouldn't imagine you could convert it like this, but that's a simple thing,
+23:37 like this, but that's a simple thing, and it's already looking good. And then
+23:38 and it's already looking good. And then I want to bring out some of the whites
+23:40 I want to bring out some of the whites as well, so I can just add at the top
+23:42 as well, so I can just add at the top here just a little curve that goes the
+23:43 here just a little curve that goes the other way, so it kind of exaggerates
+23:45 other way, so it kind of exaggerates some of those whites. Okay?
+23:48 some of those whites. Okay? Great. That's pretty good. But now, the
+23:50 Great. That's pretty good. But now, the other thing is is like because I've like
+23:53 other thing is is like because I've like crunched it and made it a little more
+23:54 crunched it and made it a little more contrasty, it's also brought out some of
+23:56 contrasty, it's also brought out some of the colors, which are looking a little
+23:58 the colors, which are looking a little like yellowy green, which is a little
+24:00 like yellowy green, which is a little unappealing. Kind of like this table
+24:02 unappealing. Kind of like this table would be like a little moldy, not great.
+24:04 would be like a little moldy, not great. So, instead, um to improve it, I can add
+24:07 So, instead, um to improve it, I can add another node. As I mentioned, I use this
+24:10 another node. As I mentioned, I use this one a lot, hue saturation value. So, if
+24:13 one a lot, hue saturation value. So, if I drop this in and I drop it in here,
+24:16 I drop this in and I drop it in here, you could also put it before the the
+24:18 you could also put it before the the curves or after, it doesn't really
+24:19 curves or after, it doesn't really matter. Um and then I would I just want
+24:21 matter. Um and then I would I just want to drop the saturation here, and watch
+24:23 to drop the saturation here, and watch this. Watch how completely transform
+24:24 this. Watch how completely transform this becomes.
+24:26 this becomes. Woohoo! Look at that.
+24:28 Woohoo! Look at that. Doesn't that look nice?
+24:30 Doesn't that look nice? I think it looks nice.
+24:32 I think it looks nice. It's like and you can turn off these
+24:34 It's like and you can turn off these nodes, by the way, like temporarily. If
+24:35 nodes, by the way, like temporarily. If you want to mute something, it's M. M
+24:38 you want to mute something, it's M. M for mute.
+24:39 for mute. And you can select that and mute it. So,
+24:40 And you can select that and mute it. So, this is what we started with, and then
+24:42 this is what we started with, and then just with two nodes, we converted this
+24:44 just with two nodes, we converted this pale looking concrete
+24:46 pale looking concrete into this,
+24:47 into this, which is crazy.
+24:50 which is crazy. Pretty cool. Anyways, so that's that's
+24:52 Pretty cool. Anyways, so that's that's nice. And then, you know, you can
+24:54 nice. And then, you know, you can obviously play with the the roughness
+24:55 obviously play with the the roughness and stuff, and we'll get to that when we
+24:56 and stuff, and we'll get to that when we get to the
+24:58 get to the the lighting a little bit more.
+25:00 the lighting a little bit more. Um but that is looking good. Oh, the
+25:03 Um but that is looking good. Oh, the other thing, of course, we need to add
+25:05 other thing, of course, we need to add is our coffee foam. And this one is
+25:08 is our coffee foam. And this one is super easy, and it's another chance to
+25:10 super easy, and it's another chance to talk about um another type of texture
+25:12 talk about um another type of texture which you can find on sites like
+25:13 which you can find on sites like Polygon. Um but we need to add coffee
+25:16 Polygon. Um but we need to add coffee foam to this. And um to do that, we need
+25:19 foam to this. And um to do that, we need to start with an object that is going to
+25:21 to start with an object that is going to obviously fill the top of this. And
+25:23 obviously fill the top of this. And obviously, you know, we could go in here
+25:24 obviously, you know, we could go in here and we could like add in a circle and do
+25:26 and we could like add in a circle and do that kind of thing, but it's also smart
+25:29 that kind of thing, but it's also smart to think about like, "How can I save
+25:30 to think about like, "How can I save time by reusing part of my mesh that I
+25:33 time by reusing part of my mesh that I already have?" So, I already know the
+25:35 already have?" So, I already know the exact size that the the foam to fit my
+25:39 exact size that the the foam to fit my mug, because I already have a mug here
+25:41 mug, because I already have a mug here with a circle in it, right? Look at this
+25:43 with a circle in it, right? Look at this line.
+25:45 line. That is a circle. If I could just take
+25:48 That is a circle. If I could just take that and make it a new object, I can use
+25:50 that and make it a new object, I can use it. So, to do that, I can select that
+25:52 it. So, to do that, I can select that line and then hit shift D, right? I've
+25:55 line and then hit shift D, right? I've got my circle now. Then I want to hit
+25:57 got my circle now. Then I want to hit escape, okay?
+25:59 escape, okay? So, it's now just brought it back to
+26:00 So, it's now just brought it back to where it was, and now I'm going to hit
+26:02 where it was, and now I'm going to hit P. P is how you separate something to a
+26:05 P. P is how you separate something to a new object. So, you're separating part
+26:07 new object. So, you're separating part of the the mesh.
+26:08 of the the mesh. So, now I'm going to hit selection
+26:11 So, now I'm going to hit selection like that. And now, if I go over to my
+26:14 like that. And now, if I go over to my uh outliner here, we should see two
+26:15 uh outliner here, we should see two mugs. So, this is my original mug, and
+26:17 mugs. So, this is my original mug, and then this is my mug.001,
+26:20 then this is my mug.001, okay? So, I'm going to call this my foam
+26:23 okay? So, I'm going to call this my foam like that.
+26:24 like that. And now,
+26:26 And now, I'm going to go into edit mode.
+26:28 I'm going to go into edit mode. Uh let's put it in edit mode.
+26:31 Uh let's put it in edit mode. All right, and I'll turn off the uh that
+26:33 All right, and I'll turn off the uh that little view there, so that I can just
+26:35 little view there, so that I can just see
+26:36 see Where is it? Hold on a second.
+26:38 Where is it? Hold on a second. Huh? All right. Okay. So, you have to go
+26:40 Huh? All right. Okay. So, you have to go into uh wireframe mode in order to see
+26:42 into uh wireframe mode in order to see it there, but yeah, that is my my
+26:45 it there, but yeah, that is my my circle. Um and actually, yeah, I should
+26:47 circle. Um and actually, yeah, I should just be in my layout mode, shouldn't I?
+26:48 just be in my layout mode, shouldn't I? Not in shading. I should be in layout.
+26:50 Not in shading. I should be in layout. So, I'm going to go here. Let's do the
+26:51 So, I'm going to go here. Let's do the same thing. Wireframe mode. Okay.
+26:54 same thing. Wireframe mode. Okay. So, this circle obviously isn't being
+26:56 So, this circle obviously isn't being rendered because there's no face on it.
+26:58 rendered because there's no face on it. So, if I go into here into wireframe, um
+27:01 So, if I go into here into wireframe, um I need to create a face on that, and I
+27:02 I need to create a face on that, and I can do that by hitting F, okay? So, I've
+27:05 can do that by hitting F, okay? So, I've now got a face, and it's completely flat
+27:07 now got a face, and it's completely flat across it. And this is okay, and this
+27:09 across it. And this is okay, and this would yeah, it would work for most
+27:11 would yeah, it would work for most things, but there is a small detail that
+27:13 things, but there is a small detail that you notice when you look at like like if
+27:14 you notice when you look at like like if you've got a if you've got a coffee on
+27:16 you've got a if you've got a coffee on your desk right now, if you have a look
+27:17 your desk right now, if you have a look at it, where the coffee like where the
+27:20 at it, where the coffee like where the water meets the actual edge there,
+27:23 water meets the actual edge there, there's like surface tension, and it
+27:25 there's like surface tension, and it actually rises up against the edge
+27:28 actually rises up against the edge there. And you might think that is like
+27:29 there. And you might think that is like a negligible detail, but that line there
+27:32 a negligible detail, but that line there always catches light. And when it's
+27:35 always catches light. And when it's missing, the eye goes like, "That looks
+27:37 missing, the eye goes like, "That looks fake." So, it's a very small thing, but
+27:39 fake." So, it's a very small thing, but we can add that line in here very
+27:41 we can add that line in here very simply. So, in edit mode, going back in
+27:44 simply. So, in edit mode, going back in wireframe mode, so with our solid face
+27:45 wireframe mode, so with our solid face here, I can create an inset. Okay, have
+27:48 here, I can create an inset. Okay, have we talked about insets? I'm trying to
+27:49 we talked about insets? I'm trying to think.
+27:51 think. Yeah, we did a little ins Yeah, we've
+27:52 Yeah, we did a little ins Yeah, we've done some insets. Okay. But yeah, you
+27:53 done some insets. Okay. But yeah, you hit I, okay? To do an inset. Um and
+27:56 hit I, okay? To do an inset. Um and that's just like creating a line like
+27:59 that's just like creating a line like that goes all the way around that one
+28:00 that goes all the way around that one single face there. And now, I can put it
+28:02 single face there. And now, I can put it like Yeah, let's go right there.
+28:05 like Yeah, let's go right there. And then, right underneath it, I'm just
+28:07 And then, right underneath it, I'm just going to Sorry, yeah, right here. I'm
+28:09 going to Sorry, yeah, right here. I'm going to hit G and then Z to bring it
+28:12 going to hit G and then Z to bring it down like so.
+28:14 down like so. And then now, let's have a look at it in
+28:16 And then now, let's have a look at it in solid view mode.
+28:18 solid view mode. And look at that. So, I've now got it,
+28:20 And look at that. So, I've now got it, and it's pretty good. I might just do
+28:22 and it's pretty good. I might just do another inset cuz it's got this like
+28:24 another inset cuz it's got this like crimped kind of effect there, so I'm
+28:26 crimped kind of effect there, so I'm going to hit I just so that it's not so
+28:28 going to hit I just so that it's not so noticeable on that portion.
+28:31 noticeable on that portion. Okay, nice. And now, all the all I need
+28:33 Okay, nice. And now, all the all I need to do is right click it and say shade
+28:36 to do is right click it and say shade smooth. So, now I've got a little raised
+28:38 smooth. So, now I've got a little raised edge to it.
+28:40 edge to it. Excellent. By the way, quick little
+28:42 Excellent. By the way, quick little opportunity to talk about
+28:44 opportunity to talk about something like it's kind of hard to see
+28:46 something like it's kind of hard to see that raised edge there. It is there, but
+28:48 that raised edge there. It is there, but it's just like the lighting doesn't
+28:50 it's just like the lighting doesn't really make it
+28:52 really make it visible. So, sometimes when you're
+28:53 visible. So, sometimes when you're modeling, it can be helpful to change
+28:55 modeling, it can be helpful to change the way things are displayed here. So,
+28:57 the way things are displayed here. So, there's a really powerful tool in the
+28:58 there's a really powerful tool in the top right-hand corner.
+29:00 top right-hand corner. Um the default lighting is studio. If
+29:02 Um the default lighting is studio. If you go to matcap and then click this
+29:04 you go to matcap and then click this ball here, you've got all these options,
+29:07 ball here, you've got all these options, which can show you different views. Um
+29:10 which can show you different views. Um it's actually how I create some of my 3D
+29:12 it's actually how I create some of my 3D my YouTube thumbnails, cuz some of these
+29:14 my YouTube thumbnails, cuz some of these look really beautiful. But like you can
+29:16 look really beautiful. But like you can see that's so much more useful um for
+29:19 see that's so much more useful um for seeing
+29:21 seeing what that edge actually looks like there
+29:22 what that edge actually looks like there on that. Um and there's some like this
+29:24 on that. Um and there's some like this which are designed to like show you
+29:26 which are designed to like show you where there is like artifacting on your
+29:28 where there is like artifacting on your mesh, cuz it'll reveal
+29:30 mesh, cuz it'll reveal um problems with the mesh that you
+29:32 um problems with the mesh that you otherwise might not have seen.
+29:34 otherwise might not have seen. Um and these are new in Blender 5.0. Um
+29:37 Um and these are new in Blender 5.0. Um they redid the matcaps, I should say. Um
+29:39 they redid the matcaps, I should say. Um but anyways, it's cool. It's nice to
+29:41 but anyways, it's cool. It's nice to have, but we don't really need it. Okay,
+29:43 have, but we don't really need it. Okay, so to give it a coffee foam texture, I'm
+29:46 so to give it a coffee foam texture, I'm going to hit N to bring up my properties
+29:47 going to hit N to bring up my properties over here, and then I'm going to
+29:49 over here, and then I'm going to download my coffee foam atlas texture.
+29:51 download my coffee foam atlas texture. So, let's hit download, and then with it
+29:53 So, let's hit download, and then with it selected, I'm going to hit apply. If I
+29:55 selected, I'm going to hit apply. If I go into render view mode, it should look
+29:57 go into render view mode, it should look like that.
+29:59 like that. Let's go to the uh UV editor, okay, cuz
+30:03 Let's go to the uh UV editor, okay, cuz I don't think it's been UV unwrapped.
+30:06 I don't think it's been UV unwrapped. Nope, it has not been UV unwrapped. And
+30:08 Nope, it has not been UV unwrapped. And then I'm going to go into top view mode
+30:09 then I'm going to go into top view mode by hitting seven, and then I'm just
+30:11 by hitting seven, and then I'm just going to say U and then go unwrap angle
+30:13 going to say U and then go unwrap angle based, like that. Now, I want to see
+30:16 based, like that. Now, I want to see this on my coffee atlas, cuz this is a
+30:18 this on my coffee atlas, cuz this is a special texture, and it's called an
+30:20 special texture, and it's called an atlas texture. I'll show you what it
+30:21 atlas texture. I'll show you what it looks like.
+30:22 looks like. Okay, so it looks like this. And this is
+30:25 Okay, so it looks like this. And this is a bunch of different coffee foams that
+30:27 a bunch of different coffee foams that you get to choose from. And so with in
+30:29 you get to choose from. And so with in edit mode, with this UV uh selection
+30:32 edit mode, with this UV uh selection here, I need to scale this down
+30:34 here, I need to scale this down over the coffee foams,
+30:37 over the coffee foams, and then I just move them around
+30:39 and then I just move them around to the one that I want. Like, what sort
+30:41 to the one that I want. Like, what sort of coffee foam do you want
+30:44 of coffee foam do you want on your mug?
+30:46 on your mug? Right? Like some bubbles.
+30:49 Right? Like some bubbles. Uh funny story with the coffee foam,
+30:50 Uh funny story with the coffee foam, like every uh the annoying thing about
+30:53 like every uh the annoying thing about having like an asset company is every
+30:55 having like an asset company is every subject there is it's like trying to
+30:58 subject there is it's like trying to reinvent the wheel, cuz like how do you
+30:59 reinvent the wheel, cuz like how do you create a texture for coffee foam?
+31:02 create a texture for coffee foam? Um because you could photograph it, but
+31:04 Um because you could photograph it, but then how do you get the detail like the
+31:05 then how do you get the detail like the bubbles, right? Cuz like bubbles, you
+31:07 bubbles, right? Cuz like bubbles, you can't get the shape of those bubbles.
+31:09 can't get the shape of those bubbles. Like So, we use like substance first.
+31:11 Like So, we use like substance first. Like we hired somebody to make some very
+31:14 Like we hired somebody to make some very expensive
+31:16 expensive substance materials. I can't remember
+31:17 substance materials. I can't remember what we paid, $2,000 or something like
+31:19 what we paid, $2,000 or something like that. Um but then there are some things
+31:21 that. Um but then there are some things which are just like really hard to do
+31:23 which are just like really hard to do procedurally with substance. Substance,
+31:25 procedurally with substance. Substance, if you don't know, it's like a
+31:26 if you don't know, it's like a completely uh separate texturing
+31:28 completely uh separate texturing software. Um it's very complicated, all
+31:31 software. Um it's very complicated, all node based. Um but we got somebody like
+31:33 node based. Um but we got somebody like super skilled, and it's just really hard
+31:36 super skilled, and it's just really hard to get the detail of bubbles here. Um
+31:39 to get the detail of bubbles here. Um and then we had a guy on our team who
+31:40 and then we had a guy on our team who was like on Saturday, he's like, "Look,
+31:42 was like on Saturday, he's like, "Look, I don't know if this going to work, but
+31:43 I don't know if this going to work, but I just I took some photographs of some
+31:46 I just I took some photographs of some coffee, and then I took it into
+31:48 coffee, and then I took it into Substance Painter, and I manually placed
+31:50 Substance Painter, and I manually placed the bubbles so that they all have the
+31:52 the bubbles so that they all have the exact like shape of the detail,
+31:55 exact like shape of the detail, and it worked. And
+31:57 and it worked. And it was like
+31:58 it was like sometimes the cheap and easy I mean, it
+32:00 sometimes the cheap and easy I mean, it was, you know, it still took him a day
+32:02 was, you know, it still took him a day to do it, but like it actually it
+32:04 to do it, but like it actually it actually works. Um
+32:06 actually works. Um but yeah, it's kind of like we just have
+32:07 but yeah, it's kind of like we just have to guess what's actually going to work
+32:09 to guess what's actually going to work for it, um and just kind of wing it. But
+32:11 for it, um and just kind of wing it. But anyways, you can pick whichever one you
+32:13 anyways, you can pick whichever one you want. I can't really even remember which
+32:14 want. I can't really even remember which one I used for the Oh, yeah, it was that
+32:16 one I used for the Oh, yeah, it was that one at the top. That was what I used in
+32:17 one at the top. That was what I used in the animation. Um but I'll let you
+32:19 the animation. Um but I'll let you choose, cuz you've got nine choices to
+32:22 choose, cuz you've got nine choices to choose from. Some of them are frothy,
+32:24 choose from. Some of them are frothy, espresso looking, but that was the one
+32:26 espresso looking, but that was the one that I went with. Now, if you go to
+32:28 that I went with. Now, if you go to render it, you might find I'm not
+32:30 render it, you might find I'm not actually seeing it on this one. First
+32:32 actually seeing it on this one. First time I brought it in, there was um
+32:35 time I brought it in, there was um uh in the shading tab, because it treats
+32:38 uh in the shading tab, because it treats this as like alpha.
+32:41 this as like alpha. Yeah, so it I I thought it treated that
+32:43 Yeah, so it I I thought it treated that as like alpha. We don't really need that
+32:44 as like alpha. We don't really need that alpha. Like alpha will make something
+32:46 alpha. Like alpha will make something like transparent, but there's nothing
+32:48 like transparent, but there's nothing transparent on this. So, if you see any
+32:50 transparent on this. So, if you see any like see-through stuff stuff or
+32:52 like see-through stuff stuff or whatever, you might just have to
+32:53 whatever, you might just have to disconnect that. I don't need metallic.
+32:55 disconnect that. I don't need metallic. I do need the roughness, the base, and
+32:57 I do need the roughness, the base, and the normal, so I'm going to keep those.
+32:59 the normal, so I'm going to keep those. And I also don't need my AO, so I'm
+33:01 And I also don't need my AO, so I'm going to uh control X on that, and there
+33:05 going to uh control X on that, and there we go. So, that was the very basics of
+33:08 we go. So, that was the very basics of UV unwrapping. Uh if you want to go
+33:10 UV unwrapping. Uh if you want to go further and learn how to UV unwrap
+33:12 further and learn how to UV unwrap something a lot more detailed with hard
+33:15 something a lot more detailed with hard flat surfaces, placing the cuts in the
+33:17 flat surfaces, placing the cuts in the right spots to avoid stretching, um as
+33:19 right spots to avoid stretching, um as well as how to UV unwrap something
+33:21 well as how to UV unwrap something smooth and organic, um and then texture
+33:25 smooth and organic, um and then texture it using procedural textures, painted
+33:26 it using procedural textures, painted textures, that's all covered in my
+33:28 textures, that's all covered in my course called the Beginners Academy,
+33:30 course called the Beginners Academy, which I designed for people who have
+33:32 which I designed for people who have finished this tutorial uh and want to go
+33:35 finished this tutorial uh and want to go further. So, if you're interested in
+33:36 further. So, if you're interested in that, the link for that is beneath this
+33:38 that, the link for that is beneath this video.
+33:39 video. Otherwise, let's continue on with
+33:41 Otherwise, let's continue on with finalizing our donut scene by clicking
+33:44 finalizing our donut scene by clicking this video on screen.

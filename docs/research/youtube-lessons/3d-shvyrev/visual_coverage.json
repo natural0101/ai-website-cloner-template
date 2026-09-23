@@ -1,0 +1,2144 @@
+{
+  "generated_at": "2026-07-30T15:41:51.527191+00:00",
+  "counts": {
+    "total": 237,
+    "storyboard_ready": 237,
+    "storyboard_pages": 1350,
+    "visually_reviewed": 0
+  },
+  "records": [
+    {
+      "video_id": "lVflgFmmxfA",
+      "source_kind": "video",
+      "position": 1,
+      "title": "Пейзаж в Blender 5.2 с нуля! | Добавление растений",
+      "storyboard_ready": true,
+      "storyboard_pages": 18,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "99lAzxKeV9c",
+      "source_kind": "video",
+      "position": 2,
+      "title": "Обновления Blender 5.2 | Новая симуляция",
+      "storyboard_ready": true,
+      "storyboard_pages": 15,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "WfF-W8WqDqY",
+      "source_kind": "video",
+      "position": 3,
+      "title": "Запекание в Blender ПРОСТО! | Основы процедурных материалов",
+      "storyboard_ready": true,
+      "storyboard_pages": 20,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "T_MlDrVk1m8",
+      "source_kind": "video",
+      "position": 4,
+      "title": "Обновления Blender 5.1 | Новые вершины",
+      "storyboard_ready": true,
+      "storyboard_pages": 11,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "59HavvH5H_8",
+      "source_kind": "video",
+      "position": 5,
+      "title": "Игрушка Hornet в Blender | Уроки для начинающих",
+      "storyboard_ready": true,
+      "storyboard_pages": 17,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "v0KOSJrnltU",
+      "source_kind": "video",
+      "position": 6,
+      "title": "Обновления Blender 5.0 | Новый рубеж",
+      "storyboard_ready": true,
+      "storyboard_pages": 16,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "kGblQk16MY0",
+      "source_kind": "video",
+      "position": 7,
+      "title": "Фатальные ошибки новичков в Blender | Полная версия",
+      "storyboard_ready": true,
+      "storyboard_pages": 12,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "diQZpgDNKhg",
+      "source_kind": "video",
+      "position": 8,
+      "title": "Плюшевый олень в Blender | Уроки для начинающих",
+      "storyboard_ready": true,
+      "storyboard_pages": 12,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "O8W6oAZG6LU",
+      "source_kind": "video",
+      "position": 9,
+      "title": "Как легко анимировать все в Blender, используя Shape Keys",
+      "storyboard_ready": true,
+      "storyboard_pages": 11,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "hA1--jm52dM",
+      "source_kind": "video",
+      "position": 10,
+      "title": "Обновления Blender 4.5 | Обзор всех функций",
+      "storyboard_ready": true,
+      "storyboard_pages": 9,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "6GLHDS2vRd0",
+      "source_kind": "video",
+      "position": 11,
+      "title": "Тайна мастерской | Мульт в Blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 8,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "5DHDe23K6Fw",
+      "source_kind": "video",
+      "position": 12,
+      "title": "Поясняю за камеру в Blender 3D | Топ 8 крутых фишек!",
+      "storyboard_ready": true,
+      "storyboard_pages": 18,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "zo7uEXdoH2Q",
+      "source_kind": "video",
+      "position": 13,
+      "title": "Самый точный 3D Трекинг в Blender ПРОСТО! | Новый способ",
+      "storyboard_ready": true,
+      "storyboard_pages": 19,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "3xK18Su0LzM",
+      "source_kind": "video",
+      "position": 14,
+      "title": "Игровая модель гранаты Red Bull в Blender с нуля! | Запекание",
+      "storyboard_ready": true,
+      "storyboard_pages": 43,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "dg8K1-IN1Jo",
+      "source_kind": "video",
+      "position": 15,
+      "title": "Урок по 3D для начинающих в Blender - Комната с рабочим местом (изометрия)",
+      "storyboard_ready": true,
+      "storyboard_pages": 26,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "5cH_GWLoS4M",
+      "source_kind": "video",
+      "position": 16,
+      "title": "Обновлении Blender 4.4 | Что нового?",
+      "storyboard_ready": true,
+      "storyboard_pages": 9,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "pdUO34s1BZs",
+      "source_kind": "video",
+      "position": 17,
+      "title": "Blender 1.0 - Каким он был? Обзор всех версий самой популярной программы для 3D моделирования",
+      "storyboard_ready": true,
+      "storyboard_pages": 14,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "TY78w-UwBfk",
+      "source_kind": "video",
+      "position": 18,
+      "title": "Риг и анимации авто в Blender | RBC + Rig a car",
+      "storyboard_ready": true,
+      "storyboard_pages": 18,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "p--JWcnPLYU",
+      "source_kind": "video",
+      "position": 19,
+      "title": "Моделирование авто в Blender | Porsche Cayman 718",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "UPrLOsq2sO0",
+      "source_kind": "video",
+      "position": 20,
+      "title": "Стилизованный рендер в Blender | Создание шейдеров",
+      "storyboard_ready": true,
+      "storyboard_pages": 16,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "id0CIaa5pFQ",
+      "source_kind": "video",
+      "position": 21,
+      "title": "Комната в изометрии | Уроки для начинающих в Blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 15,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "fNZxLaSbWPg",
+      "source_kind": "video",
+      "position": 22,
+      "title": "ТОП аддонов для Blender | Уроки по Blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 15,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "MquvWMNAjpo",
+      "source_kind": "video",
+      "position": 23,
+      "title": "Обновление BLENDER 4.3 | Обзор новых фишек",
+      "storyboard_ready": true,
+      "storyboard_pages": 12,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "MKXq00mBwY8",
+      "source_kind": "video",
+      "position": 24,
+      "title": "Интерьер спальни в Blender просто!",
+      "storyboard_ready": true,
+      "storyboard_pages": 32,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "_lBD0a385vw",
+      "source_kind": "video",
+      "position": 25,
+      "title": "Пейзаж в Blender с нуля! | Растения в блендер",
+      "storyboard_ready": true,
+      "storyboard_pages": 19,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "_uhF3s9H6L4",
+      "source_kind": "video",
+      "position": 26,
+      "title": "3D Трекинг лица в Blender! | GeoTracker | Трекинг видео",
+      "storyboard_ready": true,
+      "storyboard_pages": 13,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "BWT83uzCe34",
+      "source_kind": "video",
+      "position": 27,
+      "title": "3D Сканирование ПРОСТО! | Запечка в BLENDER",
+      "storyboard_ready": true,
+      "storyboard_pages": 17,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "1FvBi03Lp40",
+      "source_kind": "video",
+      "position": 28,
+      "title": "BLENDER 4.2 | Обзор функций и нового рендера!",
+      "storyboard_ready": true,
+      "storyboard_pages": 10,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "OmqtNJREy80",
+      "source_kind": "video",
+      "position": 29,
+      "title": "Реалистичная вода и капли в BLENDER ПРОСТО! | Набор аддонов",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "4Txc9qQ0UeE",
+      "source_kind": "video",
+      "position": 30,
+      "title": "Трекинг в Blender ОЧЕНЬ ПРОСТО! | GeoTracker | Трекинг вертикального видео",
+      "storyboard_ready": true,
+      "storyboard_pages": 19,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "qxtmJbDLDUQ",
+      "source_kind": "video",
+      "position": 31,
+      "title": "Текстурить шины в Blender ПРОСТО! | Tyre in Blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 12,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "Tp2d-nDZ2lw",
+      "source_kind": "video",
+      "position": 32,
+      "title": "Гэри в BLENDER за 1 МИНУТУ и 1 ЧАС",
+      "storyboard_ready": true,
+      "storyboard_pages": 9,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "QrXsUw6y5YM",
+      "source_kind": "video",
+      "position": 33,
+      "title": "3D Трекинг в Blender ПРОСТО! | GeoTracker | Трекинг по видео",
+      "storyboard_ready": true,
+      "storyboard_pages": 13,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "g65crfy9jWk",
+      "source_kind": "video",
+      "position": 34,
+      "title": "Добавление растений на сцену в BLENDER 3D | Аддон Gscatter",
+      "storyboard_ready": true,
+      "storyboard_pages": 9,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "LGcIQky9ftc",
+      "source_kind": "video",
+      "position": 35,
+      "title": "3D модели на фотографиях в Blender | Размещение 3д моделей",
+      "storyboard_ready": true,
+      "storyboard_pages": 10,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "SEz2ynPfdsY",
+      "source_kind": "video",
+      "position": 36,
+      "title": "Горох за 1 МИНУТУ / 10 МИНУТ / 1 ЧАС В BLENDER 3D",
+      "storyboard_ready": true,
+      "storyboard_pages": 8,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "fJOgMvhHMb8",
+      "source_kind": "video",
+      "position": 37,
+      "title": "3D Трекинг в Blender и After Effects | Трекинг по видео",
+      "storyboard_ready": true,
+      "storyboard_pages": 16,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "8_oRBFeHjFc",
+      "source_kind": "video",
+      "position": 38,
+      "title": "Гайд по риггингу ( rigacar ) и анимации автомобилей в BLENDER",
+      "storyboard_ready": true,
+      "storyboard_pages": 17,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "m6UTEa9jw9I",
+      "source_kind": "video",
+      "position": 39,
+      "title": "Наклейки в Blender 3D просто и быстро!",
+      "storyboard_ready": true,
+      "storyboard_pages": 17,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "eJWJwrELsvI",
+      "source_kind": "video",
+      "position": 40,
+      "title": "Создание дома и снега в BLENDER за 33 мин для начинающих",
+      "storyboard_ready": true,
+      "storyboard_pages": 23,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "5tvJso63hbs",
+      "source_kind": "short",
+      "position": 1,
+      "title": "Чиним Blender новыми аддонами #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "UXxlGK2YPHI",
+      "source_kind": "short",
+      "position": 2,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 6,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "2OBe_vMVVCU",
+      "source_kind": "short",
+      "position": 3,
+      "title": "Зачем соблюдать топологию в Blender 3D? #blender3d",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "Srf5JoiOgu0",
+      "source_kind": "short",
+      "position": 4,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "vgnjkCHpdiI",
+      "source_kind": "short",
+      "position": 5,
+      "title": "Обновление Blender 5.2 | Симуляция ткани и волос #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "pwXFv3m8Alg",
+      "source_kind": "short",
+      "position": 6,
+      "title": "ИИ помощник в Blender | Новый аддон #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "QIF3D7K96T4",
+      "source_kind": "short",
+      "position": 7,
+      "title": "Аддоны для Blender для упрощения жизни #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "BzfrEuZW4vc",
+      "source_kind": "short",
+      "position": 8,
+      "title": "Меня взломали в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "oSu4RP6NY2Y",
+      "source_kind": "short",
+      "position": 9,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "mgeJyPGD14g",
+      "source_kind": "short",
+      "position": 10,
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 6,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "3Ers7j1WAOQ",
+      "source_kind": "short",
+      "position": 11,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "xlKy4tZ8T9A",
+      "source_kind": "short",
+      "position": 12,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "TzvE3eMoJPs",
+      "source_kind": "short",
+      "position": 13,
+      "title": "Запекание пирожков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "iudXYCtK2gQ",
+      "source_kind": "short",
+      "position": 14,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 6,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "SGVWZM_7Iqw",
+      "source_kind": "short",
+      "position": 15,
+      "title": "Лучшие аддоны для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "L4_VKuEsWks",
+      "source_kind": "short",
+      "position": 16,
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "-oZF9047MKc",
+      "source_kind": "short",
+      "position": 17,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "xBnnxgo-ReY",
+      "source_kind": "short",
+      "position": 18,
+      "title": "Анимация в BLENDER | Фатальные ошибки #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "5ZwdROOkjic",
+      "source_kind": "short",
+      "position": 19,
+      "title": "Водичка в BLENDER | Фатальные ошибки #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "3yq_bTq4p4Y",
+      "source_kind": "short",
+      "position": 20,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "cZTJP6RwktQ",
+      "source_kind": "short",
+      "position": 21,
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "9ZZlE9k9BW0",
+      "source_kind": "short",
+      "position": 22,
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "_l0tOEl8AAs",
+      "source_kind": "short",
+      "position": 23,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 6,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "A1jMRP_y0OY",
+      "source_kind": "short",
+      "position": 24,
+      "title": "Лайфхак для BLENDER | Деформация подошвы #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "m2_5HekCcT8",
+      "source_kind": "short",
+      "position": 25,
+      "title": "Шаловливые пальчики в Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "E5gKtNYWg0s",
+      "source_kind": "short",
+      "position": 26,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "nMHUAoneJ-w",
+      "source_kind": "short",
+      "position": 27,
+      "title": "Обновление в BLENDER 5.1 #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "vmAaWmfu1tc",
+      "source_kind": "short",
+      "position": 28,
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "pZ_q2HdI3xs",
+      "source_kind": "short",
+      "position": 29,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "9zljFrgtJ8k",
+      "source_kind": "short",
+      "position": 30,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "IcRZnc4QOW4",
+      "source_kind": "short",
+      "position": 31,
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "buI97T9QsZw",
+      "source_kind": "short",
+      "position": 32,
+      "title": "Управляю рулем в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "i-Aa5AHbex8",
+      "source_kind": "short",
+      "position": 33,
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "FtLu69K30pI",
+      "source_kind": "short",
+      "position": 34,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "VwlDeEt0wdE",
+      "source_kind": "short",
+      "position": 35,
+      "title": "Forza Horizon в Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "z9FU3UQWEdY",
+      "source_kind": "short",
+      "position": 36,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "v028VSznhb4",
+      "source_kind": "short",
+      "position": 37,
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "F6Wsf1kfF6I",
+      "source_kind": "short",
+      "position": 38,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "SVIx7V1VTiw",
+      "source_kind": "short",
+      "position": 39,
+      "title": "Подсказки в BLENDER 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "rWV5lbDiORc",
+      "source_kind": "short",
+      "position": 40,
+      "title": "Hornet в BLENDER 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "JcYuvA_oYbA",
+      "source_kind": "short",
+      "position": 41,
+      "title": "Космос в Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "v7lyGNGD9m0",
+      "source_kind": "short",
+      "position": 42,
+      "title": "Автоматический риг в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "ISH_0OfL4mU",
+      "source_kind": "short",
+      "position": 43,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "63SwHTVw82I",
+      "source_kind": "short",
+      "position": 44,
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "Zo1uUwUIjDI",
+      "source_kind": "short",
+      "position": 45,
+      "title": "Зачем моделить авто в Blender 3D? #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "RBolbabR_c8",
+      "source_kind": "short",
+      "position": 46,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "VG8gK7JXimg",
+      "source_kind": "short",
+      "position": 47,
+      "title": "Анимация и лианы в Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "fy9Ktp8WtU8",
+      "source_kind": "short",
+      "position": 48,
+      "title": "Обновление BLENDER 5.0 #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "bYyE3QsK6qE",
+      "source_kind": "short",
+      "position": 49,
+      "title": "Города и туман в Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "6gdzCQvcKXg",
+      "source_kind": "short",
+      "position": 50,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "PfQE5fzR_WE",
+      "source_kind": "short",
+      "position": 51,
+      "title": "Укрощение камеры в Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "S8ydlb7ZMl4",
+      "source_kind": "short",
+      "position": 52,
+      "title": "Камень из куба в Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "br_S9ZiB644",
+      "source_kind": "short",
+      "position": 53,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "J6M7FVDqD7I",
+      "source_kind": "short",
+      "position": 54,
+      "title": "Дома в Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "VO_0mw_rYk8",
+      "source_kind": "short",
+      "position": 55,
+      "title": "Волосня в BLENDER | Фатальные ошибки #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "OkWlo7DSkJg",
+      "source_kind": "short",
+      "position": 56,
+      "title": "Трава в Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "IcxqCp3lW9k",
+      "source_kind": "short",
+      "position": 57,
+      "title": "Скрытые функции в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "pKtSQaCPwXk",
+      "source_kind": "short",
+      "position": 58,
+      "title": "Genshin теперь в Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "NOUFi0hcV9w",
+      "source_kind": "short",
+      "position": 59,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "a50wnyWioVM",
+      "source_kind": "short",
+      "position": 60,
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "7rIxqWyix3Q",
+      "source_kind": "short",
+      "position": 61,
+      "title": "Фатальные ошибки анимации в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "uFC0uX9ZmOs",
+      "source_kind": "short",
+      "position": 62,
+      "title": "Одежда в Blender | Топ 3 аддонов #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "oF3YktDtmMs",
+      "source_kind": "short",
+      "position": 63,
+      "title": "Новый аддон для 3D трекинга в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "bv69HaUp3yo",
+      "source_kind": "short",
+      "position": 64,
+      "title": "Мнем кота в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "wj5lwtQGmnI",
+      "source_kind": "short",
+      "position": 65,
+      "title": "Дикий ТОП аддонов для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "Ipkze1Nfitw",
+      "source_kind": "short",
+      "position": 66,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "YkTKz-b1IGI",
+      "source_kind": "short",
+      "position": 67,
+      "title": "Топ полезных аддонов для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "Heqed0Mu_iQ",
+      "source_kind": "short",
+      "position": 68,
+      "title": "Управление телефоном в Blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "-52atAJ2a2U",
+      "source_kind": "short",
+      "position": 69,
+      "title": "Фишки обновления Blender 4.5 #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "D2TseFz9ESM",
+      "source_kind": "short",
+      "position": 70,
+      "title": "Топ крутых аддонов для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "MgAO4lgtkiI",
+      "source_kind": "short",
+      "position": 71,
+      "title": "Лайфхаки с камерой в Blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "9uCmeGcCKxQ",
+      "source_kind": "short",
+      "position": 72,
+      "title": "Топ полезных аддонов для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "ELbRLFYjsvo",
+      "source_kind": "short",
+      "position": 73,
+      "title": "Аддон c котом в Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "FtJd0wmcTUQ",
+      "source_kind": "short",
+      "position": 74,
+      "title": "Паук в Blender с риггингом и анимацией #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "SZTu3TMvneU",
+      "source_kind": "short",
+      "position": 75,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "uKL8XDr6o28",
+      "source_kind": "short",
+      "position": 76,
+      "title": "Аддоны для физики в Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "GUdQvlo3ANE",
+      "source_kind": "short",
+      "position": 77,
+      "title": "Простой 3D Трекинг в Blender и AE #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "gmeqnk8oxqo",
+      "source_kind": "short",
+      "position": 78,
+      "title": "Аддоны для анимаций в Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "MEnbuvD-M3g",
+      "source_kind": "short",
+      "position": 79,
+      "title": "Запекание в Blender это ПРОСТО! #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "jSkRjW1zmxI",
+      "source_kind": "short",
+      "position": 80,
+      "title": "Топ аддонов для лысых в Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "cyz_V8J0-PQ",
+      "source_kind": "short",
+      "position": 81,
+      "title": "ТУН ТУН ТУН за 1 час! В BLENDER 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "ukxepXJOqXc",
+      "source_kind": "short",
+      "position": 82,
+      "title": "Топ аддонов для \"долбежки\" моделей в Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "0Jrgm9rPqpE",
+      "source_kind": "short",
+      "position": 83,
+      "title": "Топ фишек в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "Ip3aHlgj0-4",
+      "source_kind": "short",
+      "position": 84,
+      "title": "Полезные аддоны для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "ilqX1FgfcL4",
+      "source_kind": "short",
+      "position": 85,
+      "title": "Гайды для новичков в BLENDER #blender3d",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "BUOWAELJYWo",
+      "source_kind": "short",
+      "position": 86,
+      "title": "Аддоны для всего! (Blender) #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "RGke93XQdrQ",
+      "source_kind": "short",
+      "position": 87,
+      "title": "Топ фишек в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "sWNQ1sHCELY",
+      "source_kind": "short",
+      "position": 88,
+      "title": "Топ 3 лучших аддонов для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "Fhc3_u7kNZc",
+      "source_kind": "short",
+      "position": 89,
+      "title": "Обновление Blender 4.4 #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "akyLP0Jqz64",
+      "source_kind": "short",
+      "position": 90,
+      "title": "Идеальные модельки в Blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "qtliVoopEdg",
+      "source_kind": "short",
+      "position": 91,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "d_F06saX1HY",
+      "source_kind": "short",
+      "position": 92,
+      "title": "Первая версия Blender 1.0 #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "3GPYwG-RQdU",
+      "source_kind": "short",
+      "position": 93,
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "JLglRfOZtGg",
+      "source_kind": "short",
+      "position": 94,
+      "title": "Топ Аддонов для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "xQo5bAw-xJE",
+      "source_kind": "short",
+      "position": 95,
+      "title": "Анимация и RIG авто в BLENDER просто! #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "p_8rgT3e1Hc",
+      "source_kind": "short",
+      "position": 96,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "sDeAgPFTrq4",
+      "source_kind": "short",
+      "position": 97,
+      "title": "Аддоны для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "UCegsTRP_ZQ",
+      "source_kind": "short",
+      "position": 98,
+      "title": "Ам Ням в Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "7yz11GiSICk",
+      "source_kind": "short",
+      "position": 99,
+      "title": "Как сделать 2д рендер в Blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "ipsM6qkaDzA",
+      "source_kind": "short",
+      "position": 100,
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "GLbO-PaxhtY",
+      "source_kind": "short",
+      "position": 101,
+      "title": "Как сделать монитор из старого iPad #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "lV60JmMzCek",
+      "source_kind": "short",
+      "position": 102,
+      "title": "Топ 3 аддонов для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "b_YN3yg7MHw",
+      "source_kind": "short",
+      "position": 103,
+      "title": "Анимация паука в Blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "4Jik8JalLiE",
+      "source_kind": "short",
+      "position": 104,
+      "title": "Обоюдные аддоны для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "UaBKW0ytxoY",
+      "source_kind": "short",
+      "position": 105,
+      "title": "Своя комната в Blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "WaMdeafgWYs",
+      "source_kind": "short",
+      "position": 106,
+      "title": "Лучшие аддоны для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "v5CW1hTDJ0c",
+      "source_kind": "short",
+      "position": 107,
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "8IIX6Mfta_o",
+      "source_kind": "short",
+      "position": 108,
+      "title": "Топ нужных аддонов для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "qhAmNpLSaws",
+      "source_kind": "short",
+      "position": 109,
+      "title": "Когда крашнулся Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 2,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "9Lt1NrTKRa4",
+      "source_kind": "short",
+      "position": 110,
+      "title": "Топ аддонов для домов в Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "cB8Im9LAq1o",
+      "source_kind": "short",
+      "position": 111,
+      "title": "Подсолнух из Plants VS Zombies в Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "tDc04by68Rs",
+      "source_kind": "short",
+      "position": 112,
+      "title": "Топ 3 аддонов для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "D70oeIOg23o",
+      "source_kind": "short",
+      "position": 113,
+      "title": "Обновление Blender 4.3 #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "MCosgbR0NzI",
+      "source_kind": "short",
+      "position": 114,
+      "title": "Подборка аддонов для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "Ccayarl2HKA",
+      "source_kind": "short",
+      "position": 115,
+      "title": "Топ аддон для Blender и Substance painter #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "0bwyw3vy7hY",
+      "source_kind": "short",
+      "position": 116,
+      "title": "Реалистичный свет в Blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "lNSdFEU5zQE",
+      "source_kind": "short",
+      "position": 117,
+      "title": "Сборка аддонов для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "LKCnGRdXyCE",
+      "source_kind": "short",
+      "position": 118,
+      "title": "Физика ткани в Blender для интерьера #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "4QsslVcswgc",
+      "source_kind": "short",
+      "position": 119,
+      "title": "Аддон с нейронкой для Blende #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "MUAp0IWJPEs",
+      "source_kind": "short",
+      "position": 120,
+      "title": "Спидран по Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "82TRY4y1gXE",
+      "source_kind": "short",
+      "position": 121,
+      "title": "Аддоны для Blender для простой жизни #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "-pURcXWTUV0",
+      "source_kind": "short",
+      "position": 122,
+      "title": "Растения для Blender #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "BV7w2b3BItY",
+      "source_kind": "short",
+      "position": 123,
+      "title": "Аддоны для Blender для упрощения жизни #blender #addons",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "I8G9aZBxPok",
+      "source_kind": "short",
+      "position": 124,
+      "title": "Пейзаж и растения в BLENDER Просто! #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "grh5GtFakSM",
+      "source_kind": "short",
+      "position": 125,
+      "title": "Основные ошибки в Blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "ggwOqONDcdE",
+      "source_kind": "short",
+      "position": 126,
+      "title": "Базовые ADDONS для Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "0mSSv9uZQ0E",
+      "source_kind": "short",
+      "position": 127,
+      "title": "Основные ADDONS для Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "cXlxM7fQybU",
+      "source_kind": "short",
+      "position": 128,
+      "title": "Трекинг в Blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "sTHQ3Yl1kQs",
+      "source_kind": "short",
+      "position": 129,
+      "title": "Базовые ошибки в BLENDER  #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "v0TdPJv1uGw",
+      "source_kind": "short",
+      "position": 130,
+      "title": "Аддоны для BLENDER, которые все изменят #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "8FRQDWucQBg",
+      "source_kind": "short",
+      "position": 131,
+      "title": "Подборка полезных аддонов для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "xVP5MIK2nYI",
+      "source_kind": "short",
+      "position": 132,
+      "title": "Сканирование в BLENDER ПРОСТО! #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "1k144TNB3bI",
+      "source_kind": "short",
+      "position": 133,
+      "title": "BLENDER не для слабонервных #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "_ZXBv5j-KH8",
+      "source_kind": "short",
+      "position": 134,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "NRXgdoocmBM",
+      "source_kind": "short",
+      "position": 135,
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "NhlqUJRxBwo",
+      "source_kind": "short",
+      "position": 136,
+      "title": "Топ крутых аддонов для Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "k0HyJ9_Vczs",
+      "source_kind": "short",
+      "position": 137,
+      "title": "Пряня из \"Шрек\" в Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "3HnVcGn_e9g",
+      "source_kind": "short",
+      "position": 138,
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "Qtvsy0HhneM",
+      "source_kind": "short",
+      "position": 139,
+      "title": "Фатальные ошибки в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "t1iL-VlOt18",
+      "source_kind": "short",
+      "position": 140,
+      "title": "Набор аддонов для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "VAlhrx7eni8",
+      "source_kind": "short",
+      "position": 141,
+      "title": "Новый BLENDER 4.2 стал лучше? #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "76czTtc3Tu8",
+      "source_kind": "short",
+      "position": 142,
+      "title": "Полезные аддоны для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "1-FstUy3Tf0",
+      "source_kind": "short",
+      "position": 143,
+      "title": "Вода и капли в BLENDER ПРОСТО! #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "RgQa0uZth3I",
+      "source_kind": "short",
+      "position": 144,
+      "title": "Бимо из \"Время приключений\" в Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "jwii_ri6xaU",
+      "source_kind": "short",
+      "position": 145,
+      "title": "Подборка аддонов для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "6fUbz3-v7NQ",
+      "source_kind": "short",
+      "position": 146,
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "RUklAwciH14",
+      "source_kind": "short",
+      "position": 147,
+      "title": "Аддоны для BLENDER \"...Админки, х.....\" #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "_hxnSgq5jig",
+      "source_kind": "short",
+      "position": 148,
+      "title": "Аддоны для BLENDER \"на черный день\" #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "u9n5PJZMzLU",
+      "source_kind": "short",
+      "position": 149,
+      "title": "Тот самый критик в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 1,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "4s2_7rjWrNY",
+      "source_kind": "short",
+      "position": 150,
+      "title": "Трекинг в Blender ПРОСТО! #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "LoGjUIZG7tM",
+      "source_kind": "short",
+      "position": 151,
+      "title": "Топ 3 крутых аддонов для BLENDER 2ч. #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "Z_FYNvjPLEI",
+      "source_kind": "short",
+      "position": 152,
+      "title": "Ошибки новичков в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "S373SvrinrA",
+      "source_kind": "short",
+      "position": 153,
+      "title": "Аддоны для BLENDER, которые все изменят #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "kx9Nv5BE0_A",
+      "source_kind": "short",
+      "position": 154,
+      "title": "Аддоны для BLENDER упрощающие жизнь #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "xDFvjKEubrQ",
+      "source_kind": "short",
+      "position": 155,
+      "title": "Текстуры шин в Blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "XhrZGN6RcX4",
+      "source_kind": "short",
+      "position": 156,
+      "title": "Топ дополнений для BLENDER (тянка в комплекте) #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "-QUc4W1gyU8",
+      "source_kind": "short",
+      "position": 157,
+      "title": "Гэри из Губки Боба в Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 7,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "QeNhqHb_daM",
+      "source_kind": "short",
+      "position": 158,
+      "title": "Ошибки новичков в BLENDER  #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "yjwlhZX0Gu8",
+      "source_kind": "short",
+      "position": 159,
+      "title": "Топ крутых аддонов для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "ZuuZmzGdx_I",
+      "source_kind": "short",
+      "position": 160,
+      "title": "Растения в Blender 3D (Plants VS Zombies) #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "x8lq3bDPX9w",
+      "source_kind": "short",
+      "position": 161,
+      "title": "Выдаю базу про освещение в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "lzCxhI2Qo0w",
+      "source_kind": "short",
+      "position": 162,
+      "title": "Топовые аддоны для BLENDER | Еще больше ассетов и материалов! #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "pHLbdd7p3OU",
+      "source_kind": "short",
+      "position": 163,
+      "title": "3D Трекинг в Blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "DiAb82taWqo",
+      "source_kind": "short",
+      "position": 164,
+      "title": "Топ полезных аддонов для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "zXk1VV_9kkQ",
+      "source_kind": "short",
+      "position": 165,
+      "title": "WALL-E в Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "T1MWBFMWDNE",
+      "source_kind": "short",
+      "position": 166,
+      "title": "Пончик в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 1,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "tUOR7TJPNDU",
+      "source_kind": "short",
+      "position": 167,
+      "title": "Бесплатные аддоны для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "jZwWJ3Pl9Kc",
+      "source_kind": "short",
+      "position": 168,
+      "title": "Ошибки новичков в BLENDER  #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "wHC3aDUqctk",
+      "source_kind": "short",
+      "position": 169,
+      "title": "Топ аддонов для Блендер 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "juAnIF1169g",
+      "source_kind": "short",
+      "position": 170,
+      "title": "Горох из Plants VS Zombies в Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "UmfFilj4br8",
+      "source_kind": "short",
+      "position": 171,
+      "title": "Противостояние BLENDER и 3ds MAX #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 2,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "-4pVGMGLoN8",
+      "source_kind": "short",
+      "position": 172,
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "KDJ21WfZ_8w",
+      "source_kind": "short",
+      "position": 173,
+      "title": "Очевидные ошибки при моделировании в BLENDER  #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "baR4SoykYF4",
+      "source_kind": "short",
+      "position": 174,
+      "title": "3D Трекинг в Blender и After Effects #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "629L0vGCp_Y",
+      "source_kind": "short",
+      "position": 175,
+      "title": "Топ крутых аддонов для Blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "R_FDVkqlzUA",
+      "source_kind": "short",
+      "position": 176,
+      "title": "Как заригать любое авто в BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 6,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "G3JmvP9Y2MU",
+      "source_kind": "short",
+      "position": 177,
+      "title": "Типичный BLENDER  #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 1,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "sujkcPtvXNE",
+      "source_kind": "short",
+      "position": 178,
+      "title": "Топ 3 полезных аддона для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "jZ1JcpBQoww",
+      "source_kind": "short",
+      "position": 179,
+      "title": "Топ крутых аддонов для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "H-BM3X4Z8oM",
+      "source_kind": "short",
+      "position": 180,
+      "title": "Прыгающий арбуз в blender 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "Ut-oa4GrTlk",
+      "source_kind": "short",
+      "position": 181,
+      "title": "Признаки зрелого парня в BLENDER 3д #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "9XJlhD-Z0L4",
+      "source_kind": "short",
+      "position": 182,
+      "title": "Топ 3 полезных аддонов для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "i6WDjfNARq4",
+      "source_kind": "short",
+      "position": 183,
+      "title": "Ошибки при моделировании в BLENDER  #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "w2spIBARjPk",
+      "source_kind": "short",
+      "position": 184,
+      "title": "Топ аддонов для BLENDER #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "igfZMVpGfMY",
+      "source_kind": "short",
+      "position": 185,
+      "title": "Рик и Морти! В BLENDER 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "8IItaPEQHnA",
+      "source_kind": "short",
+      "position": 186,
+      "title": "Аддоны для блендер, которые изменят вашу жизнь #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "VzpuLqER2Ss",
+      "source_kind": "short",
+      "position": 187,
+      "title": "Робот за 1 час! В BLENDER 3D #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "mmMubNMUXeM",
+      "source_kind": "short",
+      "position": 188,
+      "title": "Топ 3 полезных аддона для блендер #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "w5Znomr7lrs",
+      "source_kind": "short",
+      "position": 189,
+      "title": "Кто еще не делал пончик в блендере? #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 1,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "qL5Rb7SnORk",
+      "source_kind": "short",
+      "position": 190,
+      "title": "Наклейки в blender 3d #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "8EEymZjwtsA",
+      "source_kind": "short",
+      "position": 191,
+      "title": "Новый вид газировки \"Гори оно все огнем\" (Timelapse)",
+      "storyboard_ready": true,
+      "storyboard_pages": 1,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "RBHkWp3Vbog",
+      "source_kind": "short",
+      "position": 192,
+      "title": "Топ 3 бесплатных аддона для блендер #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 3,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "adB6HtZIU64",
+      "source_kind": "short",
+      "position": 193,
+      "title": "Кружка пива в 3д #blender #blender3d #blendertutorial #блендер3д",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "d0uhsrQdSks",
+      "source_kind": "short",
+      "position": 194,
+      "title": "Спидран по блендеру | Speedrun by blender #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 4,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "GkaJvxCovFs",
+      "source_kind": "short",
+      "position": 195,
+      "title": "Уточка застряла в 3д машине #blender",
+      "storyboard_ready": true,
+      "storyboard_pages": 5,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "kvYqHYgHXSI",
+      "source_kind": "short",
+      "position": 196,
+      "title": "Добавил снег очень просто #blender #shorts",
+      "storyboard_ready": true,
+      "storyboard_pages": 7,
+      "visually_reviewed": false
+    },
+    {
+      "video_id": "61ssGWuPxqk",
+      "source_kind": "short",
+      "position": 197,
+      "title": "Учу лепить грибочек в blender #shorts",
+      "storyboard_ready": true,
+      "storyboard_pages": 7,
+      "visually_reviewed": false
+    }
+  ]
+}

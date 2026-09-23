@@ -1,0 +1,4 @@
+interface:
+  display_name: "MVPBlocks Catalog"
+  short_description: "Gate MVPBlocks block choices"
+  default_prompt: "Use $mvpblocks-catalog to select exact MVPBlocks items for a landing plan."

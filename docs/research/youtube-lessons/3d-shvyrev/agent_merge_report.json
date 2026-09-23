@@ -1,0 +1,19 @@
+{
+  "catalog_total": 237,
+  "findings_total": 237,
+  "findings_unique": 237,
+  "pending_total": 0,
+  "missing_visual_or_audio_total": 3,
+  "batch_input_counts": {
+    "source_findings.jsonl": 234,
+    "shorts-131-155.jsonl": 24,
+    "shorts-156-180.jsonl": 24,
+    "shorts-181-197.jsonl": 15,
+    "videos-12-25.jsonl": 14,
+    "videos-26-40.jsonl": 14,
+    "visual-missing-resolved.jsonl": 3,
+    "visual-missing-classified.jsonl": 3
+  },
+  "expected_after_merge": 237,
+  "passes_expected_count": true
+}

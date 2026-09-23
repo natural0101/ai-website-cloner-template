@@ -1,0 +1,42 @@
+{
+  "painted_metal": {
+    "metallic": 0.0,
+    "roughness_range": [0.25, 0.5],
+    "coat_weight_range": [0.1, 0.35],
+    "notes": "Paint is a dielectric coating. Use metallic=1 only for exposed bare metal."
+  },
+  "bare_aluminium": {
+    "metallic": 1.0,
+    "roughness_range": [0.18, 0.5],
+    "base_color_srgb_example": [0.95, 0.95, 0.94]
+  },
+  "rubber": {
+    "metallic": 0.0,
+    "roughness_range": [0.65, 0.9],
+    "base_color_srgb_example": [0.21, 0.21, 0.21],
+    "notes": "Avoid absolute black; add very weak scale-correct micro-normal."
+  },
+  "plastic": {
+    "metallic": 0.0,
+    "roughness_range": [0.3, 0.65],
+    "coat_weight_range": [0.0, 0.15]
+  },
+  "concrete_asphalt": {
+    "metallic": 0.0,
+    "roughness_range": [0.75, 1.0],
+    "notes": "Use multi-scale roughness/normal variation, not uniform noise."
+  },
+  "glass": {
+    "metallic": 0.0,
+    "roughness_range": [0.02, 0.15],
+    "ior_range": [1.45, 1.52],
+    "transmission": 1.0,
+    "web_note": "Verify KHR_materials_transmission/volume support in target viewer."
+  },
+  "emissive_diffuser": {
+    "metallic": 0.0,
+    "roughness_range": [0.25, 0.55],
+    "emission_strength": "calibrate by clipping report",
+    "notes": "Use a separate light object for illumination."
+  }
+}

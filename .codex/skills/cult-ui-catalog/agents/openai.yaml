@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cult UI Catalog"
+  short_description: "Choose verified Cult UI registry items"
+  default_prompt: "Use $cult-ui-catalog to select exact Cult UI components for a landing plan."

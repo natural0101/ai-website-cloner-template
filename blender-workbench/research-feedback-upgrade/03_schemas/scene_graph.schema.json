@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Blender Scene Graph",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "goal",
+    "mode",
+    "parts",
+    "relations"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "goal": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mode": {
+      "enum": [
+        "FRONT_2_5D",
+        "TRUE_360",
+        "HYBRID_HERO",
+        "FREEFORM"
+      ]
+    },
+    "units": {
+      "type": "string",
+      "default": "METERS"
+    },
+    "parts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "representation",
+          "dimensions"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "representation": {
+            "enum": [
+              "MESH",
+              "CURVE",
+              "TEXT",
+              "PRIMITIVES",
+              "VOLUME",
+              "IMPORTED_REFERENCE"
+            ]
+          },
+          "dimensions": {
+            "type": "array",
+            "minItems": 3,
+            "maxItems": 3,
+            "items": {
+              "type": "number",
+              "exclusiveMinimum": 0
+            }
+          },
+          "editable_parameters": {
+            "type": "object"
+          },
+          "material_group": {
+            "type": "string"
+          },
+          "source_confidence": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "notes": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "relations": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "a",
+          "type",
+          "b"
+        ],
+        "properties": {
+          "a": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "PARENT_OF",
+              "TOUCHES",
+              "OVERLAPS",
+              "IN_FRONT_OF",
+              "BEHIND",
+              "SYMMETRIC_WITH",
+              "ALIGNED_WITH",
+              "CONTAINS"
+            ]
+          },
+          "b": {
+            "type": "string"
+          },
+          "minimum_overlap": {
+            "type": "number",
+            "minimum": 0
+          },
+          "tolerance": {
+            "type": "number",
+            "minimum": 0
+          }
+        }
+      }
+    },
+    "camera": {
+      "type": "object"
+    },
+    "acceptance": {
+      "type": "object"
+    }
+  }
+}

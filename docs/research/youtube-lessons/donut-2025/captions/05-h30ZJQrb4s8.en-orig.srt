@@ -1,0 +1,9095 @@
+1
+00:00:00,000 --> 00:00:03,670
+
+It's time to texture these bad boys.
+
+2
+00:00:03,670 --> 00:00:03,680
+It's time to texture these bad boys.
+ 
+
+3
+00:00:03,680 --> 00:00:05,510
+It's time to texture these bad boys.
+Finally, after hinting at it for so
+
+4
+00:00:05,510 --> 00:00:05,520
+Finally, after hinting at it for so
+ 
+
+5
+00:00:05,520 --> 00:00:06,670
+Finally, after hinting at it for so
+long.
+
+6
+00:00:06,670 --> 00:00:06,680
+long.
+ 
+
+7
+00:00:06,680 --> 00:00:09,590
+long.
+Um so, we added some simple materials
+
+8
+00:00:09,590 --> 00:00:09,600
+Um so, we added some simple materials
+ 
+
+9
+00:00:09,600 --> 00:00:12,190
+Um so, we added some simple materials
+and uh that is actually fine for some
+
+10
+00:00:12,190 --> 00:00:12,200
+and uh that is actually fine for some
+ 
+
+11
+00:00:12,200 --> 00:00:13,430
+and uh that is actually fine for some
+types of objects. Like, you might
+
+12
+00:00:13,430 --> 00:00:13,440
+types of objects. Like, you might
+ 
+
+13
+00:00:13,440 --> 00:00:15,510
+types of objects. Like, you might
+actually have a plate and go like, it's
+
+14
+00:00:15,510 --> 00:00:15,520
+actually have a plate and go like, it's
+ 
+
+15
+00:00:15,520 --> 00:00:17,470
+actually have a plate and go like, it's
+just white plate. Doesn't need any
+
+16
+00:00:17,470 --> 00:00:17,480
+just white plate. Doesn't need any
+ 
+
+17
+00:00:17,480 --> 00:00:20,550
+just white plate. Doesn't need any
+texture. But, most things need texture.
+
+18
+00:00:20,550 --> 00:00:20,560
+texture. But, most things need texture.
+ 
+
+19
+00:00:20,560 --> 00:00:22,630
+texture. But, most things need texture.
+So, I'm going to select my uh table
+
+20
+00:00:22,630 --> 00:00:22,640
+So, I'm going to select my uh table
+ 
+
+21
+00:00:22,640 --> 00:00:24,230
+So, I'm going to select my uh table
+floor here. I'm going to go to the
+
+22
+00:00:24,230 --> 00:00:24,240
+floor here. I'm going to go to the
+ 
+
+23
+00:00:24,240 --> 00:00:27,430
+floor here. I'm going to go to the
+material panel right here. And I'm going
+
+24
+00:00:27,430 --> 00:00:27,440
+material panel right here. And I'm going
+ 
+
+25
+00:00:27,440 --> 00:00:28,830
+material panel right here. And I'm going
+to add a new material since it doesn't
+
+26
+00:00:28,830 --> 00:00:28,840
+to add a new material since it doesn't
+ 
+
+27
+00:00:28,840 --> 00:00:32,070
+to add a new material since it doesn't
+have one. And um let's look at how to
+
+28
+00:00:32,070 --> 00:00:32,080
+have one. And um let's look at how to
+ 
+
+29
+00:00:32,080 --> 00:00:34,430
+have one. And um let's look at how to
+add a texture. So, right here where
+
+30
+00:00:34,430 --> 00:00:34,440
+add a texture. So, right here where
+ 
+
+31
+00:00:34,440 --> 00:00:35,990
+add a texture. So, right here where
+we've got base color, if we want to add
+
+32
+00:00:35,990 --> 00:00:36,000
+we've got base color, if we want to add
+ 
+
+33
+00:00:36,000 --> 00:00:39,270
+we've got base color, if we want to add
+a color texture, we just click on this
+
+34
+00:00:39,270 --> 00:00:39,280
+a color texture, we just click on this
+ 
+
+35
+00:00:39,280 --> 00:00:41,350
+a color texture, we just click on this
+little uh yellow dot next to it. I know
+
+36
+00:00:41,350 --> 00:00:41,360
+little uh yellow dot next to it. I know
+ 
+
+37
+00:00:41,360 --> 00:00:43,070
+little uh yellow dot next to it. I know
+that's not clear. It will become clear
+
+38
+00:00:43,070 --> 00:00:43,080
+that's not clear. It will become clear
+ 
+
+39
+00:00:43,080 --> 00:00:44,950
+that's not clear. It will become clear
+when I show you nodes. Um but, when I
+
+40
+00:00:44,950 --> 00:00:44,960
+when I show you nodes. Um but, when I
+ 
+
+41
+00:00:44,960 --> 00:00:46,910
+when I show you nodes. Um but, when I
+click this, you get this uh slide-out
+
+42
+00:00:46,910 --> 00:00:46,920
+click this, you get this uh slide-out
+ 
+
+43
+00:00:46,920 --> 00:00:48,470
+click this, you get this uh slide-out
+menu with a bunch of different options
+
+44
+00:00:48,470 --> 00:00:48,480
+menu with a bunch of different options
+ 
+
+45
+00:00:48,480 --> 00:00:50,190
+menu with a bunch of different options
+here. Um and the one that I'm looking
+
+46
+00:00:50,190 --> 00:00:50,200
+here. Um and the one that I'm looking
+ 
+
+47
+00:00:50,200 --> 00:00:53,510
+here. Um and the one that I'm looking
+for says image texture. Okay. So, now I
+
+48
+00:00:53,510 --> 00:00:53,520
+for says image texture. Okay. So, now I
+ 
+
+49
+00:00:53,520 --> 00:00:55,910
+for says image texture. Okay. So, now I
+can hit um open.
+
+50
+00:00:55,910 --> 00:00:55,920
+can hit um open.
+ 
+
+51
+00:00:55,920 --> 00:00:57,270
+can hit um open.
+And just to demonstrate this, I'm going
+
+52
+00:00:57,270 --> 00:00:57,280
+And just to demonstrate this, I'm going
+ 
+
+53
+00:00:57,280 --> 00:00:58,750
+And just to demonstrate this, I'm going
+to select a wood texture that I
+
+54
+00:00:58,750 --> 00:00:58,760
+to select a wood texture that I
+ 
+
+55
+00:00:58,760 --> 00:01:00,430
+to select a wood texture that I
+downloaded off the internet just to show
+
+56
+00:01:00,430 --> 00:01:00,440
+downloaded off the internet just to show
+ 
+
+57
+00:01:00,440 --> 00:01:03,390
+downloaded off the internet just to show
+you how this works. Now, on this note,
+
+58
+00:01:03,390 --> 00:01:03,400
+you how this works. Now, on this note,
+ 
+
+59
+00:01:03,400 --> 00:01:05,270
+you how this works. Now, on this note,
+if you happen to see this, if you use an
+
+60
+00:01:05,270 --> 00:01:05,280
+if you happen to see this, if you use an
+ 
+
+61
+00:01:05,280 --> 00:01:07,190
+if you happen to see this, if you use an
+image texture that you find online, it's
+
+62
+00:01:07,190 --> 00:01:07,200
+image texture that you find online, it's
+ 
+
+63
+00:01:07,200 --> 00:01:10,030
+image texture that you find online, it's
+because there is a new feature feature.
+
+64
+00:01:10,030 --> 00:01:10,040
+because there is a new feature feature.
+ 
+
+65
+00:01:10,040 --> 00:01:10,590
+because there is a new feature feature.
+Uh
+
+66
+00:01:10,590 --> 00:01:10,600
+Uh
+ 
+
+67
+00:01:10,600 --> 00:01:12,150
+Uh
+it that there's a purpose. There's a
+
+68
+00:01:12,150 --> 00:01:12,160
+it that there's a purpose. There's a
+ 
+
+69
+00:01:12,160 --> 00:01:14,390
+it that there's a purpose. There's a
+There's a new feature in Blender 5.0
+
+70
+00:01:14,390 --> 00:01:14,400
+There's a new feature in Blender 5.0
+ 
+
+71
+00:01:14,400 --> 00:01:17,030
+There's a new feature in Blender 5.0
+where if it identifies in the name
+
+72
+00:01:17,030 --> 00:01:17,040
+where if it identifies in the name
+ 
+
+73
+00:01:17,040 --> 00:01:19,950
+where if it identifies in the name
+anything from the number 1,000 to 2,000,
+
+74
+00:01:19,950 --> 00:01:19,960
+anything from the number 1,000 to 2,000,
+ 
+
+75
+00:01:19,960 --> 00:01:23,270
+anything from the number 1,000 to 2,000,
+I think, um it'll think that is a UDIM,
+
+76
+00:01:23,270 --> 00:01:23,280
+I think, um it'll think that is a UDIM,
+ 
+
+77
+00:01:23,280 --> 00:01:25,230
+I think, um it'll think that is a UDIM,
+which is a completely whole, you know,
+
+78
+00:01:25,230 --> 00:01:25,240
+which is a completely whole, you know,
+ 
+
+79
+00:01:25,240 --> 00:01:27,630
+which is a completely whole, you know,
+production professional workflow kind of
+
+80
+00:01:27,630 --> 00:01:27,640
+production professional workflow kind of
+ 
+
+81
+00:01:27,640 --> 00:01:28,510
+production professional workflow kind of
+thing.
+
+82
+00:01:28,510 --> 00:01:28,520
+thing.
+ 
+
+83
+00:01:28,520 --> 00:01:31,110
+thing.
+Um it'll think it's a UDIM. And it
+
+84
+00:01:31,110 --> 00:01:31,120
+Um it'll think it's a UDIM. And it
+ 
+
+85
+00:01:31,120 --> 00:01:32,590
+Um it'll think it's a UDIM. And it
+Anyways, what you need to do is then
+
+86
+00:01:32,590 --> 00:01:32,600
+Anyways, what you need to do is then
+ 
+
+87
+00:01:32,600 --> 00:01:34,910
+Anyways, what you need to do is then
+change this to single image. But, most
+
+88
+00:01:34,910 --> 00:01:34,920
+change this to single image. But, most
+ 
+
+89
+00:01:34,920 --> 00:01:36,470
+change this to single image. But, most
+of the time, most images, if it doesn't
+
+90
+00:01:36,470 --> 00:01:36,480
+of the time, most images, if it doesn't
+ 
+
+91
+00:01:36,480 --> 00:01:39,030
+of the time, most images, if it doesn't
+have those numbers uh a string at the
+
+92
+00:01:39,030 --> 00:01:39,040
+have those numbers uh a string at the
+ 
+
+93
+00:01:39,040 --> 00:01:41,110
+have those numbers uh a string at the
+end, it should just load in fine.
+
+94
+00:01:41,110 --> 00:01:41,120
+end, it should just load in fine.
+ 
+
+95
+00:01:41,120 --> 00:01:43,390
+end, it should just load in fine.
+Anyways, let's say you had an image like
+
+96
+00:01:43,390 --> 00:01:43,400
+Anyways, let's say you had an image like
+ 
+
+97
+00:01:43,400 --> 00:01:45,790
+Anyways, let's say you had an image like
+this. Um you wanted the table to look uh
+
+98
+00:01:45,790 --> 00:01:45,800
+this. Um you wanted the table to look uh
+ 
+
+99
+00:01:45,800 --> 00:01:47,550
+this. Um you wanted the table to look uh
+wood, right? We're not going to do that,
+
+100
+00:01:47,550 --> 00:01:47,560
+wood, right? We're not going to do that,
+ 
+
+101
+00:01:47,560 --> 00:01:49,870
+wood, right? We're not going to do that,
+but you know, just just to show you.
+
+102
+00:01:49,870 --> 00:01:49,880
+but you know, just just to show you.
+ 
+
+103
+00:01:49,880 --> 00:01:50,750
+but you know, just just to show you.
+Um
+
+104
+00:01:50,750 --> 00:01:50,760
+Um
+ 
+
+105
+00:01:50,760 --> 00:01:53,590
+Um
+you would see it it's okay, right? But,
+
+106
+00:01:53,590 --> 00:01:53,600
+you would see it it's okay, right? But,
+ 
+
+107
+00:01:53,600 --> 00:01:56,950
+you would see it it's okay, right? But,
+there is no bump information. Okay? Um
+
+108
+00:01:56,950 --> 00:01:56,960
+there is no bump information. Okay? Um
+ 
+
+109
+00:01:56,960 --> 00:01:58,870
+there is no bump information. Okay? Um
+and that is because, of course, the 3D
+
+110
+00:01:58,870 --> 00:01:58,880
+and that is because, of course, the 3D
+ 
+
+111
+00:01:58,880 --> 00:02:00,990
+and that is because, of course, the 3D
+software doesn't know that there's
+
+112
+00:02:00,990 --> 00:02:01,000
+software doesn't know that there's
+ 
+
+113
+00:02:01,000 --> 00:02:03,270
+software doesn't know that there's
+supposed to be crevices here, right?
+
+114
+00:02:03,270 --> 00:02:03,280
+supposed to be crevices here, right?
+ 
+
+115
+00:02:03,280 --> 00:02:05,670
+supposed to be crevices here, right?
+Little dips in between the table, the
+
+116
+00:02:05,670 --> 00:02:05,680
+Little dips in between the table, the
+ 
+
+117
+00:02:05,680 --> 00:02:08,790
+Little dips in between the table, the
+the fine tooth uh grain of it. It has no
+
+118
+00:02:08,790 --> 00:02:08,800
+the fine tooth uh grain of it. It has no
+ 
+
+119
+00:02:08,800 --> 00:02:10,150
+the fine tooth uh grain of it. It has no
+idea because it's just taken with a
+
+120
+00:02:10,150 --> 00:02:10,160
+idea because it's just taken with a
+ 
+
+121
+00:02:10,160 --> 00:02:12,430
+idea because it's just taken with a
+single camera. It would have no idea how
+
+122
+00:02:12,430 --> 00:02:12,440
+single camera. It would have no idea how
+ 
+
+123
+00:02:12,440 --> 00:02:14,670
+single camera. It would have no idea how
+to guest guest what that true
+
+124
+00:02:14,670 --> 00:02:14,680
+to guest guest what that true
+ 
+
+125
+00:02:14,680 --> 00:02:16,470
+to guest guest what that true
+information should be. I mean, there is
+
+126
+00:02:16,470 --> 00:02:16,480
+information should be. I mean, there is
+ 
+
+127
+00:02:16,480 --> 00:02:17,750
+information should be. I mean, there is
+technically a way to guess it, but it
+
+128
+00:02:17,750 --> 00:02:17,760
+technically a way to guess it, but it
+ 
+
+129
+00:02:17,760 --> 00:02:19,630
+technically a way to guess it, but it
+never really turns out well. Um so, I'm
+
+130
+00:02:19,630 --> 00:02:19,640
+never really turns out well. Um so, I'm
+ 
+
+131
+00:02:19,640 --> 00:02:21,790
+never really turns out well. Um so, I'm
+not even going to bother showing you. Um
+
+132
+00:02:21,790 --> 00:02:21,800
+not even going to bother showing you. Um
+ 
+
+133
+00:02:21,800 --> 00:02:23,070
+not even going to bother showing you. Um
+so, most of the time, when you're
+
+134
+00:02:23,070 --> 00:02:23,080
+so, most of the time, when you're
+ 
+
+135
+00:02:23,080 --> 00:02:25,830
+so, most of the time, when you're
+talking about texturing in 3D um and
+
+136
+00:02:25,830 --> 00:02:25,840
+talking about texturing in 3D um and
+ 
+
+137
+00:02:25,840 --> 00:02:27,830
+talking about texturing in 3D um and
+using image textures, like textures from
+
+138
+00:02:27,830 --> 00:02:27,840
+using image textures, like textures from
+ 
+
+139
+00:02:27,840 --> 00:02:30,350
+using image textures, like textures from
+the real world, um you don't just grab a
+
+140
+00:02:30,350 --> 00:02:30,360
+the real world, um you don't just grab a
+ 
+
+141
+00:02:30,360 --> 00:02:32,190
+the real world, um you don't just grab a
+random image texture that you find
+
+142
+00:02:32,190 --> 00:02:32,200
+random image texture that you find
+ 
+
+143
+00:02:32,200 --> 00:02:35,510
+random image texture that you find
+online. You need to use a PBR textures,
+
+144
+00:02:35,510 --> 00:02:35,520
+online. You need to use a PBR textures,
+ 
+
+145
+00:02:35,520 --> 00:02:37,430
+online. You need to use a PBR textures,
+which stands for physically based
+
+146
+00:02:37,430 --> 00:02:37,440
+which stands for physically based
+ 
+
+147
+00:02:37,440 --> 00:02:39,990
+which stands for physically based
+rendering textures. And there are many
+
+148
+00:02:39,990 --> 00:02:40,000
+rendering textures. And there are many
+ 
+
+149
+00:02:40,000 --> 00:02:41,710
+rendering textures. And there are many
+different places that you can get PBR
+
+150
+00:02:41,710 --> 00:02:41,720
+different places that you can get PBR
+ 
+
+151
+00:02:41,720 --> 00:02:43,830
+different places that you can get PBR
+textures from. The best website that I
+
+152
+00:02:43,830 --> 00:02:43,840
+textures from. The best website that I
+ 
+
+153
+00:02:43,840 --> 00:02:48,190
+textures from. The best website that I
+think is Polygon, p o l i i g o n dot
+
+154
+00:02:48,190 --> 00:02:48,200
+think is Polygon, p o l i i g o n dot
+ 
+
+155
+00:02:48,200 --> 00:02:50,390
+think is Polygon, p o l i i g o n dot
+com. The link is below.
+
+156
+00:02:50,390 --> 00:02:50,400
+com. The link is below.
+ 
+
+157
+00:02:50,400 --> 00:02:51,750
+com. The link is below.
+Um and I think it's the best website
+
+158
+00:02:51,750 --> 00:02:51,760
+Um and I think it's the best website
+ 
+
+159
+00:02:51,760 --> 00:02:54,590
+Um and I think it's the best website
+because it's my website. It's my
+
+160
+00:02:54,590 --> 00:02:54,600
+because it's my website. It's my
+ 
+
+161
+00:02:54,600 --> 00:02:55,910
+because it's my website. It's my
+company.
+
+162
+00:02:55,910 --> 00:02:55,920
+company.
+ 
+
+163
+00:02:55,920 --> 00:02:57,910
+company.
+Um which I created 10 years ago, and it
+
+164
+00:02:57,910 --> 00:02:57,920
+Um which I created 10 years ago, and it
+ 
+
+165
+00:02:57,920 --> 00:03:00,190
+Um which I created 10 years ago, and it
+is now the fastest growing texture
+
+166
+00:03:00,190 --> 00:03:00,200
+is now the fastest growing texture
+ 
+
+167
+00:03:00,200 --> 00:03:01,390
+is now the fastest growing texture
+library
+
+168
+00:03:01,390 --> 00:03:01,400
+library
+ 
+
+169
+00:03:01,400 --> 00:03:03,310
+library
+um online. Um so, we've got
+
+170
+00:03:03,310 --> 00:03:03,320
+um online. Um so, we've got
+ 
+
+171
+00:03:03,320 --> 00:03:05,670
+um online. Um so, we've got
+photographers all over the world, and
+
+172
+00:03:05,670 --> 00:03:05,680
+photographers all over the world, and
+ 
+
+173
+00:03:05,680 --> 00:03:07,630
+photographers all over the world, and
+they use specialized equipment to go out
+
+174
+00:03:07,630 --> 00:03:07,640
+they use specialized equipment to go out
+ 
+
+175
+00:03:07,640 --> 00:03:10,510
+they use specialized equipment to go out
+into the world and they capture surfaces
+
+176
+00:03:10,510 --> 00:03:10,520
+into the world and they capture surfaces
+ 
+
+177
+00:03:10,520 --> 00:03:12,270
+into the world and they capture surfaces
+um usually like photograph the surface
+
+178
+00:03:12,270 --> 00:03:12,280
+um usually like photograph the surface
+ 
+
+179
+00:03:12,280 --> 00:03:14,750
+um usually like photograph the surface
+like hundreds of times, which is what
+
+180
+00:03:14,750 --> 00:03:14,760
+like hundreds of times, which is what
+ 
+
+181
+00:03:14,760 --> 00:03:17,350
+like hundreds of times, which is what
+enables you to actually capture all of
+
+182
+00:03:17,350 --> 00:03:17,360
+enables you to actually capture all of
+ 
+
+183
+00:03:17,360 --> 00:03:19,710
+enables you to actually capture all of
+that height information, the bump, uh
+
+184
+00:03:19,710 --> 00:03:19,720
+that height information, the bump, uh
+ 
+
+185
+00:03:19,720 --> 00:03:21,470
+that height information, the bump, uh
+the shininess reflectiveness of
+
+186
+00:03:21,470 --> 00:03:21,480
+the shininess reflectiveness of
+ 
+
+187
+00:03:21,480 --> 00:03:22,750
+the shininess reflectiveness of
+materials.
+
+188
+00:03:22,750 --> 00:03:22,760
+materials.
+ 
+
+189
+00:03:22,760 --> 00:03:24,430
+materials.
+Um and actually capture all of the maps
+
+190
+00:03:24,430 --> 00:03:24,440
+Um and actually capture all of the maps
+ 
+
+191
+00:03:24,440 --> 00:03:26,110
+Um and actually capture all of the maps
+that you can see here, for example.
+
+192
+00:03:26,110 --> 00:03:26,120
+that you can see here, for example.
+ 
+
+193
+00:03:26,120 --> 00:03:28,910
+that you can see here, for example.
+These weird-looking maps um is exactly
+
+194
+00:03:28,910 --> 00:03:28,920
+These weird-looking maps um is exactly
+ 
+
+195
+00:03:28,920 --> 00:03:31,550
+These weird-looking maps um is exactly
+what Blender um needs to
+
+196
+00:03:31,550 --> 00:03:31,560
+what Blender um needs to
+ 
+
+197
+00:03:31,560 --> 00:03:33,190
+what Blender um needs to
+uh to to make the material look
+
+198
+00:03:33,190 --> 00:03:33,200
+uh to to make the material look
+ 
+
+199
+00:03:33,200 --> 00:03:34,230
+uh to to make the material look
+realistic. So, we've got a bunch of
+
+200
+00:03:34,230 --> 00:03:34,240
+realistic. So, we've got a bunch of
+ 
+
+201
+00:03:34,240 --> 00:03:36,270
+realistic. So, we've got a bunch of
+different categories, obviously like
+
+202
+00:03:36,270 --> 00:03:36,280
+different categories, obviously like
+ 
+
+203
+00:03:36,280 --> 00:03:38,190
+different categories, obviously like
+almost anything you want to create, um
+
+204
+00:03:38,190 --> 00:03:38,200
+almost anything you want to create, um
+ 
+
+205
+00:03:38,200 --> 00:03:40,630
+almost anything you want to create, um
+you can find the textures um on here.
+
+206
+00:03:40,630 --> 00:03:40,640
+you can find the textures um on here.
+ 
+
+207
+00:03:40,640 --> 00:03:43,390
+you can find the textures um on here.
+But, for just this tutorial, if you go
+
+208
+00:03:43,390 --> 00:03:43,400
+But, for just this tutorial, if you go
+ 
+
+209
+00:03:43,400 --> 00:03:45,190
+But, for just this tutorial, if you go
+to polygon.com/a
+
+210
+00:03:45,190 --> 00:03:45,200
+to polygon.com/a
+ 
+
+211
+00:03:45,200 --> 00:03:47,910
+to polygon.com/a
+donut, the link for that is also below.
+
+212
+00:03:47,910 --> 00:03:47,920
+donut, the link for that is also below.
+ 
+
+213
+00:03:47,920 --> 00:03:51,230
+donut, the link for that is also below.
+Um but, this has the uh six textures
+
+214
+00:03:51,230 --> 00:03:51,240
+Um but, this has the uh six textures
+ 
+
+215
+00:03:51,240 --> 00:03:52,510
+Um but, this has the uh six textures
+that you'll actually need to follow
+
+216
+00:03:52,510 --> 00:03:52,520
+that you'll actually need to follow
+ 
+
+217
+00:03:52,520 --> 00:03:54,470
+that you'll actually need to follow
+along for this video.
+
+218
+00:03:54,470 --> 00:03:54,480
+along for this video.
+ 
+
+219
+00:03:54,480 --> 00:03:55,830
+along for this video.
+Um they're all free. We've made them
+
+220
+00:03:55,830 --> 00:03:55,840
+Um they're all free. We've made them
+ 
+
+221
+00:03:55,840 --> 00:03:57,550
+Um they're all free. We've made them
+free. All you need to do is get a free
+
+222
+00:03:57,550 --> 00:03:57,560
+free. All you need to do is get a free
+ 
+
+223
+00:03:57,560 --> 00:03:59,870
+free. All you need to do is get a free
+account, um and you can download all of
+
+224
+00:03:59,870 --> 00:03:59,880
+account, um and you can download all of
+ 
+
+225
+00:03:59,880 --> 00:04:01,270
+account, um and you can download all of
+those by just clicking them and then
+
+226
+00:04:01,270 --> 00:04:01,280
+those by just clicking them and then
+ 
+
+227
+00:04:01,280 --> 00:04:03,350
+those by just clicking them and then
+hitting uh download. And also, if you
+
+228
+00:04:03,350 --> 00:04:03,360
+hitting uh download. And also, if you
+ 
+
+229
+00:04:03,360 --> 00:04:05,310
+hitting uh download. And also, if you
+scroll down, uh we've got some premium
+
+230
+00:04:05,310 --> 00:04:05,320
+scroll down, uh we've got some premium
+ 
+
+231
+00:04:05,320 --> 00:04:06,870
+scroll down, uh we've got some premium
+textures here if you have uh a
+
+232
+00:04:06,870 --> 00:04:06,880
+textures here if you have uh a
+ 
+
+233
+00:04:06,880 --> 00:04:09,350
+textures here if you have uh a
+subscription with us um that you could
+
+234
+00:04:09,350 --> 00:04:09,360
+subscription with us um that you could
+ 
+
+235
+00:04:09,360 --> 00:04:11,670
+subscription with us um that you could
+use for the cafe scene that we're making
+
+236
+00:04:11,670 --> 00:04:11,680
+use for the cafe scene that we're making
+ 
+
+237
+00:04:11,680 --> 00:04:13,150
+use for the cafe scene that we're making
+to kind of spruce it up, make it your
+
+238
+00:04:13,150 --> 00:04:13,160
+to kind of spruce it up, make it your
+ 
+
+239
+00:04:13,160 --> 00:04:15,230
+to kind of spruce it up, make it your
+own, add some variation there. Um so,
+
+240
+00:04:15,230 --> 00:04:15,240
+own, add some variation there. Um so,
+ 
+
+241
+00:04:15,240 --> 00:04:16,990
+own, add some variation there. Um so,
+we've included some ones here that go
+
+242
+00:04:16,990 --> 00:04:17,000
+we've included some ones here that go
+ 
+
+243
+00:04:17,000 --> 00:04:19,229
+we've included some ones here that go
+well uh with the scene. Um and if you
+
+244
+00:04:19,229 --> 00:04:19,239
+well uh with the scene. Um and if you
+ 
+
+245
+00:04:19,239 --> 00:04:21,830
+well uh with the scene. Um and if you
+use this link, you'll get 10% off uh any
+
+246
+00:04:21,830 --> 00:04:21,840
+use this link, you'll get 10% off uh any
+ 
+
+247
+00:04:21,840 --> 00:04:23,950
+use this link, you'll get 10% off uh any
+any uh plan you choose. So, the first
+
+248
+00:04:23,950 --> 00:04:23,960
+any uh plan you choose. So, the first
+ 
+
+249
+00:04:23,960 --> 00:04:26,150
+any uh plan you choose. So, the first
+texture I want you to start with is uh
+
+250
+00:04:26,150 --> 00:04:26,160
+texture I want you to start with is uh
+ 
+
+251
+00:04:26,160 --> 00:04:28,870
+texture I want you to start with is uh
+it's going to be our cafe table. Um and
+
+252
+00:04:28,870 --> 00:04:28,880
+it's going to be our cafe table. Um and
+ 
+
+253
+00:04:28,880 --> 00:04:30,030
+it's going to be our cafe table. Um and
+obviously, you could, you know, you
+
+254
+00:04:30,030 --> 00:04:30,040
+obviously, you could, you know, you
+ 
+
+255
+00:04:30,040 --> 00:04:31,270
+obviously, you could, you know, you
+could use any texture that. You could
+
+256
+00:04:31,270 --> 00:04:31,280
+could use any texture that. You could
+ 
+
+257
+00:04:31,280 --> 00:04:32,430
+could use any texture that. You could
+use, you know, some of the ones down
+
+258
+00:04:32,430 --> 00:04:32,440
+use, you know, some of the ones down
+ 
+
+259
+00:04:32,440 --> 00:04:34,270
+use, you know, some of the ones down
+there if you wanted to. Um but, I want
+
+260
+00:04:34,270 --> 00:04:34,280
+there if you wanted to. Um but, I want
+ 
+
+261
+00:04:34,280 --> 00:04:35,510
+there if you wanted to. Um but, I want
+you to start with this one, this
+
+262
+00:04:35,510 --> 00:04:35,520
+you to start with this one, this
+ 
+
+263
+00:04:35,520 --> 00:04:38,390
+you to start with this one, this
+concrete texture. Um because we're going
+
+264
+00:04:38,390 --> 00:04:38,400
+concrete texture. Um because we're going
+ 
+
+265
+00:04:38,400 --> 00:04:39,750
+concrete texture. Um because we're going
+to make this look like a concrete table,
+
+266
+00:04:39,750 --> 00:04:39,760
+to make this look like a concrete table,
+ 
+
+267
+00:04:39,760 --> 00:04:41,230
+to make this look like a concrete table,
+something that, you know, a lot of cafes
+
+268
+00:04:41,230 --> 00:04:41,240
+something that, you know, a lot of cafes
+ 
+
+269
+00:04:41,240 --> 00:04:43,030
+something that, you know, a lot of cafes
+can sometimes have. Now, we actually
+
+270
+00:04:43,030 --> 00:04:43,040
+can sometimes have. Now, we actually
+ 
+
+271
+00:04:43,040 --> 00:04:45,150
+can sometimes have. Now, we actually
+have a Blender add-on, which makes
+
+272
+00:04:45,150 --> 00:04:45,160
+have a Blender add-on, which makes
+ 
+
+273
+00:04:45,160 --> 00:04:46,790
+have a Blender add-on, which makes
+downloading and importing these things
+
+274
+00:04:46,790 --> 00:04:46,800
+downloading and importing these things
+ 
+
+275
+00:04:46,800 --> 00:04:48,230
+downloading and importing these things
+even simpler. But, I want to give you
+
+276
+00:04:48,230 --> 00:04:48,240
+even simpler. But, I want to give you
+ 
+
+277
+00:04:48,240 --> 00:04:50,670
+even simpler. But, I want to give you
+the traditional way to import PBR
+
+278
+00:04:50,670 --> 00:04:50,680
+the traditional way to import PBR
+ 
+
+279
+00:04:50,680 --> 00:04:52,150
+the traditional way to import PBR
+textures first, so that you know how to
+
+280
+00:04:52,150 --> 00:04:52,160
+textures first, so that you know how to
+ 
+
+281
+00:04:52,160 --> 00:04:54,790
+textures first, so that you know how to
+use PBR textures just flat. Um and then
+
+282
+00:04:54,790 --> 00:04:54,800
+use PBR textures just flat. Um and then
+ 
+
+283
+00:04:54,800 --> 00:04:56,670
+use PBR textures just flat. Um and then
+I want to show you the easy way after.
+
+284
+00:04:56,670 --> 00:04:56,680
+I want to show you the easy way after.
+ 
+
+285
+00:04:56,680 --> 00:04:58,390
+I want to show you the easy way after.
+So, once you've got your free account,
+
+286
+00:04:58,390 --> 00:04:58,400
+So, once you've got your free account,
+ 
+
+287
+00:04:58,400 --> 00:04:59,910
+So, once you've got your free account,
+you can come back here, and you can
+
+288
+00:04:59,910 --> 00:04:59,920
+you can come back here, and you can
+ 
+
+289
+00:04:59,920 --> 00:05:01,910
+you can come back here, and you can
+click on download, this big download
+
+290
+00:05:01,910 --> 00:05:01,920
+click on download, this big download
+ 
+
+291
+00:05:01,920 --> 00:05:04,030
+click on download, this big download
+button. So, that'll give you an 8K uh
+
+292
+00:05:04,030 --> 00:05:04,040
+button. So, that'll give you an 8K uh
+ 
+
+293
+00:05:04,040 --> 00:05:05,750
+button. So, that'll give you an 8K uh
+texture. You probably don't need it. You
+
+294
+00:05:05,750 --> 00:05:05,760
+texture. You probably don't need it. You
+ 
+
+295
+00:05:05,760 --> 00:05:07,670
+texture. You probably don't need it. You
+could probably get by with four, but I'm
+
+296
+00:05:07,670 --> 00:05:07,680
+could probably get by with four, but I'm
+ 
+
+297
+00:05:07,680 --> 00:05:09,070
+could probably get by with four, but I'm
+going to get the 8K just to show you how
+
+298
+00:05:09,070 --> 00:05:09,080
+going to get the 8K just to show you how
+ 
+
+299
+00:05:09,080 --> 00:05:11,670
+going to get the 8K just to show you how
+it looks. Now, this will download a zip
+
+300
+00:05:11,670 --> 00:05:11,680
+it looks. Now, this will download a zip
+ 
+
+301
+00:05:11,680 --> 00:05:13,430
+it looks. Now, this will download a zip
+file like here. Okay? So, it should be
+
+302
+00:05:13,430 --> 00:05:13,440
+file like here. Okay? So, it should be
+ 
+
+303
+00:05:13,440 --> 00:05:16,710
+file like here. Okay? So, it should be
+fairly quick. It's about 289 megs. Once
+
+304
+00:05:16,710 --> 00:05:16,720
+fairly quick. It's about 289 megs. Once
+ 
+
+305
+00:05:16,720 --> 00:05:18,510
+fairly quick. It's about 289 megs. Once
+you've downloaded this texture, I need
+
+306
+00:05:18,510 --> 00:05:18,520
+you've downloaded this texture, I need
+ 
+
+307
+00:05:18,520 --> 00:05:20,590
+you've downloaded this texture, I need
+you to unzip it. So, with Windows, you
+
+308
+00:05:20,590 --> 00:05:20,600
+you to unzip it. So, with Windows, you
+ 
+
+309
+00:05:20,600 --> 00:05:22,870
+you to unzip it. So, with Windows, you
+just right-click and go uh extract all.
+
+310
+00:05:22,870 --> 00:05:22,880
+just right-click and go uh extract all.
+ 
+
+311
+00:05:22,880 --> 00:05:24,350
+just right-click and go uh extract all.
+Uh if you're on a Mac, you just
+
+312
+00:05:24,350 --> 00:05:24,360
+Uh if you're on a Mac, you just
+ 
+
+313
+00:05:24,360 --> 00:05:25,550
+Uh if you're on a Mac, you just
+double-click it, and it should just
+
+314
+00:05:25,550 --> 00:05:25,560
+double-click it, and it should just
+ 
+
+315
+00:05:25,560 --> 00:05:27,390
+double-click it, and it should just
+unzip itself. Now that I've got that,
+
+316
+00:05:27,390 --> 00:05:27,400
+unzip itself. Now that I've got that,
+ 
+
+317
+00:05:27,400 --> 00:05:30,390
+unzip itself. Now that I've got that,
+you can
+
+318
+00:05:30,390 --> 00:05:30,400
+
+ 
+
+319
+00:05:30,400 --> 00:05:32,150
+
+It's the stuff that's in here. This is
+
+320
+00:05:32,150 --> 00:05:32,160
+It's the stuff that's in here. This is
+ 
+
+321
+00:05:32,160 --> 00:05:33,710
+It's the stuff that's in here. This is
+the good stuff. This is the one we
+
+322
+00:05:33,710 --> 00:05:33,720
+the good stuff. This is the one we
+ 
+
+323
+00:05:33,720 --> 00:05:36,910
+the good stuff. This is the one we
+actually need to use. So, I'm going to
+
+324
+00:05:36,910 --> 00:05:36,920
+actually need to use. So, I'm going to
+ 
+
+325
+00:05:36,920 --> 00:05:39,590
+actually need to use. So, I'm going to
+uh just copy this folder uh location,
+
+326
+00:05:39,590 --> 00:05:39,600
+uh just copy this folder uh location,
+ 
+
+327
+00:05:39,600 --> 00:05:42,190
+uh just copy this folder uh location,
+and then uh back in Blender, for my
+
+328
+00:05:42,190 --> 00:05:42,200
+and then uh back in Blender, for my
+ 
+
+329
+00:05:42,200 --> 00:05:44,750
+and then uh back in Blender, for my
+selected plane here, underneath base
+
+330
+00:05:44,750 --> 00:05:44,760
+selected plane here, underneath base
+ 
+
+331
+00:05:44,760 --> 00:05:46,750
+selected plane here, underneath base
+color, I'm just going to uh just like
+
+332
+00:05:46,750 --> 00:05:46,760
+color, I'm just going to uh just like
+ 
+
+333
+00:05:46,760 --> 00:05:48,510
+color, I'm just going to uh just like
+before, you know, select image texture
+
+334
+00:05:48,510 --> 00:05:48,520
+before, you know, select image texture
+ 
+
+335
+00:05:48,520 --> 00:05:49,990
+before, you know, select image texture
+if you haven't already. Then, I'm going
+
+336
+00:05:49,990 --> 00:05:50,000
+if you haven't already. Then, I'm going
+ 
+
+337
+00:05:50,000 --> 00:05:52,150
+if you haven't already. Then, I'm going
+to click open. And then, a lot of these
+
+338
+00:05:52,150 --> 00:05:52,160
+to click open. And then, a lot of these
+ 
+
+339
+00:05:52,160 --> 00:05:54,350
+to click open. And then, a lot of these
+images look pretty similar. There's very
+
+340
+00:05:54,350 --> 00:05:54,360
+images look pretty similar. There's very
+ 
+
+341
+00:05:54,360 --> 00:05:55,750
+images look pretty similar. There's very
+little detail across them. There is
+
+342
+00:05:55,750 --> 00:05:55,760
+little detail across them. There is
+ 
+
+343
+00:05:55,760 --> 00:05:57,430
+little detail across them. There is
+some, uh but the one we're looking for
+
+344
+00:05:57,430 --> 00:05:57,440
+some, uh but the one we're looking for
+ 
+
+345
+00:05:57,440 --> 00:06:00,030
+some, uh but the one we're looking for
+is _base color. So, that is the one
+
+346
+00:06:00,030 --> 00:06:00,040
+is _base color. So, that is the one
+ 
+
+347
+00:06:00,040 --> 00:06:02,070
+is _base color. So, that is the one
+we're going to start with. Okay. So,
+
+348
+00:06:02,070 --> 00:06:02,080
+we're going to start with. Okay. So,
+ 
+
+349
+00:06:02,080 --> 00:06:06,350
+we're going to start with. Okay. So,
+this has given us a nice clean de-lit
+
+350
+00:06:06,350 --> 00:06:06,360
+this has given us a nice clean de-lit
+ 
+
+351
+00:06:06,360 --> 00:06:08,510
+this has given us a nice clean de-lit
+concrete floor texture, but the same
+
+352
+00:06:08,510 --> 00:06:08,520
+concrete floor texture, but the same
+ 
+
+353
+00:06:08,520 --> 00:06:10,150
+concrete floor texture, but the same
+problem. We don't have that height
+
+354
+00:06:10,150 --> 00:06:10,160
+problem. We don't have that height
+ 
+
+355
+00:06:10,160 --> 00:06:11,830
+problem. We don't have that height
+information there. And that's because,
+
+356
+00:06:11,830 --> 00:06:11,840
+information there. And that's because,
+ 
+
+357
+00:06:11,840 --> 00:06:13,670
+information there. And that's because,
+just like before, we've only loaded in
+
+358
+00:06:13,670 --> 00:06:13,680
+just like before, we've only loaded in
+ 
+
+359
+00:06:13,680 --> 00:06:15,590
+just like before, we've only loaded in
+information into the base color. So,
+
+360
+00:06:15,590 --> 00:06:15,600
+information into the base color. So,
+ 
+
+361
+00:06:15,600 --> 00:06:16,710
+information into the base color. So,
+it's it's almost like this has been
+
+362
+00:06:16,710 --> 00:06:16,720
+it's it's almost like this has been
+ 
+
+363
+00:06:16,720 --> 00:06:18,470
+it's it's almost like this has been
+printed on cardboard. That's kind of the
+
+364
+00:06:18,470 --> 00:06:18,480
+printed on cardboard. That's kind of the
+ 
+
+365
+00:06:18,480 --> 00:06:20,950
+printed on cardboard. That's kind of the
+appearance there. So, we need to load in
+
+366
+00:06:20,950 --> 00:06:20,960
+appearance there. So, we need to load in
+ 
+
+367
+00:06:20,960 --> 00:06:23,790
+appearance there. So, we need to load in
+the other PBR texture uh maps, they're
+
+368
+00:06:23,790 --> 00:06:23,800
+the other PBR texture uh maps, they're
+ 
+
+369
+00:06:23,800 --> 00:06:26,270
+the other PBR texture uh maps, they're
+called uh all of those uh different uh
+
+370
+00:06:26,270 --> 00:06:26,280
+called uh all of those uh different uh
+ 
+
+371
+00:06:26,280 --> 00:06:28,990
+called uh all of those uh different uh
+images that we downloaded. And we could,
+
+372
+00:06:28,990 --> 00:06:29,000
+images that we downloaded. And we could,
+ 
+
+373
+00:06:29,000 --> 00:06:30,550
+images that we downloaded. And we could,
+you know, import and do them the same
+
+374
+00:06:30,550 --> 00:06:30,560
+you know, import and do them the same
+ 
+
+375
+00:06:30,560 --> 00:06:31,670
+you know, import and do them the same
+way by clicking these little dot and
+
+376
+00:06:31,670 --> 00:06:31,680
+way by clicking these little dot and
+ 
+
+377
+00:06:31,680 --> 00:06:33,230
+way by clicking these little dot and
+then go image texture. But, it's very
+
+378
+00:06:33,230 --> 00:06:33,240
+then go image texture. But, it's very
+ 
+
+379
+00:06:33,240 --> 00:06:35,590
+then go image texture. But, it's very
+fiddly. And this view here, you can
+
+380
+00:06:35,590 --> 00:06:35,600
+fiddly. And this view here, you can
+ 
+
+381
+00:06:35,600 --> 00:06:37,790
+fiddly. And this view here, you can
+probably tell is like it's not designed
+
+382
+00:06:37,790 --> 00:06:37,800
+probably tell is like it's not designed
+ 
+
+383
+00:06:37,800 --> 00:06:40,350
+probably tell is like it's not designed
+for like complex texturing work. If you
+
+384
+00:06:40,350 --> 00:06:40,360
+for like complex texturing work. If you
+ 
+
+385
+00:06:40,360 --> 00:06:42,150
+for like complex texturing work. If you
+want to do complex texturing work, you
+
+386
+00:06:42,150 --> 00:06:42,160
+want to do complex texturing work, you
+ 
+
+387
+00:06:42,160 --> 00:06:44,550
+want to do complex texturing work, you
+should click on the shading tab at the
+
+388
+00:06:44,550 --> 00:06:44,560
+should click on the shading tab at the
+ 
+
+389
+00:06:44,560 --> 00:06:46,710
+should click on the shading tab at the
+top of your screen. Now, this view looks
+
+390
+00:06:46,710 --> 00:06:46,720
+top of your screen. Now, this view looks
+ 
+
+391
+00:06:46,720 --> 00:06:48,310
+top of your screen. Now, this view looks
+completely different. You've got a 3D
+
+392
+00:06:48,310 --> 00:06:48,320
+completely different. You've got a 3D
+ 
+
+393
+00:06:48,320 --> 00:06:50,790
+completely different. You've got a 3D
+view at the top. You've got these nodes
+
+394
+00:06:50,790 --> 00:06:50,800
+view at the top. You've got these nodes
+ 
+
+395
+00:06:50,800 --> 00:06:52,470
+view at the top. You've got these nodes
+here, which are very useful. And then,
+
+396
+00:06:52,470 --> 00:06:52,480
+here, which are very useful. And then,
+ 
+
+397
+00:06:52,480 --> 00:06:53,910
+here, which are very useful. And then,
+you got two over here that I think are
+
+398
+00:06:53,910 --> 00:06:53,920
+you got two over here that I think are
+ 
+
+399
+00:06:53,920 --> 00:06:56,390
+you got two over here that I think are
+kind of pointless. I don't really think
+
+400
+00:06:56,390 --> 00:06:56,400
+kind of pointless. I don't really think
+ 
+
+401
+00:06:56,400 --> 00:06:57,750
+kind of pointless. I don't really think
+they should be here.
+
+402
+00:06:57,750 --> 00:06:57,760
+they should be here.
+ 
+
+403
+00:06:57,760 --> 00:06:59,150
+they should be here.
+Um I've never really wanted them. So,
+
+404
+00:06:59,150 --> 00:06:59,160
+Um I've never really wanted them. So,
+ 
+
+405
+00:06:59,160 --> 00:07:01,750
+Um I've never really wanted them. So,
+I'm going to right-click on the uh
+
+406
+00:07:01,750 --> 00:07:01,760
+I'm going to right-click on the uh
+ 
+
+407
+00:07:01,760 --> 00:07:03,310
+I'm going to right-click on the uh
+like the divider between these little
+
+408
+00:07:03,310 --> 00:07:03,320
+like the divider between these little
+ 
+
+409
+00:07:03,320 --> 00:07:05,430
+like the divider between these little
+windows here. I'm going to say join
+
+410
+00:07:05,430 --> 00:07:05,440
+windows here. I'm going to say join
+ 
+
+411
+00:07:05,440 --> 00:07:07,230
+windows here. I'm going to say join
+left. And then, I'm going to do the same
+
+412
+00:07:07,230 --> 00:07:07,240
+left. And then, I'm going to do the same
+ 
+
+413
+00:07:07,240 --> 00:07:09,750
+left. And then, I'm going to do the same
+for the bottom, join left. And then, I
+
+414
+00:07:09,750 --> 00:07:09,760
+for the bottom, join left. And then, I
+ 
+
+415
+00:07:09,760 --> 00:07:12,430
+for the bottom, join left. And then, I
+also I want to flip it because I haven't
+
+416
+00:07:12,430 --> 00:07:12,440
+also I want to flip it because I haven't
+ 
+
+417
+00:07:12,440 --> 00:07:14,150
+also I want to flip it because I haven't
+I don't really like having like the top
+
+418
+00:07:14,150 --> 00:07:14,160
+I don't really like having like the top
+ 
+
+419
+00:07:14,160 --> 00:07:16,350
+I don't really like having like the top
+view and this. It's like it's too
+
+420
+00:07:16,350 --> 00:07:16,360
+view and this. It's like it's too
+ 
+
+421
+00:07:16,360 --> 00:07:18,350
+view and this. It's like it's too
+wide-screen to like look at things like
+
+422
+00:07:18,350 --> 00:07:18,360
+wide-screen to like look at things like
+ 
+
+423
+00:07:18,360 --> 00:07:19,950
+wide-screen to like look at things like
+this. So, instead, I'm going to
+
+424
+00:07:19,950 --> 00:07:19,960
+this. So, instead, I'm going to
+ 
+
+425
+00:07:19,960 --> 00:07:23,310
+this. So, instead, I'm going to
+right-click this, say join uh down. And
+
+426
+00:07:23,310 --> 00:07:23,320
+right-click this, say join uh down. And
+ 
+
+427
+00:07:23,320 --> 00:07:25,230
+right-click this, say join uh down. And
+then, at the top of my screen here, the
+
+428
+00:07:25,230 --> 00:07:25,240
+then, at the top of my screen here, the
+ 
+
+429
+00:07:25,240 --> 00:07:27,230
+then, at the top of my screen here, the
+top of the little uh divider there,
+
+430
+00:07:27,230 --> 00:07:27,240
+top of the little uh divider there,
+ 
+
+431
+00:07:27,240 --> 00:07:28,950
+top of the little uh divider there,
+until I get that little uh little
+
+432
+00:07:28,950 --> 00:07:28,960
+until I get that little uh little
+ 
+
+433
+00:07:28,960 --> 00:07:30,510
+until I get that little uh little
+arrows, I'm going to right-click, and
+
+434
+00:07:30,510 --> 00:07:30,520
+arrows, I'm going to right-click, and
+ 
+
+435
+00:07:30,520 --> 00:07:32,630
+arrows, I'm going to right-click, and
+then I'm going to say vertical split.
+
+436
+00:07:32,630 --> 00:07:32,640
+then I'm going to say vertical split.
+ 
+
+437
+00:07:32,640 --> 00:07:33,910
+then I'm going to say vertical split.
+And then, to make this one on the
+
+438
+00:07:33,910 --> 00:07:33,920
+And then, to make this one on the
+ 
+
+439
+00:07:33,920 --> 00:07:35,870
+And then, to make this one on the
+right-hand side, those same shader nodes
+
+440
+00:07:35,870 --> 00:07:35,880
+right-hand side, those same shader nodes
+ 
+
+441
+00:07:35,880 --> 00:07:37,710
+right-hand side, those same shader nodes
+that we had from before, click from this
+
+442
+00:07:37,710 --> 00:07:37,720
+that we had from before, click from this
+ 
+
+443
+00:07:37,720 --> 00:07:39,550
+that we had from before, click from this
+little drop-down at the top. Uh by the
+
+444
+00:07:39,550 --> 00:07:39,560
+little drop-down at the top. Uh by the
+ 
+
+445
+00:07:39,560 --> 00:07:40,950
+little drop-down at the top. Uh by the
+way, if you don't see it, um you just
+
+446
+00:07:40,950 --> 00:07:40,960
+way, if you don't see it, um you just
+ 
+
+447
+00:07:40,960 --> 00:07:43,190
+way, if you don't see it, um you just
+have to like middle mouse like grab and
+
+448
+00:07:43,190 --> 00:07:43,200
+have to like middle mouse like grab and
+ 
+
+449
+00:07:43,200 --> 00:07:45,550
+have to like middle mouse like grab and
+pull across, and you will get uh all the
+
+450
+00:07:45,550 --> 00:07:45,560
+pull across, and you will get uh all the
+ 
+
+451
+00:07:45,560 --> 00:07:46,790
+pull across, and you will get uh all the
+way to the end there.
+
+452
+00:07:46,790 --> 00:07:46,800
+way to the end there.
+ 
+
+453
+00:07:46,800 --> 00:07:48,270
+way to the end there.
+Uh but yeah, if I click that and then go
+
+454
+00:07:48,270 --> 00:07:48,280
+Uh but yeah, if I click that and then go
+ 
+
+455
+00:07:48,280 --> 00:07:49,950
+Uh but yeah, if I click that and then go
+shader editor,
+
+456
+00:07:49,950 --> 00:07:49,960
+shader editor,
+ 
+
+457
+00:07:49,960 --> 00:07:52,430
+shader editor,
+then close this by hitting the N key.
+
+458
+00:07:52,430 --> 00:07:52,440
+then close this by hitting the N key.
+ 
+
+459
+00:07:52,440 --> 00:07:56,030
+then close this by hitting the N key.
+It's a lot of steps. Uh but now, I have
+
+460
+00:07:56,030 --> 00:07:56,040
+It's a lot of steps. Uh but now, I have
+ 
+
+461
+00:07:56,040 --> 00:07:58,510
+It's a lot of steps. Uh but now, I have
+my shader nodes. So, the shader nodes
+
+462
+00:07:58,510 --> 00:07:58,520
+my shader nodes. So, the shader nodes
+ 
+
+463
+00:07:58,520 --> 00:08:00,790
+my shader nodes. So, the shader nodes
+over here, this is actually the same
+
+464
+00:08:00,790 --> 00:08:00,800
+over here, this is actually the same
+ 
+
+465
+00:08:00,800 --> 00:08:03,110
+over here, this is actually the same
+information as what we have in our
+
+466
+00:08:03,110 --> 00:08:03,120
+information as what we have in our
+ 
+
+467
+00:08:03,120 --> 00:08:05,870
+information as what we have in our
+material over here. For example, if I
+
+468
+00:08:05,870 --> 00:08:05,880
+material over here. For example, if I
+ 
+
+469
+00:08:05,880 --> 00:08:08,310
+material over here. For example, if I
+was to uh adjust this roughness, you can
+
+470
+00:08:08,310 --> 00:08:08,320
+was to uh adjust this roughness, you can
+ 
+
+471
+00:08:08,320 --> 00:08:10,590
+was to uh adjust this roughness, you can
+see that it's adjusting both of those
+
+472
+00:08:10,590 --> 00:08:10,600
+see that it's adjusting both of those
+ 
+
+473
+00:08:10,600 --> 00:08:12,830
+see that it's adjusting both of those
+values there. And when we added in this,
+
+474
+00:08:12,830 --> 00:08:12,840
+values there. And when we added in this,
+ 
+
+475
+00:08:12,840 --> 00:08:15,550
+values there. And when we added in this,
+and we we clicked image texture, it was
+
+476
+00:08:15,550 --> 00:08:15,560
+and we we clicked image texture, it was
+ 
+
+477
+00:08:15,560 --> 00:08:17,630
+and we we clicked image texture, it was
+basically in the background adding in
+
+478
+00:08:17,630 --> 00:08:17,640
+basically in the background adding in
+ 
+
+479
+00:08:17,640 --> 00:08:19,430
+basically in the background adding in
+this node here, which loaded in the
+
+480
+00:08:19,430 --> 00:08:19,440
+this node here, which loaded in the
+ 
+
+481
+00:08:19,440 --> 00:08:21,710
+this node here, which loaded in the
+image texture. So, this is a it's a
+
+482
+00:08:21,710 --> 00:08:21,720
+image texture. So, this is a it's a
+ 
+
+483
+00:08:21,720 --> 00:08:23,630
+image texture. So, this is a it's a
+simplified view. If you want to do like
+
+484
+00:08:23,630 --> 00:08:23,640
+simplified view. If you want to do like
+ 
+
+485
+00:08:23,640 --> 00:08:25,910
+simplified view. If you want to do like
+small changes to a material, you use
+
+486
+00:08:25,910 --> 00:08:25,920
+small changes to a material, you use
+ 
+
+487
+00:08:25,920 --> 00:08:27,670
+small changes to a material, you use
+this panel here. If you want to do
+
+488
+00:08:27,670 --> 00:08:27,680
+this panel here. If you want to do
+ 
+
+489
+00:08:27,680 --> 00:08:30,830
+this panel here. If you want to do
+anything more complex than that, you use
+
+490
+00:08:30,830 --> 00:08:30,840
+anything more complex than that, you use
+ 
+
+491
+00:08:30,840 --> 00:08:32,870
+anything more complex than that, you use
+the shader nodes here. And it's pretty
+
+492
+00:08:32,870 --> 00:08:32,880
+the shader nodes here. And it's pretty
+ 
+
+493
+00:08:32,880 --> 00:08:34,589
+the shader nodes here. And it's pretty
+self-explanatory to understand how
+
+494
+00:08:34,589 --> 00:08:34,599
+self-explanatory to understand how
+ 
+
+495
+00:08:34,599 --> 00:08:37,190
+self-explanatory to understand how
+shader nodes work. It's like over here,
+
+496
+00:08:37,190 --> 00:08:37,200
+shader nodes work. It's like over here,
+ 
+
+497
+00:08:37,200 --> 00:08:38,990
+shader nodes work. It's like over here,
+this is your material output. It's the
+
+498
+00:08:38,990 --> 00:08:39,000
+this is your material output. It's the
+ 
+
+499
+00:08:39,000 --> 00:08:41,310
+this is your material output. It's the
+final material. And generally, you have
+
+500
+00:08:41,310 --> 00:08:41,320
+final material. And generally, you have
+ 
+
+501
+00:08:41,320 --> 00:08:43,149
+final material. And generally, you have
+a shader, which is something like this,
+
+502
+00:08:43,149 --> 00:08:43,159
+a shader, which is something like this,
+ 
+
+503
+00:08:43,159 --> 00:08:45,390
+a shader, which is something like this,
+principled BSDF, that is the shader that
+
+504
+00:08:45,390 --> 00:08:45,400
+principled BSDF, that is the shader that
+ 
+
+505
+00:08:45,400 --> 00:08:48,590
+principled BSDF, that is the shader that
+you use for like 99% of materials now.
+
+506
+00:08:48,590 --> 00:08:48,600
+you use for like 99% of materials now.
+ 
+
+507
+00:08:48,600 --> 00:08:50,070
+you use for like 99% of materials now.
+And then, you just have a bunch of
+
+508
+00:08:50,070 --> 00:08:50,080
+And then, you just have a bunch of
+ 
+
+509
+00:08:50,080 --> 00:08:52,390
+And then, you just have a bunch of
+values. And then, you can connect things
+
+510
+00:08:52,390 --> 00:08:52,400
+values. And then, you can connect things
+ 
+
+511
+00:08:52,400 --> 00:08:54,750
+values. And then, you can connect things
+into this um to do different things. And
+
+512
+00:08:54,750 --> 00:08:54,760
+into this um to do different things. And
+ 
+
+513
+00:08:54,760 --> 00:08:55,670
+into this um to do different things. And
+I'm going to show you how we can like
+
+514
+00:08:55,670 --> 00:08:55,680
+I'm going to show you how we can like
+ 
+
+515
+00:08:55,680 --> 00:08:56,870
+I'm going to show you how we can like
+tweak this texture and do a bunch of
+
+516
+00:08:56,870 --> 00:08:56,880
+tweak this texture and do a bunch of
+ 
+
+517
+00:08:56,880 --> 00:08:59,230
+tweak this texture and do a bunch of
+stuff. Um but, first, let's load in some
+
+518
+00:08:59,230 --> 00:08:59,240
+stuff. Um but, first, let's load in some
+ 
+
+519
+00:08:59,240 --> 00:09:01,310
+stuff. Um but, first, let's load in some
+of those PBR texture maps. By the way,
+
+520
+00:09:01,310 --> 00:09:01,320
+of those PBR texture maps. By the way,
+ 
+
+521
+00:09:01,320 --> 00:09:03,270
+of those PBR texture maps. By the way,
+if you're wondering uh the one the view
+
+522
+00:09:03,270 --> 00:09:03,280
+if you're wondering uh the one the view
+ 
+
+523
+00:09:03,280 --> 00:09:04,470
+if you're wondering uh the one the view
+on the left-hand side of the screen
+
+524
+00:09:04,470 --> 00:09:04,480
+on the left-hand side of the screen
+ 
+
+525
+00:09:04,480 --> 00:09:06,510
+on the left-hand side of the screen
+here, why does this look different? This
+
+526
+00:09:06,510 --> 00:09:06,520
+here, why does this look different? This
+ 
+
+527
+00:09:06,520 --> 00:09:07,950
+here, why does this look different? This
+is because, and again, a middle mouse
+
+528
+00:09:07,950 --> 00:09:07,960
+is because, and again, a middle mouse
+ 
+
+529
+00:09:07,960 --> 00:09:10,190
+is because, and again, a middle mouse
+drag along the top there, um
+
+530
+00:09:10,190 --> 00:09:10,200
+drag along the top there, um
+ 
+
+531
+00:09:10,200 --> 00:09:12,630
+drag along the top there, um
+we we talked about the 3D viewport. We
+
+532
+00:09:12,630 --> 00:09:12,640
+we we talked about the 3D viewport. We
+ 
+
+533
+00:09:12,640 --> 00:09:14,230
+we we talked about the 3D viewport. We
+talked about the rendered view mode. We
+
+534
+00:09:14,230 --> 00:09:14,240
+talked about the rendered view mode. We
+ 
+
+535
+00:09:14,240 --> 00:09:15,750
+talked about the rendered view mode. We
+didn't talk about this one. This is the
+
+536
+00:09:15,750 --> 00:09:15,760
+didn't talk about this one. This is the
+ 
+
+537
+00:09:15,760 --> 00:09:17,750
+didn't talk about this one. This is the
+material preview mode. And it's
+
+538
+00:09:17,750 --> 00:09:17,760
+material preview mode. And it's
+ 
+
+539
+00:09:17,760 --> 00:09:19,270
+material preview mode. And it's
+literally designed for previewing
+
+540
+00:09:19,270 --> 00:09:19,280
+literally designed for previewing
+ 
+
+541
+00:09:19,280 --> 00:09:21,870
+literally designed for previewing
+materials because it loads in a like
+
+542
+00:09:21,870 --> 00:09:21,880
+materials because it loads in a like
+ 
+
+543
+00:09:21,880 --> 00:09:25,630
+materials because it loads in a like
+fake world view around a called an HDR,
+
+544
+00:09:25,630 --> 00:09:25,640
+fake world view around a called an HDR,
+ 
+
+545
+00:09:25,640 --> 00:09:27,150
+fake world view around a called an HDR,
+which you can actually swap out here, so
+
+546
+00:09:27,150 --> 00:09:27,160
+which you can actually swap out here, so
+ 
+
+547
+00:09:27,160 --> 00:09:29,070
+which you can actually swap out here, so
+you can see, you know, different types
+
+548
+00:09:29,070 --> 00:09:29,080
+you can see, you know, different types
+ 
+
+549
+00:09:29,080 --> 00:09:31,110
+you can see, you know, different types
+of uh environments. But, it's a way to
+
+550
+00:09:31,110 --> 00:09:31,120
+of uh environments. But, it's a way to
+ 
+
+551
+00:09:31,120 --> 00:09:34,910
+of uh environments. But, it's a way to
+like quickly visualize a material
+
+552
+00:09:34,910 --> 00:09:34,920
+like quickly visualize a material
+ 
+
+553
+00:09:34,920 --> 00:09:36,910
+like quickly visualize a material
+um without having to like change a bunch
+
+554
+00:09:36,910 --> 00:09:36,920
+um without having to like change a bunch
+ 
+
+555
+00:09:36,920 --> 00:09:38,310
+um without having to like change a bunch
+of lighting to understand how the
+
+556
+00:09:38,310 --> 00:09:38,320
+of lighting to understand how the
+ 
+
+557
+00:09:38,320 --> 00:09:39,750
+of lighting to understand how the
+material's going to look cuz materials
+
+558
+00:09:39,750 --> 00:09:39,760
+material's going to look cuz materials
+ 
+
+559
+00:09:39,760 --> 00:09:41,310
+material's going to look cuz materials
+look very different in different uh
+
+560
+00:09:41,310 --> 00:09:41,320
+look very different in different uh
+ 
+
+561
+00:09:41,320 --> 00:09:42,790
+look very different in different uh
+lighting setups. So, it's actually a
+
+562
+00:09:42,790 --> 00:09:42,800
+lighting setups. So, it's actually a
+ 
+
+563
+00:09:42,800 --> 00:09:45,190
+lighting setups. So, it's actually a
+very useful mode, um and it makes sense.
+
+564
+00:09:45,190 --> 00:09:45,200
+very useful mode, um and it makes sense.
+ 
+
+565
+00:09:45,200 --> 00:09:46,630
+very useful mode, um and it makes sense.
+It's called material preview. So, let's
+
+566
+00:09:46,630 --> 00:09:46,640
+It's called material preview. So, let's
+ 
+
+567
+00:09:46,640 --> 00:09:48,390
+It's called material preview. So, let's
+load in another image. So, I'm going to
+
+568
+00:09:48,390 --> 00:09:48,400
+load in another image. So, I'm going to
+ 
+
+569
+00:09:48,400 --> 00:09:50,430
+load in another image. So, I'm going to
+hit uh uh I could hit shift A, or I
+
+570
+00:09:50,430 --> 00:09:50,440
+hit uh uh I could hit shift A, or I
+ 
+
+571
+00:09:50,440 --> 00:09:51,630
+hit uh uh I could hit shift A, or I
+could just go add at the top of the
+
+572
+00:09:51,630 --> 00:09:51,640
+could just go add at the top of the
+ 
+
+573
+00:09:51,640 --> 00:09:53,310
+could just go add at the top of the
+screen there. It's cool. The Blender's
+
+574
+00:09:53,310 --> 00:09:53,320
+screen there. It's cool. The Blender's
+ 
+
+575
+00:09:53,320 --> 00:09:54,630
+screen there. It's cool. The Blender's
+hot keys are the exact same ones
+
+576
+00:09:54,630 --> 00:09:54,640
+hot keys are the exact same ones
+ 
+
+577
+00:09:54,640 --> 00:09:56,390
+hot keys are the exact same ones
+everywhere. So, shift A is the same as
+
+578
+00:09:56,390 --> 00:09:56,400
+everywhere. So, shift A is the same as
+ 
+
+579
+00:09:56,400 --> 00:09:58,710
+everywhere. So, shift A is the same as
+shift A over there, right? Add.
+
+580
+00:09:58,710 --> 00:09:58,720
+shift A over there, right? Add.
+ 
+
+581
+00:09:58,720 --> 00:10:00,830
+shift A over there, right? Add.
+And I'm going to go texture and I'm
+
+582
+00:10:00,830 --> 00:10:00,840
+And I'm going to go texture and I'm
+ 
+
+583
+00:10:00,840 --> 00:10:02,950
+And I'm going to go texture and I'm
+going to say image texture. Okay. And
+
+584
+00:10:02,950 --> 00:10:02,960
+going to say image texture. Okay. And
+ 
+
+585
+00:10:02,960 --> 00:10:03,950
+going to say image texture. Okay. And
+now it's just asking where do you want
+
+586
+00:10:03,950 --> 00:10:03,960
+now it's just asking where do you want
+ 
+
+587
+00:10:03,960 --> 00:10:05,350
+now it's just asking where do you want
+to drop it, so I can just drop it
+
+588
+00:10:05,350 --> 00:10:05,360
+to drop it, so I can just drop it
+ 
+
+589
+00:10:05,360 --> 00:10:07,790
+to drop it, so I can just drop it
+anywhere. And I'm going to click open.
+
+590
+00:10:07,790 --> 00:10:07,800
+anywhere. And I'm going to click open.
+ 
+
+591
+00:10:07,800 --> 00:10:08,790
+anywhere. And I'm going to click open.
+Then I'm going to navigate to that
+
+592
+00:10:08,790 --> 00:10:08,800
+Then I'm going to navigate to that
+ 
+
+593
+00:10:08,800 --> 00:10:10,910
+Then I'm going to navigate to that
+folder where all of the images are. And
+
+594
+00:10:10,910 --> 00:10:10,920
+folder where all of the images are. And
+ 
+
+595
+00:10:10,920 --> 00:10:12,270
+folder where all of the images are. And
+the first one I'm going to load in is
+
+596
+00:10:12,270 --> 00:10:12,280
+the first one I'm going to load in is
+ 
+
+597
+00:10:12,280 --> 00:10:14,470
+the first one I'm going to load in is
+this one called underscore normal, the
+
+598
+00:10:14,470 --> 00:10:14,480
+this one called underscore normal, the
+ 
+
+599
+00:10:14,480 --> 00:10:15,990
+this one called underscore normal, the
+purple one.
+
+600
+00:10:15,990 --> 00:10:16,000
+purple one.
+ 
+
+601
+00:10:16,000 --> 00:10:17,790
+purple one.
+And it's you can remember it as the
+
+602
+00:10:17,790 --> 00:10:17,800
+And it's you can remember it as the
+ 
+
+603
+00:10:17,800 --> 00:10:20,630
+And it's you can remember it as the
+normal map because it's normal to ask
+
+604
+00:10:20,630 --> 00:10:20,640
+normal map because it's normal to ask
+ 
+
+605
+00:10:20,640 --> 00:10:22,790
+normal map because it's normal to ask
+why is that purple? That's how I
+
+606
+00:10:22,790 --> 00:10:22,800
+why is that purple? That's how I
+ 
+
+607
+00:10:22,800 --> 00:10:23,557
+why is that purple? That's how I
+remember it.
+
+608
+00:10:23,557 --> 00:10:23,567
+remember it.
+ 
+
+609
+00:10:23,567 --> 00:10:25,710
+remember it.
+>> [laughter]
+
+610
+00:10:25,710 --> 00:10:25,720
+
+ 
+
+611
+00:10:25,720 --> 00:10:28,670
+
+>> Then yeah, just hit open on that.
+
+612
+00:10:28,670 --> 00:10:28,680
+>> Then yeah, just hit open on that.
+ 
+
+613
+00:10:28,680 --> 00:10:30,830
+>> Then yeah, just hit open on that.
+And the place that you would put that,
+
+614
+00:10:30,830 --> 00:10:30,840
+And the place that you would put that,
+ 
+
+615
+00:10:30,840 --> 00:10:32,750
+And the place that you would put that,
+you could guess, is the normal input,
+
+616
+00:10:32,750 --> 00:10:32,760
+you could guess, is the normal input,
+ 
+
+617
+00:10:32,760 --> 00:10:35,710
+you could guess, is the normal input,
+that little purple input there on our
+
+618
+00:10:35,710 --> 00:10:35,720
+that little purple input there on our
+ 
+
+619
+00:10:35,720 --> 00:10:38,070
+that little purple input there on our
+shader there. So, the way you connect
+
+620
+00:10:38,070 --> 00:10:38,080
+shader there. So, the way you connect
+ 
+
+621
+00:10:38,080 --> 00:10:40,470
+shader there. So, the way you connect
+something to something else is you just
+
+622
+00:10:40,470 --> 00:10:40,480
+something to something else is you just
+ 
+
+623
+00:10:40,480 --> 00:10:42,230
+something to something else is you just
+where there's a point, you just click
+
+624
+00:10:42,230 --> 00:10:42,240
+where there's a point, you just click
+ 
+
+625
+00:10:42,240 --> 00:10:44,750
+where there's a point, you just click
+that point and you just drag out and
+
+626
+00:10:44,750 --> 00:10:44,760
+that point and you just drag out and
+ 
+
+627
+00:10:44,760 --> 00:10:46,150
+that point and you just drag out and
+connect it to another point and then you
+
+628
+00:10:46,150 --> 00:10:46,160
+connect it to another point and then you
+ 
+
+629
+00:10:46,160 --> 00:10:49,590
+connect it to another point and then you
+release. And then it is connected.
+
+630
+00:10:49,590 --> 00:10:49,600
+release. And then it is connected.
+ 
+
+631
+00:10:49,600 --> 00:10:51,670
+release. And then it is connected.
+Now, you can see that there is some bump
+
+632
+00:10:51,670 --> 00:10:51,680
+Now, you can see that there is some bump
+ 
+
+633
+00:10:51,680 --> 00:10:53,670
+Now, you can see that there is some bump
+information now. But you wouldn't know
+
+634
+00:10:53,670 --> 00:10:53,680
+information now. But you wouldn't know
+ 
+
+635
+00:10:53,680 --> 00:10:55,630
+information now. But you wouldn't know
+it, but this is actually the wrong
+
+636
+00:10:55,630 --> 00:10:55,640
+it, but this is actually the wrong
+ 
+
+637
+00:10:55,640 --> 00:10:57,910
+it, but this is actually the wrong
+What's It's partly the way to connect
+
+638
+00:10:57,910 --> 00:10:57,920
+What's It's partly the way to connect
+ 
+
+639
+00:10:57,920 --> 00:10:58,990
+What's It's partly the way to connect
+something, but we need to do something
+
+640
+00:10:58,990 --> 00:10:59,000
+something, but we need to do something
+ 
+
+641
+00:10:59,000 --> 00:11:01,190
+something, but we need to do something
+else. First of all, you can see that
+
+642
+00:11:01,190 --> 00:11:01,200
+else. First of all, you can see that
+ 
+
+643
+00:11:01,200 --> 00:11:04,470
+else. First of all, you can see that
+between here and here Whoops.
+
+644
+00:11:04,470 --> 00:11:04,480
+between here and here Whoops.
+ 
+
+645
+00:11:04,480 --> 00:11:07,150
+between here and here Whoops.
+We've gone from a yellow input to a
+
+646
+00:11:07,150 --> 00:11:07,160
+We've gone from a yellow input to a
+ 
+
+647
+00:11:07,160 --> 00:11:09,430
+We've gone from a yellow input to a
+purple input. Now, it's okay to go from
+
+648
+00:11:09,430 --> 00:11:09,440
+purple input. Now, it's okay to go from
+ 
+
+649
+00:11:09,440 --> 00:11:11,910
+purple input. Now, it's okay to go from
+like yellow to gray because gray just
+
+650
+00:11:11,910 --> 00:11:11,920
+like yellow to gray because gray just
+ 
+
+651
+00:11:11,920 --> 00:11:13,470
+like yellow to gray because gray just
+means gray scale, so you can go from
+
+652
+00:11:13,470 --> 00:11:13,480
+means gray scale, so you can go from
+ 
+
+653
+00:11:13,480 --> 00:11:14,910
+means gray scale, so you can go from
+color information to gray information,
+
+654
+00:11:14,910 --> 00:11:14,920
+color information to gray information,
+ 
+
+655
+00:11:14,920 --> 00:11:17,750
+color information to gray information,
+that's fine. But normal is like vector
+
+656
+00:11:17,750 --> 00:11:17,760
+that's fine. But normal is like vector
+ 
+
+657
+00:11:17,760 --> 00:11:19,470
+that's fine. But normal is like vector
+information. Yeah, without getting
+
+658
+00:11:19,470 --> 00:11:19,480
+information. Yeah, without getting
+ 
+
+659
+00:11:19,480 --> 00:11:21,310
+information. Yeah, without getting
+technical, like the normal is the way
+
+660
+00:11:21,310 --> 00:11:21,320
+technical, like the normal is the way
+ 
+
+661
+00:11:21,320 --> 00:11:22,990
+technical, like the normal is the way
+the faces, like that invisible line of
+
+662
+00:11:22,990 --> 00:11:23,000
+the faces, like that invisible line of
+ 
+
+663
+00:11:23,000 --> 00:11:25,190
+the faces, like that invisible line of
+the faces, and this is like faking which
+
+664
+00:11:25,190 --> 00:11:25,200
+the faces, and this is like faking which
+ 
+
+665
+00:11:25,200 --> 00:11:28,350
+the faces, and this is like faking which
+direction each of those pixels has.
+
+666
+00:11:28,350 --> 00:11:28,360
+direction each of those pixels has.
+ 
+
+667
+00:11:28,360 --> 00:11:29,190
+direction each of those pixels has.
+Um
+
+668
+00:11:29,190 --> 00:11:29,200
+Um
+ 
+
+669
+00:11:29,200 --> 00:11:30,910
+Um
+But basically, we need to add something
+
+670
+00:11:30,910 --> 00:11:30,920
+But basically, we need to add something
+ 
+
+671
+00:11:30,920 --> 00:11:33,310
+But basically, we need to add something
+between here and here to convert this
+
+672
+00:11:33,310 --> 00:11:33,320
+between here and here to convert this
+ 
+
+673
+00:11:33,320 --> 00:11:35,670
+between here and here to convert this
+from color information into vector
+
+674
+00:11:35,670 --> 00:11:35,680
+from color information into vector
+ 
+
+675
+00:11:35,680 --> 00:11:37,350
+from color information into vector
+information. And we can do that by
+
+676
+00:11:37,350 --> 00:11:37,360
+information. And we can do that by
+ 
+
+677
+00:11:37,360 --> 00:11:40,030
+information. And we can do that by
+hitting shift A to add again, and then
+
+678
+00:11:40,030 --> 00:11:40,040
+hitting shift A to add again, and then
+ 
+
+679
+00:11:40,040 --> 00:11:42,950
+hitting shift A to add again, and then
+going to displacement in this drop-down
+
+680
+00:11:42,950 --> 00:11:42,960
+going to displacement in this drop-down
+ 
+
+681
+00:11:42,960 --> 00:11:45,150
+going to displacement in this drop-down
+and clicking normal map. You can also,
+
+682
+00:11:45,150 --> 00:11:45,160
+and clicking normal map. You can also,
+ 
+
+683
+00:11:45,160 --> 00:11:46,790
+and clicking normal map. You can also,
+if you can't find it, you can go to the
+
+684
+00:11:46,790 --> 00:11:46,800
+if you can't find it, you can go to the
+ 
+
+685
+00:11:46,800 --> 00:11:48,270
+if you can't find it, you can go to the
+search bar and you can type in normal
+
+686
+00:11:48,270 --> 00:11:48,280
+search bar and you can type in normal
+ 
+
+687
+00:11:48,280 --> 00:11:50,230
+search bar and you can type in normal
+map as well. All right, once you've got
+
+688
+00:11:50,230 --> 00:11:50,240
+map as well. All right, once you've got
+ 
+
+689
+00:11:50,240 --> 00:11:51,829
+map as well. All right, once you've got
+this normal map, you then just need to
+
+690
+00:11:51,829 --> 00:11:51,839
+this normal map, you then just need to
+ 
+
+691
+00:11:51,839 --> 00:11:54,070
+this normal map, you then just need to
+drag it over that line until it lights
+
+692
+00:11:54,070 --> 00:11:54,080
+drag it over that line until it lights
+ 
+
+693
+00:11:54,080 --> 00:11:55,670
+drag it over that line until it lights
+up, and then you just want to do a
+
+694
+00:11:55,670 --> 00:11:55,680
+up, and then you just want to do a
+ 
+
+695
+00:11:55,680 --> 00:11:57,950
+up, and then you just want to do a
+single click and it will connect it.
+
+696
+00:11:57,950 --> 00:11:57,960
+single click and it will connect it.
+ 
+
+697
+00:11:57,960 --> 00:12:01,110
+single click and it will connect it.
+Okay. So, now it is correctly connected.
+
+698
+00:12:01,110 --> 00:12:01,120
+Okay. So, now it is correctly connected.
+ 
+
+699
+00:12:01,120 --> 00:12:03,430
+Okay. So, now it is correctly connected.
+But it But still, it's just not quite
+
+700
+00:12:03,430 --> 00:12:03,440
+But it But still, it's just not quite
+ 
+
+701
+00:12:03,440 --> 00:12:05,190
+But it But still, it's just not quite
+right. There are There is a lot of steps
+
+702
+00:12:05,190 --> 00:12:05,200
+right. There are There is a lot of steps
+ 
+
+703
+00:12:05,200 --> 00:12:07,190
+right. There are There is a lot of steps
+to like manually connecting PBR texture
+
+704
+00:12:07,190 --> 00:12:07,200
+to like manually connecting PBR texture
+ 
+
+705
+00:12:07,200 --> 00:12:08,710
+to like manually connecting PBR texture
+maps, which is why I want to show you
+
+706
+00:12:08,710 --> 00:12:08,720
+maps, which is why I want to show you
+ 
+
+707
+00:12:08,720 --> 00:12:11,150
+maps, which is why I want to show you
+the fast way to do this after this. But
+
+708
+00:12:11,150 --> 00:12:11,160
+the fast way to do this after this. But
+ 
+
+709
+00:12:11,160 --> 00:12:12,310
+the fast way to do this after this. But
+I need to show you this because you
+
+710
+00:12:12,310 --> 00:12:12,320
+I need to show you this because you
+ 
+
+711
+00:12:12,320 --> 00:12:13,790
+I need to show you this because you
+might be using PBR texture maps from
+
+712
+00:12:13,790 --> 00:12:13,800
+might be using PBR texture maps from
+ 
+
+713
+00:12:13,800 --> 00:12:15,390
+might be using PBR texture maps from
+elsewhere or from like production files
+
+714
+00:12:15,390 --> 00:12:15,400
+elsewhere or from like production files
+ 
+
+715
+00:12:15,400 --> 00:12:16,870
+elsewhere or from like production files
+and stuff, and you need to know how to
+
+716
+00:12:16,870 --> 00:12:16,880
+and stuff, and you need to know how to
+ 
+
+717
+00:12:16,880 --> 00:12:19,750
+and stuff, and you need to know how to
+actually manually connect them. So, when
+
+718
+00:12:19,750 --> 00:12:19,760
+actually manually connect them. So, when
+ 
+
+719
+00:12:19,760 --> 00:12:22,630
+actually manually connect them. So, when
+you're working with PBR texture maps,
+
+720
+00:12:22,630 --> 00:12:22,640
+you're working with PBR texture maps,
+ 
+
+721
+00:12:22,640 --> 00:12:25,790
+you're working with PBR texture maps,
+the only texture that should have the
+
+722
+00:12:25,790 --> 00:12:25,800
+the only texture that should have the
+ 
+
+723
+00:12:25,800 --> 00:12:28,910
+the only texture that should have the
+color space sRGB is your base color,
+
+724
+00:12:28,910 --> 00:12:28,920
+color space sRGB is your base color,
+ 
+
+725
+00:12:28,920 --> 00:12:30,030
+color space sRGB is your base color,
+okay?
+
+726
+00:12:30,030 --> 00:12:30,040
+okay?
+ 
+
+727
+00:12:30,040 --> 00:12:31,950
+okay?
+Every other map should have the color
+
+728
+00:12:31,950 --> 00:12:31,960
+Every other map should have the color
+ 
+
+729
+00:12:31,960 --> 00:12:34,950
+Every other map should have the color
+space set to non-color. And again,
+
+730
+00:12:34,950 --> 00:12:34,960
+space set to non-color. And again,
+ 
+
+731
+00:12:34,960 --> 00:12:36,230
+space set to non-color. And again,
+without going technical I keep saying
+
+732
+00:12:36,230 --> 00:12:36,240
+without going technical I keep saying
+ 
+
+733
+00:12:36,240 --> 00:12:37,790
+without going technical I keep saying
+that because you shaders are very
+
+734
+00:12:37,790 --> 00:12:37,800
+that because you shaders are very
+ 
+
+735
+00:12:37,800 --> 00:12:39,590
+that because you shaders are very
+technical.
+
+736
+00:12:39,590 --> 00:12:39,600
+technical.
+ 
+
+737
+00:12:39,600 --> 00:12:41,710
+technical.
+It It basically it's it's it's
+
+738
+00:12:41,710 --> 00:12:41,720
+It It basically it's it's it's
+ 
+
+739
+00:12:41,720 --> 00:12:43,470
+It It basically it's it's it's
+converting it to linear space. So, it's
+
+740
+00:12:43,470 --> 00:12:43,480
+converting it to linear space. So, it's
+ 
+
+741
+00:12:43,480 --> 00:12:44,950
+converting it to linear space. So, it's
+using that
+
+742
+00:12:44,950 --> 00:12:44,960
+using that
+ 
+
+743
+00:12:44,960 --> 00:12:45,750
+using that
+Or it's actually not doing any
+
+744
+00:12:45,750 --> 00:12:45,760
+Or it's actually not doing any
+ 
+
+745
+00:12:45,760 --> 00:12:47,070
+Or it's actually not doing any
+conversion. It's just saying like let's
+
+746
+00:12:47,070 --> 00:12:47,080
+conversion. It's just saying like let's
+ 
+
+747
+00:12:47,080 --> 00:12:50,670
+conversion. It's just saying like let's
+use the raw values from that and
+
+748
+00:12:50,670 --> 00:12:50,680
+use the raw values from that and
+ 
+
+749
+00:12:50,680 --> 00:12:52,470
+use the raw values from that and
+just use it linear. I don't Yeah,
+
+750
+00:12:52,470 --> 00:12:52,480
+just use it linear. I don't Yeah,
+ 
+
+751
+00:12:52,480 --> 00:12:53,553
+just use it linear. I don't Yeah,
+anyway.
+
+752
+00:12:53,553 --> 00:12:53,563
+anyway.
+ 
+
+753
+00:12:53,563 --> 00:12:54,190
+anyway.
+>> [laughter]
+
+754
+00:12:54,190 --> 00:12:54,200
+>> [laughter]
+ 
+
+755
+00:12:54,200 --> 00:12:55,990
+>> [laughter]
+>> Other Other software sometimes call
+
+756
+00:12:55,990 --> 00:12:56,000
+>> Other Other software sometimes call
+ 
+
+757
+00:12:56,000 --> 00:12:58,230
+>> Other Other software sometimes call
+those maps, but our Blender's is a
+
+758
+00:12:58,230 --> 00:12:58,240
+those maps, but our Blender's is a
+ 
+
+759
+00:12:58,240 --> 00:13:00,590
+those maps, but our Blender's is a
+non-color data. Okay. So, now that we've
+
+760
+00:13:00,590 --> 00:13:00,600
+non-color data. Okay. So, now that we've
+ 
+
+761
+00:13:00,600 --> 00:13:03,910
+non-color data. Okay. So, now that we've
+got that, look, we've got bump across
+
+762
+00:13:03,910 --> 00:13:03,920
+got that, look, we've got bump across
+ 
+
+763
+00:13:03,920 --> 00:13:05,710
+got that, look, we've got bump across
+our concrete there. And if we went into
+
+764
+00:13:05,710 --> 00:13:05,720
+our concrete there. And if we went into
+ 
+
+765
+00:13:05,720 --> 00:13:07,750
+our concrete there. And if we went into
+the rendered view at the top there,
+
+766
+00:13:07,750 --> 00:13:07,760
+the rendered view at the top there,
+ 
+
+767
+00:13:07,760 --> 00:13:09,710
+the rendered view at the top there,
+you could see if I took my lamp at the
+
+768
+00:13:09,710 --> 00:13:09,720
+you could see if I took my lamp at the
+ 
+
+769
+00:13:09,720 --> 00:13:11,430
+you could see if I took my lamp at the
+top there, and then I brought this like
+
+770
+00:13:11,430 --> 00:13:11,440
+top there, and then I brought this like
+ 
+
+771
+00:13:11,440 --> 00:13:13,190
+top there, and then I brought this like
+way down to the
+
+772
+00:13:13,190 --> 00:13:13,200
+way down to the
+ 
+
+773
+00:13:13,200 --> 00:13:14,510
+way down to the
+plane that you can see we get this like
+
+774
+00:13:14,510 --> 00:13:14,520
+plane that you can see we get this like
+ 
+
+775
+00:13:14,520 --> 00:13:18,030
+plane that you can see we get this like
+nice gritty shadows cast across the
+
+776
+00:13:18,030 --> 00:13:18,040
+nice gritty shadows cast across the
+ 
+
+777
+00:13:18,040 --> 00:13:19,510
+nice gritty shadows cast across the
+surface there.
+
+778
+00:13:19,510 --> 00:13:19,520
+surface there.
+ 
+
+779
+00:13:19,520 --> 00:13:20,190
+surface there.
+Um
+
+780
+00:13:20,190 --> 00:13:20,200
+Um
+ 
+
+781
+00:13:20,200 --> 00:13:21,829
+Um
+And this is how you make materials that
+
+782
+00:13:21,829 --> 00:13:21,839
+And this is how you make materials that
+ 
+
+783
+00:13:21,839 --> 00:13:24,390
+And this is how you make materials that
+look realistic. You can't get this
+
+784
+00:13:24,390 --> 00:13:24,400
+look realistic. You can't get this
+ 
+
+785
+00:13:24,400 --> 00:13:27,710
+look realistic. You can't get this
+information any other way than by
+
+786
+00:13:27,710 --> 00:13:27,720
+information any other way than by
+ 
+
+787
+00:13:27,720 --> 00:13:30,150
+information any other way than by
+very expensively capturing these
+
+788
+00:13:30,150 --> 00:13:30,160
+very expensively capturing these
+ 
+
+789
+00:13:30,160 --> 00:13:32,110
+very expensively capturing these
+surfaces, and I know that because I've
+
+790
+00:13:32,110 --> 00:13:32,120
+surfaces, and I know that because I've
+ 
+
+791
+00:13:32,120 --> 00:13:34,190
+surfaces, and I know that because I've
+seen the bills. I know how much it costs
+
+792
+00:13:34,190 --> 00:13:34,200
+seen the bills. I know how much it costs
+ 
+
+793
+00:13:34,200 --> 00:13:36,230
+seen the bills. I know how much it costs
+to capture surfaces like this.
+
+794
+00:13:36,230 --> 00:13:36,240
+to capture surfaces like this.
+ 
+
+795
+00:13:36,240 --> 00:13:38,630
+to capture surfaces like this.
+And it can be thousands. That's where we
+
+796
+00:13:38,630 --> 00:13:38,640
+And it can be thousands. That's where we
+ 
+
+797
+00:13:38,640 --> 00:13:40,030
+And it can be thousands. That's where we
+started, and over the years we've got
+
+798
+00:13:40,030 --> 00:13:40,040
+started, and over the years we've got
+ 
+
+799
+00:13:40,040 --> 00:13:42,230
+started, and over the years we've got
+that price way way down.
+
+800
+00:13:42,230 --> 00:13:42,240
+that price way way down.
+ 
+
+801
+00:13:42,240 --> 00:13:45,150
+that price way way down.
+But it's it's a very expensive capturing
+
+802
+00:13:45,150 --> 00:13:45,160
+But it's it's a very expensive capturing
+ 
+
+803
+00:13:45,160 --> 00:13:47,430
+But it's it's a very expensive capturing
+process. It's not easy to do. It's not
+
+804
+00:13:47,430 --> 00:13:47,440
+process. It's not easy to do. It's not
+ 
+
+805
+00:13:47,440 --> 00:13:50,310
+process. It's not easy to do. It's not
+fun. It's very boring to do. So, unless
+
+806
+00:13:50,310 --> 00:13:50,320
+fun. It's very boring to do. So, unless
+ 
+
+807
+00:13:50,320 --> 00:13:52,670
+fun. It's very boring to do. So, unless
+you really want to go into that space,
+
+808
+00:13:52,670 --> 00:13:52,680
+you really want to go into that space,
+ 
+
+809
+00:13:52,680 --> 00:13:54,030
+you really want to go into that space,
+it's not something you want to try to
+
+810
+00:13:54,030 --> 00:13:54,040
+it's not something you want to try to
+ 
+
+811
+00:13:54,040 --> 00:13:55,190
+it's not something you want to try to
+do.
+
+812
+00:13:55,190 --> 00:13:55,200
+do.
+ 
+
+813
+00:13:55,200 --> 00:13:56,910
+do.
+Anyways, so that's the normal map, but
+
+814
+00:13:56,910 --> 00:13:56,920
+Anyways, so that's the normal map, but
+ 
+
+815
+00:13:56,920 --> 00:13:59,630
+Anyways, so that's the normal map, but
+there is another map which is useful.
+
+816
+00:13:59,630 --> 00:13:59,640
+there is another map which is useful.
+ 
+
+817
+00:13:59,640 --> 00:14:01,750
+there is another map which is useful.
+So, I'm going to hit shift A to add
+
+818
+00:14:01,750 --> 00:14:01,760
+So, I'm going to hit shift A to add
+ 
+
+819
+00:14:01,760 --> 00:14:03,310
+So, I'm going to hit shift A to add
+another map, and I'm going to say
+
+820
+00:14:03,310 --> 00:14:03,320
+another map, and I'm going to say
+ 
+
+821
+00:14:03,320 --> 00:14:06,190
+another map, and I'm going to say
+texture, and I'm looking for image
+
+822
+00:14:06,190 --> 00:14:06,200
+texture, and I'm looking for image
+ 
+
+823
+00:14:06,200 --> 00:14:08,790
+texture, and I'm looking for image
+texture. Okay. And then I'm going to
+
+824
+00:14:08,790 --> 00:14:08,800
+texture. Okay. And then I'm going to
+ 
+
+825
+00:14:08,800 --> 00:14:10,710
+texture. Okay. And then I'm going to
+click open on this, and this time I'm
+
+826
+00:14:10,710 --> 00:14:10,720
+click open on this, and this time I'm
+ 
+
+827
+00:14:10,720 --> 00:14:12,910
+click open on this, and this time I'm
+looking for the one with underscore
+
+828
+00:14:12,910 --> 00:14:12,920
+looking for the one with underscore
+ 
+
+829
+00:14:12,920 --> 00:14:15,350
+looking for the one with underscore
+roughness at the end of the name.
+
+830
+00:14:15,350 --> 00:14:15,360
+roughness at the end of the name.
+ 
+
+831
+00:14:15,360 --> 00:14:17,190
+roughness at the end of the name.
+Okay. And then just like before, I need
+
+832
+00:14:17,190 --> 00:14:17,200
+Okay. And then just like before, I need
+ 
+
+833
+00:14:17,200 --> 00:14:18,829
+Okay. And then just like before, I need
+to make sure my color space is set to
+
+834
+00:14:18,829 --> 00:14:18,839
+to make sure my color space is set to
+ 
+
+835
+00:14:18,839 --> 00:14:21,870
+to make sure my color space is set to
+non-color data. And then finally, I want
+
+836
+00:14:21,870 --> 00:14:21,880
+non-color data. And then finally, I want
+ 
+
+837
+00:14:21,880 --> 00:14:24,430
+non-color data. And then finally, I want
+to drag this out to plug into my
+
+838
+00:14:24,430 --> 00:14:24,440
+to drag this out to plug into my
+ 
+
+839
+00:14:24,440 --> 00:14:26,590
+to drag this out to plug into my
+roughness input.
+
+840
+00:14:26,590 --> 00:14:26,600
+roughness input.
+ 
+
+841
+00:14:26,600 --> 00:14:27,630
+roughness input.
+Now, when you do that, you'll see the
+
+842
+00:14:27,630 --> 00:14:27,640
+Now, when you do that, you'll see the
+ 
+
+843
+00:14:27,640 --> 00:14:30,270
+Now, when you do that, you'll see the
+material goes very very dull. So, it was
+
+844
+00:14:30,270 --> 00:14:30,280
+material goes very very dull. So, it was
+ 
+
+845
+00:14:30,280 --> 00:14:32,110
+material goes very very dull. So, it was
+like, you know, before when we set this
+
+846
+00:14:32,110 --> 00:14:32,120
+like, you know, before when we set this
+ 
+
+847
+00:14:32,120 --> 00:14:34,150
+like, you know, before when we set this
+to like shiny like this,
+
+848
+00:14:34,150 --> 00:14:34,160
+to like shiny like this,
+ 
+
+849
+00:14:34,160 --> 00:14:35,310
+to like shiny like this,
+when we connect this in here it goes
+
+850
+00:14:35,310 --> 00:14:35,320
+when we connect this in here it goes
+ 
+
+851
+00:14:35,320 --> 00:14:37,750
+when we connect this in here it goes
+dull because concrete is dull. So, this
+
+852
+00:14:37,750 --> 00:14:37,760
+dull because concrete is dull. So, this
+ 
+
+853
+00:14:37,760 --> 00:14:39,790
+dull because concrete is dull. So, this
+is actually like the correct value for
+
+854
+00:14:39,790 --> 00:14:39,800
+is actually like the correct value for
+ 
+
+855
+00:14:39,800 --> 00:14:41,870
+is actually like the correct value for
+concrete. We like calibrated it to make
+
+856
+00:14:41,870 --> 00:14:41,880
+concrete. We like calibrated it to make
+ 
+
+857
+00:14:41,880 --> 00:14:44,790
+concrete. We like calibrated it to make
+sure. So, this is is that. Now, it's
+
+858
+00:14:44,790 --> 00:14:44,800
+sure. So, this is is that. Now, it's
+ 
+
+859
+00:14:44,800 --> 00:14:46,790
+sure. So, this is is that. Now, it's
+very often that you actually want to
+
+860
+00:14:46,790 --> 00:14:46,800
+very often that you actually want to
+ 
+
+861
+00:14:46,800 --> 00:14:48,670
+very often that you actually want to
+customize something. Like, for example,
+
+862
+00:14:48,670 --> 00:14:48,680
+customize something. Like, for example,
+ 
+
+863
+00:14:48,680 --> 00:14:51,030
+customize something. Like, for example,
+cafe tables often have concrete that has
+
+864
+00:14:51,030 --> 00:14:51,040
+cafe tables often have concrete that has
+ 
+
+865
+00:14:51,040 --> 00:14:53,790
+cafe tables often have concrete that has
+been like buffed or like coated in some
+
+866
+00:14:53,790 --> 00:14:53,800
+been like buffed or like coated in some
+ 
+
+867
+00:14:53,800 --> 00:14:56,069
+been like buffed or like coated in some
+sort of gloss or something like that or
+
+868
+00:14:56,069 --> 00:14:56,079
+sort of gloss or something like that or
+ 
+
+869
+00:14:56,079 --> 00:14:58,790
+sort of gloss or something like that or
+an epoxy. So, it can It It's totally
+
+870
+00:14:58,790 --> 00:14:58,800
+an epoxy. So, it can It It's totally
+ 
+
+871
+00:14:58,800 --> 00:15:01,270
+an epoxy. So, it can It It's totally
+fine to just want to have like the free
+
+872
+00:15:01,270 --> 00:15:01,280
+fine to just want to have like the free
+ 
+
+873
+00:15:01,280 --> 00:15:03,670
+fine to just want to have like the free
+control of the slider there and not use
+
+874
+00:15:03,670 --> 00:15:03,680
+control of the slider there and not use
+ 
+
+875
+00:15:03,680 --> 00:15:06,390
+control of the slider there and not use
+it. Like, the maps are there if you need
+
+876
+00:15:06,390 --> 00:15:06,400
+it. Like, the maps are there if you need
+ 
+
+877
+00:15:06,400 --> 00:15:07,949
+it. Like, the maps are there if you need
+them, right? If you really want to go
+
+878
+00:15:07,949 --> 00:15:07,959
+them, right? If you really want to go
+ 
+
+879
+00:15:07,959 --> 00:15:09,470
+them, right? If you really want to go
+for something realistic, you would use
+
+880
+00:15:09,470 --> 00:15:09,480
+for something realistic, you would use
+ 
+
+881
+00:15:09,480 --> 00:15:11,030
+for something realistic, you would use
+them all, but sometimes you don't, and
+
+882
+00:15:11,030 --> 00:15:11,040
+them all, but sometimes you don't, and
+ 
+
+883
+00:15:11,040 --> 00:15:12,550
+them all, but sometimes you don't, and
+it's totally fine to just disconnect
+
+884
+00:15:12,550 --> 00:15:12,560
+it's totally fine to just disconnect
+ 
+
+885
+00:15:12,560 --> 00:15:14,110
+it's totally fine to just disconnect
+them. Now, the other maps here, by the
+
+886
+00:15:14,110 --> 00:15:14,120
+them. Now, the other maps here, by the
+ 
+
+887
+00:15:14,120 --> 00:15:15,870
+them. Now, the other maps here, by the
+way, if you're curious, this yellow one,
+
+888
+00:15:15,870 --> 00:15:15,880
+way, if you're curious, this yellow one,
+ 
+
+889
+00:15:15,880 --> 00:15:18,270
+way, if you're curious, this yellow one,
+ORM, we don't use that in Blender,
+
+890
+00:15:18,270 --> 00:15:18,280
+ORM, we don't use that in Blender,
+ 
+
+891
+00:15:18,280 --> 00:15:20,190
+ORM, we don't use that in Blender,
+that's used by game engines. Polygon
+
+892
+00:15:20,190 --> 00:15:20,200
+that's used by game engines. Polygon
+ 
+
+893
+00:15:20,200 --> 00:15:21,510
+that's used by game engines. Polygon
+provides them because we, you know,
+
+894
+00:15:21,510 --> 00:15:21,520
+provides them because we, you know,
+ 
+
+895
+00:15:21,520 --> 00:15:23,750
+provides them because we, you know,
+serve all the different renderers and
+
+896
+00:15:23,750 --> 00:15:23,760
+serve all the different renderers and
+ 
+
+897
+00:15:23,760 --> 00:15:25,790
+serve all the different renderers and
+softwares out there. Displacement is a
+
+898
+00:15:25,790 --> 00:15:25,800
+softwares out there. Displacement is a
+ 
+
+899
+00:15:25,800 --> 00:15:28,590
+softwares out there. Displacement is a
+different method than normal map. We're
+
+900
+00:15:28,590 --> 00:15:28,600
+different method than normal map. We're
+ 
+
+901
+00:15:28,600 --> 00:15:30,510
+different method than normal map. We're
+actually going to use that on the donut.
+
+902
+00:15:30,510 --> 00:15:30,520
+actually going to use that on the donut.
+ 
+
+903
+00:15:30,520 --> 00:15:32,510
+actually going to use that on the donut.
+Metallic is if the material contains
+
+904
+00:15:32,510 --> 00:15:32,520
+Metallic is if the material contains
+ 
+
+905
+00:15:32,520 --> 00:15:34,069
+Metallic is if the material contains
+metal, that's the only time you would
+
+906
+00:15:34,069 --> 00:15:34,079
+metal, that's the only time you would
+ 
+
+907
+00:15:34,079 --> 00:15:35,430
+metal, that's the only time you would
+use that. And then the other one is
+
+908
+00:15:35,430 --> 00:15:35,440
+use that. And then the other one is
+ 
+
+909
+00:15:35,440 --> 00:15:38,150
+use that. And then the other one is
+occlusion map, an ambient occlusion map.
+
+910
+00:15:38,150 --> 00:15:38,160
+occlusion map, an ambient occlusion map.
+ 
+
+911
+00:15:38,160 --> 00:15:39,990
+occlusion map, an ambient occlusion map.
+That's if it there's like deep crevices,
+
+912
+00:15:39,990 --> 00:15:40,000
+That's if it there's like deep crevices,
+ 
+
+913
+00:15:40,000 --> 00:15:41,510
+That's if it there's like deep crevices,
+like if it's like a pebble pathway or
+
+914
+00:15:41,510 --> 00:15:41,520
+like if it's like a pebble pathway or
+ 
+
+915
+00:15:41,520 --> 00:15:43,270
+like if it's like a pebble pathway or
+something like that. This is the actual
+
+916
+00:15:43,270 --> 00:15:43,280
+something like that. This is the actual
+ 
+
+917
+00:15:43,280 --> 00:15:45,470
+something like that. This is the actual
+like shadows that like collects inside
+
+918
+00:15:45,470 --> 00:15:45,480
+like shadows that like collects inside
+ 
+
+919
+00:15:45,480 --> 00:15:46,949
+like shadows that like collects inside
+of crevices.
+
+920
+00:15:46,949 --> 00:15:46,959
+of crevices.
+ 
+
+921
+00:15:46,959 --> 00:15:49,030
+of crevices.
+But we don't need that. Honestly, most
+
+922
+00:15:49,030 --> 00:15:49,040
+But we don't need that. Honestly, most
+ 
+
+923
+00:15:49,040 --> 00:15:50,949
+But we don't need that. Honestly, most
+of the time these three maps, the base
+
+924
+00:15:50,949 --> 00:15:50,959
+of the time these three maps, the base
+ 
+
+925
+00:15:50,959 --> 00:15:52,150
+of the time these three maps, the base
+color, the normal map, and the
+
+926
+00:15:52,150 --> 00:15:52,160
+color, the normal map, and the
+ 
+
+927
+00:15:52,160 --> 00:15:55,350
+color, the normal map, and the
+roughness, that is like 90% materials.
+
+928
+00:15:55,350 --> 00:15:55,360
+roughness, that is like 90% materials.
+ 
+
+929
+00:15:55,360 --> 00:15:56,949
+roughness, that is like 90% materials.
+And that's really all that you need for
+
+930
+00:15:56,949 --> 00:15:56,959
+And that's really all that you need for
+ 
+
+931
+00:15:56,959 --> 00:16:00,430
+And that's really all that you need for
+those. But it is still very finicky to
+
+932
+00:16:00,430 --> 00:16:00,440
+those. But it is still very finicky to
+ 
+
+933
+00:16:00,440 --> 00:16:02,390
+those. But it is still very finicky to
+do this, right? Am I wrong? Like, having
+
+934
+00:16:02,390 --> 00:16:02,400
+do this, right? Am I wrong? Like, having
+ 
+
+935
+00:16:02,400 --> 00:16:04,430
+do this, right? Am I wrong? Like, having
+to remember the color space and connect
+
+936
+00:16:04,430 --> 00:16:04,440
+to remember the color space and connect
+ 
+
+937
+00:16:04,440 --> 00:16:06,510
+to remember the color space and connect
+this and convert that and like even just
+
+938
+00:16:06,510 --> 00:16:06,520
+this and convert that and like even just
+ 
+
+939
+00:16:06,520 --> 00:16:09,710
+this and convert that and like even just
+these three things was like 30 clicks.
+
+940
+00:16:09,710 --> 00:16:09,720
+these three things was like 30 clicks.
+ 
+
+941
+00:16:09,720 --> 00:16:12,710
+these three things was like 30 clicks.
+So, that is why most people that are
+
+942
+00:16:12,710 --> 00:16:12,720
+So, that is why most people that are
+ 
+
+943
+00:16:12,720 --> 00:16:14,630
+So, that is why most people that are
+dealing with PBR textures don't want to
+
+944
+00:16:14,630 --> 00:16:14,640
+dealing with PBR textures don't want to
+ 
+
+945
+00:16:14,640 --> 00:16:16,190
+dealing with PBR textures don't want to
+have to do this. They want to use an
+
+946
+00:16:16,190 --> 00:16:16,200
+have to do this. They want to use an
+ 
+
+947
+00:16:16,200 --> 00:16:18,350
+have to do this. They want to use an
+add-on like
+
+948
+00:16:18,350 --> 00:16:18,360
+add-on like
+ 
+
+949
+00:16:18,360 --> 00:16:20,190
+add-on like
+the Polygon add-on. So, at the top of
+
+950
+00:16:20,190 --> 00:16:20,200
+the Polygon add-on. So, at the top of
+ 
+
+951
+00:16:20,200 --> 00:16:23,270
+the Polygon add-on. So, at the top of
+the page on polygon.com \{{}slash} donut,
+
+952
+00:16:23,270 --> 00:16:23,280
+the page on polygon.com \{{}slash} donut,
+ 
+
+953
+00:16:23,280 --> 00:16:24,630
+the page on polygon.com \{{}slash} donut,
+you can click this link that says
+
+954
+00:16:24,630 --> 00:16:24,640
+you can click this link that says
+ 
+
+955
+00:16:24,640 --> 00:16:26,949
+you can click this link that says
+download Polygon add-on, or you can just
+
+956
+00:16:26,949 --> 00:16:26,959
+download Polygon add-on, or you can just
+ 
+
+957
+00:16:26,959 --> 00:16:29,470
+download Polygon add-on, or you can just
+go to \{{}slash} Blender. This will show
+
+958
+00:16:29,470 --> 00:16:29,480
+go to \{{}slash} Blender. This will show
+ 
+
+959
+00:16:29,480 --> 00:16:30,870
+go to \{{}slash} Blender. This will show
+you how to install it. If you don't want
+
+960
+00:16:30,870 --> 00:16:30,880
+you how to install it. If you don't want
+ 
+
+961
+00:16:30,880 --> 00:16:32,350
+you how to install it. If you don't want
+to read that, I'll show you how to do it
+
+962
+00:16:32,350 --> 00:16:32,360
+to read that, I'll show you how to do it
+ 
+
+963
+00:16:32,360 --> 00:16:35,069
+to read that, I'll show you how to do it
+right now. Unlike before, when you have
+
+964
+00:16:35,069 --> 00:16:35,079
+right now. Unlike before, when you have
+ 
+
+965
+00:16:35,079 --> 00:16:37,949
+right now. Unlike before, when you have
+your zip file, do not unzip it. Blender
+
+966
+00:16:37,949 --> 00:16:37,959
+your zip file, do not unzip it. Blender
+ 
+
+967
+00:16:37,959 --> 00:16:40,030
+your zip file, do not unzip it. Blender
+actually needs this zip in order to
+
+968
+00:16:40,030 --> 00:16:40,040
+actually needs this zip in order to
+ 
+
+969
+00:16:40,040 --> 00:16:42,030
+actually needs this zip in order to
+properly install it. So, what you do is
+
+970
+00:16:42,030 --> 00:16:42,040
+properly install it. So, what you do is
+ 
+
+971
+00:16:42,040 --> 00:16:44,870
+properly install it. So, what you do is
+you drag out and you release the zip
+
+972
+00:16:44,870 --> 00:16:44,880
+you drag out and you release the zip
+ 
+
+973
+00:16:44,880 --> 00:16:47,270
+you drag out and you release the zip
+file from anywhere on the computer, and
+
+974
+00:16:47,270 --> 00:16:47,280
+file from anywhere on the computer, and
+ 
+
+975
+00:16:47,280 --> 00:16:49,390
+file from anywhere on the computer, and
+then it will say install this because
+
+976
+00:16:49,390 --> 00:16:49,400
+then it will say install this because
+ 
+
+977
+00:16:49,400 --> 00:16:50,670
+then it will say install this because
+it'll recognize it as an add-on, and
+
+978
+00:16:50,670 --> 00:16:50,680
+it'll recognize it as an add-on, and
+ 
+
+979
+00:16:50,680 --> 00:16:52,430
+it'll recognize it as an add-on, and
+then you say yep, install, and you say
+
+980
+00:16:52,430 --> 00:16:52,440
+then you say yep, install, and you say
+ 
+
+981
+00:16:52,440 --> 00:16:55,510
+then you say yep, install, and you say
+okay. Now, if you go to edit
+
+982
+00:16:55,510 --> 00:16:55,520
+okay. Now, if you go to edit
+ 
+
+983
+00:16:55,520 --> 00:16:57,949
+okay. Now, if you go to edit
+preferences, then go to add-ons, you
+
+984
+00:16:57,949 --> 00:16:57,959
+preferences, then go to add-ons, you
+ 
+
+985
+00:16:57,959 --> 00:16:59,829
+preferences, then go to add-ons, you
+should see one there called Polygon at
+
+986
+00:16:59,829 --> 00:16:59,839
+should see one there called Polygon at
+ 
+
+987
+00:16:59,839 --> 00:17:01,270
+should see one there called Polygon at
+the top there, which means it has been
+
+988
+00:17:01,270 --> 00:17:01,280
+the top there, which means it has been
+ 
+
+989
+00:17:01,280 --> 00:17:03,350
+the top there, which means it has been
+successfully installed. If it didn't
+
+990
+00:17:03,350 --> 00:17:03,360
+successfully installed. If it didn't
+ 
+
+991
+00:17:03,360 --> 00:17:04,669
+successfully installed. If it didn't
+successfully install, maybe you're on a
+
+992
+00:17:04,669 --> 00:17:04,679
+successfully install, maybe you're on a
+ 
+
+993
+00:17:04,679 --> 00:17:06,949
+successfully install, maybe you're on a
+Mac and maybe it actually automatically
+
+994
+00:17:06,949 --> 00:17:06,959
+Mac and maybe it actually automatically
+ 
+
+995
+00:17:06,959 --> 00:17:08,470
+Mac and maybe it actually automatically
+unzipped itself, in which case you need
+
+996
+00:17:08,470 --> 00:17:08,480
+unzipped itself, in which case you need
+ 
+
+997
+00:17:08,480 --> 00:17:11,110
+unzipped itself, in which case you need
+to rezip it and then drag it over. But
+
+998
+00:17:11,110 --> 00:17:11,120
+to rezip it and then drag it over. But
+ 
+
+999
+00:17:11,120 --> 00:17:12,470
+to rezip it and then drag it over. But
+yeah, it should install if it is
+
+1000
+00:17:12,470 --> 00:17:12,480
+yeah, it should install if it is
+ 
+
+1001
+00:17:12,480 --> 00:17:15,310
+yeah, it should install if it is
+properly zipped. Now, once you have done
+
+1002
+00:17:15,310 --> 00:17:15,320
+properly zipped. Now, once you have done
+ 
+
+1003
+00:17:15,320 --> 00:17:18,870
+properly zipped. Now, once you have done
+that, in your 3D viewport over here, if
+
+1004
+00:17:18,870 --> 00:17:18,880
+that, in your 3D viewport over here, if
+ 
+
+1005
+00:17:18,880 --> 00:17:21,150
+that, in your 3D viewport over here, if
+you hit N, which brings up your
+
+1006
+00:17:21,150 --> 00:17:21,160
+you hit N, which brings up your
+ 
+
+1007
+00:17:21,160 --> 00:17:23,030
+you hit N, which brings up your
+properties, you should see a tab there
+
+1008
+00:17:23,030 --> 00:17:23,040
+properties, you should see a tab there
+ 
+
+1009
+00:17:23,040 --> 00:17:25,470
+properties, you should see a tab there
+that says Polygon. Then if you just like
+
+1010
+00:17:25,470 --> 00:17:25,480
+that says Polygon. Then if you just like
+ 
+
+1011
+00:17:25,480 --> 00:17:28,189
+that says Polygon. Then if you just like
+one-click login, this will take you here
+
+1012
+00:17:28,189 --> 00:17:28,199
+one-click login, this will take you here
+ 
+
+1013
+00:17:28,199 --> 00:17:29,190
+one-click login, this will take you here
+and then it will just say login
+
+1014
+00:17:29,190 --> 00:17:29,200
+and then it will just say login
+ 
+
+1015
+00:17:29,200 --> 00:17:32,070
+and then it will just say login
+confirmed. Go back into Blender and you
+
+1016
+00:17:32,070 --> 00:17:32,080
+confirmed. Go back into Blender and you
+ 
+
+1017
+00:17:32,080 --> 00:17:36,070
+confirmed. Go back into Blender and you
+should see now we've got materials in a
+
+1018
+00:17:36,070 --> 00:17:36,080
+should see now we've got materials in a
+ 
+
+1019
+00:17:36,080 --> 00:17:38,190
+should see now we've got materials in a
+scroll bar, right? Which is pretty cool,
+
+1020
+00:17:38,190 --> 00:17:38,200
+scroll bar, right? Which is pretty cool,
+ 
+
+1021
+00:17:38,200 --> 00:17:40,630
+scroll bar, right? Which is pretty cool,
+and I can type in anything I want. Let's
+
+1022
+00:17:40,630 --> 00:17:40,640
+and I can type in anything I want. Let's
+ 
+
+1023
+00:17:40,640 --> 00:17:41,950
+and I can type in anything I want. Let's
+say
+
+1024
+00:17:41,950 --> 00:17:41,960
+say
+ 
+
+1025
+00:17:41,960 --> 00:17:43,150
+say
+sprinkles cuz I know there's some
+
+1026
+00:17:43,150 --> 00:17:43,160
+sprinkles cuz I know there's some
+ 
+
+1027
+00:17:43,160 --> 00:17:45,510
+sprinkles cuz I know there's some
+sprinkles materials here, for example.
+
+1028
+00:17:45,510 --> 00:17:45,520
+sprinkles materials here, for example.
+ 
+
+1029
+00:17:45,520 --> 00:17:48,310
+sprinkles materials here, for example.
+But you can also browse by category,
+
+1030
+00:17:48,310 --> 00:17:48,320
+But you can also browse by category,
+ 
+
+1031
+00:17:48,320 --> 00:17:49,830
+But you can also browse by category,
+right? You can look at all the different
+
+1032
+00:17:49,830 --> 00:17:49,840
+right? You can look at all the different
+ 
+
+1033
+00:17:49,840 --> 00:17:51,790
+right? You can look at all the different
+ones. And importantly, this will
+
+1034
+00:17:51,790 --> 00:17:51,800
+ones. And importantly, this will
+ 
+
+1035
+00:17:51,800 --> 00:17:54,470
+ones. And importantly, this will
+actually download it. So, one-click
+
+1036
+00:17:54,470 --> 00:17:54,480
+actually download it. So, one-click
+ 
+
+1037
+00:17:54,480 --> 00:17:56,790
+actually download it. So, one-click
+download like this, and then one-click
+
+1038
+00:17:56,790 --> 00:17:56,800
+download like this, and then one-click
+ 
+
+1039
+00:17:56,800 --> 00:17:59,190
+download like this, and then one-click
+apply, and look at this.
+
+1040
+00:17:59,190 --> 00:17:59,200
+apply, and look at this.
+ 
+
+1041
+00:17:59,200 --> 00:18:00,870
+apply, and look at this.
+All of this has been set up
+
+1042
+00:18:00,870 --> 00:18:00,880
+All of this has been set up
+ 
+
+1043
+00:18:00,880 --> 00:18:02,710
+All of this has been set up
+automatically. All of these are
+
+1044
+00:18:02,710 --> 00:18:02,720
+automatically. All of these are
+ 
+
+1045
+00:18:02,720 --> 00:18:04,870
+automatically. All of these are
+automatically set to non-color. We've
+
+1046
+00:18:04,870 --> 00:18:04,880
+automatically set to non-color. We've
+ 
+
+1047
+00:18:04,880 --> 00:18:08,350
+automatically set to non-color. We've
+got the exact precise
+
+1048
+00:18:08,350 --> 00:18:08,360
+got the exact precise
+ 
+
+1049
+00:18:08,360 --> 00:18:11,070
+got the exact precise
+correct use of every single map that is
+
+1050
+00:18:11,070 --> 00:18:11,080
+correct use of every single map that is
+ 
+
+1051
+00:18:11,080 --> 00:18:12,830
+correct use of every single map that is
+ready to go.
+
+1052
+00:18:12,830 --> 00:18:12,840
+ready to go.
+ 
+
+1053
+00:18:12,840 --> 00:18:14,190
+ready to go.
+But anyway, go back to my previous
+
+1054
+00:18:14,190 --> 00:18:14,200
+But anyway, go back to my previous
+ 
+
+1055
+00:18:14,200 --> 00:18:18,230
+But anyway, go back to my previous
+material here, and let's go to
+
+1056
+00:18:18,230 --> 00:18:18,240
+material here, and let's go to
+ 
+
+1057
+00:18:18,240 --> 00:18:21,710
+material here, and let's go to
+free category, and then let's use
+
+1058
+00:18:21,710 --> 00:18:21,720
+free category, and then let's use
+ 
+
+1059
+00:18:21,720 --> 00:18:25,430
+free category, and then let's use
+another one. So, this speckled glazed
+
+1060
+00:18:25,430 --> 00:18:25,440
+another one. So, this speckled glazed
+ 
+
+1061
+00:18:25,440 --> 00:18:27,110
+another one. So, this speckled glazed
+ceramic plate.
+
+1062
+00:18:27,110 --> 00:18:27,120
+ceramic plate.
+ 
+
+1063
+00:18:27,120 --> 00:18:28,870
+ceramic plate.
+And by the way, you can like click the
+
+1064
+00:18:28,870 --> 00:18:28,880
+And by the way, you can like click the
+ 
+
+1065
+00:18:28,880 --> 00:18:30,070
+And by the way, you can like click the
+little drop-down there if you want to
+
+1066
+00:18:30,070 --> 00:18:30,080
+little drop-down there if you want to
+ 
+
+1067
+00:18:30,080 --> 00:18:32,430
+little drop-down there if you want to
+see something online to get like better
+
+1068
+00:18:32,430 --> 00:18:32,440
+see something online to get like better
+ 
+
+1069
+00:18:32,440 --> 00:18:33,750
+see something online to get like better
+picture for it,
+
+1070
+00:18:33,750 --> 00:18:33,760
+picture for it,
+ 
+
+1071
+00:18:33,760 --> 00:18:36,470
+picture for it,
+you can quickly view it that way. But
+
+1072
+00:18:36,470 --> 00:18:36,480
+you can quickly view it that way. But
+ 
+
+1073
+00:18:36,480 --> 00:18:38,470
+you can quickly view it that way. But
+this is the one we want to apply to our
+
+1074
+00:18:38,470 --> 00:18:38,480
+this is the one we want to apply to our
+ 
+
+1075
+00:18:38,480 --> 00:18:41,870
+this is the one we want to apply to our
+plate here. So, with my plate selected,
+
+1076
+00:18:41,870 --> 00:18:41,880
+plate here. So, with my plate selected,
+ 
+
+1077
+00:18:41,880 --> 00:18:43,510
+plate here. So, with my plate selected,
+I need to first of all hit download.
+
+1078
+00:18:43,510 --> 00:18:43,520
+I need to first of all hit download.
+ 
+
+1079
+00:18:43,520 --> 00:18:44,550
+I need to first of all hit download.
+I've already done it, which is why I
+
+1080
+00:18:44,550 --> 00:18:44,560
+I've already done it, which is why I
+ 
+
+1081
+00:18:44,560 --> 00:18:46,230
+I've already done it, which is why I
+don't see it, but you hit download and
+
+1082
+00:18:46,230 --> 00:18:46,240
+don't see it, but you hit download and
+ 
+
+1083
+00:18:46,240 --> 00:18:48,310
+don't see it, but you hit download and
+it'll just save it to your folder, which
+
+1084
+00:18:48,310 --> 00:18:48,320
+it'll just save it to your folder, which
+ 
+
+1085
+00:18:48,320 --> 00:18:51,190
+it'll just save it to your folder, which
+is in your preferences. And then with an
+
+1086
+00:18:51,190 --> 00:18:51,200
+is in your preferences. And then with an
+ 
+
+1087
+00:18:51,200 --> 00:18:53,430
+is in your preferences. And then with an
+object selected, you should be able to
+
+1088
+00:18:53,430 --> 00:18:53,440
+object selected, you should be able to
+ 
+
+1089
+00:18:53,440 --> 00:18:55,710
+object selected, you should be able to
+hit apply. If you don't see the apply
+
+1090
+00:18:55,710 --> 00:18:55,720
+hit apply. If you don't see the apply
+ 
+
+1091
+00:18:55,720 --> 00:18:57,310
+hit apply. If you don't see the apply
+box, it means that you haven't got an
+
+1092
+00:18:57,310 --> 00:18:57,320
+box, it means that you haven't got an
+ 
+
+1093
+00:18:57,320 --> 00:18:58,830
+box, it means that you haven't got an
+object selected, so make sure one is
+
+1094
+00:18:58,830 --> 00:18:58,840
+object selected, so make sure one is
+ 
+
+1095
+00:18:58,840 --> 00:19:01,270
+object selected, so make sure one is
+selected in order to click that box.
+
+1096
+00:19:01,270 --> 00:19:01,280
+selected in order to click that box.
+ 
+
+1097
+00:19:01,280 --> 00:19:04,030
+selected in order to click that box.
+Okay. So, we have correctly
+
+1098
+00:19:04,030 --> 00:19:04,040
+Okay. So, we have correctly
+ 
+
+1099
+00:19:04,040 --> 00:19:05,550
+Okay. So, we have correctly
+applied it. You can see all the nodes
+
+1100
+00:19:05,550 --> 00:19:05,560
+applied it. You can see all the nodes
+ 
+
+1101
+00:19:05,560 --> 00:19:07,270
+applied it. You can see all the nodes
+are there. It's the correct material.
+
+1102
+00:19:07,270 --> 00:19:07,280
+are there. It's the correct material.
+ 
+
+1103
+00:19:07,280 --> 00:19:09,470
+are there. It's the correct material.
+Why isn't it showing up on our object?
+
+1104
+00:19:09,470 --> 00:19:09,480
+Why isn't it showing up on our object?
+ 
+
+1105
+00:19:09,480 --> 00:19:10,790
+Why isn't it showing up on our object?
+Now, this isn't a fault of the texture
+
+1106
+00:19:10,790 --> 00:19:10,800
+Now, this isn't a fault of the texture
+ 
+
+1107
+00:19:10,800 --> 00:19:13,270
+Now, this isn't a fault of the texture
+or anything like that. This is to do
+
+1108
+00:19:13,270 --> 00:19:13,280
+or anything like that. This is to do
+ 
+
+1109
+00:19:13,280 --> 00:19:16,550
+or anything like that. This is to do
+with texture mapping, which is the next
+
+1110
+00:19:16,550 --> 00:19:16,560
+with texture mapping, which is the next
+ 
+
+1111
+00:19:16,560 --> 00:19:17,990
+with texture mapping, which is the next
+thing to understand when it comes to
+
+1112
+00:19:17,990 --> 00:19:18,000
+thing to understand when it comes to
+ 
+
+1113
+00:19:18,000 --> 00:19:21,230
+thing to understand when it comes to
+textures. Is textures are 2D, right? 2D.
+
+1114
+00:19:21,230 --> 00:19:21,240
+textures. Is textures are 2D, right? 2D.
+ 
+
+1115
+00:19:21,240 --> 00:19:24,390
+textures. Is textures are 2D, right? 2D.
+And our objects are obviously 3D. So,
+
+1116
+00:19:24,390 --> 00:19:24,400
+And our objects are obviously 3D. So,
+ 
+
+1117
+00:19:24,400 --> 00:19:27,230
+And our objects are obviously 3D. So,
+how do you apply a texture to an object?
+
+1118
+00:19:27,230 --> 00:19:27,240
+how do you apply a texture to an object?
+ 
+
+1119
+00:19:27,240 --> 00:19:29,590
+how do you apply a texture to an object?
+There are so many different ways. And
+
+1120
+00:19:29,590 --> 00:19:29,600
+There are so many different ways. And
+ 
+
+1121
+00:19:29,600 --> 00:19:32,630
+There are so many different ways. And
+the most common way is to use UV
+
+1122
+00:19:32,630 --> 00:19:32,640
+the most common way is to use UV
+ 
+
+1123
+00:19:32,640 --> 00:19:34,870
+the most common way is to use UV
+unwrapping, which is the default method,
+
+1124
+00:19:34,870 --> 00:19:34,880
+unwrapping, which is the default method,
+ 
+
+1125
+00:19:34,880 --> 00:19:36,750
+unwrapping, which is the default method,
+which is what it's actually looking for
+
+1126
+00:19:36,750 --> 00:19:36,760
+which is what it's actually looking for
+ 
+
+1127
+00:19:36,760 --> 00:19:37,870
+which is what it's actually looking for
+right now. You can see that's the
+
+1128
+00:19:37,870 --> 00:19:37,880
+right now. You can see that's the
+ 
+
+1129
+00:19:37,880 --> 00:19:39,430
+right now. You can see that's the
+texture coordinate that it's called in
+
+1130
+00:19:39,430 --> 00:19:39,440
+texture coordinate that it's called in
+ 
+
+1131
+00:19:39,440 --> 00:19:42,070
+texture coordinate that it's called in
+is UVs. And for something like a plate,
+
+1132
+00:19:42,070 --> 00:19:42,080
+is UVs. And for something like a plate,
+ 
+
+1133
+00:19:42,080 --> 00:19:44,190
+is UVs. And for something like a plate,
+this is the most simplest thing ever cuz
+
+1134
+00:19:44,190 --> 00:19:44,200
+this is the most simplest thing ever cuz
+ 
+
+1135
+00:19:44,200 --> 00:19:47,110
+this is the most simplest thing ever cuz
+it's just creating UVs. So, in edit
+
+1136
+00:19:47,110 --> 00:19:47,120
+it's just creating UVs. So, in edit
+ 
+
+1137
+00:19:47,120 --> 00:19:50,870
+it's just creating UVs. So, in edit
+mode, so just tab, and then select your
+
+1138
+00:19:50,870 --> 00:19:50,880
+mode, so just tab, and then select your
+ 
+
+1139
+00:19:50,880 --> 00:19:54,670
+mode, so just tab, and then select your
+entire mesh like that. Then hit U, U for
+
+1140
+00:19:54,670 --> 00:19:54,680
+entire mesh like that. Then hit U, U for
+ 
+
+1141
+00:19:54,680 --> 00:19:57,190
+entire mesh like that. Then hit U, U for
+unwrap, and then select unwrap angle
+
+1142
+00:19:57,190 --> 00:19:57,200
+unwrap, and then select unwrap angle
+ 
+
+1143
+00:19:57,200 --> 00:20:00,030
+unwrap, and then select unwrap angle
+based. And look, now the texture has
+
+1144
+00:20:00,030 --> 00:20:00,040
+based. And look, now the texture has
+ 
+
+1145
+00:20:00,040 --> 00:20:02,670
+based. And look, now the texture has
+been applied. So, what did that actually
+
+1146
+00:20:02,670 --> 00:20:02,680
+been applied. So, what did that actually
+ 
+
+1147
+00:20:02,680 --> 00:20:05,710
+been applied. So, what did that actually
+do? If you go to your UV editing tab at
+
+1148
+00:20:05,710 --> 00:20:05,720
+do? If you go to your UV editing tab at
+ 
+
+1149
+00:20:05,720 --> 00:20:07,150
+do? If you go to your UV editing tab at
+the top of your screen there, just click
+
+1150
+00:20:07,150 --> 00:20:07,160
+the top of your screen there, just click
+ 
+
+1151
+00:20:07,160 --> 00:20:09,670
+the top of your screen there, just click
+that, you will see, and let's uh focus
+
+1152
+00:20:09,670 --> 00:20:09,680
+that, you will see, and let's uh focus
+ 
+
+1153
+00:20:09,680 --> 00:20:11,470
+that, you will see, and let's uh focus
+on our object, so number pad right
+
+1154
+00:20:11,470 --> 00:20:11,480
+on our object, so number pad right
+ 
+
+1155
+00:20:11,480 --> 00:20:13,470
+on our object, so number pad right
+there, and I'll just uh turn this off so
+
+1156
+00:20:13,470 --> 00:20:13,480
+there, and I'll just uh turn this off so
+ 
+
+1157
+00:20:13,480 --> 00:20:15,150
+there, and I'll just uh turn this off so
+we can see the mesh underneath it, and
+
+1158
+00:20:15,150 --> 00:20:15,160
+we can see the mesh underneath it, and
+ 
+
+1159
+00:20:15,160 --> 00:20:17,470
+we can see the mesh underneath it, and
+this one as well. And let's look at uh
+
+1160
+00:20:17,470 --> 00:20:17,480
+this one as well. And let's look at uh
+ 
+
+1161
+00:20:17,480 --> 00:20:19,430
+this one as well. And let's look at uh
+the wireframe. Okay, so when we UV
+
+1162
+00:20:19,430 --> 00:20:19,440
+the wireframe. Okay, so when we UV
+ 
+
+1163
+00:20:19,440 --> 00:20:21,830
+the wireframe. Okay, so when we UV
+unwrapped it, it basically took I mean,
+
+1164
+00:20:21,830 --> 00:20:21,840
+unwrapped it, it basically took I mean,
+ 
+
+1165
+00:20:21,840 --> 00:20:23,830
+unwrapped it, it basically took I mean,
+it in in the case of something as flat
+
+1166
+00:20:23,830 --> 00:20:23,840
+it in in the case of something as flat
+ 
+
+1167
+00:20:23,840 --> 00:20:25,350
+it in in the case of something as flat
+as this, it just took a snapshot of it,
+
+1168
+00:20:25,350 --> 00:20:25,360
+as this, it just took a snapshot of it,
+ 
+
+1169
+00:20:25,360 --> 00:20:27,470
+as this, it just took a snapshot of it,
+and then it put it into the 2D space
+
+1170
+00:20:27,470 --> 00:20:27,480
+and then it put it into the 2D space
+ 
+
+1171
+00:20:27,480 --> 00:20:29,110
+and then it put it into the 2D space
+over here. And from your drop down, you
+
+1172
+00:20:29,110 --> 00:20:29,120
+over here. And from your drop down, you
+ 
+
+1173
+00:20:29,120 --> 00:20:30,750
+over here. And from your drop down, you
+could actually change it to the color
+
+1174
+00:20:30,750 --> 00:20:30,760
+could actually change it to the color
+ 
+
+1175
+00:20:30,760 --> 00:20:32,510
+could actually change it to the color
+map, and you could see where it's
+
+1176
+00:20:32,510 --> 00:20:32,520
+map, and you could see where it's
+ 
+
+1177
+00:20:32,520 --> 00:20:34,190
+map, and you could see where it's
+actually applied to on it. So, if I
+
+1178
+00:20:34,190 --> 00:20:34,200
+actually applied to on it. So, if I
+ 
+
+1179
+00:20:34,200 --> 00:20:36,510
+actually applied to on it. So, if I
+select a point right here on the mesh,
+
+1180
+00:20:36,510 --> 00:20:36,520
+select a point right here on the mesh,
+ 
+
+1181
+00:20:36,520 --> 00:20:37,950
+select a point right here on the mesh,
+you can see which point is actually
+
+1182
+00:20:37,950 --> 00:20:37,960
+you can see which point is actually
+ 
+
+1183
+00:20:37,960 --> 00:20:39,710
+you can see which point is actually
+selected there. So, it's right next to
+
+1184
+00:20:39,710 --> 00:20:39,720
+selected there. So, it's right next to
+ 
+
+1185
+00:20:39,720 --> 00:20:42,070
+selected there. So, it's right next to
+this little spot, and you can see there
+
+1186
+00:20:42,070 --> 00:20:42,080
+this little spot, and you can see there
+ 
+
+1187
+00:20:42,080 --> 00:20:44,510
+this little spot, and you can see there
+is this spot in the ceramic there, okay?
+
+1188
+00:20:44,510 --> 00:20:44,520
+is this spot in the ceramic there, okay?
+ 
+
+1189
+00:20:44,520 --> 00:20:46,310
+is this spot in the ceramic there, okay?
+And as I uh
+
+1190
+00:20:46,310 --> 00:20:46,320
+And as I uh
+ 
+
+1191
+00:20:46,320 --> 00:20:48,790
+And as I uh
+if I was to select everything with A,
+
+1192
+00:20:48,790 --> 00:20:48,800
+if I was to select everything with A,
+ 
+
+1193
+00:20:48,800 --> 00:20:51,270
+if I was to select everything with A,
+and then if I was to hit uh to rotate,
+
+1194
+00:20:51,270 --> 00:20:51,280
+and then if I was to hit uh to rotate,
+ 
+
+1195
+00:20:51,280 --> 00:20:53,510
+and then if I was to hit uh to rotate,
+you can see that the texture is being
+
+1196
+00:20:53,510 --> 00:20:53,520
+you can see that the texture is being
+ 
+
+1197
+00:20:53,520 --> 00:20:55,350
+you can see that the texture is being
+updated over there. In fact, if I turn
+
+1198
+00:20:55,350 --> 00:20:55,360
+updated over there. In fact, if I turn
+ 
+
+1199
+00:20:55,360 --> 00:20:57,430
+updated over there. In fact, if I turn
+off the overlay there just to uh see it
+
+1200
+00:20:57,430 --> 00:20:57,440
+off the overlay there just to uh see it
+ 
+
+1201
+00:20:57,440 --> 00:20:58,750
+off the overlay there just to uh see it
+more clearly, and then I turn on the
+
+1202
+00:20:58,750 --> 00:20:58,760
+more clearly, and then I turn on the
+ 
+
+1203
+00:20:58,760 --> 00:21:00,710
+more clearly, and then I turn on the
+thickness, right?
+
+1204
+00:21:00,710 --> 00:21:00,720
+thickness, right?
+ 
+
+1205
+00:21:00,720 --> 00:21:02,750
+thickness, right?
+Watch this. As I select everything in
+
+1206
+00:21:02,750 --> 00:21:02,760
+Watch this. As I select everything in
+ 
+
+1207
+00:21:02,760 --> 00:21:05,030
+Watch this. As I select everything in
+edit mode, I can move this around, and
+
+1208
+00:21:05,030 --> 00:21:05,040
+edit mode, I can move this around, and
+ 
+
+1209
+00:21:05,040 --> 00:21:07,190
+edit mode, I can move this around, and
+the texture coordinates are updating in
+
+1210
+00:21:07,190 --> 00:21:07,200
+the texture coordinates are updating in
+ 
+
+1211
+00:21:07,200 --> 00:21:09,710
+the texture coordinates are updating in
+real time. Okay, I can also scale this
+
+1212
+00:21:09,710 --> 00:21:09,720
+real time. Okay, I can also scale this
+ 
+
+1213
+00:21:09,720 --> 00:21:11,070
+real time. Okay, I can also scale this
+by hitting S, and this is a really
+
+1214
+00:21:11,070 --> 00:21:11,080
+by hitting S, and this is a really
+ 
+
+1215
+00:21:11,080 --> 00:21:13,110
+by hitting S, and this is a really
+common thing you do, because like often
+
+1216
+00:21:13,110 --> 00:21:13,120
+common thing you do, because like often
+ 
+
+1217
+00:21:13,120 --> 00:21:15,070
+common thing you do, because like often
+a mesh is a completely different size to
+
+1218
+00:21:15,070 --> 00:21:15,080
+a mesh is a completely different size to
+ 
+
+1219
+00:21:15,080 --> 00:21:17,630
+a mesh is a completely different size to
+the captured size of the object. Um in
+
+1220
+00:21:17,630 --> 00:21:17,640
+the captured size of the object. Um in
+ 
+
+1221
+00:21:17,640 --> 00:21:19,430
+the captured size of the object. Um in
+Polygon's case, for like detailed
+
+1222
+00:21:19,430 --> 00:21:19,440
+Polygon's case, for like detailed
+ 
+
+1223
+00:21:19,440 --> 00:21:21,710
+Polygon's case, for like detailed
+textures like this, this is a 30 by 30
+
+1224
+00:21:21,710 --> 00:21:21,720
+textures like this, this is a 30 by 30
+ 
+
+1225
+00:21:21,720 --> 00:21:23,910
+textures like this, this is a 30 by 30
+cm texture, which is actually probably
+
+1226
+00:21:23,910 --> 00:21:23,920
+cm texture, which is actually probably
+ 
+
+1227
+00:21:23,920 --> 00:21:25,910
+cm texture, which is actually probably
+pretty perfect for a plate. Maybe a
+
+1228
+00:21:25,910 --> 00:21:25,920
+pretty perfect for a plate. Maybe a
+ 
+
+1229
+00:21:25,920 --> 00:21:28,230
+pretty perfect for a plate. Maybe a
+maybe a plate should be a little bit uh
+
+1230
+00:21:28,230 --> 00:21:28,240
+maybe a plate should be a little bit uh
+ 
+
+1231
+00:21:28,240 --> 00:21:30,030
+maybe a plate should be a little bit uh
+scaled in like that, so that the dots
+
+1232
+00:21:30,030 --> 00:21:30,040
+scaled in like that, so that the dots
+ 
+
+1233
+00:21:30,040 --> 00:21:31,670
+scaled in like that, so that the dots
+are a little bit bigger. But, you could
+
+1234
+00:21:31,670 --> 00:21:31,680
+are a little bit bigger. But, you could
+ 
+
+1235
+00:21:31,680 --> 00:21:34,590
+are a little bit bigger. But, you could
+see this is very, very easy to do. Let's
+
+1236
+00:21:34,590 --> 00:21:34,600
+see this is very, very easy to do. Let's
+ 
+
+1237
+00:21:34,600 --> 00:21:36,670
+see this is very, very easy to do. Let's
+go back to layout over here. I'm going
+
+1238
+00:21:36,670 --> 00:21:36,680
+go back to layout over here. I'm going
+ 
+
+1239
+00:21:36,680 --> 00:21:39,390
+go back to layout over here. I'm going
+to select the icing now, and let's do uh
+
+1240
+00:21:39,390 --> 00:21:39,400
+to select the icing now, and let's do uh
+ 
+
+1241
+00:21:39,400 --> 00:21:40,870
+to select the icing now, and let's do uh
+one that's a little bit more
+
+1242
+00:21:40,870 --> 00:21:40,880
+one that's a little bit more
+ 
+
+1243
+00:21:40,880 --> 00:21:43,070
+one that's a little bit more
+complicated. So, I'm going to hit N to
+
+1244
+00:21:43,070 --> 00:21:43,080
+complicated. So, I'm going to hit N to
+ 
+
+1245
+00:21:43,080 --> 00:21:44,430
+complicated. So, I'm going to hit N to
+bring up the properties again. I'm going
+
+1246
+00:21:44,430 --> 00:21:44,440
+bring up the properties again. I'm going
+ 
+
+1247
+00:21:44,440 --> 00:21:46,110
+bring up the properties again. I'm going
+to scroll down, so this is in the
+
+1248
+00:21:46,110 --> 00:21:46,120
+to scroll down, so this is in the
+ 
+
+1249
+00:21:46,120 --> 00:21:48,590
+to scroll down, so this is in the
+textures free category. Scrolling down,
+
+1250
+00:21:48,590 --> 00:21:48,600
+textures free category. Scrolling down,
+ 
+
+1251
+00:21:48,600 --> 00:21:50,590
+textures free category. Scrolling down,
+and I'm looking for the strawberry pink
+
+1252
+00:21:50,590 --> 00:21:50,600
+and I'm looking for the strawberry pink
+ 
+
+1253
+00:21:50,600 --> 00:21:52,310
+and I'm looking for the strawberry pink
+uh glaze. Okay, so we got this
+
+1254
+00:21:52,310 --> 00:21:52,320
+uh glaze. Okay, so we got this
+ 
+
+1255
+00:21:52,320 --> 00:21:55,790
+uh glaze. Okay, so we got this
+strawberry pink um texture, right? And
+
+1256
+00:21:55,790 --> 00:21:55,800
+strawberry pink um texture, right? And
+ 
+
+1257
+00:21:55,800 --> 00:21:59,190
+strawberry pink um texture, right? And
+this was actually captured um by
+
+1258
+00:21:59,190 --> 00:21:59,200
+this was actually captured um by
+ 
+
+1259
+00:21:59,200 --> 00:22:01,710
+this was actually captured um by
+literally pouring a bunch of icing into
+
+1260
+00:22:01,710 --> 00:22:01,720
+literally pouring a bunch of icing into
+ 
+
+1261
+00:22:01,720 --> 00:22:04,310
+literally pouring a bunch of icing into
+a pan, um and then using a stereoscopic
+
+1262
+00:22:04,310 --> 00:22:04,320
+a pan, um and then using a stereoscopic
+ 
+
+1263
+00:22:04,320 --> 00:22:05,630
+a pan, um and then using a stereoscopic
+scanner to capture it from all
+
+1264
+00:22:05,630 --> 00:22:05,640
+scanner to capture it from all
+ 
+
+1265
+00:22:05,640 --> 00:22:07,950
+scanner to capture it from all
+dimensions, so that you get this like
+
+1266
+00:22:07,950 --> 00:22:07,960
+dimensions, so that you get this like
+ 
+
+1267
+00:22:07,960 --> 00:22:09,950
+dimensions, so that you get this like
+really interesting like that height
+
+1268
+00:22:09,950 --> 00:22:09,960
+really interesting like that height
+ 
+
+1269
+00:22:09,960 --> 00:22:11,950
+really interesting like that height
+information there, the little bumps of
+
+1270
+00:22:11,950 --> 00:22:11,960
+information there, the little bumps of
+ 
+
+1271
+00:22:11,960 --> 00:22:13,430
+information there, the little bumps of
+like the sugar crystals and stuff
+
+1272
+00:22:13,430 --> 00:22:13,440
+like the sugar crystals and stuff
+ 
+
+1273
+00:22:13,440 --> 00:22:15,669
+like the sugar crystals and stuff
+popping through. Pretty cool. Anyways,
+
+1274
+00:22:15,669 --> 00:22:15,679
+popping through. Pretty cool. Anyways,
+ 
+
+1275
+00:22:15,679 --> 00:22:18,510
+popping through. Pretty cool. Anyways,
+let's hit apply on that.
+
+1276
+00:22:18,510 --> 00:22:18,520
+let's hit apply on that.
+ 
+
+1277
+00:22:18,520 --> 00:22:21,350
+let's hit apply on that.
+Okay, you could see there is some
+
+1278
+00:22:21,350 --> 00:22:21,360
+Okay, you could see there is some
+ 
+
+1279
+00:22:21,360 --> 00:22:23,550
+Okay, you could see there is some
+texture on here, unlike the plate which
+
+1280
+00:22:23,550 --> 00:22:23,560
+texture on here, unlike the plate which
+ 
+
+1281
+00:22:23,560 --> 00:22:25,550
+texture on here, unlike the plate which
+came in like nothing. And the reason for
+
+1282
+00:22:25,550 --> 00:22:25,560
+came in like nothing. And the reason for
+ 
+
+1283
+00:22:25,560 --> 00:22:28,590
+came in like nothing. And the reason for
+that is that when you add in um a torus,
+
+1284
+00:22:28,590 --> 00:22:28,600
+that is that when you add in um a torus,
+ 
+
+1285
+00:22:28,600 --> 00:22:30,430
+that is that when you add in um a torus,
+like certain primitives, we added in a
+
+1286
+00:22:30,430 --> 00:22:30,440
+like certain primitives, we added in a
+ 
+
+1287
+00:22:30,440 --> 00:22:33,190
+like certain primitives, we added in a
+torus, it actually comes in with UV
+
+1288
+00:22:33,190 --> 00:22:33,200
+torus, it actually comes in with UV
+ 
+
+1289
+00:22:33,200 --> 00:22:34,830
+torus, it actually comes in with UV
+unwrapping already created, okay? So,
+
+1290
+00:22:34,830 --> 00:22:34,840
+unwrapping already created, okay? So,
+ 
+
+1291
+00:22:34,840 --> 00:22:36,950
+unwrapping already created, okay? So,
+with this this one here.
+
+1292
+00:22:36,950 --> 00:22:36,960
+with this this one here.
+ 
+
+1293
+00:22:36,960 --> 00:22:39,030
+with this this one here.
+So, it's already got some UVs, but all
+
+1294
+00:22:39,030 --> 00:22:39,040
+So, it's already got some UVs, but all
+ 
+
+1295
+00:22:39,040 --> 00:22:40,669
+So, it's already got some UVs, but all
+that extra work that we did at the
+
+1296
+00:22:40,669 --> 00:22:40,679
+that extra work that we did at the
+ 
+
+1297
+00:22:40,679 --> 00:22:42,310
+that extra work that we did at the
+bottom there, like extruding some things
+
+1298
+00:22:42,310 --> 00:22:42,320
+bottom there, like extruding some things
+ 
+
+1299
+00:22:42,320 --> 00:22:44,550
+bottom there, like extruding some things
+down, that's all been missed, all of the
+
+1300
+00:22:44,550 --> 00:22:44,560
+down, that's all been missed, all of the
+ 
+
+1301
+00:22:44,560 --> 00:22:45,910
+down, that's all been missed, all of the
+way that things have been shifted,
+
+1302
+00:22:45,910 --> 00:22:45,920
+way that things have been shifted,
+ 
+
+1303
+00:22:45,920 --> 00:22:47,790
+way that things have been shifted,
+because now it's lumpy, all of that is
+
+1304
+00:22:47,790 --> 00:22:47,800
+because now it's lumpy, all of that is
+ 
+
+1305
+00:22:47,800 --> 00:22:49,470
+because now it's lumpy, all of that is
+missing as well. So, it would help to
+
+1306
+00:22:49,470 --> 00:22:49,480
+missing as well. So, it would help to
+ 
+
+1307
+00:22:49,480 --> 00:22:52,950
+missing as well. So, it would help to
+actually UV unwrap this again, and
+
+1308
+00:22:52,950 --> 00:22:52,960
+actually UV unwrap this again, and
+ 
+
+1309
+00:22:52,960 --> 00:22:54,590
+actually UV unwrap this again, and
+project these points in a way that
+
+1310
+00:22:54,590 --> 00:22:54,600
+project these points in a way that
+ 
+
+1311
+00:22:54,600 --> 00:22:58,070
+project these points in a way that
+actually match matches the mesh. So, the
+
+1312
+00:22:58,070 --> 00:22:58,080
+actually match matches the mesh. So, the
+ 
+
+1313
+00:22:58,080 --> 00:23:01,150
+actually match matches the mesh. So, the
+way to think about this is what if this
+
+1314
+00:23:01,150 --> 00:23:01,160
+way to think about this is what if this
+ 
+
+1315
+00:23:01,160 --> 00:23:03,550
+way to think about this is what if this
+mesh was made of paper, and we had to
+
+1316
+00:23:03,550 --> 00:23:03,560
+mesh was made of paper, and we had to
+ 
+
+1317
+00:23:03,560 --> 00:23:05,550
+mesh was made of paper, and we had to
+lay the paper flat over onto this
+
+1318
+00:23:05,550 --> 00:23:05,560
+lay the paper flat over onto this
+ 
+
+1319
+00:23:05,560 --> 00:23:08,190
+lay the paper flat over onto this
+texture on the left-hand side over here?
+
+1320
+00:23:08,190 --> 00:23:08,200
+texture on the left-hand side over here?
+ 
+
+1321
+00:23:08,200 --> 00:23:11,110
+texture on the left-hand side over here?
+Where would you place the cuts on the
+
+1322
+00:23:11,110 --> 00:23:11,120
+Where would you place the cuts on the
+ 
+
+1323
+00:23:11,120 --> 00:23:13,950
+Where would you place the cuts on the
+mesh in order to lay it flat? And in the
+
+1324
+00:23:13,950 --> 00:23:13,960
+mesh in order to lay it flat? And in the
+ 
+
+1325
+00:23:13,960 --> 00:23:16,150
+mesh in order to lay it flat? And in the
+case of something like this, where I
+
+1326
+00:23:16,150 --> 00:23:16,160
+case of something like this, where I
+ 
+
+1327
+00:23:16,160 --> 00:23:17,910
+case of something like this, where I
+would place the cuts would be
+
+1328
+00:23:17,910 --> 00:23:17,920
+would place the cuts would be
+ 
+
+1329
+00:23:17,920 --> 00:23:21,230
+would place the cuts would be
+essentially along the edge, right along
+
+1330
+00:23:21,230 --> 00:23:21,240
+essentially along the edge, right along
+ 
+
+1331
+00:23:21,240 --> 00:23:24,070
+essentially along the edge, right along
+here. Okay, so if I alt click along that
+
+1332
+00:23:24,070 --> 00:23:24,080
+here. Okay, so if I alt click along that
+ 
+
+1333
+00:23:24,080 --> 00:23:26,910
+here. Okay, so if I alt click along that
+edge there, that should select all the
+
+1334
+00:23:26,910 --> 00:23:26,920
+edge there, that should select all the
+ 
+
+1335
+00:23:26,920 --> 00:23:28,750
+edge there, that should select all the
+way around it. So, do check that it goes
+
+1336
+00:23:28,750 --> 00:23:28,760
+way around it. So, do check that it goes
+ 
+
+1337
+00:23:28,760 --> 00:23:30,830
+way around it. So, do check that it goes
+all the way around it. Um if it doesn't,
+
+1338
+00:23:30,830 --> 00:23:30,840
+all the way around it. Um if it doesn't,
+ 
+
+1339
+00:23:30,840 --> 00:23:32,550
+all the way around it. Um if it doesn't,
+then it just this next step will come
+
+1340
+00:23:32,550 --> 00:23:32,560
+then it just this next step will come
+ 
+
+1341
+00:23:32,560 --> 00:23:35,150
+then it just this next step will come
+out a little bit funny. Um anyways, now
+
+1342
+00:23:35,150 --> 00:23:35,160
+out a little bit funny. Um anyways, now
+ 
+
+1343
+00:23:35,160 --> 00:23:38,030
+out a little bit funny. Um anyways, now
+that I've selected that, to add a cut,
+
+1344
+00:23:38,030 --> 00:23:38,040
+that I've selected that, to add a cut,
+ 
+
+1345
+00:23:38,040 --> 00:23:40,150
+that I've selected that, to add a cut,
+we're going to hit control E,
+
+1346
+00:23:40,150 --> 00:23:40,160
+we're going to hit control E,
+ 
+
+1347
+00:23:40,160 --> 00:23:43,110
+we're going to hit control E,
+and then I'm going to select mark seam,
+
+1348
+00:23:43,110 --> 00:23:43,120
+and then I'm going to select mark seam,
+ 
+
+1349
+00:23:43,120 --> 00:23:46,590
+and then I'm going to select mark seam,
+okay? And now, if I was to go back into
+
+1350
+00:23:46,590 --> 00:23:46,600
+okay? And now, if I was to go back into
+ 
+
+1351
+00:23:46,600 --> 00:23:48,110
+okay? And now, if I was to go back into
+uh wireframe mode here, and then just
+
+1352
+00:23:48,110 --> 00:23:48,120
+uh wireframe mode here, and then just
+ 
+
+1353
+00:23:48,120 --> 00:23:51,230
+uh wireframe mode here, and then just
+turn off the selection, you should see
+
+1354
+00:23:51,230 --> 00:23:51,240
+turn off the selection, you should see
+ 
+
+1355
+00:23:51,240 --> 00:23:53,750
+turn off the selection, you should see
+that we've got a line here that is red.
+
+1356
+00:23:53,750 --> 00:23:53,760
+that we've got a line here that is red.
+ 
+
+1357
+00:23:53,760 --> 00:23:54,870
+that we've got a line here that is red.
+By the way, the one next to it that is
+
+1358
+00:23:54,870 --> 00:23:54,880
+By the way, the one next to it that is
+ 
+
+1359
+00:23:54,880 --> 00:23:56,230
+By the way, the one next to it that is
+purple, that is the one that has the
+
+1360
+00:23:56,230 --> 00:23:56,240
+purple, that is the one that has the
+ 
+
+1361
+00:23:56,240 --> 00:23:58,310
+purple, that is the one that has the
+crease, which we added when we used the
+
+1362
+00:23:58,310 --> 00:23:58,320
+crease, which we added when we used the
+ 
+
+1363
+00:23:58,320 --> 00:24:00,270
+crease, which we added when we used the
+solidify thing to make it cling to the
+
+1364
+00:24:00,270 --> 00:24:00,280
+solidify thing to make it cling to the
+ 
+
+1365
+00:24:00,280 --> 00:24:02,150
+solidify thing to make it cling to the
+uh to the donut a little bit better. So,
+
+1366
+00:24:02,150 --> 00:24:02,160
+uh to the donut a little bit better. So,
+ 
+
+1367
+00:24:02,160 --> 00:24:04,669
+uh to the donut a little bit better. So,
+we've got this line that goes all the
+
+1368
+00:24:04,669 --> 00:24:04,679
+we've got this line that goes all the
+ 
+
+1369
+00:24:04,679 --> 00:24:07,230
+we've got this line that goes all the
+way around it, okay? And that has done a
+
+1370
+00:24:07,230 --> 00:24:07,240
+way around it, okay? And that has done a
+ 
+
+1371
+00:24:07,240 --> 00:24:09,190
+way around it, okay? And that has done a
+cut. Now, nothing has changed yet,
+
+1372
+00:24:09,190 --> 00:24:09,200
+cut. Now, nothing has changed yet,
+ 
+
+1373
+00:24:09,200 --> 00:24:10,710
+cut. Now, nothing has changed yet,
+because we still haven't UV unwrapped
+
+1374
+00:24:10,710 --> 00:24:10,720
+because we still haven't UV unwrapped
+ 
+
+1375
+00:24:10,720 --> 00:24:12,230
+because we still haven't UV unwrapped
+it, and that's okay, because we need to
+
+1376
+00:24:12,230 --> 00:24:12,240
+it, and that's okay, because we need to
+ 
+
+1377
+00:24:12,240 --> 00:24:13,710
+it, and that's okay, because we need to
+do one more
+
+1378
+00:24:13,710 --> 00:24:13,720
+do one more
+ 
+
+1379
+00:24:13,720 --> 00:24:15,630
+do one more
+right in the middle of our donut. If you
+
+1380
+00:24:15,630 --> 00:24:15,640
+right in the middle of our donut. If you
+ 
+
+1381
+00:24:15,640 --> 00:24:17,910
+right in the middle of our donut. If you
+just select like a random point on the
+
+1382
+00:24:17,910 --> 00:24:17,920
+just select like a random point on the
+ 
+
+1383
+00:24:17,920 --> 00:24:20,150
+just select like a random point on the
+inside of the donut there, then hit your
+
+1384
+00:24:20,150 --> 00:24:20,160
+inside of the donut there, then hit your
+ 
+
+1385
+00:24:20,160 --> 00:24:23,710
+inside of the donut there, then hit your
+focus key, um tilde three or numpad
+
+1386
+00:24:23,710 --> 00:24:23,720
+focus key, um tilde three or numpad
+ 
+
+1387
+00:24:23,720 --> 00:24:24,790
+focus key, um tilde three or numpad
+period,
+
+1388
+00:24:24,790 --> 00:24:24,800
+period,
+ 
+
+1389
+00:24:24,800 --> 00:24:26,310
+period,
+then you should be able to get in nice
+
+1390
+00:24:26,310 --> 00:24:26,320
+then you should be able to get in nice
+ 
+
+1391
+00:24:26,320 --> 00:24:28,430
+then you should be able to get in nice
+and close to it. Now that I'm here, I'm
+
+1392
+00:24:28,430 --> 00:24:28,440
+and close to it. Now that I'm here, I'm
+ 
+
+1393
+00:24:28,440 --> 00:24:29,990
+and close to it. Now that I'm here, I'm
+going to do the same thing, so hold down
+
+1394
+00:24:29,990 --> 00:24:30,000
+going to do the same thing, so hold down
+ 
+
+1395
+00:24:30,000 --> 00:24:32,910
+going to do the same thing, so hold down
+alt, and then select this line here, and
+
+1396
+00:24:32,910 --> 00:24:32,920
+alt, and then select this line here, and
+ 
+
+1397
+00:24:32,920 --> 00:24:35,030
+alt, and then select this line here, and
+now I'm going to hit control E, and do
+
+1398
+00:24:35,030 --> 00:24:35,040
+now I'm going to hit control E, and do
+ 
+
+1399
+00:24:35,040 --> 00:24:37,830
+now I'm going to hit control E, and do
+another seam. Okay, now that I've done
+
+1400
+00:24:37,830 --> 00:24:37,840
+another seam. Okay, now that I've done
+ 
+
+1401
+00:24:37,840 --> 00:24:39,750
+another seam. Okay, now that I've done
+that, select the entire mesh, and just
+
+1402
+00:24:39,750 --> 00:24:39,760
+that, select the entire mesh, and just
+ 
+
+1403
+00:24:39,760 --> 00:24:42,830
+that, select the entire mesh, and just
+like before, to unwrap it, it's U, U to
+
+1404
+00:24:42,830 --> 00:24:42,840
+like before, to unwrap it, it's U, U to
+ 
+
+1405
+00:24:42,840 --> 00:24:45,910
+like before, to unwrap it, it's U, U to
+unwrap, and unwrap angle based. Now,
+
+1406
+00:24:45,910 --> 00:24:45,920
+unwrap, and unwrap angle based. Now,
+ 
+
+1407
+00:24:45,920 --> 00:24:47,750
+unwrap, and unwrap angle based. Now,
+watch what happens.
+
+1408
+00:24:47,750 --> 00:24:47,760
+watch what happens.
+ 
+
+1409
+00:24:47,760 --> 00:24:50,110
+watch what happens.
+Ready?
+
+1410
+00:24:50,110 --> 00:24:50,120
+Ready?
+ 
+
+1411
+00:24:50,120 --> 00:24:51,310
+Ready?
+Well, that's taking a long time. I don't
+
+1412
+00:24:51,310 --> 00:24:51,320
+Well, that's taking a long time. I don't
+ 
+
+1413
+00:24:51,320 --> 00:24:52,310
+Well, that's taking a long time. I don't
+know why it took that long. [laughter]
+
+1414
+00:24:52,310 --> 00:24:52,320
+know why it took that long. [laughter]
+ 
+
+1415
+00:24:52,320 --> 00:24:54,190
+know why it took that long. [laughter]
+I've never seen it stall like that
+
+1416
+00:24:54,190 --> 00:24:54,200
+I've never seen it stall like that
+ 
+
+1417
+00:24:54,200 --> 00:24:57,150
+I've never seen it stall like that
+before, okay? Anyways, but look,
+
+1418
+00:24:57,150 --> 00:24:57,160
+before, okay? Anyways, but look,
+ 
+
+1419
+00:24:57,160 --> 00:24:59,190
+before, okay? Anyways, but look,
+that is perfect. That's pretty well
+
+1420
+00:24:59,190 --> 00:24:59,200
+that is perfect. That's pretty well
+ 
+
+1421
+00:24:59,200 --> 00:25:00,990
+that is perfect. That's pretty well
+perfect. I mean, there's probably a
+
+1422
+00:25:00,990 --> 00:25:01,000
+perfect. I mean, there's probably a
+ 
+
+1423
+00:25:01,000 --> 00:25:02,310
+perfect. I mean, there's probably a
+little bit of stretching there. There's
+
+1424
+00:25:02,310 --> 00:25:02,320
+little bit of stretching there. There's
+ 
+
+1425
+00:25:02,320 --> 00:25:04,030
+little bit of stretching there. There's
+always going to be stretching, guys.
+
+1426
+00:25:04,030 --> 00:25:04,040
+always going to be stretching, guys.
+ 
+
+1427
+00:25:04,040 --> 00:25:06,030
+always going to be stretching, guys.
+You'll never get it perfect, but as long
+
+1428
+00:25:06,030 --> 00:25:06,040
+You'll never get it perfect, but as long
+ 
+
+1429
+00:25:06,040 --> 00:25:08,230
+You'll never get it perfect, but as long
+as the stretching is minimal, like that
+
+1430
+00:25:08,230 --> 00:25:08,240
+as the stretching is minimal, like that
+ 
+
+1431
+00:25:08,240 --> 00:25:10,630
+as the stretching is minimal, like that
+is pretty well good. It's laid flat,
+
+1432
+00:25:10,630 --> 00:25:10,640
+is pretty well good. It's laid flat,
+ 
+
+1433
+00:25:10,640 --> 00:25:12,669
+is pretty well good. It's laid flat,
+like it looks almost like a cowhide rug,
+
+1434
+00:25:12,669 --> 00:25:12,679
+like it looks almost like a cowhide rug,
+ 
+
+1435
+00:25:12,679 --> 00:25:15,270
+like it looks almost like a cowhide rug,
+you know, like the and the dead animal
+
+1436
+00:25:15,270 --> 00:25:15,280
+you know, like the and the dead animal
+ 
+
+1437
+00:25:15,280 --> 00:25:17,310
+you know, like the and the dead animal
+that's been stretched out. It looks like
+
+1438
+00:25:17,310 --> 00:25:17,320
+that's been stretched out. It looks like
+ 
+
+1439
+00:25:17,320 --> 00:25:18,830
+that's been stretched out. It looks like
+that, but like that's that's how it
+
+1440
+00:25:18,830 --> 00:25:18,840
+that, but like that's that's how it
+ 
+
+1441
+00:25:18,840 --> 00:25:20,870
+that, but like that's that's how it
+works, right? So, now if I go into
+
+1442
+00:25:20,870 --> 00:25:20,880
+works, right? So, now if I go into
+ 
+
+1443
+00:25:20,880 --> 00:25:23,590
+works, right? So, now if I go into
+material view, look at this now.
+
+1444
+00:25:23,590 --> 00:25:23,600
+material view, look at this now.
+ 
+
+1445
+00:25:23,600 --> 00:25:25,110
+material view, look at this now.
+We no longer have I mean, you couldn't
+
+1446
+00:25:25,110 --> 00:25:25,120
+We no longer have I mean, you couldn't
+ 
+
+1447
+00:25:25,120 --> 00:25:26,350
+We no longer have I mean, you couldn't
+really see it clearly before, but you no
+
+1448
+00:25:26,350 --> 00:25:26,360
+really see it clearly before, but you no
+ 
+
+1449
+00:25:26,360 --> 00:25:29,110
+really see it clearly before, but you no
+longer have the stretching um that was
+
+1450
+00:25:29,110 --> 00:25:29,120
+longer have the stretching um that was
+ 
+
+1451
+00:25:29,120 --> 00:25:31,430
+longer have the stretching um that was
+happening there. It's now been properly
+
+1452
+00:25:31,430 --> 00:25:31,440
+happening there. It's now been properly
+ 
+
+1453
+00:25:31,440 --> 00:25:32,630
+happening there. It's now been properly
+um
+
+1454
+00:25:32,630 --> 00:25:32,640
+um
+ 
+
+1455
+00:25:32,640 --> 00:25:34,310
+um
+stretched across it. It's been properly
+
+1456
+00:25:34,310 --> 00:25:34,320
+stretched across it. It's been properly
+ 
+
+1457
+00:25:34,320 --> 00:25:35,710
+stretched across it. It's been properly
+mapped, and so we've got the texture
+
+1458
+00:25:35,710 --> 00:25:35,720
+mapped, and so we've got the texture
+ 
+
+1459
+00:25:35,720 --> 00:25:37,470
+mapped, and so we've got the texture
+going all the way in there. Now, the
+
+1460
+00:25:37,470 --> 00:25:37,480
+going all the way in there. Now, the
+ 
+
+1461
+00:25:37,480 --> 00:25:40,110
+going all the way in there. Now, the
+scale of this is probably wrong. So, um
+
+1462
+00:25:40,110 --> 00:25:40,120
+scale of this is probably wrong. So, um
+ 
+
+1463
+00:25:40,120 --> 00:25:41,550
+scale of this is probably wrong. So, um
+I like to like change the scale here,
+
+1464
+00:25:41,550 --> 00:25:41,560
+I like to like change the scale here,
+ 
+
+1465
+00:25:41,560 --> 00:25:43,550
+I like to like change the scale here,
+and I want to see it over there. So, I
+
+1466
+00:25:43,550 --> 00:25:43,560
+and I want to see it over there. So, I
+ 
+
+1467
+00:25:43,560 --> 00:25:46,310
+and I want to see it over there. So, I
+like to turn off my over uh overlays at
+
+1468
+00:25:46,310 --> 00:25:46,320
+like to turn off my over uh overlays at
+ 
+
+1469
+00:25:46,320 --> 00:25:47,830
+like to turn off my over uh overlays at
+the top there. So, you can just click
+
+1470
+00:25:47,830 --> 00:25:47,840
+the top there. So, you can just click
+ 
+
+1471
+00:25:47,840 --> 00:25:49,070
+the top there. So, you can just click
+that little box, that'll turn off
+
+1472
+00:25:49,070 --> 00:25:49,080
+that little box, that'll turn off
+ 
+
+1473
+00:25:49,080 --> 00:25:50,190
+that little box, that'll turn off
+everything, so you kind of can see
+
+1474
+00:25:50,190 --> 00:25:50,200
+everything, so you kind of can see
+ 
+
+1475
+00:25:50,200 --> 00:25:51,910
+everything, so you kind of can see
+what's selected, and now I can just
+
+1476
+00:25:51,910 --> 00:25:51,920
+what's selected, and now I can just
+ 
+
+1477
+00:25:51,920 --> 00:25:53,550
+what's selected, and now I can just
+change the scale here,
+
+1478
+00:25:53,550 --> 00:25:53,560
+change the scale here,
+ 
+
+1479
+00:25:53,560 --> 00:25:55,470
+change the scale here,
+um and I could make it bigger or
+
+1480
+00:25:55,470 --> 00:25:55,480
+um and I could make it bigger or
+ 
+
+1481
+00:25:55,480 --> 00:25:57,070
+um and I could make it bigger or
+smaller, um
+
+1482
+00:25:57,070 --> 00:25:57,080
+smaller, um
+ 
+
+1483
+00:25:57,080 --> 00:25:59,190
+smaller, um
+but yeah, you can play with the size,
+
+1484
+00:25:59,190 --> 00:25:59,200
+but yeah, you can play with the size,
+ 
+
+1485
+00:25:59,200 --> 00:26:01,270
+but yeah, you can play with the size,
+and and try and get it good. But, why
+
+1486
+00:26:01,270 --> 00:26:01,280
+and and try and get it good. But, why
+ 
+
+1487
+00:26:01,280 --> 00:26:03,510
+and and try and get it good. But, why
+does it look so pale and pink and like
+
+1488
+00:26:03,510 --> 00:26:03,520
+does it look so pale and pink and like
+ 
+
+1489
+00:26:03,520 --> 00:26:05,590
+does it look so pale and pink and like
+not as fun as it was before? Well, it's
+
+1490
+00:26:05,590 --> 00:26:05,600
+not as fun as it was before? Well, it's
+ 
+
+1491
+00:26:05,600 --> 00:26:07,750
+not as fun as it was before? Well, it's
+because when we added in that texture,
+
+1492
+00:26:07,750 --> 00:26:07,760
+because when we added in that texture,
+ 
+
+1493
+00:26:07,760 --> 00:26:10,390
+because when we added in that texture,
+right? When we clicked this, it overrode
+
+1494
+00:26:10,390 --> 00:26:10,400
+right? When we clicked this, it overrode
+ 
+
+1495
+00:26:10,400 --> 00:26:13,390
+right? When we clicked this, it overrode
+overrode um
+
+1496
+00:26:13,390 --> 00:26:13,400
+overrode um
+ 
+
+1497
+00:26:13,400 --> 00:26:15,110
+overrode um
+the material that we had before. So, if
+
+1498
+00:26:15,110 --> 00:26:15,120
+the material that we had before. So, if
+ 
+
+1499
+00:26:15,120 --> 00:26:16,990
+the material that we had before. So, if
+you go back to your shading tab, you'll
+
+1500
+00:26:16,990 --> 00:26:17,000
+you go back to your shading tab, you'll
+ 
+
+1501
+00:26:17,000 --> 00:26:19,110
+you go back to your shading tab, you'll
+see we got all these textures, and for
+
+1502
+00:26:19,110 --> 00:26:19,120
+see we got all these textures, and for
+ 
+
+1503
+00:26:19,120 --> 00:26:21,669
+see we got all these textures, and for
+example, before we had a pink color that
+
+1504
+00:26:21,669 --> 00:26:21,679
+example, before we had a pink color that
+ 
+
+1505
+00:26:21,679 --> 00:26:23,390
+example, before we had a pink color that
+was in the base color. Now, it's been
+
+1506
+00:26:23,390 --> 00:26:23,400
+was in the base color. Now, it's been
+ 
+
+1507
+00:26:23,400 --> 00:26:25,390
+was in the base color. Now, it's been
+overridden with the actual strawberry
+
+1508
+00:26:25,390 --> 00:26:25,400
+overridden with the actual strawberry
+ 
+
+1509
+00:26:25,400 --> 00:26:26,669
+overridden with the actual strawberry
+color, which was captured with the
+
+1510
+00:26:26,669 --> 00:26:26,679
+color, which was captured with the
+ 
+
+1511
+00:26:26,679 --> 00:26:28,870
+color, which was captured with the
+camera. However, that strawberry is a
+
+1512
+00:26:28,870 --> 00:26:28,880
+camera. However, that strawberry is a
+ 
+
+1513
+00:26:28,880 --> 00:26:31,150
+camera. However, that strawberry is a
+little paler than what I want. So, I'm
+
+1514
+00:26:31,150 --> 00:26:31,160
+little paler than what I want. So, I'm
+ 
+
+1515
+00:26:31,160 --> 00:26:32,950
+little paler than what I want. So, I'm
+actually going to disconnect it, because
+
+1516
+00:26:32,950 --> 00:26:32,960
+actually going to disconnect it, because
+ 
+
+1517
+00:26:32,960 --> 00:26:34,310
+actually going to disconnect it, because
+there's not actually that much
+
+1518
+00:26:34,310 --> 00:26:34,320
+there's not actually that much
+ 
+
+1519
+00:26:34,320 --> 00:26:36,270
+there's not actually that much
+information in color when it's something
+
+1520
+00:26:36,270 --> 00:26:36,280
+information in color when it's something
+ 
+
+1521
+00:26:36,280 --> 00:26:37,990
+information in color when it's something
+like this. All the information is in the
+
+1522
+00:26:37,990 --> 00:26:38,000
+like this. All the information is in the
+ 
+
+1523
+00:26:38,000 --> 00:26:40,790
+like this. All the information is in the
+bump. So, we can really just get by with
+
+1524
+00:26:40,790 --> 00:26:40,800
+bump. So, we can really just get by with
+ 
+
+1525
+00:26:40,800 --> 00:26:42,070
+bump. So, we can really just get by with
+Actually, we don't need metallic, cuz
+
+1526
+00:26:42,070 --> 00:26:42,080
+Actually, we don't need metallic, cuz
+ 
+
+1527
+00:26:42,080 --> 00:26:44,470
+Actually, we don't need metallic, cuz
+there's definitely no metal in it. Um
+
+1528
+00:26:44,470 --> 00:26:44,480
+there's definitely no metal in it. Um
+ 
+
+1529
+00:26:44,480 --> 00:26:45,870
+there's definitely no metal in it. Um
+I'm going to keep the roughness. That's
+
+1530
+00:26:45,870 --> 00:26:45,880
+I'm going to keep the roughness. That's
+ 
+
+1531
+00:26:45,880 --> 00:26:47,190
+I'm going to keep the roughness. That's
+okay to keep, because I just actually
+
+1532
+00:26:47,190 --> 00:26:47,200
+okay to keep, because I just actually
+ 
+
+1533
+00:26:47,200 --> 00:26:48,870
+okay to keep, because I just actually
+want to see that. I'm going to
+
+1534
+00:26:48,870 --> 00:26:48,880
+want to see that. I'm going to
+ 
+
+1535
+00:26:48,880 --> 00:26:51,550
+want to see that. I'm going to
+disconnect this, which is the subsurface
+
+1536
+00:26:51,550 --> 00:26:51,560
+disconnect this, which is the subsurface
+ 
+
+1537
+00:26:51,560 --> 00:26:53,630
+disconnect this, which is the subsurface
+amount, um because I want to control
+
+1538
+00:26:53,630 --> 00:26:53,640
+amount, um because I want to control
+ 
+
+1539
+00:26:53,640 --> 00:26:55,590
+amount, um because I want to control
+that myself as well. And I'm just going
+
+1540
+00:26:55,590 --> 00:26:55,600
+that myself as well. And I'm just going
+ 
+
+1541
+00:26:55,600 --> 00:26:57,390
+that myself as well. And I'm just going
+to leave the roughness and the normal,
+
+1542
+00:26:57,390 --> 00:26:57,400
+to leave the roughness and the normal,
+ 
+
+1543
+00:26:57,400 --> 00:26:58,830
+to leave the roughness and the normal,
+and that's it. Oh, I should explain how
+
+1544
+00:26:58,830 --> 00:26:58,840
+and that's it. Oh, I should explain how
+ 
+
+1545
+00:26:58,840 --> 00:27:00,510
+and that's it. Oh, I should explain how
+I was disconnecting those. So, if you
+
+1546
+00:27:00,510 --> 00:27:00,520
+I was disconnecting those. So, if you
+ 
+
+1547
+00:27:00,520 --> 00:27:03,190
+I was disconnecting those. So, if you
+hold down control and then right-click
+
+1548
+00:27:03,190 --> 00:27:03,200
+hold down control and then right-click
+ 
+
+1549
+00:27:03,200 --> 00:27:05,230
+hold down control and then right-click
+drag, that is how you can disconnect.
+
+1550
+00:27:05,230 --> 00:27:05,240
+drag, that is how you can disconnect.
+ 
+
+1551
+00:27:05,240 --> 00:27:06,910
+drag, that is how you can disconnect.
+You can also just click these points,
+
+1552
+00:27:06,910 --> 00:27:06,920
+You can also just click these points,
+ 
+
+1553
+00:27:06,920 --> 00:27:08,470
+You can also just click these points,
+and then just disconnect like that, but
+
+1554
+00:27:08,470 --> 00:27:08,480
+and then just disconnect like that, but
+ 
+
+1555
+00:27:08,480 --> 00:27:10,230
+and then just disconnect like that, but
+I prefer to control right-click drag,
+
+1556
+00:27:10,230 --> 00:27:10,240
+I prefer to control right-click drag,
+ 
+
+1557
+00:27:10,240 --> 00:27:14,430
+I prefer to control right-click drag,
+and that'll cut it. Um sever the tie.
+
+1558
+00:27:14,430 --> 00:27:14,440
+and that'll cut it. Um sever the tie.
+ 
+
+1559
+00:27:14,440 --> 00:27:15,390
+and that'll cut it. Um sever the tie.
+And now that I'm here, I'm just going to
+
+1560
+00:27:15,390 --> 00:27:15,400
+And now that I'm here, I'm just going to
+ 
+
+1561
+00:27:15,400 --> 00:27:17,430
+And now that I'm here, I'm just going to
+set these values to what I had before,
+
+1562
+00:27:17,430 --> 00:27:17,440
+set these values to what I had before,
+ 
+
+1563
+00:27:17,440 --> 00:27:19,470
+set these values to what I had before,
+you know, just playing it by eye, what
+
+1564
+00:27:19,470 --> 00:27:19,480
+you know, just playing it by eye, what
+ 
+
+1565
+00:27:19,480 --> 00:27:22,230
+you know, just playing it by eye, what
+pink color looks good. Set my subsurface
+
+1566
+00:27:22,230 --> 00:27:22,240
+pink color looks good. Set my subsurface
+ 
+
+1567
+00:27:22,240 --> 00:27:24,590
+pink color looks good. Set my subsurface
+amount radius to one, and then I'll
+
+1568
+00:27:24,590 --> 00:27:24,600
+amount radius to one, and then I'll
+ 
+
+1569
+00:27:24,600 --> 00:27:27,669
+amount radius to one, and then I'll
+change this uh scale value till it looks
+
+1570
+00:27:27,669 --> 00:27:27,679
+change this uh scale value till it looks
+ 
+
+1571
+00:27:27,679 --> 00:27:29,790
+change this uh scale value till it looks
+nice. But, there you go. I've now got my
+
+1572
+00:27:29,790 --> 00:27:29,800
+nice. But, there you go. I've now got my
+ 
+
+1573
+00:27:29,800 --> 00:27:31,990
+nice. But, there you go. I've now got my
+fleshy pink donut,
+
+1574
+00:27:31,990 --> 00:27:32,000
+fleshy pink donut,
+ 
+
+1575
+00:27:32,000 --> 00:27:32,710
+fleshy pink donut,
+um
+
+1576
+00:27:32,710 --> 00:27:32,720
+um
+ 
+
+1577
+00:27:32,720 --> 00:27:36,390
+um
+but I I now have this lovely bubbly um
+
+1578
+00:27:36,390 --> 00:27:36,400
+but I I now have this lovely bubbly um
+ 
+
+1579
+00:27:36,400 --> 00:27:39,070
+but I I now have this lovely bubbly um
+sugar crystals real glaze going on the
+
+1580
+00:27:39,070 --> 00:27:39,080
+sugar crystals real glaze going on the
+ 
+
+1581
+00:27:39,080 --> 00:27:40,230
+sugar crystals real glaze going on the
+donut.
+
+1582
+00:27:40,230 --> 00:27:40,240
+donut.
+ 
+
+1583
+00:27:40,240 --> 00:27:41,910
+donut.
+All right, now let's do another fun one.
+
+1584
+00:27:41,910 --> 00:27:41,920
+All right, now let's do another fun one.
+ 
+
+1585
+00:27:41,920 --> 00:27:44,750
+All right, now let's do another fun one.
+Let's do the donut itself. Now, this is
+
+1586
+00:27:44,750 --> 00:27:44,760
+Let's do the donut itself. Now, this is
+ 
+
+1587
+00:27:44,760 --> 00:27:46,550
+Let's do the donut itself. Now, this is
+a an interesting one that I had my team
+
+1588
+00:27:46,550 --> 00:27:46,560
+a an interesting one that I had my team
+ 
+
+1589
+00:27:46,560 --> 00:27:48,590
+a an interesting one that I had my team
+do um before we did
+
+1590
+00:27:48,590 --> 00:27:48,600
+do um before we did
+ 
+
+1591
+00:27:48,600 --> 00:27:50,870
+do um before we did
+uh before I started recording. Um I had
+
+1592
+00:27:50,870 --> 00:27:50,880
+uh before I started recording. Um I had
+ 
+
+1593
+00:27:50,880 --> 00:27:53,470
+uh before I started recording. Um I had
+them go out and scan a real donut, scan
+
+1594
+00:27:53,470 --> 00:27:53,480
+them go out and scan a real donut, scan
+ 
+
+1595
+00:27:53,480 --> 00:27:55,150
+them go out and scan a real donut, scan
+it all the way around, and then map it
+
+1596
+00:27:55,150 --> 00:27:55,160
+it all the way around, and then map it
+ 
+
+1597
+00:27:55,160 --> 00:27:56,870
+it all the way around, and then map it
+to a torus, and then just get the
+
+1598
+00:27:56,870 --> 00:27:56,880
+to a torus, and then just get the
+ 
+
+1599
+00:27:56,880 --> 00:27:59,750
+to a torus, and then just get the
+extracted data. And because this has
+
+1600
+00:27:59,750 --> 00:27:59,760
+extracted data. And because this has
+ 
+
+1601
+00:27:59,760 --> 00:28:02,030
+extracted data. And because this has
+been already UV unwrapped to map the
+
+1602
+00:28:02,030 --> 00:28:02,040
+been already UV unwrapped to map the
+ 
+
+1603
+00:28:02,040 --> 00:28:05,950
+been already UV unwrapped to map the
+exact square, just like what we um uh
+
+1604
+00:28:05,950 --> 00:28:05,960
+exact square, just like what we um uh
+ 
+
+1605
+00:28:05,960 --> 00:28:07,350
+exact square, just like what we um uh
+sorry.
+
+1606
+00:28:07,350 --> 00:28:07,360
+sorry.
+ 
+
+1607
+00:28:07,360 --> 00:28:09,070
+sorry.
+Yeah, just like what is captured for
+
+1608
+00:28:09,070 --> 00:28:09,080
+Yeah, just like what is captured for
+ 
+
+1609
+00:28:09,080 --> 00:28:11,710
+Yeah, just like what is captured for
+this this type of map here, now I can
+
+1610
+00:28:11,710 --> 00:28:11,720
+this this type of map here, now I can
+ 
+
+1611
+00:28:11,720 --> 00:28:13,790
+this this type of map here, now I can
+just apply this, and it'll automatically
+
+1612
+00:28:13,790 --> 00:28:13,800
+just apply this, and it'll automatically
+ 
+
+1613
+00:28:13,800 --> 00:28:15,510
+just apply this, and it'll automatically
+do it. So, let's do that. Hit apply, and
+
+1614
+00:28:15,510 --> 00:28:15,520
+do it. So, let's do that. Hit apply, and
+ 
+
+1615
+00:28:15,520 --> 00:28:17,030
+do it. So, let's do that. Hit apply, and
+that's pretty good. Like that's nice
+
+1616
+00:28:17,030 --> 00:28:17,040
+that's pretty good. Like that's nice
+ 
+
+1617
+00:28:17,040 --> 00:28:19,310
+that's pretty good. Like that's nice
+color, we've got nice bump there. If we
+
+1618
+00:28:19,310 --> 00:28:19,320
+color, we've got nice bump there. If we
+ 
+
+1619
+00:28:19,320 --> 00:28:21,510
+color, we've got nice bump there. If we
+bring back our icing, you can see that's
+
+1620
+00:28:21,510 --> 00:28:21,520
+bring back our icing, you can see that's
+ 
+
+1621
+00:28:21,520 --> 00:28:24,390
+bring back our icing, you can see that's
+already pretty good, right? But, there
+
+1622
+00:28:24,390 --> 00:28:24,400
+already pretty good, right? But, there
+ 
+
+1623
+00:28:24,400 --> 00:28:25,870
+already pretty good, right? But, there
+is something else that we can do,
+
+1624
+00:28:25,870 --> 00:28:25,880
+is something else that we can do,
+ 
+
+1625
+00:28:25,880 --> 00:28:27,510
+is something else that we can do,
+because when I was talking about
+
+1626
+00:28:27,510 --> 00:28:27,520
+because when I was talking about
+ 
+
+1627
+00:28:27,520 --> 00:28:29,149
+because when I was talking about
+shading, you might remember I mentioned
+
+1628
+00:28:29,149 --> 00:28:29,159
+shading, you might remember I mentioned
+ 
+
+1629
+00:28:29,159 --> 00:28:32,710
+shading, you might remember I mentioned
+that there is two different ways of um
+
+1630
+00:28:32,710 --> 00:28:32,720
+that there is two different ways of um
+ 
+
+1631
+00:28:32,720 --> 00:28:35,590
+that there is two different ways of um
+uh creating normal I sorry, creating
+
+1632
+00:28:35,590 --> 00:28:35,600
+uh creating normal I sorry, creating
+ 
+
+1633
+00:28:35,600 --> 00:28:37,870
+uh creating normal I sorry, creating
+bumps, right? And the the the normal
+
+1634
+00:28:37,870 --> 00:28:37,880
+bumps, right? And the the the normal
+ 
+
+1635
+00:28:37,880 --> 00:28:39,470
+bumps, right? And the the the normal
+one, the purple one, that's the one
+
+1636
+00:28:39,470 --> 00:28:39,480
+one, the purple one, that's the one
+ 
+
+1637
+00:28:39,480 --> 00:28:41,230
+one, the purple one, that's the one
+we've been using uh thus far. But,
+
+1638
+00:28:41,230 --> 00:28:41,240
+we've been using uh thus far. But,
+ 
+
+1639
+00:28:41,240 --> 00:28:42,550
+we've been using uh thus far. But,
+there's another one here, which comes in
+
+1640
+00:28:42,550 --> 00:28:42,560
+there's another one here, which comes in
+ 
+
+1641
+00:28:42,560 --> 00:28:45,230
+there's another one here, which comes in
+disconnected, and it's the displacement
+
+1642
+00:28:45,230 --> 00:28:45,240
+disconnected, and it's the displacement
+ 
+
+1643
+00:28:45,240 --> 00:28:48,950
+disconnected, and it's the displacement
+map. Now, in the newer versions of um
+
+1644
+00:28:48,950 --> 00:28:48,960
+map. Now, in the newer versions of um
+ 
+
+1645
+00:28:48,960 --> 00:28:50,909
+map. Now, in the newer versions of um
+the Polygon add-on, like the next
+
+1646
+00:28:50,909 --> 00:28:50,919
+the Polygon add-on, like the next
+ 
+
+1647
+00:28:50,919 --> 00:28:52,550
+the Polygon add-on, like the next
+version that's coming out after this,
+
+1648
+00:28:52,550 --> 00:28:52,560
+version that's coming out after this,
+ 
+
+1649
+00:28:52,560 --> 00:28:54,470
+version that's coming out after this,
+you'll be able to in this last use box
+
+1650
+00:28:54,470 --> 00:28:54,480
+you'll be able to in this last use box
+ 
+
+1651
+00:28:54,480 --> 00:28:56,830
+you'll be able to in this last use box
+here, you'll have an option that says um
+
+1652
+00:28:56,830 --> 00:28:56,840
+here, you'll have an option that says um
+ 
+
+1653
+00:28:56,840 --> 00:28:59,870
+here, you'll have an option that says um
+displacement and I sorry, displacement
+
+1654
+00:28:59,870 --> 00:28:59,880
+displacement and I sorry, displacement
+ 
+
+1655
+00:28:59,880 --> 00:29:01,430
+displacement and I sorry, displacement
+type. You can currently see it in
+
+1656
+00:29:01,430 --> 00:29:01,440
+type. You can currently see it in
+ 
+
+1657
+00:29:01,440 --> 00:29:03,350
+type. You can currently see it in
+Cycles, so if you use that, you can
+
+1658
+00:29:03,350 --> 00:29:03,360
+Cycles, so if you use that, you can
+ 
+
+1659
+00:29:03,360 --> 00:29:05,630
+Cycles, so if you use that, you can
+change it here to displacement and bump.
+
+1660
+00:29:05,630 --> 00:29:05,640
+change it here to displacement and bump.
+ 
+
+1661
+00:29:05,640 --> 00:29:08,230
+change it here to displacement and bump.
+But, because Eevee only just came with
+
+1662
+00:29:08,230 --> 00:29:08,240
+But, because Eevee only just came with
+ 
+
+1663
+00:29:08,240 --> 00:29:09,830
+But, because Eevee only just came with
+this feature to enable displacement,
+
+1664
+00:29:09,830 --> 00:29:09,840
+this feature to enable displacement,
+ 
+
+1665
+00:29:09,840 --> 00:29:11,430
+this feature to enable displacement,
+it's not yet there.
+
+1666
+00:29:11,430 --> 00:29:11,440
+it's not yet there.
+ 
+
+1667
+00:29:11,440 --> 00:29:13,470
+it's not yet there.
+Um so, we would have to connect it um
+
+1668
+00:29:13,470 --> 00:29:13,480
+Um so, we would have to connect it um
+ 
+
+1669
+00:29:13,480 --> 00:29:15,430
+Um so, we would have to connect it um
+ourselves. But, essentially all it's
+
+1670
+00:29:15,430 --> 00:29:15,440
+ourselves. But, essentially all it's
+ 
+
+1671
+00:29:15,440 --> 00:29:17,470
+ourselves. But, essentially all it's
+doing is when you change that little
+
+1672
+00:29:17,470 --> 00:29:17,480
+doing is when you change that little
+ 
+
+1673
+00:29:17,480 --> 00:29:19,310
+doing is when you change that little
+drop down there, if I grab all these
+
+1674
+00:29:19,310 --> 00:29:19,320
+drop down there, if I grab all these
+ 
+
+1675
+00:29:19,320 --> 00:29:21,909
+drop down there, if I grab all these
+things here, hit G to move them down,
+
+1676
+00:29:21,909 --> 00:29:21,919
+things here, hit G to move them down,
+ 
+
+1677
+00:29:21,919 --> 00:29:23,790
+things here, hit G to move them down,
+and then I sever this tie with the
+
+1678
+00:29:23,790 --> 00:29:23,800
+and then I sever this tie with the
+ 
+
+1679
+00:29:23,800 --> 00:29:26,310
+and then I sever this tie with the
+normal, and then I take my displacement,
+
+1680
+00:29:26,310 --> 00:29:26,320
+normal, and then I take my displacement,
+ 
+
+1681
+00:29:26,320 --> 00:29:28,110
+normal, and then I take my displacement,
+don't put it in the normal input though,
+
+1682
+00:29:28,110 --> 00:29:28,120
+don't put it in the normal input though,
+ 
+
+1683
+00:29:28,120 --> 00:29:30,790
+don't put it in the normal input though,
+put it in the displacement output of the
+
+1684
+00:29:30,790 --> 00:29:30,800
+put it in the displacement output of the
+ 
+
+1685
+00:29:30,800 --> 00:29:33,070
+put it in the displacement output of the
+material here. And what this is doing
+
+1686
+00:29:33,070 --> 00:29:33,080
+material here. And what this is doing
+ 
+
+1687
+00:29:33,080 --> 00:29:35,110
+material here. And what this is doing
+now
+
+1688
+00:29:35,110 --> 00:29:35,120
+now
+ 
+
+1689
+00:29:35,120 --> 00:29:36,950
+now
+is well, it's it's still a fake bump,
+
+1690
+00:29:36,950 --> 00:29:36,960
+is well, it's it's still a fake bump,
+ 
+
+1691
+00:29:36,960 --> 00:29:38,310
+is well, it's it's still a fake bump,
+but the other setting that it would
+
+1692
+00:29:38,310 --> 00:29:38,320
+but the other setting that it would
+ 
+
+1693
+00:29:38,320 --> 00:29:40,110
+but the other setting that it would
+enable is here in your material
+
+1694
+00:29:40,110 --> 00:29:40,120
+enable is here in your material
+ 
+
+1695
+00:29:40,120 --> 00:29:42,149
+enable is here in your material
+properties, right down here at the
+
+1696
+00:29:42,149 --> 00:29:42,159
+properties, right down here at the
+ 
+
+1697
+00:29:42,159 --> 00:29:43,909
+properties, right down here at the
+bottom, where it says displacement, it
+
+1698
+00:29:43,909 --> 00:29:43,919
+bottom, where it says displacement, it
+ 
+
+1699
+00:29:43,919 --> 00:29:45,510
+bottom, where it says displacement, it
+would change that to displacement and
+
+1700
+00:29:45,510 --> 00:29:45,520
+would change that to displacement and
+ 
+
+1701
+00:29:45,520 --> 00:29:48,710
+would change that to displacement and
+bump. And now, if I select my icing, it
+
+1702
+00:29:48,710 --> 00:29:48,720
+bump. And now, if I select my icing, it
+ 
+
+1703
+00:29:48,720 --> 00:29:51,230
+bump. And now, if I select my icing, it
+H to hide it, um you can see that the
+
+1704
+00:29:51,230 --> 00:29:51,240
+H to hide it, um you can see that the
+ 
+
+1705
+00:29:51,240 --> 00:29:53,310
+H to hide it, um you can see that the
+mesh has changed, right? This is the
+
+1706
+00:29:53,310 --> 00:29:53,320
+mesh has changed, right? This is the
+ 
+
+1707
+00:29:53,320 --> 00:29:54,790
+mesh has changed, right? This is the
+underlying mesh. It's now kind of
+
+1708
+00:29:54,790 --> 00:29:54,800
+underlying mesh. It's now kind of
+ 
+
+1709
+00:29:54,800 --> 00:29:57,110
+underlying mesh. It's now kind of
+expanded. And this is actually the
+
+1710
+00:29:57,110 --> 00:29:57,120
+expanded. And this is actually the
+ 
+
+1711
+00:29:57,120 --> 00:29:59,230
+expanded. And this is actually the
+captured data of the height, and it's
+
+1712
+00:29:59,230 --> 00:29:59,240
+captured data of the height, and it's
+ 
+
+1713
+00:29:59,240 --> 00:30:01,390
+captured data of the height, and it's
+being projected out of the donut. But,
+
+1714
+00:30:01,390 --> 00:30:01,400
+being projected out of the donut. But,
+ 
+
+1715
+00:30:01,400 --> 00:30:04,230
+being projected out of the donut. But,
+it can only use the actual data, which
+
+1716
+00:30:04,230 --> 00:30:04,240
+it can only use the actual data, which
+ 
+
+1717
+00:30:04,240 --> 00:30:06,990
+it can only use the actual data, which
+is on the mesh, okay? So, it currently
+
+1718
+00:30:06,990 --> 00:30:07,000
+is on the mesh, okay? So, it currently
+ 
+
+1719
+00:30:07,000 --> 00:30:10,150
+is on the mesh, okay? So, it currently
+looks kind of like chunky, um because
+
+1720
+00:30:10,150 --> 00:30:10,160
+looks kind of like chunky, um because
+ 
+
+1721
+00:30:10,160 --> 00:30:11,710
+looks kind of like chunky, um because
+there's not enough information. So, if
+
+1722
+00:30:11,710 --> 00:30:11,720
+there's not enough information. So, if
+ 
+
+1723
+00:30:11,720 --> 00:30:14,310
+there's not enough information. So, if
+you go to your modifier panel here, and
+
+1724
+00:30:14,310 --> 00:30:14,320
+you go to your modifier panel here, and
+ 
+
+1725
+00:30:14,320 --> 00:30:15,710
+you go to your modifier panel here, and
+then what would we add to more add more
+
+1726
+00:30:15,710 --> 00:30:15,720
+then what would we add to more add more
+ 
+
+1727
+00:30:15,720 --> 00:30:18,550
+then what would we add to more add more
+geometry? We would add in another
+
+1728
+00:30:18,550 --> 00:30:18,560
+geometry? We would add in another
+ 
+
+1729
+00:30:18,560 --> 00:30:20,670
+geometry? We would add in another
+subdivision surface.
+
+1730
+00:30:20,670 --> 00:30:20,680
+subdivision surface.
+ 
+
+1731
+00:30:20,680 --> 00:30:22,310
+subdivision surface.
+And now, when we do that, if I increase
+
+1732
+00:30:22,310 --> 00:30:22,320
+And now, when we do that, if I increase
+ 
+
+1733
+00:30:22,320 --> 00:30:23,430
+And now, when we do that, if I increase
+this,
+
+1734
+00:30:23,430 --> 00:30:23,440
+this,
+ 
+
+1735
+00:30:23,440 --> 00:30:25,190
+this,
+you can see if I increase it two, three,
+
+1736
+00:30:25,190 --> 00:30:25,200
+you can see if I increase it two, three,
+ 
+
+1737
+00:30:25,200 --> 00:30:27,590
+you can see if I increase it two, three,
+four times in the viewport, you can see
+
+1738
+00:30:27,590 --> 00:30:27,600
+four times in the viewport, you can see
+ 
+
+1739
+00:30:27,600 --> 00:30:29,990
+four times in the viewport, you can see
+I get a lot more data come through.
+
+1740
+00:30:29,990 --> 00:30:30,000
+I get a lot more data come through.
+ 
+
+1741
+00:30:30,000 --> 00:30:32,430
+I get a lot more data come through.
+Okay, I I think three is about it. Um
+
+1742
+00:30:32,430 --> 00:30:32,440
+Okay, I I think three is about it. Um
+ 
+
+1743
+00:30:32,440 --> 00:30:34,190
+Okay, I I think three is about it. Um
+I'm just going to I'll I'll set render
+
+1744
+00:30:34,190 --> 00:30:34,200
+I'm just going to I'll I'll set render
+ 
+
+1745
+00:30:34,200 --> 00:30:36,350
+I'm just going to I'll I'll set render
+to three or four. Yeah, I'll set it to
+
+1746
+00:30:36,350 --> 00:30:36,360
+to three or four. Yeah, I'll set it to
+ 
+
+1747
+00:30:36,360 --> 00:30:37,990
+to three or four. Yeah, I'll set it to
+three. That should be fine.
+
+1748
+00:30:37,990 --> 00:30:38,000
+three. That should be fine.
+ 
+
+1749
+00:30:38,000 --> 00:30:40,110
+three. That should be fine.
+Um it comes in a little bit projected.
+
+1750
+00:30:40,110 --> 00:30:40,120
+Um it comes in a little bit projected.
+ 
+
+1751
+00:30:40,120 --> 00:30:41,790
+Um it comes in a little bit projected.
+If you want to change the scale of it,
+
+1752
+00:30:41,790 --> 00:30:41,800
+If you want to change the scale of it,
+ 
+
+1753
+00:30:41,800 --> 00:30:43,550
+If you want to change the scale of it,
+you can also do that
+
+1754
+00:30:43,550 --> 00:30:43,560
+you can also do that
+ 
+
+1755
+00:30:43,560 --> 00:30:45,510
+you can also do that
+um here. I could change the scale from
+
+1756
+00:30:45,510 --> 00:30:45,520
+um here. I could change the scale from
+ 
+
+1757
+00:30:45,520 --> 00:30:48,590
+um here. I could change the scale from
+.2 to about .15.
+
+1758
+00:30:48,590 --> 00:30:48,600
+.2 to about .15.
+ 
+
+1759
+00:30:48,600 --> 00:30:49,790
+.2 to about .15.
+Also, you should see how it looks with
+
+1760
+00:30:49,790 --> 00:30:49,800
+Also, you should see how it looks with
+ 
+
+1761
+00:30:49,800 --> 00:30:52,030
+Also, you should see how it looks with
+your icing. So, I'm going to hit Alt H.
+
+1762
+00:30:52,030 --> 00:30:52,040
+your icing. So, I'm going to hit Alt H.
+ 
+
+1763
+00:30:52,040 --> 00:30:53,310
+your icing. So, I'm going to hit Alt H.
+Um you can see it's actually, yeah,
+
+1764
+00:30:53,310 --> 00:30:53,320
+Um you can see it's actually, yeah,
+ 
+
+1765
+00:30:53,320 --> 00:30:55,150
+Um you can see it's actually, yeah,
+clipping through it. So, I'll select my
+
+1766
+00:30:55,150 --> 00:30:55,160
+clipping through it. So, I'll select my
+ 
+
+1767
+00:30:55,160 --> 00:30:57,190
+clipping through it. So, I'll select my
+donut again, and I'll change the scale
+
+1768
+00:30:57,190 --> 00:30:57,200
+donut again, and I'll change the scale
+ 
+
+1769
+00:30:57,200 --> 00:30:58,870
+donut again, and I'll change the scale
+here to about
+
+1770
+00:30:58,870 --> 00:30:58,880
+here to about
+ 
+
+1771
+00:30:58,880 --> 00:31:01,190
+here to about
+.12.
+
+1772
+00:31:01,190 --> 00:31:01,200
+.12.
+ 
+
+1773
+00:31:01,200 --> 00:31:02,910
+.12.
+Like that. And then, of course, the
+
+1774
+00:31:02,910 --> 00:31:02,920
+Like that. And then, of course, the
+ 
+
+1775
+00:31:02,920 --> 00:31:04,510
+Like that. And then, of course, the
+other value that this is missing is the
+
+1776
+00:31:04,510 --> 00:31:04,520
+other value that this is missing is the
+ 
+
+1777
+00:31:04,520 --> 00:31:06,350
+other value that this is missing is the
+subsurface scattering, because again, we
+
+1778
+00:31:06,350 --> 00:31:06,360
+subsurface scattering, because again, we
+ 
+
+1779
+00:31:06,360 --> 00:31:08,990
+subsurface scattering, because again, we
+overrode the the placeholder stuff that
+
+1780
+00:31:08,990 --> 00:31:09,000
+overrode the the placeholder stuff that
+ 
+
+1781
+00:31:09,000 --> 00:31:11,070
+overrode the the placeholder stuff that
+we had there before. So, in here, I'm
+
+1782
+00:31:11,070 --> 00:31:11,080
+we had there before. So, in here, I'm
+ 
+
+1783
+00:31:11,080 --> 00:31:12,630
+we had there before. So, in here, I'm
+going to sever this connection, and then
+
+1784
+00:31:12,630 --> 00:31:12,640
+going to sever this connection, and then
+ 
+
+1785
+00:31:12,640 --> 00:31:14,510
+going to sever this connection, and then
+I'm going to set this to one, and then
+
+1786
+00:31:14,510 --> 00:31:14,520
+I'm going to set this to one, and then
+ 
+
+1787
+00:31:14,520 --> 00:31:16,270
+I'm going to set this to one, and then
+I'll just make this, you know, whatever.
+
+1788
+00:31:16,270 --> 00:31:16,280
+I'll just make this, you know, whatever.
+ 
+
+1789
+00:31:16,280 --> 00:31:17,990
+I'll just make this, you know, whatever.
+And look, you can make this look like so
+
+1790
+00:31:17,990 --> 00:31:18,000
+And look, you can make this look like so
+ 
+
+1791
+00:31:18,000 --> 00:31:20,830
+And look, you can make this look like so
+buttery nice. Like look at how soft and
+
+1792
+00:31:20,830 --> 00:31:20,840
+buttery nice. Like look at how soft and
+ 
+
+1793
+00:31:20,840 --> 00:31:23,550
+buttery nice. Like look at how soft and
+fluffy this donut looks.
+
+1794
+00:31:23,550 --> 00:31:23,560
+fluffy this donut looks.
+ 
+
+1795
+00:31:23,560 --> 00:31:26,350
+fluffy this donut looks.
+How cool is that?
+
+1796
+00:31:26,350 --> 00:31:26,360
+How cool is that?
+ 
+
+1797
+00:31:26,360 --> 00:31:27,790
+How cool is that?
+Like that.
+
+1798
+00:31:27,790 --> 00:31:27,800
+Like that.
+ 
+
+1799
+00:31:27,800 --> 00:31:29,190
+Like that.
+Bring it back. Look at that. We've got
+
+1800
+00:31:29,190 --> 00:31:29,200
+Bring it back. Look at that. We've got
+ 
+
+1801
+00:31:29,200 --> 00:31:31,870
+Bring it back. Look at that. We've got
+real icing with the real crystals. We've
+
+1802
+00:31:31,870 --> 00:31:31,880
+real icing with the real crystals. We've
+ 
+
+1803
+00:31:31,880 --> 00:31:34,510
+real icing with the real crystals. We've
+got real donut that has been captured
+
+1804
+00:31:34,510 --> 00:31:34,520
+got real donut that has been captured
+ 
+
+1805
+00:31:34,520 --> 00:31:36,830
+got real donut that has been captured
+and projected onto our torus.
+
+1806
+00:31:36,830 --> 00:31:36,840
+and projected onto our torus.
+ 
+
+1807
+00:31:36,840 --> 00:31:38,270
+and projected onto our torus.
+Um and that's just two materials, which
+
+1808
+00:31:38,270 --> 00:31:38,280
+Um and that's just two materials, which
+ 
+
+1809
+00:31:38,280 --> 00:31:40,910
+Um and that's just two materials, which
+is really cool. The final object to
+
+1810
+00:31:40,910 --> 00:31:40,920
+is really cool. The final object to
+ 
+
+1811
+00:31:40,920 --> 00:31:43,550
+is really cool. The final object to
+texture is our mug, and I'm going to do
+
+1812
+00:31:43,550 --> 00:31:43,560
+texture is our mug, and I'm going to do
+ 
+
+1813
+00:31:43,560 --> 00:31:45,110
+texture is our mug, and I'm going to do
+that in the next part, because we need
+
+1814
+00:31:45,110 --> 00:31:45,120
+that in the next part, because we need
+ 
+
+1815
+00:31:45,120 --> 00:31:47,590
+that in the next part, because we need
+to go much deeper into UV unwrapping and
+
+1816
+00:31:47,590 --> 00:31:47,600
+to go much deeper into UV unwrapping and
+ 
+
+1817
+00:31:47,600 --> 00:31:50,830
+to go much deeper into UV unwrapping and
+show how to unwrap a custom object. So,
+
+1818
+00:31:50,830 --> 00:31:50,840
+show how to unwrap a custom object. So,
+ 
+
+1819
+00:31:50,840 --> 00:31:54,520
+show how to unwrap a custom object. So,
+join me in the next video.
+

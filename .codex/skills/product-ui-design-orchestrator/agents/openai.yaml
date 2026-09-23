@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product UI Design Orchestrator"
+  short_description: "Routes agents for apps, dashboards, editors"
+  default_prompt: "Use $product-ui-design-orchestrator to improve a product UI, dashboard, editor, or full website design without landing-page bias."

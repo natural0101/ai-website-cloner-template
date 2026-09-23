@@ -1,0 +1,4 @@
+interface:
+  display_name: "Magic UI Catalog"
+  short_description: "Choose Magic UI effects for landing pages"
+  default_prompt: "Use $magic-ui-catalog to choose exact Magic UI components for a landing plan with source, dependency, reduced-motion, mobile, and QA checks."

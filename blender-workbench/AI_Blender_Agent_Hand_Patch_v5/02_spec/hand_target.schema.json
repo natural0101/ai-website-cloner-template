@@ -1,0 +1,203 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://teamon.local/schemas/hand_target.schema.json",
+  "title": "Stylized Hand Target",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "version",
+    "mode",
+    "reference",
+    "camera",
+    "layers",
+    "hand",
+    "gates"
+  ],
+  "properties": {
+    "version": {
+      "const": "1.0"
+    },
+    "mode": {
+      "enum": ["FRONT_MATCHED", "HYBRID_HERO", "TRUE_360"]
+    },
+    "reference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["image", "width", "height", "is_original"],
+      "properties": {
+        "image": {"type": "string", "minLength": 1},
+        "width": {"type": "integer", "minimum": 16},
+        "height": {"type": "integer", "minimum": 16},
+        "is_original": {"type": "boolean"},
+        "crop": {
+          "type": "array",
+          "prefixItems": [
+            {"type": "integer", "minimum": 0},
+            {"type": "integer", "minimum": 0},
+            {"type": "integer", "minimum": 1},
+            {"type": "integer", "minimum": 1}
+          ],
+          "minItems": 4,
+          "maxItems": 4
+        }
+      }
+    },
+    "camera": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["projection", "resolution", "locked"],
+      "properties": {
+        "projection": {"const": "ORTHO"},
+        "resolution": {
+          "type": "array",
+          "prefixItems": [
+            {"type": "integer", "minimum": 16},
+            {"type": "integer", "minimum": 16}
+          ],
+          "minItems": 2,
+          "maxItems": 2
+        },
+        "ortho_scale": {"type": "number", "exclusiveMinimum": 0},
+        "locked": {"const": true}
+      }
+    },
+    "layers": {
+      "type": "array",
+      "minItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "z_order"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "z_order": {"type": "integer"},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "hand": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "id",
+        "side",
+        "role",
+        "landmarks",
+        "contours",
+        "centerlines",
+        "depth_profile"
+      ],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "side": {"enum": ["left", "right", "stylized_unspecified"]},
+        "role": {"enum": ["top", "bottom", "left", "right", "foreground", "background"]},
+        "landmarks": {
+          "type": "array",
+          "minItems": 16,
+          "items": {"$ref": "#/$defs/landmark"}
+        },
+        "contours": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["visible", "hidden", "negative_spaces"],
+          "properties": {
+            "visible": {"$ref": "#/$defs/polyline"},
+            "hidden": {"$ref": "#/$defs/polyline"},
+            "negative_spaces": {
+              "type": "array",
+              "items": {"$ref": "#/$defs/polyline"}
+            }
+          }
+        },
+        "centerlines": {
+          "type": "array",
+          "minItems": 7,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "points"],
+            "properties": {
+              "id": {
+                "enum": ["palm", "thumb", "index", "middle", "ring", "little", "wrist"]
+              },
+              "points": {
+                "type": "array",
+                "minItems": 2,
+                "items": {"$ref": "#/$defs/radiusPoint"}
+              }
+            }
+          }
+        },
+        "depth_profile": {
+          "type": "array",
+          "minItems": 3,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["id", "front", "back", "max_thickness"],
+            "properties": {
+              "id": {"type": "string", "minLength": 1},
+              "front": {"type": "number"},
+              "back": {"type": "number"},
+              "max_thickness": {"type": "number", "exclusiveMinimum": 0},
+              "notes": {"type": "string"}
+            }
+          }
+        }
+      }
+    },
+    "gates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "mask_iou_min",
+        "boundary_f1_min",
+        "boundary_tolerance_px",
+        "landmark_rmse_max_px"
+      ],
+      "properties": {
+        "mask_iou_min": {"type": "number", "minimum": 0, "maximum": 1},
+        "boundary_f1_min": {"type": "number", "minimum": 0, "maximum": 1},
+        "boundary_tolerance_px": {"type": "integer", "minimum": 1, "maximum": 20},
+        "landmark_rmse_max_px": {"type": "number", "exclusiveMinimum": 0}
+      }
+    }
+  },
+  "$defs": {
+    "point": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x", "y"],
+      "properties": {
+        "x": {"type": "number", "minimum": 0, "maximum": 1},
+        "y": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "radiusPoint": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["x", "y", "radius"],
+      "properties": {
+        "x": {"type": "number", "minimum": 0, "maximum": 1},
+        "y": {"type": "number", "minimum": 0, "maximum": 1},
+        "radius": {"type": "number", "exclusiveMinimum": 0, "maximum": 0.5}
+      }
+    },
+    "landmark": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "x", "y", "visibility"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "x": {"type": "number", "minimum": 0, "maximum": 1},
+        "y": {"type": "number", "minimum": 0, "maximum": 1},
+        "visibility": {"enum": ["visible", "occluded", "inferred"]}
+      }
+    },
+    "polyline": {
+      "type": "array",
+      "minItems": 2,
+      "items": {"$ref": "#/$defs/point"}
+    }
+  }
+}

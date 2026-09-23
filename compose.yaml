@@ -1,0 +1,24 @@
+name: ai-website-cloner-local
+
+services:
+  app:
+    environment:
+      NODE_ENV: ${APP_NODE_ENV:-production}
+      NEXT_TELEMETRY_DISABLED: "1"
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:3000/').then(r=>{if(!r.ok)process.exit(1)}).catch(()=>process.exit(1))"]
+      interval: 5s
+      timeout: 3s
+      retries: 24
+      start_period: 15s
+    init: true
+    networks:
+      - local
+    labels:
+      io.teamon.local.project: ai-website-cloner
+
+networks:
+  local:
+    name: ai-website-cloner-local
+    labels:
+      io.teamon.local.project: ai-website-cloner

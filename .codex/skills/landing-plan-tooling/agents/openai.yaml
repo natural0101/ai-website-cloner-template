@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Plan Tooling"
+  short_description: "Create and check landing plan folders"
+  default_prompt: "Use $landing-plan-tooling to create a project plan folder from the landing template and validate it."

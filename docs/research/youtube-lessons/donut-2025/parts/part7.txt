@@ -1,0 +1,970 @@
+00:01 In this video, I'm going to show you how to use the new scatter on surfaces
+00:03 to use the new scatter on surfaces modifier that was introduced in Blender
+00:05 modifier that was introduced in Blender 5.0 to add some lovely sprinkles to our
+00:08 5.0 to add some lovely sprinkles to our donut. But first, we need to model those
+00:12 donut. But first, we need to model those sprinkles because you can't scatter
+00:14 sprinkles because you can't scatter nothing. Um, and I want to add my
+00:16 nothing. Um, and I want to add my sprinkle on top of my doughnut or close
+00:19 sprinkle on top of my doughnut or close to it just so that I can see relatively
+00:21 to it just so that I can see relatively the size of it is correct for the donut.
+00:24 the size of it is correct for the donut. Um, and so how can you do that? How can
+00:26 Um, and so how can you do that? How can you add an object and place it somewhere
+00:28 you add an object and place it somewhere in the same motion? Um, and you can do
+00:30 in the same motion? Um, and you can do that by moving the 3D cursor, which is
+00:32 that by moving the 3D cursor, which is this little guy down here. And sometimes
+00:35 this little guy down here. And sometimes it's in a weird place and you're like,
+00:36 it's in a weird place and you're like, why did it end up there and how can I
+00:38 why did it end up there and how can I move it? So, you can move it by holding
+00:41 move it? So, you can move it by holding down shift and then right mouse dragging
+00:43 down shift and then right mouse dragging and then that'll place it on the surface
+00:46 and then that'll place it on the surface underneath uh your mouse. Um, so yeah,
+00:49 underneath uh your mouse. Um, so yeah, it's placed it right there. Um, I might
+00:51 it's placed it right there. Um, I might actually move it up a little bit. Just
+00:52 actually move it up a little bit. Just kind of Yeah, just about there. Yeah.
+00:54 kind of Yeah, just about there. Yeah. So, I want to see it just above my
+00:56 So, I want to see it just above my donut. All right. So, now we need to add
+00:58 donut. All right. So, now we need to add a new object, and that is going to be a
+01:00 a new object, and that is going to be a cylinder, of course. So, add mesh and
+01:03 cylinder, of course. So, add mesh and then cylinder. You could also use a
+01:05 then cylinder. You could also use a sphere if you wanted to, if you want to
+01:07 sphere if you wanted to, if you want to get like round sprinkles. I'm not a fan
+01:09 get like round sprinkles. I'm not a fan of those. They're too crunchy and just
+01:11 of those. They're too crunchy and just like I don't know. I always like the
+01:13 like I don't know. I always like the long ones. So, we're going with the long
+01:15 long ones. So, we're going with the long sprinkle with the cylinder. And just
+01:17 sprinkle with the cylinder. And just like before, we're going to go in the
+01:20 like before, we're going to go in the last use settings here. I'm going to
+01:22 last use settings here. I'm going to change my radius to the smallest cuz I
+01:24 change my radius to the smallest cuz I mean, hey, we're making a sprinkle. And
+01:26 mean, hey, we're making a sprinkle. And yeah, let's start. Let's start there.
+01:28 yeah, let's start. Let's start there. Um, so probably should be a little bit
+01:30 Um, so probably should be a little bit bigger than that. So, um, obviously if
+01:32 bigger than that. So, um, obviously if you just like click and drag on this,
+01:33 you just like click and drag on this, it's just way too sudden movement, but
+01:35 it's just way too sudden movement, but holding shift might remember I mentioned
+01:37 holding shift might remember I mentioned that. That'll use like smaller
+01:39 that. That'll use like smaller increments. So, I think that's Yeah,
+01:42 increments. So, I think that's Yeah, that's pretty good. And then I'll just
+01:43 that's pretty good. And then I'll just increase the depth of this to make it a
+01:46 increase the depth of this to make it a little bit longer. You know, something
+01:49 little bit longer. You know, something like that. It's just a a starting block
+01:51 like that. It's just a a starting block before we actually start editing it. The
+01:53 before we actually start editing it. The main one though is the vertices. So, I
+01:58 main one though is the vertices. So, I want to add like a really um Oh. Oh. Oh
+02:02 want to add like a really um Oh. Oh. Oh gosh, I hit the wrong button on my
+02:03 gosh, I hit the wrong button on my Zoomit tool and I flew in there. But all
+02:05 Zoomit tool and I flew in there. But all right, we can work with this. I want to
+02:07 right, we can work with this. I want to add a rounded corner to my uh sprinkle
+02:10 add a rounded corner to my uh sprinkle there. So, we're going to be using a
+02:12 there. So, we're going to be using a subserve modifier. Um, and if we were to
+02:15 subserve modifier. Um, and if we were to add it on a mesh with 32 vertices, every
+02:18 add it on a mesh with 32 vertices, every level of subdiv would like double that.
+02:20 level of subdiv would like double that. So, it' go 64 and then, yeah, 128,
+02:22 So, it' go 64 and then, yeah, 128, right? So, um, way too much. So, I'm
+02:25 right? So, um, way too much. So, I'm going to drop this to six vertices. So,
+02:27 going to drop this to six vertices. So, super low poly, but, uh, it's what we're
+02:29 super low poly, but, uh, it's what we're going to use. All right. Now, add my
+02:32 going to use. All right. Now, add my subsurf. Uh, I'm going to move me just
+02:34 subsurf. Uh, I'm going to move me just to the side here so I'm not blocking
+02:37 to the side here so I'm not blocking everything. That's kind of the the
+02:39 everything. That's kind of the the optimal place I've found for me is like
+02:41 optimal place I've found for me is like just right on that line. I only have to
+02:43 just right on that line. I only have to move my head sometimes when I do that,
+02:44 move my head sometimes when I do that, but otherwise I shouldn't be blocking
+02:46 but otherwise I shouldn't be blocking too much. Anyways, um now add modifier,
+02:49 too much. Anyways, um now add modifier, generate, and we're going subdivision
+02:51 generate, and we're going subdivision surface. And there we go. So, um the
+02:54 surface. And there we go. So, um the reason we've got this uh diamond shape
+02:56 reason we've got this uh diamond shape is as I've mentioned before, it's using
+02:58 is as I've mentioned before, it's using the like middle points of each face
+03:01 the like middle points of each face essentially. So, it has to go from here
+03:03 essentially. So, it has to go from here to the middle point of this giant long
+03:04 to the middle point of this giant long face. So, to here. So, it's now
+03:07 face. So, to here. So, it's now averaging out those points. But if I
+03:09 averaging out those points. But if I want to make a tighter, rounder bit
+03:10 want to make a tighter, rounder bit around here, I just have to basically
+03:13 around here, I just have to basically move out a point here to to add that
+03:16 move out a point here to to add that that roundness to it. So it only goes to
+03:18 that roundness to it. So it only goes to there. And then I would also do another
+03:20 there. And then I would also do another one here so that it's the the same thing
+03:21 one here so that it's the the same thing on the bottom. So in edit mode, tab, I'm
+03:25 on the bottom. So in edit mode, tab, I'm going to hit CtrlR uh to add my loop
+03:28 going to hit CtrlR uh to add my loop cut. And then it's obviously saying
+03:29 cut. And then it's obviously saying where do you want to place that loop
+03:30 where do you want to place that loop cut? So click there and then just slide
+03:33 cut? So click there and then just slide it up to the somewhere near the top like
+03:36 it up to the somewhere near the top like that. Click. And then do the same for
+03:38 that. Click. And then do the same for the bottom. Control-r, click, slide to
+03:40 the bottom. Control-r, click, slide to the bottom. [snorts] Okay. And now let's
+03:43 the bottom. [snorts] Okay. And now let's have a look at that. Just have a look in
+03:44 have a look at that. Just have a look in relation to the size of the doughnut. Do
+03:46 relation to the size of the doughnut. Do we want it any bigger? Do we want to
+03:48 we want it any bigger? Do we want to change the size? All right. Now, um,
+03:52 change the size? All right. Now, um, yeah, I'm going to rightclick it and I'm
+03:53 yeah, I'm going to rightclick it and I'm going to say shade smooth just so that I
+03:55 going to say shade smooth just so that I can see how that looks. Okay. Now, we
+03:57 can see how that looks. Okay. Now, we could begin scattering at this point.
+03:59 could begin scattering at this point. Um, but if we did, we would end up with
+04:02 Um, but if we did, we would end up with the same this exact same sprinkle all
+04:05 the same this exact same sprinkle all over it. and that much repetition to
+04:07 over it. and that much repetition to your eye just looks fake. Like every
+04:08 your eye just looks fake. Like every single sprinkle actually the way they
+04:10 single sprinkle actually the way they make sprinkles is just like from a
+04:12 make sprinkles is just like from a piping bag, right? So you just literally
+04:14 piping bag, right? So you just literally just pipe out a bunch of uh this, you
+04:17 just pipe out a bunch of uh this, you know, uh piping, right? Glaze. Um and
+04:20 know, uh piping, right? Glaze. Um and then it dries and then you just like
+04:22 then it dries and then you just like break it up. So they all end up in
+04:23 break it up. So they all end up in different sized um shapes and stuff. So
+04:26 different sized um shapes and stuff. So we need to add more sprinkles uh just of
+04:29 we need to add more sprinkles uh just of different shapes and sizes. So what I'm
+04:31 different shapes and sizes. So what I'm going to do is I'm going to first of all
+04:32 going to do is I'm going to first of all uh rename this by hitting F2. I'm going
+04:35 uh rename this by hitting F2. I'm going to call it oh boy late in the day
+04:39 to call it oh boy late in the day sprinkle. Okay. And now we haven't
+04:42 sprinkle. Okay. And now we haven't really mentioned collections before, but
+04:43 really mentioned collections before, but they're basically buckets and you can
+04:45 they're basically buckets and you can move things in and out of buckets. So
+04:47 move things in and out of buckets. So there's a default one that comes in
+04:48 there's a default one that comes in here. Um, but you can move it out of
+04:51 here. Um, but you can move it out of this whole collection by just taking the
+04:53 this whole collection by just taking the sprinkle, clicking, and dragging it up.
+04:54 sprinkle, clicking, and dragging it up. So I'm going to drop it into my scene
+04:56 So I'm going to drop it into my scene collection there. And the reason I'm
+04:58 collection there. And the reason I'm doing that is now I'm going to select
+05:00 doing that is now I'm going to select this whole thing and I'm just going to
+05:02 this whole thing and I'm just going to exclude. Okay. So now when you hit
+05:04 exclude. Okay. So now when you hit exclude, it's not going to show up in
+05:06 exclude, it's not going to show up in your viewport or your render. It's
+05:08 your viewport or your render. It's effectively like it has vanished from
+05:10 effectively like it has vanished from the scene, but you can easily bring it
+05:12 the scene, but you can easily bring it back there. So it's just a way to like
+05:13 back there. So it's just a way to like quickly edit, you know, a bunch of
+05:15 quickly edit, you know, a bunch of different things and then bring back the
+05:16 different things and then bring back the rest of your scene. Okay, so here is my
+05:20 rest of your scene. Okay, so here is my sprinkle. I want to create variants of
+05:21 sprinkle. I want to create variants of it. So first I'm going to go into front
+05:23 it. So first I'm going to go into front view mode and then focus. So one and
+05:26 view mode and then focus. So one and then numpad period. Now, what I want you
+05:28 then numpad period. Now, what I want you to do is to create some variance by
+05:31 to do is to create some variance by duplicating your sprinkle and creating
+05:33 duplicating your sprinkle and creating different twists and turns and shapes
+05:35 different twists and turns and shapes and things. And I'm not going to walk
+05:36 and things. And I'm not going to walk you through uh doing this. You should be
+05:38 you through uh doing this. You should be able to do it if you've been following
+05:39 able to do it if you've been following the series. But also, I want to tell you
+05:42 the series. But also, I want to tell you something more important that every
+05:43 something more important that every Blender user needs to hear. Blender
+05:46 Blender user needs to hear. Blender needs your help. When you downloaded
+05:48 needs your help. When you downloaded Blender, you might remember that it
+05:50 Blender, you might remember that it didn't ask for your credit card, which
+05:51 didn't ask for your credit card, which is good. Means that everybody in the
+05:53 is good. Means that everybody in the world can have free access to 3D and try
+05:55 world can have free access to 3D and try it out. But what's bad is that Blender
+05:58 it out. But what's bad is that Blender doesn't have as much money as it needs
+06:00 doesn't have as much money as it needs to develop the software. There are so
+06:03 to develop the software. There are so many areas of Blender that they want to
+06:05 many areas of Blender that they want to improve, they want to develop, but they
+06:07 improve, they want to develop, but they lack the funds, texture painting, the
+06:10 lack the funds, texture painting, the whole physics engine, sculpting tools,
+06:14 whole physics engine, sculpting tools, the compositor. So, the headquarters of
+06:16 the compositor. So, the headquarters of Blender, which is in Amsterdam in the
+06:18 Blender, which is in Amsterdam in the Netherlands, if you didn't know, uh they
+06:20 Netherlands, if you didn't know, uh they hire some full-time developers to work
+06:23 hire some full-time developers to work there in their offices and also some
+06:25 there in their offices and also some full-time contractors from around the
+06:26 full-time contractors from around the world to contribute and work on these
+06:28 world to contribute and work on these features. Um, and they get the funding
+06:30 features. Um, and they get the funding from that from the dev fund, which is
+06:33 from that from the dev fund, which is the engine that enables Blender. So, if
+06:36 the engine that enables Blender. So, if you have been enjoying this donut series
+06:39 you have been enjoying this donut series and you've been enjoying Blender, please
+06:42 and you've been enjoying Blender, please donate. If you can go here and join a
+06:44 donate. If you can go here and join a monthly donation of 510 or if you're a
+06:47 monthly donation of 510 or if you're a high roller 25 or higher is amazing.
+06:51 high roller 25 or higher is amazing. This will enable more people who can't
+06:53 This will enable more people who can't afford this to uh to try out Blender to
+06:56 afford this to uh to try out Blender to to download it and so the software can
+06:59 to download it and so the software can remain competitive cuz I don't know if
+07:00 remain competitive cuz I don't know if you know this but Autodesk made $315
+07:04 you know this but Autodesk made $315 million from 3ds Max and Maya last year.
+07:07 million from 3ds Max and Maya last year. Blender doesn't have that money. So, if
+07:09 Blender doesn't have that money. So, if you want Blender and Open Source to win,
+07:11 you want Blender and Open Source to win, we do need people to donate. So, please
+07:13 we do need people to donate. So, please consider the link is underneath this
+07:15 consider the link is underneath this video. You can click that and um please
+07:18 video. You can click that and um please uh make a donation. All right, with that
+07:21 uh make a donation. All right, with that spiel out of the way, we can get back to
+07:24 spiel out of the way, we can get back to it. So, I'm going to bring back my scene
+07:26 it. So, I'm going to bring back my scene now. All right, pull it out. And um
+07:30 now. All right, pull it out. And um yeah, let's let's let's move this into a
+07:32 yeah, let's let's let's move this into a new collection. So, we briefly talked
+07:34 new collection. So, we briefly talked about collections, but they're
+07:35 about collections, but they're essentially buckets. They're just ways
+07:37 essentially buckets. They're just ways to organize objects into different
+07:38 to organize objects into different buckets. And you can reference those
+07:40 buckets. And you can reference those buckets in different parts of Blender.
+07:42 buckets in different parts of Blender. But that's basically it. So, I want to
+07:44 But that's basically it. So, I want to create a bucket, a collection for my
+07:46 create a bucket, a collection for my sprinkles. Now, you can create a new
+07:48 sprinkles. Now, you can create a new collection by hitting that little button
+07:50 collection by hitting that little button at the top there, and you can just
+07:51 at the top there, and you can just create a bunch of different collections
+07:52 create a bunch of different collections and rename them. But if you want to move
+07:55 and rename them. But if you want to move something and create a collection at the
+07:57 something and create a collection at the same time, you can do that as well. So,
+08:00 same time, you can do that as well. So, if you select all your objects here or
+08:02 if you select all your objects here or you select them here in the outliner,
+08:04 you select them here in the outliner, then you just hit M. M to move. You can
+08:07 then you just hit M. M to move. You can move it to an existing collection or you
+08:09 move it to an existing collection or you can create a new collection and move it
+08:10 can create a new collection and move it there. So that's what we're going to do.
+08:12 there. So that's what we're going to do. So I'm going to call this sprinkles.
+08:15 So I'm going to call this sprinkles. Okay. And now that I've got that, I'm
+08:17 Okay. And now that I've got that, I'm actually going to uncheck it because we
+08:19 actually going to uncheck it because we don't actually need to see the sprinkles
+08:21 don't actually need to see the sprinkles um visibly in order to reference them in
+08:24 um visibly in order to reference them in our scatter system. So otherwise they
+08:26 our scatter system. So otherwise they just kind of get in the way there. So
+08:28 just kind of get in the way there. So all right. So here it is. Exciting
+08:30 all right. So here it is. Exciting moment. With your icing selected, we are
+08:33 moment. With your icing selected, we are going to add in a modifier and it is the
+08:38 going to add in a modifier and it is the brand new scatter on surface modifier
+08:42 brand new scatter on surface modifier which is only there as of Blender 5.0.
+08:45 which is only there as of Blender 5.0. If you don't see it, you're not using
+08:47 If you don't see it, you're not using 5.0 or at least you're not using a
+08:49 5.0 or at least you're not using a version later than 5.0 if you watch this
+08:51 version later than 5.0 if you watch this at a later time. So, scatter on surface.
+08:54 at a later time. So, scatter on surface. All right. So, so many little settings
+08:57 All right. So, so many little settings and things, but it's very wellm made.
+08:59 and things, but it's very wellm made. It's uh I actually love it. It's a
+09:01 It's uh I actually love it. It's a fantastic modifier. I'm so happy that it
+09:03 fantastic modifier. I'm so happy that it exists. Um, but anyways, the first thing
+09:05 exists. Um, but anyways, the first thing we need to reference is here. What
+09:07 we need to reference is here. What object are we scattering? That's the
+09:09 object are we scattering? That's the instancing here. Okay. So, we're not uh
+09:13 instancing here. Okay. So, we're not uh uh instancing one object. We're going to
+09:15 uh instancing one object. We're going to do the entire collection. So, go
+09:16 do the entire collection. So, go collection and then here click on
+09:18 collection and then here click on sprinkles. And look, we've got
+09:23 sprinkles. And look, we've got not what we expected. What's going on?
+09:25 not what we expected. What's going on? >> [snorts]
+09:26 >> [snorts] >> Um, so the first thing we need to do is
+09:29 >> Um, so the first thing we need to do is uh first of all, why is there only one
+09:31 uh first of all, why is there only one of them? That's because density is
+09:32 of them? That's because density is really low. If we increase density, we
+09:34 really low. If we increase density, we get more of them. But still, it's it's
+09:36 get more of them. But still, it's it's just getting worse. Andrew, what's going
+09:38 just getting worse. Andrew, what's going on? Um, so first of all, uh, underneath
+09:41 on? Um, so first of all, uh, underneath instancing, you need to check pick
+09:43 instancing, you need to check pick instance. That's the first thing. And
+09:45 instance. That's the first thing. And that is so that it doesn't reference the
+09:47 that is so that it doesn't reference the entire group as one thing to be uh,
+09:51 entire group as one thing to be uh, scattered. you're instead referencing
+09:53 scattered. you're instead referencing the individual parts of that collection,
+09:55 the individual parts of that collection, which is the individual sprinkles. And
+09:57 which is the individual sprinkles. And then as well as that, it has reset the
+09:59 then as well as that, it has reset the transform because like it bases it off
+10:01 transform because like it bases it off of how far away is it from the center of
+10:03 of how far away is it from the center of the thing. But if you go reset, then it
+10:05 the thing. But if you go reset, then it actually bases it on the point of those
+10:06 actually bases it on the point of those sprinkles. Okay, cool. So, ooh, look,
+10:09 sprinkles. Okay, cool. So, ooh, look, we've got a alien looking landscape or
+10:12 we've got a alien looking landscape or something, right? Um, but yeah, you can
+10:14 something, right? Um, but yeah, you can see you can increase this. The higher
+10:16 see you can increase this. The higher you go, the more sprinkles you will get.
+10:19 you go, the more sprinkles you will get. Um, how do we change the rotation? So
+10:22 Um, how do we change the rotation? So underneath transform. Oh, right here.
+10:24 underneath transform. Oh, right here. Right where my head and everything is.
+10:27 Right where my head and everything is. Transform. Okay. You get extra settings
+10:29 Transform. Okay. You get extra settings here. So we want to change the alignment
+10:32 here. So we want to change the alignment axis. Um, and you can just cycle through
+10:34 axis. Um, and you can just cycle through it until you get the correct one. But
+10:36 it until you get the correct one. But yeah, it looks like Y is the one. And
+10:38 yeah, it looks like Y is the one. And then also, man, I should just Hang on a
+10:41 then also, man, I should just Hang on a sec. Let me just move me. Yeah, a little
+10:44 sec. Let me just move me. Yeah, a little bit. Yeah, there we go. Okay.
+10:47 bit. Yeah, there we go. Okay. Randomize. So this is cool. Um so if we
+10:49 Randomize. So this is cool. Um so if we add randomize here, check that box, then
+10:52 add randomize here, check that box, then go here. Now we can randomize and add
+10:55 go here. Now we can randomize and add slight variances to um how it is being
+10:57 slight variances to um how it is being rotated. So to rotate on the Y-axis, we
+11:02 rotated. So to rotate on the Y-axis, we just increase that to 360. And look at
+11:04 just increase that to 360. And look at that. We've got sprinkles on the donut.
+11:07 that. We've got sprinkles on the donut. But we can go further. We can do so much
+11:09 But we can go further. We can do so much more. Um there's a setting at the top
+11:11 more. Um there's a setting at the top here which is called surface offset cuz
+11:13 here which is called surface offset cuz you can see how it's like they're
+11:15 you can see how it's like they're submerged in the icing. Now, sprinkles
+11:17 submerged in the icing. Now, sprinkles do submerge a little bit in wet icing,
+11:20 do submerge a little bit in wet icing, but probably not as much as this. So, I
+11:22 but probably not as much as this. So, I just want to increase this very, very
+11:24 just want to increase this very, very slightly. So, if I just hold down shift
+11:26 slightly. So, if I just hold down shift and kind of drag out, I can get it to
+11:28 and kind of drag out, I can get it to there just resting on top like that. You
+11:31 there just resting on top like that. You wouldn't believe, by the way, how much
+11:32 wouldn't believe, by the way, how much effort it was to create this in Blender
+11:36 effort it was to create this in Blender previously. Like, bit of brief history
+11:38 previously. Like, bit of brief history on scattering in Blender. The old old
+11:41 on scattering in Blender. The old old way uh was to use the particle system in
+11:44 way uh was to use the particle system in Blender which was like old and legacy
+11:46 Blender which was like old and legacy and it was badly coded and it kind of
+11:49 and it was badly coded and it kind of worked but it was you know it was
+11:51 worked but it was you know it was annoying. Um and then they came out with
+11:53 annoying. Um and then they came out with geometry nodes which was all mathbased
+11:55 geometry nodes which was all mathbased and mathematical but to do stuff like
+11:57 and mathematical but to do stuff like this required so much work to set it up
+12:00 this required so much work to set it up and then now they've come out with
+12:02 and then now they've come out with scatter on surface which is still
+12:04 scatter on surface which is still geometry nodes. So, if you don't know
+12:06 geometry nodes. So, if you don't know geometry nodes, there's a tab at the top
+12:08 geometry nodes, there's a tab at the top there. You can click it and this is what
+12:10 there. You can click it and this is what it looks like. It's nodes, right? Um,
+12:13 it looks like. It's nodes, right? Um, but the cool thing is is that this just
+12:15 but the cool thing is is that this just comes packaged with Blender now. And
+12:17 comes packaged with Blender now. And this is already done. So, the guys at
+12:19 this is already done. So, the guys at the Blender Institute that uh, you know,
+12:22 the Blender Institute that uh, you know, need your money, right, so that they can
+12:24 need your money, right, so that they can keep working, they came up with this uh,
+12:26 keep working, they came up with this uh, crazy math-based thing. So, it's got all
+12:28 crazy math-based thing. So, it's got all the options that we need that everyone
+12:30 the options that we need that everyone will ever need. and then only one person
+12:33 will ever need. and then only one person needed to do it and then we can all
+12:35 needed to do it and then we can all access it for free. So it means that
+12:36 access it for free. So it means that creatives don't have to dive into math
+12:39 creatives don't have to dive into math just to scatter some sprinkles on a
+12:41 just to scatter some sprinkles on a donut, which is what the last three
+12:43 donut, which is what the last three versions of this donut tutorial had to
+12:44 versions of this donut tutorial had to do. And then everyone complained that it
+12:46 do. And then everyone complained that it was too technical. And it's like, yeah,
+12:48 was too technical. And it's like, yeah, I know, but how else are you going to
+12:49 I know, but how else are you going to get the sprinkles on the donut? Anyway,
+12:51 get the sprinkles on the donut? Anyway, all right. So the next thing you're
+12:52 all right. So the next thing you're probably wondering looking at this is um
+12:55 probably wondering looking at this is um how do we scatter it in just a specific
+12:58 how do we scatter it in just a specific area? Okay? Because you'll see, and in
+13:00 area? Okay? Because you'll see, and in fact, if you select your icing and then
+13:01 fact, if you select your icing and then uh forward slash, we've got sprinkles
+13:05 uh forward slash, we've got sprinkles everywhere, the underside, etc. So, we
+13:07 everywhere, the underside, etc. So, we only want them around the top of the
+13:09 only want them around the top of the donut. So, how do we do that? Well,
+13:11 donut. So, how do we do that? Well, there is a way to reference an attribute
+13:13 there is a way to reference an attribute inside of this. I'll show you soon. Um,
+13:15 inside of this. I'll show you soon. Um, but the attribute we're going to use is
+13:16 but the attribute we're going to use is called weight painting. And you can
+13:19 called weight painting. And you can activate that by going uh at the top of
+13:21 activate that by going uh at the top of your screen there and changing from
+13:23 your screen there and changing from object mode to weight paint mode. Um,
+13:26 object mode to weight paint mode. Um, and I'm going to deactivate my sprinkles
+13:28 and I'm going to deactivate my sprinkles so that I can just see the icing. Now,
+13:30 so that I can just see the icing. Now, if you were to click and drag across it
+13:32 if you were to click and drag across it when it is active in this state, you'll
+13:33 when it is active in this state, you'll see that you get like a a heat map. And
+13:35 see that you get like a a heat map. And as you can probably guess, where it is
+13:37 as you can probably guess, where it is red is going to be where your sprinkles
+13:39 red is going to be where your sprinkles are. And where it is black, it's where
+13:40 are. And where it is black, it's where your sprinkles are not going to be. And
+13:42 your sprinkles are not going to be. And if you want to get technical, weight
+13:44 if you want to get technical, weight paint mode is actually adding an
+13:45 paint mode is actually adding an attribute to the mesh, which is where it
+13:47 attribute to the mesh, which is where it is red, that is a value of one. Where it
+13:50 is red, that is a value of one. Where it is black is a value of zero. And then
+13:53 is black is a value of zero. And then varying values between there.
+13:54 varying values between there. essentially a heat map of values which
+13:56 essentially a heat map of values which are stored in the mesh and then other
+13:59 are stored in the mesh and then other parts of Blender can reference this. So
+14:01 parts of Blender can reference this. So it's a very quick way to just do some
+14:03 it's a very quick way to just do some painting on a mesh um to to reference in
+14:06 painting on a mesh um to to reference in different things. Now uh what is not
+14:08 different things. Now uh what is not clear though is that when you're
+14:10 clear though is that when you're painting in this mode if you go into the
+14:12 painting in this mode if you go into the uh isolated view by hitting forward
+14:14 uh isolated view by hitting forward slash you might notice that you have
+14:16 slash you might notice that you have accidentally painted through your mesh.
+14:19 accidentally painted through your mesh. I wish it wasn't like this, although I
+14:21 I wish it wasn't like this, although I understand why it is because people that
+14:22 understand why it is because people that are rigging often want this turned on.
+14:25 are rigging often want this turned on. But your brush, you want to check front
+14:28 But your brush, you want to check front faces only because if you don't do that,
+14:30 faces only because if you don't do that, then you'll still get your sprinkles
+14:31 then you'll still get your sprinkles underneath your doughut. So, now that
+14:34 underneath your doughut. So, now that I've got that, um, I'm going to Yeah, I
+14:37 I've got that, um, I'm going to Yeah, I mean, you can like paint over the mesh
+14:39 mean, you can like paint over the mesh like this. A quicker way to do it would
+14:41 like this. A quicker way to do it would be to, um, go into here where my head
+14:44 be to, um, go into here where my head is, data, then go into edit mode, right?
+14:48 is, data, then go into edit mode, right? Like this, right? So edit mode,
+14:49 Like this, right? So edit mode, everything is selected. If I drop my
+14:51 everything is selected. If I drop my weight to zero and then say assign then
+14:55 weight to zero and then say assign then go back into uh weight paint mode,
+14:57 go back into uh weight paint mode, everything is black because this vertex
+14:59 everything is black because this vertex group thing here, this is the weight
+15:01 group thing here, this is the weight paint, right? So you can select
+15:02 paint, right? So you can select everything if you want and just make it
+15:04 everything if you want and just make it entirely one or you can um make it
+15:07 entirely one or you can um make it entirely zero. Anyways, now that I've
+15:09 entirely zero. Anyways, now that I've got that, as you can tell, I've got
+15:11 got that, as you can tell, I've got front faces on. Now I can do my
+15:12 front faces on. Now I can do my painting. All right, so where do you
+15:14 painting. All right, so where do you want your sprinkles to go? You just do
+15:15 want your sprinkles to go? You just do that painting, right? Um, and you can
+15:18 that painting, right? Um, and you can have, you know, you can change the
+15:20 have, you know, you can change the weight of the brush as well. If you want
+15:22 weight of the brush as well. If you want there to be like a lot that's kind of
+15:24 there to be like a lot that's kind of just like on the edge, right? You could
+15:26 just like on the edge, right? You could do something like that. But generally,
+15:28 do something like that. But generally, you know, it doesn't have to be that,
+15:31 you know, it doesn't have to be that, you know, that perfect. You know, I'm
+15:33 you know, that perfect. You know, I'm just doing this as an example of how you
+15:35 just doing this as an example of how you could, you know, really do. You could
+15:36 could, you know, really do. You could also go like weight one and then turn
+15:38 also go like weight one and then turn the strength down. And then now as you
+15:39 the strength down. And then now as you paint, you get like, you know, different
+15:42 paint, you get like, you know, different amounts of buildup. But, you know, how
+15:44 amounts of buildup. But, you know, how detailed do you want?
+15:46 detailed do you want? Like, do you want I don't think
+15:48 Like, do you want I don't think anybody's ever going to look at your
+15:49 anybody's ever going to look at your doughnut render and go like, "Wow, the
+15:51 doughnut render and go like, "Wow, the distribution of those sprinkles is
+15:53 distribution of those sprinkles is amazing. You did a great job
+15:55 amazing. You did a great job distributing the sprinkles." But they
+15:58 distributing the sprinkles." But they might notice it if it if it looks fake.
+15:59 might notice it if it if it looks fake. You know, so it's it's one of those
+16:01 You know, so it's it's one of those things that seems like pointless in 3D.
+16:05 things that seems like pointless in 3D. Like you watch, you know, like Planet of
+16:09 Like you watch, you know, like Planet of the Apes, like the making of that that
+16:11 the Apes, like the making of that that latest one. I don't know the name of the
+16:12 latest one. I don't know the name of the the latest one, but I was at Sigraph and
+16:14 the latest one, but I was at Sigraph and I was watching a a talk where they had
+16:17 I was watching a a talk where they had the most amazing the guys at Wetter know
+16:19 the most amazing the guys at Wetter know how to do a presentation, but it was
+16:20 how to do a presentation, but it was just like full of detail and like tiny
+16:24 just like full of detail and like tiny like cuz they had like monkeys in the
+16:27 like cuz they had like monkeys in the the the rapids and like just the
+16:30 the the rapids and like just the sheeting and the the the plants had to
+16:33 sheeting and the the the plants had to have just the right amount of of wind or
+16:36 have just the right amount of of wind or else you and so like artists are just
+16:38 else you and so like artists are just slaving over every single detail. And
+16:41 slaving over every single detail. And I'm sure a lot of them were like, "Come
+16:42 I'm sure a lot of them were like, "Come on, who's going to notice?" You know,
+16:44 on, who's going to notice?" You know, and it's like, people will notice if it
+16:46 and it's like, people will notice if it looks fake. That's what they'll notice.
+16:48 looks fake. That's what they'll notice. Um, but they won't know specifically
+16:50 Um, but they won't know specifically what you did, but they'll know if it
+16:51 what you did, but they'll know if it looks fake. Anyways, so we've done our
+16:54 looks fake. Anyways, so we've done our weight painting. I did a lot of detailed
+16:56 weight painting. I did a lot of detailed weight painting there. But now, how do
+16:59 weight painting there. But now, how do we make our sprinkles just appear in
+17:01 we make our sprinkles just appear in that place? Oh, yeah. Bring it back by
+17:03 that place? Oh, yeah. Bring it back by clicking that. Um, we do it here where
+17:05 clicking that. Um, we do it here where it says distribution mask. Okay. So
+17:08 it says distribution mask. Okay. So instead of this uh single value from 0
+17:11 instead of this uh single value from 0 to one, we can change it to two. Click
+17:13 to one, we can change it to two. Click this little spreadsheet looking icon. I
+17:16 this little spreadsheet looking icon. I don't know why they went with that icon,
+17:18 don't know why they went with that icon, but anyways. Then from the drop-own, we
+17:20 but anyways. Then from the drop-own, we want to select group. Okay, which is the
+17:24 want to select group. Okay, which is the name by the way inside of data. It's
+17:26 name by the way inside of data. It's right here. So if you wanted to change
+17:27 right here. So if you wanted to change that to be
+17:29 that to be sprinkle
+17:31 sprinkle distribution, you could um and then
+17:34 distribution, you could um and then just, you know, click it there. But
+17:36 just, you know, click it there. But yeah, that's that's what it's
+17:37 yeah, that's that's what it's referencing. By the way, make sure
+17:39 referencing. By the way, make sure you're not using it cuz you can see
+17:41 you're not using it cuz you can see there's distribution mask and density.
+17:43 there's distribution mask and density. They both have this icon. If you instead
+17:45 They both have this icon. If you instead used it here, you would see like almost
+17:48 used it here, you would see like almost nothing. And that's because it's now
+17:50 nothing. And that's because it's now overridden what was there, a density
+17:52 overridden what was there, a density value of 900 with a value of 0 to one
+17:56 value of 900 with a value of 0 to one across those areas. Whereas a
+17:58 across those areas. Whereas a distribution mark will keep the density
+18:00 distribution mark will keep the density of 900, but it'll multiply it by the
+18:04 of 900, but it'll multiply it by the values of 0 to one here. So it's uh it's
+18:06 values of 0 to one here. So it's uh it's important you get the right one.
+18:08 important you get the right one. Distribution mask, not density. But
+18:10 Distribution mask, not density. But there you go. Great. Cool. So they're in
+18:13 there you go. Great. Cool. So they're in the right places generally. You know,
+18:15 the right places generally. You know, you can play around with it obviously.
+18:17 you can play around with it obviously. Um but now let's talk about some other
+18:19 Um but now let's talk about some other settings you might want. Like for
+18:20 settings you might want. Like for example, the density. How much how many
+18:23 example, the density. How much how many sprinkles do you want? Now, the big
+18:27 sprinkles do you want? Now, the big question people have when they're
+18:28 question people have when they're looking at this, they go, "How do you
+18:30 looking at this, they go, "How do you stop the sprinkles from intersecting
+18:33 stop the sprinkles from intersecting each other?" And unfortunately, there's
+18:37 each other?" And unfortunately, there's not an easy answer because this is not
+18:39 not an easy answer because this is not easy to do there. There's a such a thing
+18:42 easy to do there. There's a such a thing as like circle packing. That's the
+18:44 as like circle packing. That's the closest thing, which is like you could
+18:46 closest thing, which is like you could run an algorithm to try to combine
+18:49 run an algorithm to try to combine circles of different radiuses to kind of
+18:52 circles of different radiuses to kind of fit together as best they could. But
+18:54 fit together as best they could. But just it's it's complex. That's kind of
+18:55 just it's it's complex. That's kind of like a simulation and we just we can't
+18:58 like a simulation and we just we can't do it easily here. The closest thing we
+19:00 do it easily here. The closest thing we have is called distribution method plus
+19:04 have is called distribution method plus disk which when you click that and by
+19:07 disk which when you click that and by the way you can only see that option if
+19:08 the way you can only see that option if you're using density method not amount.
+19:11 you're using density method not amount. So amount will let you uh actually use a
+19:14 So amount will let you uh actually use a specific amount of uh sprinkles but then
+19:18 specific amount of uh sprinkles but then you don't get this uh extra option here
+19:20 you don't get this uh extra option here whereas density bases it on the scale of
+19:22 whereas density bases it on the scale of the object in relation to the scene and
+19:24 the object in relation to the scene and yada yada. But anyways, on disk gives
+19:26 yada yada. But anyways, on disk gives you this little setting, minimum
+19:28 you this little setting, minimum distance. And what it does is
+19:30 distance. And what it does is essentially every single one of these
+19:32 essentially every single one of these points here, it goes there's a point,
+19:34 points here, it goes there's a point, there's a point, there's a point,
+19:35 there's a point, there's a point, there's a point. And then when you
+19:36 there's a point. And then when you increase this value by whatever amount,
+19:39 increase this value by whatever amount, it will add a circle around it, right?
+19:42 it will add a circle around it, right? And if you increase that circle and you
+19:44 And if you increase that circle and you increase that circle, right? Eventually,
+19:47 increase that circle, right? Eventually, if this one, for example, had a value of
+19:50 if this one, for example, had a value of this size, this little dot here would be
+19:53 this size, this little dot here would be removed because it is now colliding with
+19:56 removed because it is now colliding with the value of this one. So, this one
+19:58 the value of this one. So, this one would override that one. So, this one
+20:00 would override that one. So, this one gets xed. So, if we increase this, you
+20:02 gets xed. So, if we increase this, you can see that is exactly what happens.
+20:05 can see that is exactly what happens. All right. So, I'm holding down shift as
+20:07 All right. So, I'm holding down shift as I just play with that value there. But
+20:09 I just play with that value there. But you can see that's removed some of the
+20:11 you can see that's removed some of the intersections, but there are still some
+20:13 intersections, but there are still some more. So, you might be tempted like,
+20:14 more. So, you might be tempted like, "All right, let's increase that even
+20:16 "All right, let's increase that even more. Let's increase it like cuz I want
+20:18 more. Let's increase it like cuz I want to get I want to get rid of this one,
+20:20 to get I want to get rid of this one, right? Let's increase it again, right?"
+20:23 right? Let's increase it again, right?" And you go, "Aha, I fixed it. No more
+20:25 And you go, "Aha, I fixed it. No more intersection." But now the problem is
+20:28 intersection." But now the problem is the the radiuses are so big that they're
+20:30 the the radiuses are so big that they're deleting each other and you now have
+20:32 deleting each other and you now have what looks like meticulously tweezed,
+20:35 what looks like meticulously tweezed, placed uh sprinkles placed along the
+20:38 placed uh sprinkles placed along the doughut um rather than randomness.
+20:41 doughut um rather than randomness. Right? So, we've gone from the chaos to
+20:43 Right? So, we've gone from the chaos to something that just doesn't look right
+20:45 something that just doesn't look right to the to the eye. So, really what I do
+20:48 to the to the eye. So, really what I do is I just drop this to be as low as I
+20:52 is I just drop this to be as low as I can get it before it starts to feel like
+20:56 can get it before it starts to feel like too manicured. Right. That still to me
+20:58 too manicured. Right. That still to me feels a little too manicured. I might go
+21:01 feels a little too manicured. I might go like that. I might even go a little bit
+21:03 like that. I might even go a little bit lower. Yeah. See, that feels chaotic to
+21:06 lower. Yeah. See, that feels chaotic to me. I like that.
+21:08 me. I like that. And then what I do generally is um I
+21:11 And then what I do generally is um I just change this seed amount here. The
+21:13 just change this seed amount here. The seed amount not very well named but I
+21:17 seed amount not very well named but I understand why they why they did it. But
+21:18 understand why they why they did it. But it's it's just a randomness amount like
+21:21 it's it's just a randomness amount like a distribution amount. Okay? You find it
+21:22 a distribution amount. Okay? You find it in a lot of like procedural workflows
+21:24 in a lot of like procedural workflows but it's like you can cycle through
+21:26 but it's like you can cycle through here. There's an infinite number of uh
+21:28 here. There's an infinite number of uh numbers here. And by the way it's not
+21:29 numbers here. And by the way it's not like you know one is any better than a
+21:32 like you know one is any better than a th00and or 10,000. Like these are each
+21:34 th00and or 10,000. Like these are each individual. It's just a random number
+21:37 individual. It's just a random number generator to uh give you different
+21:39 generator to uh give you different variations. So, you could do that as
+21:41 variations. So, you could do that as many times as you want to try to find
+21:43 many times as you want to try to find the best distribution that has the least
+21:45 the best distribution that has the least amount of intersections. That's probably
+21:48 amount of intersections. That's probably the best that you can do um with what
+21:51 the best that you can do um with what we've got. The other the other thing as
+21:52 we've got. The other the other thing as well is that sprinkles sometimes are not
+21:54 well is that sprinkles sometimes are not laying flat right on a on a donut.
+21:57 laying flat right on a on a donut. Sometimes they might be a little bit
+21:58 Sometimes they might be a little bit skewed like that and that can kind of
+22:00 skewed like that and that can kind of help with the intersections. So here
+22:02 help with the intersections. So here where I've got randomize, I'm going to
+22:04 where I've got randomize, I'm going to increase which one? The X, right? Not
+22:09 increase which one? The X, right? Not too much or else it'll just look weird,
+22:12 too much or else it'll just look weird, but a little bit makes sense for what
+22:14 but a little bit makes sense for what we've got. The other thing that we
+22:17 we've got. The other thing that we should do as well is with our sprinkles,
+22:20 should do as well is with our sprinkles, if we just bring them back by clicking
+22:21 if we just bring them back by clicking on that little check box at the top
+22:23 on that little check box at the top there, um the point at which they are
+22:27 there, um the point at which they are spawned onto the icing is where the
+22:30 spawned onto the icing is where the origin point is of the uh of the mesh
+22:33 origin point is of the uh of the mesh there. And we haven't talked about that
+22:34 there. And we haven't talked about that either, but that's kind of you could
+22:36 either, but that's kind of you could think of it as like the center of mass
+22:38 think of it as like the center of mass for the object. It's we're not using
+22:40 for the object. It's we're not using physics, but like that's kind of how you
+22:42 physics, but like that's kind of how you think of it. It's like generally
+22:44 think of it. It's like generally speaking it should be in the center of
+22:46 speaking it should be in the center of an object. You can see here with it
+22:48 an object. You can see here with it being there. If it was spawned like here
+22:51 being there. If it was spawned like here for example, the whole sprinkle is going
+22:53 for example, the whole sprinkle is going to be over here. Right? So if you've got
+22:55 to be over here. Right? So if you've got those circles of radiuses, it might be
+22:58 those circles of radiuses, it might be intersecting something when it
+22:59 intersecting something when it shouldn't. Um whereas if you select all
+23:02 shouldn't. Um whereas if you select all of them like this, then you rightclick
+23:04 of them like this, then you rightclick and then you say set origin origin to
+23:07 and then you say set origin origin to geometry, they will now be at the exact
+23:09 geometry, they will now be at the exact center of that sprinkle and it'll just
+23:11 center of that sprinkle and it'll just be a little bit better and there'll be
+23:13 be a little bit better and there'll be slightly less um intersections. Um but
+23:16 slightly less um intersections. Um but that's that's the best we can do. The
+23:18 that's that's the best we can do. The alternative way to like have sprinkles
+23:20 alternative way to like have sprinkles on a donut where they're not
+23:22 on a donut where they're not intersecting like this would be to use a
+23:24 intersecting like this would be to use a physics engine. Um there's a rigid body
+23:27 physics engine. Um there's a rigid body physics engine in Blender.
+23:29 physics engine in Blender. Unfortunately, it's not very good. It's
+23:30 Unfortunately, it's not very good. It's very slow. It's one area that they're
+23:32 very slow. It's one area that they're looking to overhaul with more funding.
+23:35 looking to overhaul with more funding. Yes, I found another way to throw it in
+23:36 Yes, I found another way to throw it in there. Um, if more people donate, we can
+23:39 there. Um, if more people donate, we can have good physics in Blender. That's
+23:41 have good physics in Blender. That's what I want to tell you. Um, but for
+23:43 what I want to tell you. Um, but for now, this is uh this is the best we got.
+23:46 now, this is uh this is the best we got. Or the other way is you could actually
+23:47 Or the other way is you could actually apply this. You could say, "Apply all my
+23:49 apply this. You could say, "Apply all my sprinkles." Um, you would have to
+23:51 sprinkles." Um, you would have to realize first, realize the instances, so
+23:54 realize first, realize the instances, so they're actual objects, then apply them.
+23:57 they're actual objects, then apply them. Um, but you could then actually
+23:59 Um, but you could then actually physically move each of these little
+24:01 physically move each of these little ones like that. But I wouldn't recommend
+24:03 ones like that. But I wouldn't recommend doing that. I think it is overkill. It's
+24:05 doing that. I think it is overkill. It's not and um it's not needed and it's not
+24:08 not and um it's not needed and it's not going to help you for the next step
+24:09 going to help you for the next step because we got to have random colors. So
+24:11 because we got to have random colors. So yes, colors. Let's make our sprinkles
+24:14 yes, colors. Let's make our sprinkles look not like tic tacs. So yeah, if we
+24:18 look not like tic tacs. So yeah, if we go uh enable our sprinkles, right? You
+24:22 go uh enable our sprinkles, right? You know, we can come in here. We can give
+24:23 know, we can come in here. We can give it a material and you know we could we
+24:26 it a material and you know we could we could pick a random color you know get a
+24:28 could pick a random color you know get a purple one and then go yeah now I want
+24:30 purple one and then go yeah now I want to make a yellow one or whatever right
+24:33 to make a yellow one or whatever right the problem with this method is although
+24:35 the problem with this method is although this works and it is fast is um that
+24:39 this works and it is fast is um that you'll always have the green one will
+24:42 you'll always have the green one will always be that bent one that little
+24:44 always be that bent one that little squiggly one right and your eye can kind
+24:47 squiggly one right and your eye can kind of pick up on things like that um it's
+24:50 of pick up on things like that um it's also like hard to control the colors
+24:52 also like hard to control the colors right? Because I can't control how many
+24:54 right? Because I can't control how many blue ones or purple ones or whatnot I
+24:55 blue ones or purple ones or whatnot I get across my donut. So, it's also not
+24:58 get across my donut. So, it's also not ideal. So, there is a much better way
+25:00 ideal. So, there is a much better way which involves, as I briefly mentioned
+25:02 which involves, as I briefly mentioned before, random colors. So, you start
+25:05 before, random colors. So, you start with your material like this. And we're
+25:07 with your material like this. And we're actually going to give the exact same
+25:09 actually going to give the exact same material to all of our sprinkles. So, um
+25:12 material to all of our sprinkles. So, um let me just disable those and I'll
+25:14 let me just disable those and I'll select all of my sprinkles here. Um, and
+25:16 select all of my sprinkles here. Um, and if I want to give them all this same
+25:18 if I want to give them all this same material, all I would do is the last
+25:21 material, all I would do is the last sprinkle, as long as that's got a
+25:23 sprinkle, as long as that's got a material, I can hit Ctrl L. Ctrl L. And
+25:27 material, I can hit Ctrl L. Ctrl L. And that will transfer data from one object
+25:29 that will transfer data from one object to many objects. And then you're just
+25:31 to many objects. And then you're just looking for materials like that. And now
+25:34 looking for materials like that. And now you can see the uh where it says
+25:35 you can see the uh where it says material, there's a little number next
+25:37 material, there's a little number next to it. And that actually tells you the
+25:38 to it. And that actually tells you the number of users that are sharing that
+25:40 number of users that are sharing that data. So there's six sprinkles now all
+25:42 data. So there's six sprinkles now all sharing it. And you know to be good good
+25:46 sharing it. And you know to be good good little artists um we should call it uh
+25:48 little artists um we should call it uh sprinkle or sprinkles I don't know.
+25:51 sprinkle or sprinkles I don't know. Anyway um cool. So now if we go to the
+25:54 Anyway um cool. So now if we go to the uh shader tab I'm going to show you how
+25:56 uh shader tab I'm going to show you how we can we can make this look cool. So
+25:58 we can we can make this look cool. So let's go back to the shader view. Okay
+26:00 let's go back to the shader view. Okay great. So there is no limit really to
+26:03 great. So there is no limit really to what you can do with nodes. Um you can
+26:05 what you can do with nodes. Um you can plug things in and do this and that and
+26:07 plug things in and do this and that and it's it's really cool. There's a bunch
+26:09 it's it's really cool. There's a bunch of nodes. If you hit shift A and just go
+26:11 of nodes. If you hit shift A and just go in here, there's like all sorts of
+26:12 in here, there's like all sorts of attributes you can call in and do
+26:15 attributes you can call in and do complex things and you can get really
+26:16 complex things and you can get really technical. So, it's it's a lot of fun.
+26:18 technical. So, it's it's a lot of fun. Um, but the one that we're going to use
+26:20 Um, but the one that we're going to use is underneath object info. If you bring
+26:24 is underneath object info. If you bring in this node, um, you'll see that
+26:27 in this node, um, you'll see that there's there's a bunch. There's like
+26:28 there's there's a bunch. There's like location, you know, you could drag that
+26:30 location, you know, you could drag that into the, uh, color, you know, there's
+26:32 into the, uh, color, you know, there's there's all sorts of things that you can
+26:34 there's all sorts of things that you can do with this. The one we're looking for
+26:35 do with this. The one we're looking for is random. Okay. So, what this is doing
+26:38 is random. Okay. So, what this is doing is it's saying every time there's an
+26:41 is it's saying every time there's an object that is using this material,
+26:43 object that is using this material, we're going to pick a random value for
+26:46 we're going to pick a random value for that object between zero and one. Okay?
+26:49 that object between zero and one. Okay? And you would actually see if you were
+26:51 And you would actually see if you were to duplicate this sprinkle again and
+26:53 to duplicate this sprinkle again and again and again and again and again,
+26:55 again and again and again and again, which by the way, um, you can do by just
+26:58 which by the way, um, you can do by just holding down shift R after you do a
+27:00 holding down shift R after you do a duplicate, and you just get more and
+27:02 duplicate, and you just get more and more and more sprinkles. Um you can see
+27:03 more and more sprinkles. Um you can see that they all now have a value between 0
+27:05 that they all now have a value between 0 and one and that's been converted into
+27:07 and one and that's been converted into color form because 0 is black and then
+27:09 color form because 0 is black and then one is uh white. Right? So that's what
+27:13 one is uh white. Right? So that's what um that's what this is doing. So 0 to
+27:15 um that's what this is doing. So 0 to one giving it that scale. Um have I run
+27:18 one giving it that scale. Um have I run out of undos? I've run out of undos.
+27:20 out of undos? I've run out of undos. Well I have to assume that was yeah that
+27:23 Well I have to assume that was yeah that was the last one. Okay, there we go. Um
+27:25 was the last one. Okay, there we go. Um so that's not very useful in this format
+27:27 so that's not very useful in this format like zero to like like black to white.
+27:30 like zero to like like black to white. It's it's not that fun. But we can
+27:33 It's it's not that fun. But we can convert those single float numbers 0 to
+27:36 convert those single float numbers 0 to 1 into color format by between here and
+27:40 1 into color format by between here and here dropping in a color ramp node. So
+27:43 here dropping in a color ramp node. So if you go add or shift A and then go
+27:46 if you go add or shift A and then go color and then go color ramp, then if
+27:48 color and then go color ramp, then if you just drag this in and drop it until
+27:50 you just drag this in and drop it until that line lights up, drop it in there.
+27:53 that line lights up, drop it in there. Now I can say instead of it being black
+27:56 Now I can say instead of it being black at this end, let's make this a blue
+27:59 at this end, let's make this a blue color. And instead of it being white,
+28:01 color. And instead of it being white, let's make it a orangey color. Right?
+28:04 let's make it a orangey color. Right? And now I've got a range of those.
+28:07 And now I've got a range of those. Right? And you could see as if I was to
+28:10 Right? And you could see as if I was to duplicate, right? You get kind of like
+28:13 duplicate, right? You get kind of like variance [snorts] across this, right?
+28:14 variance [snorts] across this, right? Every single one of those is getting
+28:16 Every single one of those is getting like a new little position somewhere in
+28:19 like a new little position somewhere in this um little uh gradient over there.
+28:22 this um little uh gradient over there. Okay. And that's cool. And that would,
+28:24 Okay. And that's cool. And that would, you know, if you looked at our donut
+28:26 you know, if you looked at our donut now, you would see that we're now
+28:29 now, you would see that we're now getting a nice range of different colors
+28:31 getting a nice range of different colors across it. However, it's not quite
+28:33 across it. However, it's not quite accurate. If you look at photographs of
+28:35 accurate. If you look at photographs of donuts, there's there's not really like
+28:37 donuts, there's there's not really like the yellow sprinkles are all the exact
+28:40 the yellow sprinkles are all the exact same shade of yellow. The blue sprinkles
+28:41 same shade of yellow. The blue sprinkles are all the exact same shade of blue.
+28:43 are all the exact same shade of blue. And it makes sense because they mix up
+28:45 And it makes sense because they mix up the the the sprinkle uh icing uh I was
+28:48 the the the sprinkle uh icing uh I was going to say batter, just the icing
+28:51 going to say batter, just the icing sauce. Icing icing. They just mix that
+28:54 sauce. Icing icing. They just mix that up with one like lot of food color. They
+28:57 up with one like lot of food color. They get just the color right and then it's
+28:59 get just the color right and then it's piped out and then that becomes the
+29:00 piped out and then that becomes the sprinkle. So they all have one constant
+29:02 sprinkle. So they all have one constant color, not a range of colors like this.
+29:05 color, not a range of colors like this. So um by the way, here's a little a
+29:08 So um by the way, here's a little a little tip cuz you'll notice this that
+29:09 little tip cuz you'll notice this that like when you click on something else
+29:11 like when you click on something else like you're icing or you're hiding your
+29:13 like you're icing or you're hiding your sprinkles like I can't get back that
+29:15 sprinkles like I can't get back that material with all my sprinkles on it,
+29:17 material with all my sprinkles on it, right? So I have to go here. I have to
+29:19 right? So I have to go here. I have to enable it just so that I can click on it
+29:22 enable it just so that I can click on it just so that I can tweak the color. It's
+29:24 just so that I can tweak the color. It's annoying. You don't need to do that.
+29:26 annoying. You don't need to do that. We've got a material here that says
+29:27 We've got a material here that says sprinkles. So, we can hide it. And then
+29:29 sprinkles. So, we can hide it. And then what I do is I just select my icing and
+29:31 what I do is I just select my icing and then I add a new material underneath it.
+29:35 then I add a new material underneath it. And then I which you do by clicking the
+29:37 And then I which you do by clicking the little plus button there. So, click the
+29:39 little plus button there. So, click the plus and then in the dropown you're
+29:40 plus and then in the dropown you're looking for
+29:42 looking for sprinkles. Okay. And this won't affect
+29:45 sprinkles. Okay. And this won't affect your icing. Like you can stack multiple
+29:47 your icing. Like you can stack multiple materials on one object and then
+29:49 materials on one object and then although we're not going to do it in
+29:50 although we're not going to do it in this tutorial, you can assign certain
+29:52 this tutorial, you can assign certain parts of that material to different
+29:54 parts of that material to different parts of your mesh. For example, you
+29:56 parts of your mesh. For example, you could assign it like that. Um, but you
+29:58 could assign it like that. Um, but you can also just leave it unassigned and
+30:00 can also just leave it unassigned and then that way you can like quickly
+30:01 then that way you can like quickly reference it. So that's what I like to
+30:02 reference it. So that's what I like to do. So I've still got my glaze at the
+30:03 do. So I've still got my glaze at the top there and then whenever I want to
+30:05 top there and then whenever I want to change my sprinkles, they're there and
+30:07 change my sprinkles, they're there and it's being shared across all the
+30:08 it's being shared across all the sprinkles that are hidden. Anyways, so
+30:10 sprinkles that are hidden. Anyways, so as I mentioned, I want it to be a
+30:12 as I mentioned, I want it to be a constant color. How can I make this look
+30:14 constant color. How can I make this look like a constant color? You can do it by
+30:16 like a constant color? You can do it by changing these handles from instead of
+30:18 changing these handles from instead of it being linear interpolation to a
+30:21 it being linear interpolation to a constant interpolation. And look at
+30:22 constant interpolation. And look at that. Now it is a hard line. It's not a
+30:27 that. Now it is a hard line. It's not a a gradient across it. You only get all
+30:29 a gradient across it. You only get all of this blue or all of this uh orange.
+30:32 of this blue or all of this uh orange. So, you know, if you wanted to make a uh
+30:35 So, you know, if you wanted to make a uh Halloween donut,
+30:37 Halloween donut, right, you can go for something.
+30:40 right, you can go for something. I I moved to United States a couple of
+30:43 I I moved to United States a couple of years ago. coming up on two years ago.
+30:46 years ago. coming up on two years ago. And uh I'm just learning that that's the
+30:49 And uh I'm just learning that that's the colors of Halloween because we don't
+30:50 colors of Halloween because we don't really do Halloween in Australia where
+30:52 really do Halloween in Australia where I'm from. Like some people do, but it's
+30:54 I'm from. Like some people do, but it's really a kind of a rare thing that
+30:56 really a kind of a rare thing that people are into. But it's always Yeah,
+30:58 people are into. But it's always Yeah, it's the black, orange, the green, and
+31:01 it's the black, orange, the green, and the purple seems to be the uh the colors
+31:03 the purple seems to be the uh the colors that people like decorate their houses
+31:05 that people like decorate their houses with and stuff. And Reese's pieces
+31:07 with and stuff. And Reese's pieces really lean into that. They love that
+31:09 really lean into that. They love that they're one of those colors.
+31:12 they're one of those colors. You know, you can do you can do like fun
+31:13 You know, you can do you can do like fun stuff, right? You can make up the
+31:14 stuff, right? You can make up the Halloween looking uh donut if you wanted
+31:18 Halloween looking uh donut if you wanted to. Um what I'm going to do for mine is
+31:22 to. Um what I'm going to do for mine is um I'm going to make mine look like
+31:24 um I'm going to make mine look like pastel. Um so I like to go with like a
+31:27 pastel. Um so I like to go with like a shade of aqua kind of like that. And
+31:30 shade of aqua kind of like that. And then I'm going to go with purple like
+31:33 then I'm going to go with purple like that. And this is a a tip by the way.
+31:35 that. And this is a a tip by the way. You never want to go like 100%
+31:38 You never want to go like 100% um like saturated like that. Um that's
+31:42 um like saturated like that. Um that's weird. Why is no donut got that exact?
+31:45 weird. Why is no donut got that exact? Well, they are. They're just being
+31:47 Well, they are. They're just being washed out. Okay, they don't look very
+31:50 washed out. Okay, they don't look very very extremely saturated. But anyways,
+31:52 very extremely saturated. But anyways, um you never want to go like fully
+31:54 um you never want to go like fully saturated like that because it can like
+31:56 saturated like that because it can like using different uh the way you render
+31:59 using different uh the way you render it. If you put it like through a like a
+32:02 it. If you put it like through a like a a contrast, you kind of like boost
+32:04 a contrast, you kind of like boost highlights or like make things more
+32:05 highlights or like make things more contrasted, it can kind of like blow out
+32:07 contrasted, it can kind of like blow out the colors. So, it's it's generally a
+32:09 the colors. So, it's it's generally a good idea to leave things mostly
+32:11 good idea to leave things mostly unsaturated like this. It's also just
+32:13 unsaturated like this. It's also just like more pleasing on the eye if you
+32:15 like more pleasing on the eye if you don't have too many things that are
+32:17 don't have too many things that are like, you know, extremely intense. Um,
+32:20 like, you know, extremely intense. Um, and now this is the other thing as I
+32:22 and now this is the other thing as I mentioned, right? I can now choose the
+32:24 mentioned, right? I can now choose the exact ratio of my sprinkles. More blue,
+32:28 exact ratio of my sprinkles. More blue, more purple, more pink, more yellow. And
+32:31 more purple, more pink, more yellow. And I just have an exact easy slider to
+32:35 I just have an exact easy slider to choose this. Um, and this is really fun.
+32:37 choose this. Um, and this is really fun. This is like where you get to be
+32:38 This is like where you get to be creative and go like what kind of what
+32:41 creative and go like what kind of what kind of donut am I going to be making
+32:42 kind of donut am I going to be making here? You know, um like this, you know,
+32:46 here? You know, um like this, you know, you can make some white ones.
+32:49 you can make some white ones. But yeah, generally as a a rule of
+32:51 But yeah, generally as a a rule of advice um when you're when you're making
+32:54 advice um when you're when you're making something um like this and you've got
+32:57 something um like this and you've got lots of colors, lots of potential color
+33:00 lots of colors, lots of potential color choices, it's best to try to go with
+33:02 choices, it's best to try to go with like one primary color, like one that is
+33:05 like one primary color, like one that is making up the predominant color choice,
+33:08 making up the predominant color choice, right? So you go like mostly purple and
+33:10 right? So you go like mostly purple and then like a few splashes of other colors
+33:13 then like a few splashes of other colors and it just helps it. It's it's almost
+33:15 and it just helps it. It's it's almost like it helps your brain digest what
+33:17 like it helps your brain digest what it's looking at. Whereas if you just
+33:19 it's looking at. Whereas if you just went like evenly distributed across all
+33:22 went like evenly distributed across all of them or get an equal share, it just
+33:24 of them or get an equal share, it just starts to look a little bit like noise.
+33:27 starts to look a little bit like noise. Um by the way, the other thing that you
+33:29 Um by the way, the other thing that you might want to do at this point Oh, I'm
+33:30 might want to do at this point Oh, I'm already using it. I'm using medium high
+33:32 already using it. I'm using medium high contrast. Um, but we're going to be So,
+33:34 contrast. Um, but we're going to be So, by default, your color management, it
+33:37 by default, your color management, it kind of looks like this. So, your colors
+33:39 kind of looks like this. So, your colors look a little bit washed out. And we're
+33:41 look a little bit washed out. And we're not going to get into color management,
+33:42 not going to get into color management, but essentially like everything is kind
+33:45 but essentially like everything is kind of a little bit desaturated. Um, and
+33:47 of a little bit desaturated. Um, and it's designed so that it makes it easier
+33:49 it's designed so that it makes it easier to grade, but it's not really designed
+33:50 to grade, but it's not really designed for a final render when you're using the
+33:53 for a final render when you're using the none look. Instead, you're better off
+33:55 none look. Instead, you're better off using uh medium high or high contrast or
+33:57 using uh medium high or high contrast or for a YouTube thumbnail. Very high
+33:59 for a YouTube thumbnail. Very high contrast. That's what I use. Um, and
+34:01 contrast. That's what I use. Um, and these aren't like bad. It's not like
+34:03 these aren't like bad. It's not like they're doing like a rough like contrast
+34:05 they're doing like a rough like contrast grab or something. This is like a proper
+34:06 grab or something. This is like a proper S- log um uh sorry S-curve uh
+34:10 S- log um uh sorry S-curve uh conversion. Um nothing is peing. It's
+34:13 conversion. Um nothing is peing. It's all It's all this I I use these all the
+34:15 all It's all this I I use these all the time. Medium high, medium uh yeah or or
+34:18 time. Medium high, medium uh yeah or or high. Um anyways, so that's pretty good.
+34:21 high. Um anyways, so that's pretty good. And then I might grab my Oh, yeah. I got
+34:23 And then I might grab my Oh, yeah. I got to fix this again. Let's make that back
+34:24 to fix this again. Let's make that back what it was. Let's move that back.
+34:28 what it was. Let's move that back. Get a few more blues in there.
+34:31 Get a few more blues in there. Bit of pinks, bit of whites, bit of
+34:32 Bit of pinks, bit of whites, bit of yellows. I'm going to make my icing as
+34:35 yellows. I'm going to make my icing as well a little bit hotter. And I'm going
+34:40 well a little bit hotter. And I'm going to tweak it a little more towards the
+34:42 to tweak it a little more towards the purple range. Just a little bit. Back at
+34:45 purple range. Just a little bit. Back at the sprinkles. The other thing I forgot
+34:47 the sprinkles. The other thing I forgot to mention as well, um, sprinkles are
+34:49 to mention as well, um, sprinkles are actually a little bit shiny if you look
+34:51 actually a little bit shiny if you look at references. So, a little bit shiny.
+34:53 at references. So, a little bit shiny. And then the other thing it really
+34:54 And then the other thing it really needs, and this does make a big
+34:55 needs, and this does make a big difference, is subsurface scattering.
+34:57 difference, is subsurface scattering. So, just like before, dragging down on
+34:59 So, just like before, dragging down on that radius to make them all one. And
+35:01 that radius to make them all one. And then I'm increasing the weight to be
+35:02 then I'm increasing the weight to be one. And then I just dropped this scale
+35:04 one. And then I just dropped this scale to be something really low. But that
+35:06 to be something really low. But that will make a big difference. I was before
+35:08 will make a big difference. I was before I was like practicing for this this uh
+35:10 I was like practicing for this this uh video. Um and I was like, why are my
+35:12 video. Um and I was like, why are my sprinkles just not looking good? They
+35:15 sprinkles just not looking good? They weren't looking as good as um you know,
+35:17 weren't looking as good as um you know, a previous render I'd done and I forgot
+35:19 a previous render I'd done and I forgot subsurface scattering. And it does make
+35:21 subsurface scattering. And it does make uh a huge difference. So there we go.
+35:24 uh a huge difference. So there we go. We've got a nice looking doughut. Before
+35:26 We've got a nice looking doughut. Before you go ahead, what I'd like you to do is
+35:29 you go ahead, what I'd like you to do is to try to create your own
+35:32 to try to create your own style of doughut. Um, you could try
+35:35 style of doughut. Um, you could try substituting the long sprinkles for like
+35:38 substituting the long sprinkles for like rounded sprinkles or like star- shaped
+35:40 rounded sprinkles or like star- shaped sprinkles. Um, you could change the
+35:42 sprinkles. Um, you could change the doughut color to be something else. You
+35:44 doughut color to be something else. You could make more donuts by just stacking
+35:46 could make more donuts by just stacking donuts on top of each other. Um, here
+35:48 donuts on top of each other. Um, here are some ideas that uh my team and over
+35:50 are some ideas that uh my team and over the years we different donut versions
+35:52 the years we different donut versions and stuff we've we've created. Um, but
+35:55 and stuff we've we've created. Um, but you can do a lot. So have fun just
+35:57 you can do a lot. So have fun just experimenting and trying to create
+35:59 experimenting and trying to create something of your own with your own
+36:01 something of your own with your own creativity uh injected into it. And
+36:04 creativity uh injected into it. And it'll also just kind of teach you to
+36:05 it'll also just kind of teach you to kind of think independently and like
+36:07 kind of think independently and like where is this thing and locate that and
+36:09 where is this thing and locate that and it's you know just a way of like
+36:11 it's you know just a way of like bringing back that information and also
+36:13 bringing back that information and also as your homework uh add some sprinkles
+36:16 as your homework uh add some sprinkles to your plate if you want. Um I won't
+36:19 to your plate if you want. Um I won't show you how to do it because it's
+36:20 show you how to do it because it's basically the same steps as before
+36:23 basically the same steps as before scattering on surface. The only thing uh
+36:24 scattering on surface. The only thing uh I'll mention is that you do need to
+36:26 I'll mention is that you do need to apply your solidify modifier so that you
+36:28 apply your solidify modifier so that you can actually paint on the correct side
+36:30 can actually paint on the correct side of your plate and they will appear um as
+36:33 of your plate and they will appear um as long as that's done. But it's super
+36:34 long as that's done. But it's super simple. So I trust you all be able to do
+36:36 simple. So I trust you all be able to do that. Anyways, that's it for this video.
+36:39 that. Anyways, that's it for this video. Join me in the next part, the final part
+36:41 Join me in the next part, the final part as we do the lighting and rendering.

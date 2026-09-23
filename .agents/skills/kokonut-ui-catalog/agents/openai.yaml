@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kokonut UI Catalog"
+  short_description: "Gate Kokonut UI component choices"
+  default_prompt: "Use $kokonut-ui-catalog to select exact Kokonut UI components for a landing plan."

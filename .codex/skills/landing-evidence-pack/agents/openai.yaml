@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Evidence Pack"
+  short_description: "Capture evidence for landing decisions"
+  default_prompt: "Use $landing-evidence-pack to collect screenshots, references, assets, and decision evidence for this landing plan."

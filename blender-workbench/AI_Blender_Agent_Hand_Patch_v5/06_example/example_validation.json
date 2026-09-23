@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "errors": [],
+  "warnings": [],
+  "counts": {
+    "landmarks": 16,
+    "centerlines": 7,
+    "layers": 5,
+    "negative_spaces": 3
+  },
+  "schema_validation": "pass"
+}

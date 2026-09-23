@@ -1,0 +1,4283 @@
+{
+  "generated_at": "2026-07-30T15:24:58.426852+00:00",
+  "counts": {
+    "total": 237,
+    "caption_ready": 233,
+    "metadata_ready": 237,
+    "visual_ready": 237
+  },
+  "records": [
+    {
+      "video_id": "lVflgFmmxfA",
+      "source_kind": "video",
+      "title": "Пейзаж в Blender 5.2 с нуля! | Добавление растений",
+      "captions": [
+        "lVflgFmmxfA.ru-orig.vtt",
+        "lVflgFmmxfA.ru.vtt"
+      ],
+      "info": [
+        "lVflgFmmxfA.info.json"
+      ],
+      "thumbnails": [
+        "lVflgFmmxfA.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "99lAzxKeV9c",
+      "source_kind": "video",
+      "title": "Обновления Blender 5.2 | Новая симуляция",
+      "captions": [
+        "99lAzxKeV9c.ru-orig.vtt",
+        "99lAzxKeV9c.ru.vtt"
+      ],
+      "info": [
+        "99lAzxKeV9c.info.json"
+      ],
+      "thumbnails": [
+        "99lAzxKeV9c.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "WfF-W8WqDqY",
+      "source_kind": "video",
+      "title": "Запекание в Blender ПРОСТО! | Основы процедурных материалов",
+      "captions": [
+        "WfF-W8WqDqY.ru-orig.vtt",
+        "WfF-W8WqDqY.ru.vtt"
+      ],
+      "info": [
+        "WfF-W8WqDqY.info.json"
+      ],
+      "thumbnails": [
+        "WfF-W8WqDqY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "T_MlDrVk1m8",
+      "source_kind": "video",
+      "title": "Обновления Blender 5.1 | Новые вершины",
+      "captions": [
+        "T_MlDrVk1m8.ru-orig.vtt",
+        "T_MlDrVk1m8.ru.vtt"
+      ],
+      "info": [
+        "T_MlDrVk1m8.info.json"
+      ],
+      "thumbnails": [
+        "T_MlDrVk1m8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "59HavvH5H_8",
+      "source_kind": "video",
+      "title": "Игрушка Hornet в Blender | Уроки для начинающих",
+      "captions": [
+        "59HavvH5H_8.ru-orig.vtt",
+        "59HavvH5H_8.ru.vtt"
+      ],
+      "info": [
+        "59HavvH5H_8.info.json"
+      ],
+      "thumbnails": [
+        "59HavvH5H_8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "v0KOSJrnltU",
+      "source_kind": "video",
+      "title": "Обновления Blender 5.0 | Новый рубеж",
+      "captions": [
+        "v0KOSJrnltU.ru-orig.vtt",
+        "v0KOSJrnltU.ru.vtt"
+      ],
+      "info": [
+        "v0KOSJrnltU.info.json"
+      ],
+      "thumbnails": [
+        "v0KOSJrnltU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "kGblQk16MY0",
+      "source_kind": "video",
+      "title": "Фатальные ошибки новичков в Blender | Полная версия",
+      "captions": [
+        "kGblQk16MY0.ru-orig.vtt",
+        "kGblQk16MY0.ru.vtt"
+      ],
+      "info": [
+        "kGblQk16MY0.info.json"
+      ],
+      "thumbnails": [
+        "kGblQk16MY0.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "diQZpgDNKhg",
+      "source_kind": "video",
+      "title": "Плюшевый олень в Blender | Уроки для начинающих",
+      "captions": [
+        "diQZpgDNKhg.en.vtt",
+        "diQZpgDNKhg.ru-orig.vtt",
+        "diQZpgDNKhg.ru.vtt"
+      ],
+      "info": [
+        "diQZpgDNKhg.info.json"
+      ],
+      "thumbnails": [
+        "diQZpgDNKhg.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "O8W6oAZG6LU",
+      "source_kind": "video",
+      "title": "Как легко анимировать все в Blender, используя Shape Keys",
+      "captions": [
+        "O8W6oAZG6LU.en.vtt",
+        "O8W6oAZG6LU.ru-orig.vtt",
+        "O8W6oAZG6LU.ru.vtt"
+      ],
+      "info": [
+        "O8W6oAZG6LU.info.json"
+      ],
+      "thumbnails": [
+        "O8W6oAZG6LU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "hA1--jm52dM",
+      "source_kind": "video",
+      "title": "Обновления Blender 4.5 | Обзор всех функций",
+      "captions": [
+        "hA1--jm52dM.en.vtt",
+        "hA1--jm52dM.ru-orig.vtt",
+        "hA1--jm52dM.ru.vtt"
+      ],
+      "info": [
+        "hA1--jm52dM.info.json"
+      ],
+      "thumbnails": [
+        "hA1--jm52dM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "6GLHDS2vRd0",
+      "source_kind": "video",
+      "title": "Тайна мастерской | Мульт в Blender",
+      "captions": [],
+      "info": [
+        "6GLHDS2vRd0.info.json"
+      ],
+      "thumbnails": [
+        "6GLHDS2vRd0.webp"
+      ],
+      "caption_ready": false,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "5DHDe23K6Fw",
+      "source_kind": "video",
+      "title": "Поясняю за камеру в Blender 3D | Топ 8 крутых фишек!",
+      "captions": [
+        "5DHDe23K6Fw.en.vtt",
+        "5DHDe23K6Fw.ru-orig.vtt",
+        "5DHDe23K6Fw.ru.vtt"
+      ],
+      "info": [
+        "5DHDe23K6Fw.info.json"
+      ],
+      "thumbnails": [
+        "5DHDe23K6Fw.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "zo7uEXdoH2Q",
+      "source_kind": "video",
+      "title": "Самый точный 3D Трекинг в Blender ПРОСТО! | Новый способ",
+      "captions": [
+        "zo7uEXdoH2Q.en.vtt",
+        "zo7uEXdoH2Q.ru-orig.vtt",
+        "zo7uEXdoH2Q.ru.vtt"
+      ],
+      "info": [
+        "zo7uEXdoH2Q.info.json"
+      ],
+      "thumbnails": [
+        "zo7uEXdoH2Q.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "3xK18Su0LzM",
+      "source_kind": "video",
+      "title": "Игровая модель гранаты Red Bull в Blender с нуля! | Запекание",
+      "captions": [
+        "3xK18Su0LzM.en.vtt",
+        "3xK18Su0LzM.ru-orig.vtt",
+        "3xK18Su0LzM.ru.vtt"
+      ],
+      "info": [
+        "3xK18Su0LzM.info.json"
+      ],
+      "thumbnails": [
+        "3xK18Su0LzM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "dg8K1-IN1Jo",
+      "source_kind": "video",
+      "title": "Урок по 3D для начинающих в Blender - Комната с рабочим местом (изометрия)",
+      "captions": [
+        "dg8K1-IN1Jo.en.vtt",
+        "dg8K1-IN1Jo.ru-orig.vtt",
+        "dg8K1-IN1Jo.ru.vtt"
+      ],
+      "info": [
+        "dg8K1-IN1Jo.info.json"
+      ],
+      "thumbnails": [
+        "dg8K1-IN1Jo.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "5cH_GWLoS4M",
+      "source_kind": "video",
+      "title": "Обновлении Blender 4.4 | Что нового?",
+      "captions": [
+        "5cH_GWLoS4M.en.vtt",
+        "5cH_GWLoS4M.ru-orig.vtt",
+        "5cH_GWLoS4M.ru.vtt"
+      ],
+      "info": [
+        "5cH_GWLoS4M.info.json"
+      ],
+      "thumbnails": [
+        "5cH_GWLoS4M.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "pdUO34s1BZs",
+      "source_kind": "video",
+      "title": "Blender 1.0 - Каким он был? Обзор всех версий самой популярной программы для 3D моделирования",
+      "captions": [
+        "pdUO34s1BZs.en.vtt",
+        "pdUO34s1BZs.ru-orig.vtt",
+        "pdUO34s1BZs.ru.vtt"
+      ],
+      "info": [
+        "pdUO34s1BZs.info.json"
+      ],
+      "thumbnails": [
+        "pdUO34s1BZs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "TY78w-UwBfk",
+      "source_kind": "video",
+      "title": "Риг и анимации авто в Blender | RBC + Rig a car",
+      "captions": [
+        "TY78w-UwBfk.en.vtt",
+        "TY78w-UwBfk.ru-orig.vtt",
+        "TY78w-UwBfk.ru.vtt"
+      ],
+      "info": [
+        "TY78w-UwBfk.info.json"
+      ],
+      "thumbnails": [
+        "TY78w-UwBfk.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "p--JWcnPLYU",
+      "source_kind": "video",
+      "title": "Моделирование авто в Blender | Porsche Cayman 718",
+      "captions": [
+        "p--JWcnPLYU.en.vtt",
+        "p--JWcnPLYU.ru-orig.vtt",
+        "p--JWcnPLYU.ru.vtt"
+      ],
+      "info": [
+        "p--JWcnPLYU.info.json"
+      ],
+      "thumbnails": [
+        "p--JWcnPLYU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "UPrLOsq2sO0",
+      "source_kind": "video",
+      "title": "Стилизованный рендер в Blender | Создание шейдеров",
+      "captions": [
+        "UPrLOsq2sO0.en.vtt",
+        "UPrLOsq2sO0.ru-orig.vtt",
+        "UPrLOsq2sO0.ru.vtt"
+      ],
+      "info": [
+        "UPrLOsq2sO0.info.json"
+      ],
+      "thumbnails": [
+        "UPrLOsq2sO0.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "id0CIaa5pFQ",
+      "source_kind": "video",
+      "title": "Комната в изометрии | Уроки для начинающих в Blender",
+      "captions": [
+        "id0CIaa5pFQ.en.vtt",
+        "id0CIaa5pFQ.ru-orig.vtt",
+        "id0CIaa5pFQ.ru.vtt"
+      ],
+      "info": [
+        "id0CIaa5pFQ.info.json"
+      ],
+      "thumbnails": [
+        "id0CIaa5pFQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "fNZxLaSbWPg",
+      "source_kind": "video",
+      "title": "ТОП аддонов для Blender | Уроки по Blender",
+      "captions": [
+        "fNZxLaSbWPg.ru-orig.vtt",
+        "fNZxLaSbWPg.ru.vtt"
+      ],
+      "info": [
+        "fNZxLaSbWPg.info.json"
+      ],
+      "thumbnails": [
+        "fNZxLaSbWPg.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "MquvWMNAjpo",
+      "source_kind": "video",
+      "title": "Обновление BLENDER 4.3 | Обзор новых фишек",
+      "captions": [
+        "MquvWMNAjpo.ru-orig.vtt",
+        "MquvWMNAjpo.ru.vtt"
+      ],
+      "info": [
+        "MquvWMNAjpo.info.json"
+      ],
+      "thumbnails": [
+        "MquvWMNAjpo.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "MKXq00mBwY8",
+      "source_kind": "video",
+      "title": "Интерьер спальни в Blender просто!",
+      "captions": [
+        "MKXq00mBwY8.ru-orig.vtt",
+        "MKXq00mBwY8.ru.vtt"
+      ],
+      "info": [
+        "MKXq00mBwY8.info.json"
+      ],
+      "thumbnails": [
+        "MKXq00mBwY8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "_lBD0a385vw",
+      "source_kind": "video",
+      "title": "Пейзаж в Blender с нуля! | Растения в блендер",
+      "captions": [
+        "_lBD0a385vw.ru-orig.vtt",
+        "_lBD0a385vw.ru.vtt"
+      ],
+      "info": [
+        "_lBD0a385vw.info.json"
+      ],
+      "thumbnails": [
+        "_lBD0a385vw.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "_uhF3s9H6L4",
+      "source_kind": "video",
+      "title": "3D Трекинг лица в Blender! | GeoTracker | Трекинг видео",
+      "captions": [
+        "_uhF3s9H6L4.ru-orig.vtt",
+        "_uhF3s9H6L4.ru.vtt"
+      ],
+      "info": [
+        "_uhF3s9H6L4.info.json"
+      ],
+      "thumbnails": [
+        "_uhF3s9H6L4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "BWT83uzCe34",
+      "source_kind": "video",
+      "title": "3D Сканирование ПРОСТО! | Запечка в BLENDER",
+      "captions": [
+        "BWT83uzCe34.ru-orig.vtt",
+        "BWT83uzCe34.ru.vtt"
+      ],
+      "info": [
+        "BWT83uzCe34.info.json"
+      ],
+      "thumbnails": [
+        "BWT83uzCe34.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "1FvBi03Lp40",
+      "source_kind": "video",
+      "title": "BLENDER 4.2 | Обзор функций и нового рендера!",
+      "captions": [
+        "1FvBi03Lp40.ru-orig.vtt",
+        "1FvBi03Lp40.ru.vtt"
+      ],
+      "info": [
+        "1FvBi03Lp40.info.json"
+      ],
+      "thumbnails": [
+        "1FvBi03Lp40.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "OmqtNJREy80",
+      "source_kind": "video",
+      "title": "Реалистичная вода и капли в BLENDER ПРОСТО! | Набор аддонов",
+      "captions": [
+        "OmqtNJREy80.ru-orig.vtt",
+        "OmqtNJREy80.ru.vtt"
+      ],
+      "info": [
+        "OmqtNJREy80.info.json"
+      ],
+      "thumbnails": [
+        "OmqtNJREy80.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "4Txc9qQ0UeE",
+      "source_kind": "video",
+      "title": "Трекинг в Blender ОЧЕНЬ ПРОСТО! | GeoTracker | Трекинг вертикального видео",
+      "captions": [
+        "4Txc9qQ0UeE.ru-orig.vtt",
+        "4Txc9qQ0UeE.ru.vtt"
+      ],
+      "info": [
+        "4Txc9qQ0UeE.info.json"
+      ],
+      "thumbnails": [
+        "4Txc9qQ0UeE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "qxtmJbDLDUQ",
+      "source_kind": "video",
+      "title": "Текстурить шины в Blender ПРОСТО! | Tyre in Blender",
+      "captions": [
+        "qxtmJbDLDUQ.ru-orig.vtt",
+        "qxtmJbDLDUQ.ru.vtt"
+      ],
+      "info": [
+        "qxtmJbDLDUQ.info.json"
+      ],
+      "thumbnails": [
+        "qxtmJbDLDUQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "Tp2d-nDZ2lw",
+      "source_kind": "video",
+      "title": "Гэри в BLENDER за 1 МИНУТУ и 1 ЧАС",
+      "captions": [
+        "Tp2d-nDZ2lw.ru-orig.vtt",
+        "Tp2d-nDZ2lw.ru.vtt"
+      ],
+      "info": [
+        "Tp2d-nDZ2lw.info.json"
+      ],
+      "thumbnails": [
+        "Tp2d-nDZ2lw.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "QrXsUw6y5YM",
+      "source_kind": "video",
+      "title": "3D Трекинг в Blender ПРОСТО! | GeoTracker | Трекинг по видео",
+      "captions": [
+        "QrXsUw6y5YM.ru-orig.vtt",
+        "QrXsUw6y5YM.ru.vtt"
+      ],
+      "info": [
+        "QrXsUw6y5YM.info.json"
+      ],
+      "thumbnails": [
+        "QrXsUw6y5YM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "g65crfy9jWk",
+      "source_kind": "video",
+      "title": "Добавление растений на сцену в BLENDER 3D | Аддон Gscatter",
+      "captions": [
+        "g65crfy9jWk.ru-orig.vtt",
+        "g65crfy9jWk.ru.vtt"
+      ],
+      "info": [
+        "g65crfy9jWk.info.json"
+      ],
+      "thumbnails": [
+        "g65crfy9jWk.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "LGcIQky9ftc",
+      "source_kind": "video",
+      "title": "3D модели на фотографиях в Blender | Размещение 3д моделей",
+      "captions": [
+        "LGcIQky9ftc.ru-orig.vtt",
+        "LGcIQky9ftc.ru.vtt"
+      ],
+      "info": [
+        "LGcIQky9ftc.info.json"
+      ],
+      "thumbnails": [
+        "LGcIQky9ftc.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "SEz2ynPfdsY",
+      "source_kind": "video",
+      "title": "Горох за 1 МИНУТУ / 10 МИНУТ / 1 ЧАС В BLENDER 3D",
+      "captions": [],
+      "info": [
+        "SEz2ynPfdsY.info.json"
+      ],
+      "thumbnails": [
+        "SEz2ynPfdsY.webp"
+      ],
+      "caption_ready": false,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "fJOgMvhHMb8",
+      "source_kind": "video",
+      "title": "3D Трекинг в Blender и After Effects | Трекинг по видео",
+      "captions": [
+        "fJOgMvhHMb8.ru-orig.vtt",
+        "fJOgMvhHMb8.ru.vtt"
+      ],
+      "info": [
+        "fJOgMvhHMb8.info.json"
+      ],
+      "thumbnails": [
+        "fJOgMvhHMb8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "8_oRBFeHjFc",
+      "source_kind": "video",
+      "title": "Гайд по риггингу ( rigacar ) и анимации автомобилей в BLENDER",
+      "captions": [
+        "8_oRBFeHjFc.ru-orig.vtt",
+        "8_oRBFeHjFc.ru.vtt"
+      ],
+      "info": [
+        "8_oRBFeHjFc.info.json"
+      ],
+      "thumbnails": [
+        "8_oRBFeHjFc.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "m6UTEa9jw9I",
+      "source_kind": "video",
+      "title": "Наклейки в Blender 3D просто и быстро!",
+      "captions": [
+        "m6UTEa9jw9I.ru-orig.vtt",
+        "m6UTEa9jw9I.ru.vtt"
+      ],
+      "info": [
+        "m6UTEa9jw9I.info.json"
+      ],
+      "thumbnails": [
+        "m6UTEa9jw9I.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "eJWJwrELsvI",
+      "source_kind": "video",
+      "title": "Создание дома и снега в BLENDER за 33 мин для начинающих",
+      "captions": [
+        "eJWJwrELsvI.ru-orig.vtt",
+        "eJWJwrELsvI.ru.vtt"
+      ],
+      "info": [
+        "eJWJwrELsvI.info.json"
+      ],
+      "thumbnails": [
+        "eJWJwrELsvI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "5tvJso63hbs",
+      "source_kind": "short",
+      "title": "Чиним Blender новыми аддонами #blender #addons",
+      "captions": [
+        "5tvJso63hbs.ru-orig.vtt",
+        "5tvJso63hbs.ru.vtt"
+      ],
+      "info": [
+        "5tvJso63hbs.info.json"
+      ],
+      "thumbnails": [
+        "5tvJso63hbs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "UXxlGK2YPHI",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "UXxlGK2YPHI.ru-orig.vtt",
+        "UXxlGK2YPHI.ru.vtt"
+      ],
+      "info": [
+        "UXxlGK2YPHI.info.json"
+      ],
+      "thumbnails": [
+        "UXxlGK2YPHI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "2OBe_vMVVCU",
+      "source_kind": "short",
+      "title": "Зачем соблюдать топологию в Blender 3D? #blender3d",
+      "captions": [
+        "2OBe_vMVVCU.ru-orig.vtt",
+        "2OBe_vMVVCU.ru.vtt"
+      ],
+      "info": [
+        "2OBe_vMVVCU.info.json"
+      ],
+      "thumbnails": [
+        "2OBe_vMVVCU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "Srf5JoiOgu0",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "Srf5JoiOgu0.en.vtt",
+        "Srf5JoiOgu0.ru-orig.vtt",
+        "Srf5JoiOgu0.ru.vtt"
+      ],
+      "info": [
+        "Srf5JoiOgu0.info.json"
+      ],
+      "thumbnails": [
+        "Srf5JoiOgu0.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "vgnjkCHpdiI",
+      "source_kind": "short",
+      "title": "Обновление Blender 5.2 | Симуляция ткани и волос #blender",
+      "captions": [
+        "vgnjkCHpdiI.ru-orig.vtt",
+        "vgnjkCHpdiI.ru.vtt"
+      ],
+      "info": [
+        "vgnjkCHpdiI.info.json"
+      ],
+      "thumbnails": [
+        "vgnjkCHpdiI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "pwXFv3m8Alg",
+      "source_kind": "short",
+      "title": "ИИ помощник в Blender | Новый аддон #blender #addons",
+      "captions": [
+        "pwXFv3m8Alg.ru-orig.vtt",
+        "pwXFv3m8Alg.ru.vtt"
+      ],
+      "info": [
+        "pwXFv3m8Alg.info.json"
+      ],
+      "thumbnails": [
+        "pwXFv3m8Alg.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "QIF3D7K96T4",
+      "source_kind": "short",
+      "title": "Аддоны для Blender для упрощения жизни #blender #addons",
+      "captions": [
+        "QIF3D7K96T4.ru-orig.vtt",
+        "QIF3D7K96T4.ru.vtt"
+      ],
+      "info": [
+        "QIF3D7K96T4.info.json"
+      ],
+      "thumbnails": [
+        "QIF3D7K96T4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "BzfrEuZW4vc",
+      "source_kind": "short",
+      "title": "Меня взломали в BLENDER #blender",
+      "captions": [
+        "BzfrEuZW4vc.ru-orig.vtt",
+        "BzfrEuZW4vc.ru.vtt"
+      ],
+      "info": [
+        "BzfrEuZW4vc.info.json"
+      ],
+      "thumbnails": [
+        "BzfrEuZW4vc.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "oSu4RP6NY2Y",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "oSu4RP6NY2Y.en.vtt",
+        "oSu4RP6NY2Y.ru-orig.vtt",
+        "oSu4RP6NY2Y.ru.vtt"
+      ],
+      "info": [
+        "oSu4RP6NY2Y.info.json"
+      ],
+      "thumbnails": [
+        "oSu4RP6NY2Y.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "mgeJyPGD14g",
+      "source_kind": "short",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "mgeJyPGD14g.en.vtt",
+        "mgeJyPGD14g.ru-orig.vtt",
+        "mgeJyPGD14g.ru.vtt"
+      ],
+      "info": [
+        "mgeJyPGD14g.info.json"
+      ],
+      "thumbnails": [
+        "mgeJyPGD14g.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "3Ers7j1WAOQ",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "3Ers7j1WAOQ.en.vtt",
+        "3Ers7j1WAOQ.ru-orig.vtt",
+        "3Ers7j1WAOQ.ru.vtt"
+      ],
+      "info": [
+        "3Ers7j1WAOQ.info.json"
+      ],
+      "thumbnails": [
+        "3Ers7j1WAOQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "xlKy4tZ8T9A",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "xlKy4tZ8T9A.en.vtt",
+        "xlKy4tZ8T9A.ru-orig.vtt",
+        "xlKy4tZ8T9A.ru.vtt"
+      ],
+      "info": [
+        "xlKy4tZ8T9A.info.json"
+      ],
+      "thumbnails": [
+        "xlKy4tZ8T9A.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "TzvE3eMoJPs",
+      "source_kind": "short",
+      "title": "Запекание пирожков в BLENDER #blender",
+      "captions": [
+        "TzvE3eMoJPs.en.vtt",
+        "TzvE3eMoJPs.ru-orig.vtt",
+        "TzvE3eMoJPs.ru.vtt"
+      ],
+      "info": [
+        "TzvE3eMoJPs.info.json"
+      ],
+      "thumbnails": [
+        "TzvE3eMoJPs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "iudXYCtK2gQ",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "iudXYCtK2gQ.en.vtt",
+        "iudXYCtK2gQ.ru-orig.vtt",
+        "iudXYCtK2gQ.ru.vtt"
+      ],
+      "info": [
+        "iudXYCtK2gQ.info.json"
+      ],
+      "thumbnails": [
+        "iudXYCtK2gQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "SGVWZM_7Iqw",
+      "source_kind": "short",
+      "title": "Лучшие аддоны для BLENDER #blender",
+      "captions": [
+        "SGVWZM_7Iqw.en.vtt",
+        "SGVWZM_7Iqw.ru-orig.vtt",
+        "SGVWZM_7Iqw.ru.vtt"
+      ],
+      "info": [
+        "SGVWZM_7Iqw.info.json"
+      ],
+      "thumbnails": [
+        "SGVWZM_7Iqw.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "L4_VKuEsWks",
+      "source_kind": "short",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "captions": [
+        "L4_VKuEsWks.en.vtt",
+        "L4_VKuEsWks.ru-orig.vtt",
+        "L4_VKuEsWks.ru.vtt"
+      ],
+      "info": [
+        "L4_VKuEsWks.info.json"
+      ],
+      "thumbnails": [
+        "L4_VKuEsWks.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "-oZF9047MKc",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "-oZF9047MKc.en.vtt",
+        "-oZF9047MKc.ru-orig.vtt",
+        "-oZF9047MKc.ru.vtt"
+      ],
+      "info": [
+        "-oZF9047MKc.info.json"
+      ],
+      "thumbnails": [
+        "-oZF9047MKc.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "xBnnxgo-ReY",
+      "source_kind": "short",
+      "title": "Анимация в BLENDER | Фатальные ошибки #blender",
+      "captions": [
+        "xBnnxgo-ReY.ru-orig.vtt",
+        "xBnnxgo-ReY.ru.vtt"
+      ],
+      "info": [
+        "xBnnxgo-ReY.info.json"
+      ],
+      "thumbnails": [
+        "xBnnxgo-ReY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "5ZwdROOkjic",
+      "source_kind": "short",
+      "title": "Водичка в BLENDER | Фатальные ошибки #blender",
+      "captions": [
+        "5ZwdROOkjic.ru-orig.vtt",
+        "5ZwdROOkjic.ru.vtt"
+      ],
+      "info": [
+        "5ZwdROOkjic.info.json"
+      ],
+      "thumbnails": [
+        "5ZwdROOkjic.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "3yq_bTq4p4Y",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "3yq_bTq4p4Y.ru-orig.vtt",
+        "3yq_bTq4p4Y.ru.vtt"
+      ],
+      "info": [
+        "3yq_bTq4p4Y.info.json"
+      ],
+      "thumbnails": [
+        "3yq_bTq4p4Y.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "cZTJP6RwktQ",
+      "source_kind": "short",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "cZTJP6RwktQ.ru-orig.vtt",
+        "cZTJP6RwktQ.ru.vtt"
+      ],
+      "info": [
+        "cZTJP6RwktQ.info.json"
+      ],
+      "thumbnails": [
+        "cZTJP6RwktQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "9ZZlE9k9BW0",
+      "source_kind": "short",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "9ZZlE9k9BW0.ru-orig.vtt",
+        "9ZZlE9k9BW0.ru.vtt"
+      ],
+      "info": [
+        "9ZZlE9k9BW0.info.json"
+      ],
+      "thumbnails": [
+        "9ZZlE9k9BW0.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "_l0tOEl8AAs",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "_l0tOEl8AAs.ru-orig.vtt",
+        "_l0tOEl8AAs.ru.vtt"
+      ],
+      "info": [
+        "_l0tOEl8AAs.info.json"
+      ],
+      "thumbnails": [
+        "_l0tOEl8AAs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "A1jMRP_y0OY",
+      "source_kind": "short",
+      "title": "Лайфхак для BLENDER | Деформация подошвы #blender",
+      "captions": [
+        "A1jMRP_y0OY.ru-orig.vtt",
+        "A1jMRP_y0OY.ru.vtt"
+      ],
+      "info": [
+        "A1jMRP_y0OY.info.json"
+      ],
+      "thumbnails": [
+        "A1jMRP_y0OY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "m2_5HekCcT8",
+      "source_kind": "short",
+      "title": "Шаловливые пальчики в Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "m2_5HekCcT8.ru-orig.vtt",
+        "m2_5HekCcT8.ru.vtt"
+      ],
+      "info": [
+        "m2_5HekCcT8.info.json"
+      ],
+      "thumbnails": [
+        "m2_5HekCcT8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "E5gKtNYWg0s",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "E5gKtNYWg0s.ru-orig.vtt",
+        "E5gKtNYWg0s.ru.vtt"
+      ],
+      "info": [
+        "E5gKtNYWg0s.info.json"
+      ],
+      "thumbnails": [
+        "E5gKtNYWg0s.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "nMHUAoneJ-w",
+      "source_kind": "short",
+      "title": "Обновление в BLENDER 5.1 #blender",
+      "captions": [
+        "nMHUAoneJ-w.ru-orig.vtt",
+        "nMHUAoneJ-w.ru.vtt"
+      ],
+      "info": [
+        "nMHUAoneJ-w.info.json"
+      ],
+      "thumbnails": [
+        "nMHUAoneJ-w.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "vmAaWmfu1tc",
+      "source_kind": "short",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "vmAaWmfu1tc.ru-orig.vtt",
+        "vmAaWmfu1tc.ru.vtt"
+      ],
+      "info": [
+        "vmAaWmfu1tc.info.json"
+      ],
+      "thumbnails": [
+        "vmAaWmfu1tc.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "pZ_q2HdI3xs",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "pZ_q2HdI3xs.ru-orig.vtt",
+        "pZ_q2HdI3xs.ru.vtt"
+      ],
+      "info": [
+        "pZ_q2HdI3xs.info.json"
+      ],
+      "thumbnails": [
+        "pZ_q2HdI3xs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "9zljFrgtJ8k",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "9zljFrgtJ8k.ru-orig.vtt",
+        "9zljFrgtJ8k.ru.vtt"
+      ],
+      "info": [
+        "9zljFrgtJ8k.info.json"
+      ],
+      "thumbnails": [
+        "9zljFrgtJ8k.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "IcRZnc4QOW4",
+      "source_kind": "short",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "IcRZnc4QOW4.ru-orig.vtt",
+        "IcRZnc4QOW4.ru.vtt"
+      ],
+      "info": [
+        "IcRZnc4QOW4.info.json"
+      ],
+      "thumbnails": [
+        "IcRZnc4QOW4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "buI97T9QsZw",
+      "source_kind": "short",
+      "title": "Управляю рулем в BLENDER #blender",
+      "captions": [
+        "buI97T9QsZw.ru-orig.vtt",
+        "buI97T9QsZw.ru.vtt"
+      ],
+      "info": [
+        "buI97T9QsZw.info.json"
+      ],
+      "thumbnails": [
+        "buI97T9QsZw.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "i-Aa5AHbex8",
+      "source_kind": "short",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "i-Aa5AHbex8.ru-orig.vtt",
+        "i-Aa5AHbex8.ru.vtt"
+      ],
+      "info": [
+        "i-Aa5AHbex8.info.json"
+      ],
+      "thumbnails": [
+        "i-Aa5AHbex8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "FtLu69K30pI",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "FtLu69K30pI.ru-orig.vtt",
+        "FtLu69K30pI.ru.vtt"
+      ],
+      "info": [
+        "FtLu69K30pI.info.json"
+      ],
+      "thumbnails": [
+        "FtLu69K30pI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "VwlDeEt0wdE",
+      "source_kind": "short",
+      "title": "Forza Horizon в Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "VwlDeEt0wdE.ru-orig.vtt",
+        "VwlDeEt0wdE.ru.vtt"
+      ],
+      "info": [
+        "VwlDeEt0wdE.info.json"
+      ],
+      "thumbnails": [
+        "VwlDeEt0wdE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "z9FU3UQWEdY",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "z9FU3UQWEdY.ru-orig.vtt",
+        "z9FU3UQWEdY.ru.vtt"
+      ],
+      "info": [
+        "z9FU3UQWEdY.info.json"
+      ],
+      "thumbnails": [
+        "z9FU3UQWEdY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "v028VSznhb4",
+      "source_kind": "short",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "v028VSznhb4.ru-orig.vtt",
+        "v028VSznhb4.ru.vtt"
+      ],
+      "info": [
+        "v028VSznhb4.info.json"
+      ],
+      "thumbnails": [
+        "v028VSznhb4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "F6Wsf1kfF6I",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "F6Wsf1kfF6I.ru-orig.vtt",
+        "F6Wsf1kfF6I.ru.vtt"
+      ],
+      "info": [
+        "F6Wsf1kfF6I.info.json"
+      ],
+      "thumbnails": [
+        "F6Wsf1kfF6I.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "SVIx7V1VTiw",
+      "source_kind": "short",
+      "title": "Подсказки в BLENDER 3D #blender",
+      "captions": [
+        "SVIx7V1VTiw.ru-orig.vtt",
+        "SVIx7V1VTiw.ru.vtt"
+      ],
+      "info": [
+        "SVIx7V1VTiw.info.json"
+      ],
+      "thumbnails": [
+        "SVIx7V1VTiw.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "rWV5lbDiORc",
+      "source_kind": "short",
+      "title": "Hornet в BLENDER 3D #blender",
+      "captions": [
+        "rWV5lbDiORc.ru-orig.vtt",
+        "rWV5lbDiORc.ru.vtt"
+      ],
+      "info": [
+        "rWV5lbDiORc.info.json"
+      ],
+      "thumbnails": [
+        "rWV5lbDiORc.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "JcYuvA_oYbA",
+      "source_kind": "short",
+      "title": "Космос в Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "JcYuvA_oYbA.ru-orig.vtt",
+        "JcYuvA_oYbA.ru.vtt"
+      ],
+      "info": [
+        "JcYuvA_oYbA.info.json"
+      ],
+      "thumbnails": [
+        "JcYuvA_oYbA.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "v7lyGNGD9m0",
+      "source_kind": "short",
+      "title": "Автоматический риг в BLENDER #blender",
+      "captions": [
+        "v7lyGNGD9m0.ru-orig.vtt",
+        "v7lyGNGD9m0.ru.vtt"
+      ],
+      "info": [
+        "v7lyGNGD9m0.info.json"
+      ],
+      "thumbnails": [
+        "v7lyGNGD9m0.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "ISH_0OfL4mU",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "ISH_0OfL4mU.ru-orig.vtt",
+        "ISH_0OfL4mU.ru.vtt"
+      ],
+      "info": [
+        "ISH_0OfL4mU.info.json"
+      ],
+      "thumbnails": [
+        "ISH_0OfL4mU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "63SwHTVw82I",
+      "source_kind": "short",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "63SwHTVw82I.ru-orig.vtt",
+        "63SwHTVw82I.ru.vtt"
+      ],
+      "info": [
+        "63SwHTVw82I.info.json"
+      ],
+      "thumbnails": [
+        "63SwHTVw82I.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "Zo1uUwUIjDI",
+      "source_kind": "short",
+      "title": "Зачем моделить авто в Blender 3D? #blender",
+      "captions": [
+        "Zo1uUwUIjDI.ru-orig.vtt",
+        "Zo1uUwUIjDI.ru.vtt"
+      ],
+      "info": [
+        "Zo1uUwUIjDI.info.json"
+      ],
+      "thumbnails": [
+        "Zo1uUwUIjDI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "RBolbabR_c8",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "RBolbabR_c8.ru-orig.vtt",
+        "RBolbabR_c8.ru.vtt"
+      ],
+      "info": [
+        "RBolbabR_c8.info.json"
+      ],
+      "thumbnails": [
+        "RBolbabR_c8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "VG8gK7JXimg",
+      "source_kind": "short",
+      "title": "Анимация и лианы в Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "VG8gK7JXimg.ru-orig.vtt",
+        "VG8gK7JXimg.ru.vtt"
+      ],
+      "info": [
+        "VG8gK7JXimg.info.json"
+      ],
+      "thumbnails": [
+        "VG8gK7JXimg.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "fy9Ktp8WtU8",
+      "source_kind": "short",
+      "title": "Обновление BLENDER 5.0 #blender",
+      "captions": [
+        "fy9Ktp8WtU8.ru-orig.vtt",
+        "fy9Ktp8WtU8.ru.vtt"
+      ],
+      "info": [
+        "fy9Ktp8WtU8.info.json"
+      ],
+      "thumbnails": [
+        "fy9Ktp8WtU8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "bYyE3QsK6qE",
+      "source_kind": "short",
+      "title": "Города и туман в Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "bYyE3QsK6qE.ru-orig.vtt",
+        "bYyE3QsK6qE.ru.vtt"
+      ],
+      "info": [
+        "bYyE3QsK6qE.info.json"
+      ],
+      "thumbnails": [
+        "bYyE3QsK6qE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "6gdzCQvcKXg",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "6gdzCQvcKXg.ru-orig.vtt",
+        "6gdzCQvcKXg.ru.vtt"
+      ],
+      "info": [
+        "6gdzCQvcKXg.info.json"
+      ],
+      "thumbnails": [
+        "6gdzCQvcKXg.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "PfQE5fzR_WE",
+      "source_kind": "short",
+      "title": "Укрощение камеры в Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "PfQE5fzR_WE.ru-orig.vtt",
+        "PfQE5fzR_WE.ru.vtt"
+      ],
+      "info": [
+        "PfQE5fzR_WE.info.json"
+      ],
+      "thumbnails": [
+        "PfQE5fzR_WE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "S8ydlb7ZMl4",
+      "source_kind": "short",
+      "title": "Камень из куба в Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "S8ydlb7ZMl4.ru-orig.vtt",
+        "S8ydlb7ZMl4.ru.vtt"
+      ],
+      "info": [
+        "S8ydlb7ZMl4.info.json"
+      ],
+      "thumbnails": [
+        "S8ydlb7ZMl4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "br_S9ZiB644",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "br_S9ZiB644.ru-orig.vtt",
+        "br_S9ZiB644.ru.vtt"
+      ],
+      "info": [
+        "br_S9ZiB644.info.json"
+      ],
+      "thumbnails": [
+        "br_S9ZiB644.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "J6M7FVDqD7I",
+      "source_kind": "short",
+      "title": "Дома в Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "J6M7FVDqD7I.ru-orig.vtt",
+        "J6M7FVDqD7I.ru.vtt"
+      ],
+      "info": [
+        "J6M7FVDqD7I.info.json"
+      ],
+      "thumbnails": [
+        "J6M7FVDqD7I.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "VO_0mw_rYk8",
+      "source_kind": "short",
+      "title": "Волосня в BLENDER | Фатальные ошибки #blender",
+      "captions": [
+        "VO_0mw_rYk8.ru-orig.vtt",
+        "VO_0mw_rYk8.ru.vtt"
+      ],
+      "info": [
+        "VO_0mw_rYk8.info.json"
+      ],
+      "thumbnails": [
+        "VO_0mw_rYk8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "OkWlo7DSkJg",
+      "source_kind": "short",
+      "title": "Трава в Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "OkWlo7DSkJg.ru-orig.vtt",
+        "OkWlo7DSkJg.ru.vtt"
+      ],
+      "info": [
+        "OkWlo7DSkJg.info.json"
+      ],
+      "thumbnails": [
+        "OkWlo7DSkJg.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "IcxqCp3lW9k",
+      "source_kind": "short",
+      "title": "Скрытые функции в BLENDER #blender",
+      "captions": [
+        "IcxqCp3lW9k.ru-orig.vtt",
+        "IcxqCp3lW9k.ru.vtt"
+      ],
+      "info": [
+        "IcxqCp3lW9k.info.json"
+      ],
+      "thumbnails": [
+        "IcxqCp3lW9k.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "pKtSQaCPwXk",
+      "source_kind": "short",
+      "title": "Genshin теперь в Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "pKtSQaCPwXk.ru-orig.vtt",
+        "pKtSQaCPwXk.ru.vtt"
+      ],
+      "info": [
+        "pKtSQaCPwXk.info.json"
+      ],
+      "thumbnails": [
+        "pKtSQaCPwXk.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "NOUFi0hcV9w",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "NOUFi0hcV9w.ru-orig.vtt",
+        "NOUFi0hcV9w.ru.vtt"
+      ],
+      "info": [
+        "NOUFi0hcV9w.info.json"
+      ],
+      "thumbnails": [
+        "NOUFi0hcV9w.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "a50wnyWioVM",
+      "source_kind": "short",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "a50wnyWioVM.ru-orig.vtt",
+        "a50wnyWioVM.ru.vtt"
+      ],
+      "info": [
+        "a50wnyWioVM.info.json"
+      ],
+      "thumbnails": [
+        "a50wnyWioVM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "7rIxqWyix3Q",
+      "source_kind": "short",
+      "title": "Фатальные ошибки анимации в BLENDER #blender",
+      "captions": [
+        "7rIxqWyix3Q.ru-orig.vtt",
+        "7rIxqWyix3Q.ru.vtt"
+      ],
+      "info": [
+        "7rIxqWyix3Q.info.json"
+      ],
+      "thumbnails": [
+        "7rIxqWyix3Q.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "uFC0uX9ZmOs",
+      "source_kind": "short",
+      "title": "Одежда в Blender | Топ 3 аддонов #blender #addons",
+      "captions": [
+        "uFC0uX9ZmOs.ru-orig.vtt",
+        "uFC0uX9ZmOs.ru.vtt"
+      ],
+      "info": [
+        "uFC0uX9ZmOs.info.json"
+      ],
+      "thumbnails": [
+        "uFC0uX9ZmOs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "oF3YktDtmMs",
+      "source_kind": "short",
+      "title": "Новый аддон для 3D трекинга в BLENDER #blender",
+      "captions": [
+        "oF3YktDtmMs.ru-orig.vtt",
+        "oF3YktDtmMs.ru.vtt"
+      ],
+      "info": [
+        "oF3YktDtmMs.info.json"
+      ],
+      "thumbnails": [
+        "oF3YktDtmMs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "bv69HaUp3yo",
+      "source_kind": "short",
+      "title": "Мнем кота в BLENDER #blender",
+      "captions": [
+        "bv69HaUp3yo.ru-orig.vtt",
+        "bv69HaUp3yo.ru.vtt"
+      ],
+      "info": [
+        "bv69HaUp3yo.info.json"
+      ],
+      "thumbnails": [
+        "bv69HaUp3yo.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "wj5lwtQGmnI",
+      "source_kind": "short",
+      "title": "Дикий ТОП аддонов для Blender #blender #addons",
+      "captions": [
+        "wj5lwtQGmnI.ru-orig.vtt",
+        "wj5lwtQGmnI.ru.vtt"
+      ],
+      "info": [
+        "wj5lwtQGmnI.info.json"
+      ],
+      "thumbnails": [
+        "wj5lwtQGmnI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "Ipkze1Nfitw",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "Ipkze1Nfitw.ru-orig.vtt",
+        "Ipkze1Nfitw.ru.vtt"
+      ],
+      "info": [
+        "Ipkze1Nfitw.info.json"
+      ],
+      "thumbnails": [
+        "Ipkze1Nfitw.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "YkTKz-b1IGI",
+      "source_kind": "short",
+      "title": "Топ полезных аддонов для Blender #blender #addons",
+      "captions": [
+        "YkTKz-b1IGI.ru-orig.vtt",
+        "YkTKz-b1IGI.ru.vtt"
+      ],
+      "info": [
+        "YkTKz-b1IGI.info.json"
+      ],
+      "thumbnails": [
+        "YkTKz-b1IGI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "Heqed0Mu_iQ",
+      "source_kind": "short",
+      "title": "Управление телефоном в Blender #blender",
+      "captions": [
+        "Heqed0Mu_iQ.ru-orig.vtt",
+        "Heqed0Mu_iQ.ru.vtt"
+      ],
+      "info": [
+        "Heqed0Mu_iQ.info.json"
+      ],
+      "thumbnails": [
+        "Heqed0Mu_iQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "-52atAJ2a2U",
+      "source_kind": "short",
+      "title": "Фишки обновления Blender 4.5 #blender",
+      "captions": [
+        "-52atAJ2a2U.ru-orig.vtt",
+        "-52atAJ2a2U.ru.vtt"
+      ],
+      "info": [
+        "-52atAJ2a2U.info.json"
+      ],
+      "thumbnails": [
+        "-52atAJ2a2U.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "D2TseFz9ESM",
+      "source_kind": "short",
+      "title": "Топ крутых аддонов для Blender #blender #addons",
+      "captions": [
+        "D2TseFz9ESM.ru-orig.vtt",
+        "D2TseFz9ESM.ru.vtt"
+      ],
+      "info": [
+        "D2TseFz9ESM.info.json"
+      ],
+      "thumbnails": [
+        "D2TseFz9ESM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "MgAO4lgtkiI",
+      "source_kind": "short",
+      "title": "Лайфхаки с камерой в Blender #blender",
+      "captions": [
+        "MgAO4lgtkiI.ru-orig.vtt",
+        "MgAO4lgtkiI.ru.vtt"
+      ],
+      "info": [
+        "MgAO4lgtkiI.info.json"
+      ],
+      "thumbnails": [
+        "MgAO4lgtkiI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "9uCmeGcCKxQ",
+      "source_kind": "short",
+      "title": "Топ полезных аддонов для Blender #blender #addons",
+      "captions": [
+        "9uCmeGcCKxQ.ru-orig.vtt",
+        "9uCmeGcCKxQ.ru.vtt"
+      ],
+      "info": [
+        "9uCmeGcCKxQ.info.json"
+      ],
+      "thumbnails": [
+        "9uCmeGcCKxQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "ELbRLFYjsvo",
+      "source_kind": "short",
+      "title": "Аддон c котом в Blender #blender #addons",
+      "captions": [
+        "ELbRLFYjsvo.ru-orig.vtt",
+        "ELbRLFYjsvo.ru.vtt"
+      ],
+      "info": [
+        "ELbRLFYjsvo.info.json"
+      ],
+      "thumbnails": [
+        "ELbRLFYjsvo.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "FtJd0wmcTUQ",
+      "source_kind": "short",
+      "title": "Паук в Blender с риггингом и анимацией #blender",
+      "captions": [
+        "FtJd0wmcTUQ.ru-orig.vtt",
+        "FtJd0wmcTUQ.ru.vtt"
+      ],
+      "info": [
+        "FtJd0wmcTUQ.info.json"
+      ],
+      "thumbnails": [
+        "FtJd0wmcTUQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "SZTu3TMvneU",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "SZTu3TMvneU.ru-orig.vtt",
+        "SZTu3TMvneU.ru.vtt"
+      ],
+      "info": [
+        "SZTu3TMvneU.info.json"
+      ],
+      "thumbnails": [
+        "SZTu3TMvneU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "uKL8XDr6o28",
+      "source_kind": "short",
+      "title": "Аддоны для физики в Blender #blender #addons",
+      "captions": [
+        "uKL8XDr6o28.ru-orig.vtt",
+        "uKL8XDr6o28.ru.vtt"
+      ],
+      "info": [
+        "uKL8XDr6o28.info.json"
+      ],
+      "thumbnails": [
+        "uKL8XDr6o28.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "GUdQvlo3ANE",
+      "source_kind": "short",
+      "title": "Простой 3D Трекинг в Blender и AE #blender",
+      "captions": [
+        "GUdQvlo3ANE.ru-orig.vtt",
+        "GUdQvlo3ANE.ru.vtt"
+      ],
+      "info": [
+        "GUdQvlo3ANE.info.json"
+      ],
+      "thumbnails": [
+        "GUdQvlo3ANE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "gmeqnk8oxqo",
+      "source_kind": "short",
+      "title": "Аддоны для анимаций в Blender #blender #addons",
+      "captions": [
+        "gmeqnk8oxqo.ru-orig.vtt",
+        "gmeqnk8oxqo.ru.vtt"
+      ],
+      "info": [
+        "gmeqnk8oxqo.info.json"
+      ],
+      "thumbnails": [
+        "gmeqnk8oxqo.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "MEnbuvD-M3g",
+      "source_kind": "short",
+      "title": "Запекание в Blender это ПРОСТО! #blender",
+      "captions": [
+        "MEnbuvD-M3g.ru-orig.vtt",
+        "MEnbuvD-M3g.ru.vtt"
+      ],
+      "info": [
+        "MEnbuvD-M3g.info.json"
+      ],
+      "thumbnails": [
+        "MEnbuvD-M3g.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "jSkRjW1zmxI",
+      "source_kind": "short",
+      "title": "Топ аддонов для лысых в Blender #blender #addons",
+      "captions": [
+        "jSkRjW1zmxI.ru-orig.vtt",
+        "jSkRjW1zmxI.ru.vtt"
+      ],
+      "info": [
+        "jSkRjW1zmxI.info.json"
+      ],
+      "thumbnails": [
+        "jSkRjW1zmxI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "cyz_V8J0-PQ",
+      "source_kind": "short",
+      "title": "ТУН ТУН ТУН за 1 час! В BLENDER 3D #blender",
+      "captions": [
+        "cyz_V8J0-PQ.ru-orig.vtt",
+        "cyz_V8J0-PQ.ru.vtt"
+      ],
+      "info": [
+        "cyz_V8J0-PQ.info.json"
+      ],
+      "thumbnails": [
+        "cyz_V8J0-PQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "ukxepXJOqXc",
+      "source_kind": "short",
+      "title": "Топ аддонов для \"долбежки\" моделей в Blender #blender #addons",
+      "captions": [
+        "ukxepXJOqXc.ru-orig.vtt",
+        "ukxepXJOqXc.ru.vtt"
+      ],
+      "info": [
+        "ukxepXJOqXc.info.json"
+      ],
+      "thumbnails": [
+        "ukxepXJOqXc.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "0Jrgm9rPqpE",
+      "source_kind": "short",
+      "title": "Топ фишек в BLENDER #blender",
+      "captions": [
+        "0Jrgm9rPqpE.ru-orig.vtt",
+        "0Jrgm9rPqpE.ru.vtt"
+      ],
+      "info": [
+        "0Jrgm9rPqpE.info.json"
+      ],
+      "thumbnails": [
+        "0Jrgm9rPqpE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "Ip3aHlgj0-4",
+      "source_kind": "short",
+      "title": "Полезные аддоны для BLENDER #blender",
+      "captions": [
+        "Ip3aHlgj0-4.ru-orig.vtt",
+        "Ip3aHlgj0-4.ru.vtt"
+      ],
+      "info": [
+        "Ip3aHlgj0-4.info.json"
+      ],
+      "thumbnails": [
+        "Ip3aHlgj0-4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "ilqX1FgfcL4",
+      "source_kind": "short",
+      "title": "Гайды для новичков в BLENDER #blender3d",
+      "captions": [
+        "ilqX1FgfcL4.ru-orig.vtt",
+        "ilqX1FgfcL4.ru.vtt"
+      ],
+      "info": [
+        "ilqX1FgfcL4.info.json"
+      ],
+      "thumbnails": [
+        "ilqX1FgfcL4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "BUOWAELJYWo",
+      "source_kind": "short",
+      "title": "Аддоны для всего! (Blender) #blender #addons",
+      "captions": [
+        "BUOWAELJYWo.ru-orig.vtt",
+        "BUOWAELJYWo.ru.vtt"
+      ],
+      "info": [
+        "BUOWAELJYWo.info.json"
+      ],
+      "thumbnails": [
+        "BUOWAELJYWo.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "RGke93XQdrQ",
+      "source_kind": "short",
+      "title": "Топ фишек в BLENDER #blender",
+      "captions": [
+        "RGke93XQdrQ.ru-orig.vtt",
+        "RGke93XQdrQ.ru.vtt"
+      ],
+      "info": [
+        "RGke93XQdrQ.info.json"
+      ],
+      "thumbnails": [
+        "RGke93XQdrQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "sWNQ1sHCELY",
+      "source_kind": "short",
+      "title": "Топ 3 лучших аддонов для Blender #blender #addons",
+      "captions": [
+        "sWNQ1sHCELY.ru-orig.vtt",
+        "sWNQ1sHCELY.ru.vtt"
+      ],
+      "info": [
+        "sWNQ1sHCELY.info.json"
+      ],
+      "thumbnails": [
+        "sWNQ1sHCELY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "Fhc3_u7kNZc",
+      "source_kind": "short",
+      "title": "Обновление Blender 4.4 #blender",
+      "captions": [
+        "Fhc3_u7kNZc.ru-orig.vtt",
+        "Fhc3_u7kNZc.ru.vtt"
+      ],
+      "info": [
+        "Fhc3_u7kNZc.info.json"
+      ],
+      "thumbnails": [
+        "Fhc3_u7kNZc.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "akyLP0Jqz64",
+      "source_kind": "short",
+      "title": "Идеальные модельки в Blender #blender",
+      "captions": [
+        "akyLP0Jqz64.ru-orig.vtt",
+        "akyLP0Jqz64.ru.vtt"
+      ],
+      "info": [
+        "akyLP0Jqz64.info.json"
+      ],
+      "thumbnails": [
+        "akyLP0Jqz64.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "qtliVoopEdg",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "qtliVoopEdg.ru-orig.vtt",
+        "qtliVoopEdg.ru.vtt"
+      ],
+      "info": [
+        "qtliVoopEdg.info.json"
+      ],
+      "thumbnails": [
+        "qtliVoopEdg.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "d_F06saX1HY",
+      "source_kind": "short",
+      "title": "Первая версия Blender 1.0 #blender",
+      "captions": [
+        "d_F06saX1HY.ru-orig.vtt",
+        "d_F06saX1HY.ru.vtt"
+      ],
+      "info": [
+        "d_F06saX1HY.info.json"
+      ],
+      "thumbnails": [
+        "d_F06saX1HY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "3GPYwG-RQdU",
+      "source_kind": "short",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "captions": [
+        "3GPYwG-RQdU.ru-orig.vtt",
+        "3GPYwG-RQdU.ru.vtt"
+      ],
+      "info": [
+        "3GPYwG-RQdU.info.json"
+      ],
+      "thumbnails": [
+        "3GPYwG-RQdU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "JLglRfOZtGg",
+      "source_kind": "short",
+      "title": "Топ Аддонов для Blender #blender #addons",
+      "captions": [
+        "JLglRfOZtGg.ru-orig.vtt",
+        "JLglRfOZtGg.ru.vtt"
+      ],
+      "info": [
+        "JLglRfOZtGg.info.json"
+      ],
+      "thumbnails": [
+        "JLglRfOZtGg.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "xQo5bAw-xJE",
+      "source_kind": "short",
+      "title": "Анимация и RIG авто в BLENDER просто! #blender",
+      "captions": [
+        "xQo5bAw-xJE.ru-orig.vtt",
+        "xQo5bAw-xJE.ru.vtt"
+      ],
+      "info": [
+        "xQo5bAw-xJE.info.json"
+      ],
+      "thumbnails": [
+        "xQo5bAw-xJE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "p_8rgT3e1Hc",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "p_8rgT3e1Hc.ru-orig.vtt",
+        "p_8rgT3e1Hc.ru.vtt"
+      ],
+      "info": [
+        "p_8rgT3e1Hc.info.json"
+      ],
+      "thumbnails": [
+        "p_8rgT3e1Hc.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "sDeAgPFTrq4",
+      "source_kind": "short",
+      "title": "Аддоны для Blender #blender #addons",
+      "captions": [
+        "sDeAgPFTrq4.ru-orig.vtt",
+        "sDeAgPFTrq4.ru.vtt"
+      ],
+      "info": [
+        "sDeAgPFTrq4.info.json"
+      ],
+      "thumbnails": [
+        "sDeAgPFTrq4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "UCegsTRP_ZQ",
+      "source_kind": "short",
+      "title": "Ам Ням в Blender 3D #blender",
+      "captions": [
+        "UCegsTRP_ZQ.ru-orig.vtt",
+        "UCegsTRP_ZQ.ru.vtt"
+      ],
+      "info": [
+        "UCegsTRP_ZQ.info.json"
+      ],
+      "thumbnails": [
+        "UCegsTRP_ZQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "7yz11GiSICk",
+      "source_kind": "short",
+      "title": "Как сделать 2д рендер в Blender #blender",
+      "captions": [
+        "7yz11GiSICk.ru-orig.vtt",
+        "7yz11GiSICk.ru.vtt"
+      ],
+      "info": [
+        "7yz11GiSICk.info.json"
+      ],
+      "thumbnails": [
+        "7yz11GiSICk.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "ipsM6qkaDzA",
+      "source_kind": "short",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "captions": [
+        "ipsM6qkaDzA.ru-orig.vtt",
+        "ipsM6qkaDzA.ru.vtt"
+      ],
+      "info": [
+        "ipsM6qkaDzA.info.json"
+      ],
+      "thumbnails": [
+        "ipsM6qkaDzA.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "GLbO-PaxhtY",
+      "source_kind": "short",
+      "title": "Как сделать монитор из старого iPad #blender",
+      "captions": [
+        "GLbO-PaxhtY.ru-orig.vtt",
+        "GLbO-PaxhtY.ru.vtt"
+      ],
+      "info": [
+        "GLbO-PaxhtY.info.json"
+      ],
+      "thumbnails": [
+        "GLbO-PaxhtY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "lV60JmMzCek",
+      "source_kind": "short",
+      "title": "Топ 3 аддонов для Blender #blender #addons",
+      "captions": [
+        "lV60JmMzCek.ru-orig.vtt",
+        "lV60JmMzCek.ru.vtt"
+      ],
+      "info": [
+        "lV60JmMzCek.info.json"
+      ],
+      "thumbnails": [
+        "lV60JmMzCek.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "b_YN3yg7MHw",
+      "source_kind": "short",
+      "title": "Анимация паука в Blender #blender",
+      "captions": [
+        "b_YN3yg7MHw.ru-orig.vtt",
+        "b_YN3yg7MHw.ru.vtt"
+      ],
+      "info": [
+        "b_YN3yg7MHw.info.json"
+      ],
+      "thumbnails": [
+        "b_YN3yg7MHw.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "4Jik8JalLiE",
+      "source_kind": "short",
+      "title": "Обоюдные аддоны для Blender #blender #addons",
+      "captions": [
+        "4Jik8JalLiE.ru-orig.vtt",
+        "4Jik8JalLiE.ru.vtt"
+      ],
+      "info": [
+        "4Jik8JalLiE.info.json"
+      ],
+      "thumbnails": [
+        "4Jik8JalLiE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "UaBKW0ytxoY",
+      "source_kind": "short",
+      "title": "Своя комната в Blender #blender",
+      "captions": [
+        "UaBKW0ytxoY.ru-orig.vtt",
+        "UaBKW0ytxoY.ru.vtt"
+      ],
+      "info": [
+        "UaBKW0ytxoY.info.json"
+      ],
+      "thumbnails": [
+        "UaBKW0ytxoY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "WaMdeafgWYs",
+      "source_kind": "short",
+      "title": "Лучшие аддоны для Blender #blender #addons",
+      "captions": [
+        "WaMdeafgWYs.ru-orig.vtt",
+        "WaMdeafgWYs.ru.vtt"
+      ],
+      "info": [
+        "WaMdeafgWYs.info.json"
+      ],
+      "thumbnails": [
+        "WaMdeafgWYs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "v5CW1hTDJ0c",
+      "source_kind": "short",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "captions": [
+        "v5CW1hTDJ0c.ru-orig.vtt",
+        "v5CW1hTDJ0c.ru.vtt"
+      ],
+      "info": [
+        "v5CW1hTDJ0c.info.json"
+      ],
+      "thumbnails": [
+        "v5CW1hTDJ0c.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "8IIX6Mfta_o",
+      "source_kind": "short",
+      "title": "Топ нужных аддонов для Blender #blender #addons",
+      "captions": [
+        "8IIX6Mfta_o.ru-orig.vtt",
+        "8IIX6Mfta_o.ru.vtt"
+      ],
+      "info": [
+        "8IIX6Mfta_o.info.json"
+      ],
+      "thumbnails": [
+        "8IIX6Mfta_o.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "qhAmNpLSaws",
+      "source_kind": "short",
+      "title": "Когда крашнулся Blender #blender #addons",
+      "captions": [
+        "qhAmNpLSaws.ru.vtt"
+      ],
+      "info": [
+        "qhAmNpLSaws.info.json"
+      ],
+      "thumbnails": [
+        "qhAmNpLSaws.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "9Lt1NrTKRa4",
+      "source_kind": "short",
+      "title": "Топ аддонов для домов в Blender #blender #addons",
+      "captions": [
+        "9Lt1NrTKRa4.ru-orig.vtt",
+        "9Lt1NrTKRa4.ru.vtt"
+      ],
+      "info": [
+        "9Lt1NrTKRa4.info.json"
+      ],
+      "thumbnails": [
+        "9Lt1NrTKRa4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "cB8Im9LAq1o",
+      "source_kind": "short",
+      "title": "Подсолнух из Plants VS Zombies в Blender 3D #blender",
+      "captions": [
+        "cB8Im9LAq1o.ru-orig.vtt",
+        "cB8Im9LAq1o.ru.vtt"
+      ],
+      "info": [
+        "cB8Im9LAq1o.info.json"
+      ],
+      "thumbnails": [
+        "cB8Im9LAq1o.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "tDc04by68Rs",
+      "source_kind": "short",
+      "title": "Топ 3 аддонов для Blender #blender #addons",
+      "captions": [
+        "tDc04by68Rs.ru-orig.vtt",
+        "tDc04by68Rs.ru.vtt"
+      ],
+      "info": [
+        "tDc04by68Rs.info.json"
+      ],
+      "thumbnails": [
+        "tDc04by68Rs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "D70oeIOg23o",
+      "source_kind": "short",
+      "title": "Обновление Blender 4.3 #blender",
+      "captions": [
+        "D70oeIOg23o.ru-orig.vtt",
+        "D70oeIOg23o.ru.vtt"
+      ],
+      "info": [
+        "D70oeIOg23o.info.json"
+      ],
+      "thumbnails": [
+        "D70oeIOg23o.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "MCosgbR0NzI",
+      "source_kind": "short",
+      "title": "Подборка аддонов для Blender #blender #addons",
+      "captions": [
+        "MCosgbR0NzI.ru-orig.vtt",
+        "MCosgbR0NzI.ru.vtt"
+      ],
+      "info": [
+        "MCosgbR0NzI.info.json"
+      ],
+      "thumbnails": [
+        "MCosgbR0NzI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "Ccayarl2HKA",
+      "source_kind": "short",
+      "title": "Топ аддон для Blender и Substance painter #blender #addons",
+      "captions": [
+        "Ccayarl2HKA.ru-orig.vtt",
+        "Ccayarl2HKA.ru.vtt"
+      ],
+      "info": [
+        "Ccayarl2HKA.info.json"
+      ],
+      "thumbnails": [
+        "Ccayarl2HKA.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "0bwyw3vy7hY",
+      "source_kind": "short",
+      "title": "Реалистичный свет в Blender #blender",
+      "captions": [
+        "0bwyw3vy7hY.ru-orig.vtt",
+        "0bwyw3vy7hY.ru.vtt"
+      ],
+      "info": [
+        "0bwyw3vy7hY.info.json"
+      ],
+      "thumbnails": [
+        "0bwyw3vy7hY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "lNSdFEU5zQE",
+      "source_kind": "short",
+      "title": "Сборка аддонов для Blender #blender #addons",
+      "captions": [
+        "lNSdFEU5zQE.ru-orig.vtt",
+        "lNSdFEU5zQE.ru.vtt"
+      ],
+      "info": [
+        "lNSdFEU5zQE.info.json"
+      ],
+      "thumbnails": [
+        "lNSdFEU5zQE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "LKCnGRdXyCE",
+      "source_kind": "short",
+      "title": "Физика ткани в Blender для интерьера #blender",
+      "captions": [
+        "LKCnGRdXyCE.ru-orig.vtt",
+        "LKCnGRdXyCE.ru.vtt"
+      ],
+      "info": [
+        "LKCnGRdXyCE.info.json"
+      ],
+      "thumbnails": [
+        "LKCnGRdXyCE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "4QsslVcswgc",
+      "source_kind": "short",
+      "title": "Аддон с нейронкой для Blende #blender #addons",
+      "captions": [
+        "4QsslVcswgc.ru-orig.vtt",
+        "4QsslVcswgc.ru.vtt"
+      ],
+      "info": [
+        "4QsslVcswgc.info.json"
+      ],
+      "thumbnails": [
+        "4QsslVcswgc.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "MUAp0IWJPEs",
+      "source_kind": "short",
+      "title": "Спидран по Blender 3D #blender",
+      "captions": [
+        "MUAp0IWJPEs.ru-orig.vtt",
+        "MUAp0IWJPEs.ru.vtt"
+      ],
+      "info": [
+        "MUAp0IWJPEs.info.json"
+      ],
+      "thumbnails": [
+        "MUAp0IWJPEs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "82TRY4y1gXE",
+      "source_kind": "short",
+      "title": "Аддоны для Blender для простой жизни #blender #addons",
+      "captions": [
+        "82TRY4y1gXE.ru-orig.vtt",
+        "82TRY4y1gXE.ru.vtt"
+      ],
+      "info": [
+        "82TRY4y1gXE.info.json"
+      ],
+      "thumbnails": [
+        "82TRY4y1gXE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "-pURcXWTUV0",
+      "source_kind": "short",
+      "title": "Растения для Blender #blender #addons",
+      "captions": [
+        "-pURcXWTUV0.ru-orig.vtt",
+        "-pURcXWTUV0.ru.vtt"
+      ],
+      "info": [
+        "-pURcXWTUV0.info.json"
+      ],
+      "thumbnails": [
+        "-pURcXWTUV0.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "BV7w2b3BItY",
+      "source_kind": "short",
+      "title": "Аддоны для Blender для упрощения жизни #blender #addons",
+      "captions": [
+        "BV7w2b3BItY.ru-orig.vtt",
+        "BV7w2b3BItY.ru.vtt"
+      ],
+      "info": [
+        "BV7w2b3BItY.info.json"
+      ],
+      "thumbnails": [
+        "BV7w2b3BItY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "I8G9aZBxPok",
+      "source_kind": "short",
+      "title": "Пейзаж и растения в BLENDER Просто! #blender",
+      "captions": [
+        "I8G9aZBxPok.ru-orig.vtt",
+        "I8G9aZBxPok.ru.vtt"
+      ],
+      "info": [
+        "I8G9aZBxPok.info.json"
+      ],
+      "thumbnails": [
+        "I8G9aZBxPok.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "grh5GtFakSM",
+      "source_kind": "short",
+      "title": "Основные ошибки в Blender #blender",
+      "captions": [
+        "grh5GtFakSM.ru-orig.vtt",
+        "grh5GtFakSM.ru.vtt"
+      ],
+      "info": [
+        "grh5GtFakSM.info.json"
+      ],
+      "thumbnails": [
+        "grh5GtFakSM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "ggwOqONDcdE",
+      "source_kind": "short",
+      "title": "Базовые ADDONS для Blender 3D #blender",
+      "captions": [
+        "ggwOqONDcdE.ru-orig.vtt",
+        "ggwOqONDcdE.ru.vtt"
+      ],
+      "info": [
+        "ggwOqONDcdE.info.json"
+      ],
+      "thumbnails": [
+        "ggwOqONDcdE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "0mSSv9uZQ0E",
+      "source_kind": "short",
+      "title": "Основные ADDONS для Blender 3D #blender",
+      "captions": [
+        "0mSSv9uZQ0E.ru-orig.vtt",
+        "0mSSv9uZQ0E.ru.vtt"
+      ],
+      "info": [
+        "0mSSv9uZQ0E.info.json"
+      ],
+      "thumbnails": [
+        "0mSSv9uZQ0E.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "cXlxM7fQybU",
+      "source_kind": "short",
+      "title": "Трекинг в Blender #blender",
+      "captions": [
+        "cXlxM7fQybU.ru-orig.vtt",
+        "cXlxM7fQybU.ru.vtt"
+      ],
+      "info": [
+        "cXlxM7fQybU.info.json"
+      ],
+      "thumbnails": [
+        "cXlxM7fQybU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "sTHQ3Yl1kQs",
+      "source_kind": "short",
+      "title": "Базовые ошибки в BLENDER  #blender",
+      "captions": [
+        "sTHQ3Yl1kQs.ru-orig.vtt",
+        "sTHQ3Yl1kQs.ru.vtt"
+      ],
+      "info": [
+        "sTHQ3Yl1kQs.info.json"
+      ],
+      "thumbnails": [
+        "sTHQ3Yl1kQs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "v0TdPJv1uGw",
+      "source_kind": "short",
+      "title": "Аддоны для BLENDER, которые все изменят #blender",
+      "captions": [
+        "v0TdPJv1uGw.ru-orig.vtt",
+        "v0TdPJv1uGw.ru.vtt"
+      ],
+      "info": [
+        "v0TdPJv1uGw.info.json"
+      ],
+      "thumbnails": [
+        "v0TdPJv1uGw.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "8FRQDWucQBg",
+      "source_kind": "short",
+      "title": "Подборка полезных аддонов для BLENDER #blender",
+      "captions": [
+        "8FRQDWucQBg.ru-orig.vtt",
+        "8FRQDWucQBg.ru.vtt"
+      ],
+      "info": [
+        "8FRQDWucQBg.info.json"
+      ],
+      "thumbnails": [
+        "8FRQDWucQBg.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "xVP5MIK2nYI",
+      "source_kind": "short",
+      "title": "Сканирование в BLENDER ПРОСТО! #blender",
+      "captions": [
+        "xVP5MIK2nYI.ru-orig.vtt",
+        "xVP5MIK2nYI.ru.vtt"
+      ],
+      "info": [
+        "xVP5MIK2nYI.info.json"
+      ],
+      "thumbnails": [
+        "xVP5MIK2nYI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "1k144TNB3bI",
+      "source_kind": "short",
+      "title": "BLENDER не для слабонервных #blender",
+      "captions": [
+        "1k144TNB3bI.ru-orig.vtt",
+        "1k144TNB3bI.ru.vtt"
+      ],
+      "info": [
+        "1k144TNB3bI.info.json"
+      ],
+      "thumbnails": [
+        "1k144TNB3bI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "_ZXBv5j-KH8",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "_ZXBv5j-KH8.ru-orig.vtt",
+        "_ZXBv5j-KH8.ru.vtt"
+      ],
+      "info": [
+        "_ZXBv5j-KH8.info.json"
+      ],
+      "thumbnails": [
+        "_ZXBv5j-KH8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "NRXgdoocmBM",
+      "source_kind": "short",
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "captions": [
+        "NRXgdoocmBM.ru-orig.vtt",
+        "NRXgdoocmBM.ru.vtt"
+      ],
+      "info": [
+        "NRXgdoocmBM.info.json"
+      ],
+      "thumbnails": [
+        "NRXgdoocmBM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "NhlqUJRxBwo",
+      "source_kind": "short",
+      "title": "Топ крутых аддонов для Blender 3D #blender",
+      "captions": [
+        "NhlqUJRxBwo.ru-orig.vtt",
+        "NhlqUJRxBwo.ru.vtt"
+      ],
+      "info": [
+        "NhlqUJRxBwo.info.json"
+      ],
+      "thumbnails": [
+        "NhlqUJRxBwo.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "k0HyJ9_Vczs",
+      "source_kind": "short",
+      "title": "Пряня из \"Шрек\" в Blender 3D #blender",
+      "captions": [
+        "k0HyJ9_Vczs.ru-orig.vtt",
+        "k0HyJ9_Vczs.ru.vtt"
+      ],
+      "info": [
+        "k0HyJ9_Vczs.info.json"
+      ],
+      "thumbnails": [
+        "k0HyJ9_Vczs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "3HnVcGn_e9g",
+      "source_kind": "short",
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "captions": [
+        "3HnVcGn_e9g.ru-orig.vtt",
+        "3HnVcGn_e9g.ru.vtt"
+      ],
+      "info": [
+        "3HnVcGn_e9g.info.json"
+      ],
+      "thumbnails": [
+        "3HnVcGn_e9g.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "Qtvsy0HhneM",
+      "source_kind": "short",
+      "title": "Фатальные ошибки в BLENDER #blender",
+      "captions": [
+        "Qtvsy0HhneM.ru-orig.vtt",
+        "Qtvsy0HhneM.ru.vtt"
+      ],
+      "info": [
+        "Qtvsy0HhneM.info.json"
+      ],
+      "thumbnails": [
+        "Qtvsy0HhneM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "t1iL-VlOt18",
+      "source_kind": "short",
+      "title": "Набор аддонов для BLENDER #blender",
+      "captions": [
+        "t1iL-VlOt18.ru-orig.vtt",
+        "t1iL-VlOt18.ru.vtt"
+      ],
+      "info": [
+        "t1iL-VlOt18.info.json"
+      ],
+      "thumbnails": [
+        "t1iL-VlOt18.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "VAlhrx7eni8",
+      "source_kind": "short",
+      "title": "Новый BLENDER 4.2 стал лучше? #blender",
+      "captions": [
+        "VAlhrx7eni8.ru-orig.vtt",
+        "VAlhrx7eni8.ru.vtt"
+      ],
+      "info": [
+        "VAlhrx7eni8.info.json"
+      ],
+      "thumbnails": [
+        "VAlhrx7eni8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "76czTtc3Tu8",
+      "source_kind": "short",
+      "title": "Полезные аддоны для BLENDER #blender",
+      "captions": [
+        "76czTtc3Tu8.ru-orig.vtt",
+        "76czTtc3Tu8.ru.vtt"
+      ],
+      "info": [
+        "76czTtc3Tu8.info.json"
+      ],
+      "thumbnails": [
+        "76czTtc3Tu8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "1-FstUy3Tf0",
+      "source_kind": "short",
+      "title": "Вода и капли в BLENDER ПРОСТО! #blender",
+      "captions": [
+        "1-FstUy3Tf0.ru-orig.vtt",
+        "1-FstUy3Tf0.ru.vtt"
+      ],
+      "info": [
+        "1-FstUy3Tf0.info.json"
+      ],
+      "thumbnails": [
+        "1-FstUy3Tf0.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "RgQa0uZth3I",
+      "source_kind": "short",
+      "title": "Бимо из \"Время приключений\" в Blender 3D #blender",
+      "captions": [
+        "RgQa0uZth3I.ru-orig.vtt",
+        "RgQa0uZth3I.ru.vtt"
+      ],
+      "info": [
+        "RgQa0uZth3I.info.json"
+      ],
+      "thumbnails": [
+        "RgQa0uZth3I.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "jwii_ri6xaU",
+      "source_kind": "short",
+      "title": "Подборка аддонов для BLENDER #blender",
+      "captions": [
+        "jwii_ri6xaU.ru-orig.vtt",
+        "jwii_ri6xaU.ru.vtt"
+      ],
+      "info": [
+        "jwii_ri6xaU.info.json"
+      ],
+      "thumbnails": [
+        "jwii_ri6xaU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "6fUbz3-v7NQ",
+      "source_kind": "short",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "captions": [
+        "6fUbz3-v7NQ.ru-orig.vtt",
+        "6fUbz3-v7NQ.ru.vtt"
+      ],
+      "info": [
+        "6fUbz3-v7NQ.info.json"
+      ],
+      "thumbnails": [
+        "6fUbz3-v7NQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "RUklAwciH14",
+      "source_kind": "short",
+      "title": "Аддоны для BLENDER \"...Админки, х.....\" #blender",
+      "captions": [
+        "RUklAwciH14.ru-orig.vtt",
+        "RUklAwciH14.ru.vtt"
+      ],
+      "info": [
+        "RUklAwciH14.info.json"
+      ],
+      "thumbnails": [
+        "RUklAwciH14.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "_hxnSgq5jig",
+      "source_kind": "short",
+      "title": "Аддоны для BLENDER \"на черный день\" #blender",
+      "captions": [
+        "_hxnSgq5jig.ru-orig.vtt",
+        "_hxnSgq5jig.ru.vtt"
+      ],
+      "info": [
+        "_hxnSgq5jig.info.json"
+      ],
+      "thumbnails": [
+        "_hxnSgq5jig.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "u9n5PJZMzLU",
+      "source_kind": "short",
+      "title": "Тот самый критик в BLENDER #blender",
+      "captions": [],
+      "info": [
+        "u9n5PJZMzLU.info.json"
+      ],
+      "thumbnails": [
+        "u9n5PJZMzLU.webp"
+      ],
+      "caption_ready": false,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "4s2_7rjWrNY",
+      "source_kind": "short",
+      "title": "Трекинг в Blender ПРОСТО! #blender",
+      "captions": [
+        "4s2_7rjWrNY.ru-orig.vtt",
+        "4s2_7rjWrNY.ru.vtt"
+      ],
+      "info": [
+        "4s2_7rjWrNY.info.json"
+      ],
+      "thumbnails": [
+        "4s2_7rjWrNY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "LoGjUIZG7tM",
+      "source_kind": "short",
+      "title": "Топ 3 крутых аддонов для BLENDER 2ч. #blender",
+      "captions": [
+        "LoGjUIZG7tM.ru-orig.vtt",
+        "LoGjUIZG7tM.ru.vtt"
+      ],
+      "info": [
+        "LoGjUIZG7tM.info.json"
+      ],
+      "thumbnails": [
+        "LoGjUIZG7tM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "Z_FYNvjPLEI",
+      "source_kind": "short",
+      "title": "Ошибки новичков в BLENDER #blender",
+      "captions": [
+        "Z_FYNvjPLEI.ru-orig.vtt",
+        "Z_FYNvjPLEI.ru.vtt"
+      ],
+      "info": [
+        "Z_FYNvjPLEI.info.json"
+      ],
+      "thumbnails": [
+        "Z_FYNvjPLEI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "S373SvrinrA",
+      "source_kind": "short",
+      "title": "Аддоны для BLENDER, которые все изменят #blender",
+      "captions": [
+        "S373SvrinrA.ru-orig.vtt",
+        "S373SvrinrA.ru.vtt"
+      ],
+      "info": [
+        "S373SvrinrA.info.json"
+      ],
+      "thumbnails": [
+        "S373SvrinrA.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "kx9Nv5BE0_A",
+      "source_kind": "short",
+      "title": "Аддоны для BLENDER упрощающие жизнь #blender",
+      "captions": [
+        "kx9Nv5BE0_A.ru-orig.vtt",
+        "kx9Nv5BE0_A.ru.vtt"
+      ],
+      "info": [
+        "kx9Nv5BE0_A.info.json"
+      ],
+      "thumbnails": [
+        "kx9Nv5BE0_A.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "xDFvjKEubrQ",
+      "source_kind": "short",
+      "title": "Текстуры шин в Blender #blender",
+      "captions": [
+        "xDFvjKEubrQ.ru-orig.vtt",
+        "xDFvjKEubrQ.ru.vtt"
+      ],
+      "info": [
+        "xDFvjKEubrQ.info.json"
+      ],
+      "thumbnails": [
+        "xDFvjKEubrQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "XhrZGN6RcX4",
+      "source_kind": "short",
+      "title": "Топ дополнений для BLENDER (тянка в комплекте) #blender",
+      "captions": [
+        "XhrZGN6RcX4.ru-orig.vtt",
+        "XhrZGN6RcX4.ru.vtt"
+      ],
+      "info": [
+        "XhrZGN6RcX4.info.json"
+      ],
+      "thumbnails": [
+        "XhrZGN6RcX4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "-QUc4W1gyU8",
+      "source_kind": "short",
+      "title": "Гэри из Губки Боба в Blender 3D #blender",
+      "captions": [
+        "-QUc4W1gyU8.ru-orig.vtt",
+        "-QUc4W1gyU8.ru.vtt"
+      ],
+      "info": [
+        "-QUc4W1gyU8.info.json"
+      ],
+      "thumbnails": [
+        "-QUc4W1gyU8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "QeNhqHb_daM",
+      "source_kind": "short",
+      "title": "Ошибки новичков в BLENDER  #blender",
+      "captions": [
+        "QeNhqHb_daM.ru-orig.vtt",
+        "QeNhqHb_daM.ru.vtt"
+      ],
+      "info": [
+        "QeNhqHb_daM.info.json"
+      ],
+      "thumbnails": [
+        "QeNhqHb_daM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "yjwlhZX0Gu8",
+      "source_kind": "short",
+      "title": "Топ крутых аддонов для BLENDER #blender",
+      "captions": [
+        "yjwlhZX0Gu8.ru-orig.vtt",
+        "yjwlhZX0Gu8.ru.vtt"
+      ],
+      "info": [
+        "yjwlhZX0Gu8.info.json"
+      ],
+      "thumbnails": [
+        "yjwlhZX0Gu8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "ZuuZmzGdx_I",
+      "source_kind": "short",
+      "title": "Растения в Blender 3D (Plants VS Zombies) #blender",
+      "captions": [],
+      "info": [
+        "ZuuZmzGdx_I.info.json"
+      ],
+      "thumbnails": [
+        "ZuuZmzGdx_I.webp"
+      ],
+      "caption_ready": false,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "x8lq3bDPX9w",
+      "source_kind": "short",
+      "title": "Выдаю базу про освещение в BLENDER #blender",
+      "captions": [
+        "x8lq3bDPX9w.ru-orig.vtt",
+        "x8lq3bDPX9w.ru.vtt"
+      ],
+      "info": [
+        "x8lq3bDPX9w.info.json"
+      ],
+      "thumbnails": [
+        "x8lq3bDPX9w.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "lzCxhI2Qo0w",
+      "source_kind": "short",
+      "title": "Топовые аддоны для BLENDER | Еще больше ассетов и материалов! #blender",
+      "captions": [
+        "lzCxhI2Qo0w.ru-orig.vtt",
+        "lzCxhI2Qo0w.ru.vtt"
+      ],
+      "info": [
+        "lzCxhI2Qo0w.info.json"
+      ],
+      "thumbnails": [
+        "lzCxhI2Qo0w.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "pHLbdd7p3OU",
+      "source_kind": "short",
+      "title": "3D Трекинг в Blender #blender",
+      "captions": [
+        "pHLbdd7p3OU.ru-orig.vtt",
+        "pHLbdd7p3OU.ru.vtt"
+      ],
+      "info": [
+        "pHLbdd7p3OU.info.json"
+      ],
+      "thumbnails": [
+        "pHLbdd7p3OU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "DiAb82taWqo",
+      "source_kind": "short",
+      "title": "Топ полезных аддонов для BLENDER #blender",
+      "captions": [
+        "DiAb82taWqo.ru-orig.vtt",
+        "DiAb82taWqo.ru.vtt"
+      ],
+      "info": [
+        "DiAb82taWqo.info.json"
+      ],
+      "thumbnails": [
+        "DiAb82taWqo.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "zXk1VV_9kkQ",
+      "source_kind": "short",
+      "title": "WALL-E в Blender 3D #blender",
+      "captions": [
+        "zXk1VV_9kkQ.ru-orig.vtt",
+        "zXk1VV_9kkQ.ru.vtt"
+      ],
+      "info": [
+        "zXk1VV_9kkQ.info.json"
+      ],
+      "thumbnails": [
+        "zXk1VV_9kkQ.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "T1MWBFMWDNE",
+      "source_kind": "short",
+      "title": "Пончик в BLENDER #blender",
+      "captions": [
+        "T1MWBFMWDNE.ru.vtt"
+      ],
+      "info": [
+        "T1MWBFMWDNE.info.json"
+      ],
+      "thumbnails": [
+        "T1MWBFMWDNE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "tUOR7TJPNDU",
+      "source_kind": "short",
+      "title": "Бесплатные аддоны для BLENDER #blender",
+      "captions": [
+        "tUOR7TJPNDU.ru-orig.vtt",
+        "tUOR7TJPNDU.ru.vtt"
+      ],
+      "info": [
+        "tUOR7TJPNDU.info.json"
+      ],
+      "thumbnails": [
+        "tUOR7TJPNDU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "jZwWJ3Pl9Kc",
+      "source_kind": "short",
+      "title": "Ошибки новичков в BLENDER  #blender",
+      "captions": [
+        "jZwWJ3Pl9Kc.ru-orig.vtt",
+        "jZwWJ3Pl9Kc.ru.vtt"
+      ],
+      "info": [
+        "jZwWJ3Pl9Kc.info.json"
+      ],
+      "thumbnails": [
+        "jZwWJ3Pl9Kc.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "wHC3aDUqctk",
+      "source_kind": "short",
+      "title": "Топ аддонов для Блендер 3D #blender",
+      "captions": [
+        "wHC3aDUqctk.ru-orig.vtt",
+        "wHC3aDUqctk.ru.vtt"
+      ],
+      "info": [
+        "wHC3aDUqctk.info.json"
+      ],
+      "thumbnails": [
+        "wHC3aDUqctk.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "juAnIF1169g",
+      "source_kind": "short",
+      "title": "Горох из Plants VS Zombies в Blender 3D #blender",
+      "captions": [
+        "juAnIF1169g.ru-orig.vtt",
+        "juAnIF1169g.ru.vtt"
+      ],
+      "info": [
+        "juAnIF1169g.info.json"
+      ],
+      "thumbnails": [
+        "juAnIF1169g.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "UmfFilj4br8",
+      "source_kind": "short",
+      "title": "Противостояние BLENDER и 3ds MAX #blender",
+      "captions": [
+        "UmfFilj4br8.ru-orig.vtt",
+        "UmfFilj4br8.ru.vtt"
+      ],
+      "info": [
+        "UmfFilj4br8.info.json"
+      ],
+      "thumbnails": [
+        "UmfFilj4br8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "-4pVGMGLoN8",
+      "source_kind": "short",
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "captions": [
+        "-4pVGMGLoN8.ru-orig.vtt",
+        "-4pVGMGLoN8.ru.vtt"
+      ],
+      "info": [
+        "-4pVGMGLoN8.info.json"
+      ],
+      "thumbnails": [
+        "-4pVGMGLoN8.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "KDJ21WfZ_8w",
+      "source_kind": "short",
+      "title": "Очевидные ошибки при моделировании в BLENDER  #blender",
+      "captions": [
+        "KDJ21WfZ_8w.ru-orig.vtt",
+        "KDJ21WfZ_8w.ru.vtt"
+      ],
+      "info": [
+        "KDJ21WfZ_8w.info.json"
+      ],
+      "thumbnails": [
+        "KDJ21WfZ_8w.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "baR4SoykYF4",
+      "source_kind": "short",
+      "title": "3D Трекинг в Blender и After Effects #blender",
+      "captions": [
+        "baR4SoykYF4.ru-orig.vtt",
+        "baR4SoykYF4.ru.vtt"
+      ],
+      "info": [
+        "baR4SoykYF4.info.json"
+      ],
+      "thumbnails": [
+        "baR4SoykYF4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "629L0vGCp_Y",
+      "source_kind": "short",
+      "title": "Топ крутых аддонов для Blender 3D #blender",
+      "captions": [
+        "629L0vGCp_Y.ru-orig.vtt",
+        "629L0vGCp_Y.ru.vtt"
+      ],
+      "info": [
+        "629L0vGCp_Y.info.json"
+      ],
+      "thumbnails": [
+        "629L0vGCp_Y.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "R_FDVkqlzUA",
+      "source_kind": "short",
+      "title": "Как заригать любое авто в BLENDER #blender",
+      "captions": [
+        "R_FDVkqlzUA.ru-orig.vtt",
+        "R_FDVkqlzUA.ru.vtt"
+      ],
+      "info": [
+        "R_FDVkqlzUA.info.json"
+      ],
+      "thumbnails": [
+        "R_FDVkqlzUA.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "G3JmvP9Y2MU",
+      "source_kind": "short",
+      "title": "Типичный BLENDER  #blender",
+      "captions": [
+        "G3JmvP9Y2MU.ru.vtt"
+      ],
+      "info": [
+        "G3JmvP9Y2MU.info.json"
+      ],
+      "thumbnails": [
+        "G3JmvP9Y2MU.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "sujkcPtvXNE",
+      "source_kind": "short",
+      "title": "Топ 3 полезных аддона для BLENDER #blender",
+      "captions": [
+        "sujkcPtvXNE.ru-orig.vtt",
+        "sujkcPtvXNE.ru.vtt"
+      ],
+      "info": [
+        "sujkcPtvXNE.info.json"
+      ],
+      "thumbnails": [
+        "sujkcPtvXNE.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "jZ1JcpBQoww",
+      "source_kind": "short",
+      "title": "Топ крутых аддонов для BLENDER #blender",
+      "captions": [
+        "jZ1JcpBQoww.ru-orig.vtt",
+        "jZ1JcpBQoww.ru.vtt"
+      ],
+      "info": [
+        "jZ1JcpBQoww.info.json"
+      ],
+      "thumbnails": [
+        "jZ1JcpBQoww.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "H-BM3X4Z8oM",
+      "source_kind": "short",
+      "title": "Прыгающий арбуз в blender 3D #blender",
+      "captions": [
+        "H-BM3X4Z8oM.ru-orig.vtt",
+        "H-BM3X4Z8oM.ru.vtt"
+      ],
+      "info": [
+        "H-BM3X4Z8oM.info.json"
+      ],
+      "thumbnails": [
+        "H-BM3X4Z8oM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "Ut-oa4GrTlk",
+      "source_kind": "short",
+      "title": "Признаки зрелого парня в BLENDER 3д #blender",
+      "captions": [
+        "Ut-oa4GrTlk.ru-orig.vtt",
+        "Ut-oa4GrTlk.ru.vtt"
+      ],
+      "info": [
+        "Ut-oa4GrTlk.info.json"
+      ],
+      "thumbnails": [
+        "Ut-oa4GrTlk.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "9XJlhD-Z0L4",
+      "source_kind": "short",
+      "title": "Топ 3 полезных аддонов для BLENDER #blender",
+      "captions": [
+        "9XJlhD-Z0L4.ru-orig.vtt",
+        "9XJlhD-Z0L4.ru.vtt"
+      ],
+      "info": [
+        "9XJlhD-Z0L4.info.json"
+      ],
+      "thumbnails": [
+        "9XJlhD-Z0L4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "i6WDjfNARq4",
+      "source_kind": "short",
+      "title": "Ошибки при моделировании в BLENDER  #blender",
+      "captions": [
+        "i6WDjfNARq4.ru-orig.vtt",
+        "i6WDjfNARq4.ru.vtt"
+      ],
+      "info": [
+        "i6WDjfNARq4.info.json"
+      ],
+      "thumbnails": [
+        "i6WDjfNARq4.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "w2spIBARjPk",
+      "source_kind": "short",
+      "title": "Топ аддонов для BLENDER #blender",
+      "captions": [
+        "w2spIBARjPk.ru-orig.vtt",
+        "w2spIBARjPk.ru.vtt"
+      ],
+      "info": [
+        "w2spIBARjPk.info.json"
+      ],
+      "thumbnails": [
+        "w2spIBARjPk.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "igfZMVpGfMY",
+      "source_kind": "short",
+      "title": "Рик и Морти! В BLENDER 3D #blender",
+      "captions": [
+        "igfZMVpGfMY.ru-orig.vtt",
+        "igfZMVpGfMY.ru.vtt"
+      ],
+      "info": [
+        "igfZMVpGfMY.info.json"
+      ],
+      "thumbnails": [
+        "igfZMVpGfMY.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "8IItaPEQHnA",
+      "source_kind": "short",
+      "title": "Аддоны для блендер, которые изменят вашу жизнь #blender",
+      "captions": [
+        "8IItaPEQHnA.ru-orig.vtt",
+        "8IItaPEQHnA.ru.vtt"
+      ],
+      "info": [
+        "8IItaPEQHnA.info.json"
+      ],
+      "thumbnails": [
+        "8IItaPEQHnA.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "VzpuLqER2Ss",
+      "source_kind": "short",
+      "title": "Робот за 1 час! В BLENDER 3D #blender",
+      "captions": [
+        "VzpuLqER2Ss.ru-orig.vtt",
+        "VzpuLqER2Ss.ru.vtt"
+      ],
+      "info": [
+        "VzpuLqER2Ss.info.json"
+      ],
+      "thumbnails": [
+        "VzpuLqER2Ss.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "mmMubNMUXeM",
+      "source_kind": "short",
+      "title": "Топ 3 полезных аддона для блендер #blender",
+      "captions": [
+        "mmMubNMUXeM.ru-orig.vtt",
+        "mmMubNMUXeM.ru.vtt"
+      ],
+      "info": [
+        "mmMubNMUXeM.info.json"
+      ],
+      "thumbnails": [
+        "mmMubNMUXeM.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "w5Znomr7lrs",
+      "source_kind": "short",
+      "title": "Кто еще не делал пончик в блендере? #blender",
+      "captions": [
+        "w5Znomr7lrs.ru.vtt"
+      ],
+      "info": [
+        "w5Znomr7lrs.info.json"
+      ],
+      "thumbnails": [
+        "w5Znomr7lrs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "qL5Rb7SnORk",
+      "source_kind": "short",
+      "title": "Наклейки в blender 3d #blender",
+      "captions": [
+        "qL5Rb7SnORk.ru-orig.vtt",
+        "qL5Rb7SnORk.ru.vtt"
+      ],
+      "info": [
+        "qL5Rb7SnORk.info.json"
+      ],
+      "thumbnails": [
+        "qL5Rb7SnORk.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "8EEymZjwtsA",
+      "source_kind": "short",
+      "title": "Новый вид газировки \"Гори оно все огнем\" (Timelapse)",
+      "captions": [
+        "8EEymZjwtsA.ru.vtt"
+      ],
+      "info": [
+        "8EEymZjwtsA.info.json"
+      ],
+      "thumbnails": [
+        "8EEymZjwtsA.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "RBHkWp3Vbog",
+      "source_kind": "short",
+      "title": "Топ 3 бесплатных аддона для блендер #blender",
+      "captions": [
+        "RBHkWp3Vbog.ru-orig.vtt",
+        "RBHkWp3Vbog.ru.vtt"
+      ],
+      "info": [
+        "RBHkWp3Vbog.info.json"
+      ],
+      "thumbnails": [
+        "RBHkWp3Vbog.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "adB6HtZIU64",
+      "source_kind": "short",
+      "title": "Кружка пива в 3д #blender #blender3d #blendertutorial #блендер3д",
+      "captions": [
+        "adB6HtZIU64.ru-orig.vtt",
+        "adB6HtZIU64.ru.vtt"
+      ],
+      "info": [
+        "adB6HtZIU64.info.json"
+      ],
+      "thumbnails": [
+        "adB6HtZIU64.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "d0uhsrQdSks",
+      "source_kind": "short",
+      "title": "Спидран по блендеру | Speedrun by blender #blender",
+      "captions": [
+        "d0uhsrQdSks.ru-orig.vtt",
+        "d0uhsrQdSks.ru.vtt"
+      ],
+      "info": [
+        "d0uhsrQdSks.info.json"
+      ],
+      "thumbnails": [
+        "d0uhsrQdSks.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "GkaJvxCovFs",
+      "source_kind": "short",
+      "title": "Уточка застряла в 3д машине #blender",
+      "captions": [
+        "GkaJvxCovFs.ru-orig.vtt",
+        "GkaJvxCovFs.ru.vtt"
+      ],
+      "info": [
+        "GkaJvxCovFs.info.json"
+      ],
+      "thumbnails": [
+        "GkaJvxCovFs.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "kvYqHYgHXSI",
+      "source_kind": "short",
+      "title": "Добавил снег очень просто #blender #shorts",
+      "captions": [
+        "kvYqHYgHXSI.ru-orig.vtt",
+        "kvYqHYgHXSI.ru.vtt"
+      ],
+      "info": [
+        "kvYqHYgHXSI.info.json"
+      ],
+      "thumbnails": [
+        "kvYqHYgHXSI.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    },
+    {
+      "video_id": "61ssGWuPxqk",
+      "source_kind": "short",
+      "title": "Учу лепить грибочек в blender #shorts",
+      "captions": [
+        "61ssGWuPxqk.ru-orig.vtt",
+        "61ssGWuPxqk.ru.vtt"
+      ],
+      "info": [
+        "61ssGWuPxqk.info.json"
+      ],
+      "thumbnails": [
+        "61ssGWuPxqk.webp"
+      ],
+      "caption_ready": true,
+      "metadata_ready": true,
+      "visual_ready": true
+    }
+  ]
+}

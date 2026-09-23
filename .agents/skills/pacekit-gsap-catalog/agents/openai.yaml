@@ -1,0 +1,4 @@
+interface:
+  display_name: "PaceKit GSAP Catalog"
+  short_description: "Gate exact PaceKit GSAP components"
+  default_prompt: "Use $pacekit-gsap-catalog to choose a justified PaceKit GSAP item with dependency, fallback, mobile, and performance checks."

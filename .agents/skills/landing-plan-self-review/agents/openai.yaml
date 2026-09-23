@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Plan Self Review"
+  short_description: "Critique landing plans before build"
+  default_prompt: "Use $landing-plan-self-review to critique this landing plan before implementation handoff."

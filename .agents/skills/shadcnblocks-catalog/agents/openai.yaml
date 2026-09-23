@@ -1,0 +1,4 @@
+interface:
+  display_name: "shadcnblocks Catalog"
+  short_description: "Select verified shadcnblocks sections"
+  default_prompt: "Use $shadcnblocks-catalog to choose verified shadcnblocks blocks or components for a landing plan."

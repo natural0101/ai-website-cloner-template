@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Proof Integrity Gate"
+  short_description: "Audit claims, proof, testimonials, and asset truth."
+  default_prompt: "Use $landing-proof-integrity-gate to audit landing claims, proof, testimonials, logos, metrics, screenshots, and demo assets."

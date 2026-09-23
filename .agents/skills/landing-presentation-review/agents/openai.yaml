@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Presentation Review"
+  short_description: "Judge landing screenshot quality"
+  default_prompt: "Use $landing-presentation-review to review this implemented landing page for presentation quality."

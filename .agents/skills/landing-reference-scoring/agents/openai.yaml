@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Reference Scoring"
+  short_description: "Score landing references before design decisions"
+  default_prompt: "Use $landing-reference-scoring to score landing references by fit, section value, motion value, risk, and source safety."

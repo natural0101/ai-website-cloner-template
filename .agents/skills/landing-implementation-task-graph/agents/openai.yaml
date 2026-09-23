@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Implementation Task Graph"
+  short_description: "Order landing implementation with blockers"
+  default_prompt: "Use $landing-implementation-task-graph to turn this landing plan into an ordered implementation graph."

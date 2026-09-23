@@ -1,0 +1,7 @@
+{
+  "missing_visual_or_audio": {
+    "video_id": "ZuuZmzGdx_I",
+    "position": 160,
+    "reason": "В каталоге и папке источника отсутствуют transcript.json и VTT; честно присвоить TRANSCRIPT_REVIEWED нельзя. Нужен визуальный просмотр либо локальная транскрипция аудио."
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "probe_kind": "TRANSIENT_RUNTIME_FIXTURE",
+  "blender_version": "5.1.1",
+  "source_file": "C:\\Users\\se-20\\OneDrive\\Рабочий стол\\ai-website-cloner-template\\blender-workbench\\artifacts\\blend\\comforting_cat_v4_arm_geometry_attempt1.blend",
+  "source_scene": "Comforting_Cat_V4_ArmGeometry",
+  "results": {
+    "node:ShaderNodeBsdfMetallic": {
+      "ok": true,
+      "detail": "ShaderNodeBsdfMetallic"
+    },
+    "node:ShaderNodeTexGabor": {
+      "ok": true,
+      "detail": "ShaderNodeTexGabor"
+    },
+    "node:ShaderNodeAmbientOcclusion": {
+      "ok": true,
+      "detail": "ShaderNodeAmbientOcclusion"
+    },
+    "node:ShaderNodeTexSky": {
+      "ok": true,
+      "detail": "ShaderNodeTexSky"
+    },
+    "node:GeometryNodeRaycast": {
+      "ok": true,
+      "detail": "GeometryNodeRaycast"
+    },
+    "node:CompositorNodeKuwahara": {
+      "ok": true,
+      "detail": "CompositorNodeKuwahara"
+    },
+    "node:CompositorNodeWhiteBalance": {
+      "ok": false,
+      "detail": "RuntimeError: Error: Node type CompositorNodeWhiteBalance undefined\n"
+    },
+    "modifier:SHRINKWRAP": {
+      "ok": true,
+      "detail": "SHRINKWRAP"
+    },
+    "modifier:LATTICE": {
+      "ok": true,
+      "detail": "LATTICE"
+    },
+    "modifier:SURFACE_DEFORM": {
+      "ok": true,
+      "detail": "SURFACE_DEFORM"
+    },
+    "modifier:SOLIDIFY": {
+      "ok": true,
+      "detail": "SOLIDIFY"
+    },
+    "modifier:BEVEL": {
+      "ok": true,
+      "detail": "BEVEL"
+    },
+    "modifier:WEIGHTED_NORMAL": {
+      "ok": true,
+      "detail": "WEIGHTED_NORMAL"
+    },
+    "modifier:CLOTH": {
+      "ok": true,
+      "detail": "CLOTH"
+    },
+    "shape_keys:add": {
+      "ok": true,
+      "detail": "Basis,Test"
+    }
+  },
+  "counts": {
+    "passed": 14,
+    "failed": 1,
+    "total": 15
+  },
+  "cleanup": {
+    "leftovers": [],
+    "passed": true
+  },
+  "status_policy": "A passed fixture proves node/modifier instantiation in Blender 5.1.1, not visual quality or production adoption."
+}

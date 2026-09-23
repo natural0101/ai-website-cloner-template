@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Section Storyboard"
+  short_description: "Build per-section landing storyboard canvases"
+  default_prompt: "Use $landing-section-storyboard to build a per-section storyboard canvas that links user job, frame sketch, proof, visual style, asset, references, motion, components, mobile behavior, and QA risk."

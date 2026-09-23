@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Motion Recipes"
+  short_description: "Choose purposeful landing-page motion recipes"
+  default_prompt: "Use $landing-motion-recipes to choose section-level motion recipes with triggers, timing, libraries, reduced-motion fallbacks, and QA checks."

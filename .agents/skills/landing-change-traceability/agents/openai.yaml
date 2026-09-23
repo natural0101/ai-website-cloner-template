@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Change Traceability"
+  short_description: "Trace landing decisions to evidence and QA"
+  default_prompt: "Use $landing-change-traceability to connect every landing-page change to source evidence, references, implementation tasks and QA checks."

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Staged Blender Project State",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "project_id",
+    "goal",
+    "active_stage",
+    "stages",
+    "attempts"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "1.0"
+    },
+    "project_id": {
+      "type": "string"
+    },
+    "goal": {
+      "type": "string"
+    },
+    "active_stage": {
+      "enum": [
+        "INTAKE",
+        "INITIALIZATION",
+        "GEOMETRY",
+        "MATERIAL",
+        "COMPOSITION",
+        "LIGHTING",
+        "EXPORT_QA",
+        "DONE"
+      ]
+    },
+    "stages": {
+      "type": "object"
+    },
+    "attempts": {
+      "type": "array"
+    },
+    "authoritative_state": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "unresolved": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "updated_at": {
+      "type": "string"
+    }
+  }
+}

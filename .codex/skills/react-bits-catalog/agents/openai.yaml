@@ -1,0 +1,4 @@
+interface:
+  display_name: "React Bits Catalog"
+  short_description: "Gate React Bits animated components"
+  default_prompt: "Use $react-bits-catalog to choose one purposeful React Bits component with dependency, motion, mobile, and reduced-motion checks."

@@ -1,0 +1,190 @@
+{
+  "package": "AI_Blender_Agent_Lookdev_Lighting_Patch_v6",
+  "version": "6.0",
+  "language": "ru",
+  "purpose": "Production lookdev, lighting, material/detail QA and Blender-to-GLB/web parity.",
+  "activation": "After geometry, proportions, camera and composition are approved.",
+  "primary_entrypoint": "00_start/START_HERE_RU.md",
+  "agent_prompt": "01_agent_memory/PASTE_INTO_AGENT_PROMPT_RU.md",
+  "skill": "06_skill/blender-production-lookdev/SKILL.md",
+  "static_validation": {
+    "status": "PASS",
+    "passed": 9,
+    "total": 9
+  },
+  "javascript_syntax_validation": "PASS: node --check",
+  "runtime_validation": "Not run: Blender 5.1 is unavailable in the build environment. First-run validation is required in the user installation.",
+  "reference_image_metrics": {
+    "path": "/mnt/data/AI_Blender_Agent_Lookdev_Lighting_Patch_v6/reference/current_scene.png",
+    "width": 1234,
+    "height": 712,
+    "mean_luma": 0.3132823407649994,
+    "median_luma": 0.04203607887029648,
+    "p01_luma": 0.0036384316626936197,
+    "p05_luma": 0.003921568859368563,
+    "p95_luma": 1.0,
+    "p99_luma": 1.0,
+    "near_black_pct": 30.70527470726422,
+    "near_white_pct": 11.424662648188953,
+    "any_channel_exactly_clipped_pct": 15.540605139038115,
+    "all_channels_exactly_clipped_pct": 9.173032797333965,
+    "any_channel_near_clipped_pct": 16.103996321453938,
+    "all_channels_near_clipped_pct": 9.417055159980332,
+    "warnings": [
+      "Exact full-white clipping exceeds 1%; inspect emitters and exposure.",
+      "Exact channel clipping exceeds 5%; saturated highlights may lose hue/detail.",
+      "Near-white plateau is large; preserve highlight texture before adding bloom.",
+      "More than 30% is near-black; verify intentional background vs crushed detail.",
+      "95th percentile is clipped; highlights occupy too much of the frame."
+    ],
+    "status": "REVIEW_REQUIRED"
+  },
+  "file_count_excluding_manifest_and_checksums": 29,
+  "files": [
+    {
+      "path": "00_start/START_HERE_RU.md",
+      "bytes": 1884,
+      "sha256": "68054d36d7f81c47532d56116c9139a99ca93e08e495bc6864bfb6e362f3dffc"
+    },
+    {
+      "path": "01_agent_memory/PASTE_INTO_AGENT_PROMPT_RU.md",
+      "bytes": 3081,
+      "sha256": "e71c7f23b4896676f48bf8e447f890d76b24b2fcf0950ba5fdb9bdb4987bb88d"
+    },
+    {
+      "path": "02_diagnosis/CURRENT_SCENE_REVIEW_RU.md",
+      "bytes": 3489,
+      "sha256": "5d8afbf7680185a375259e8a38d663f55d5d6e133fafb22fcc54191b84017936"
+    },
+    {
+      "path": "02_diagnosis/current_scene_audit.json",
+      "bytes": 1071,
+      "sha256": "7d52ba3aba3ad5a92bbab4564ac115d402f66c115e1d457f3b166dce78d7e560"
+    },
+    {
+      "path": "03_workflow/DETAIL_AND_MATERIALS_RU.md",
+      "bytes": 4567,
+      "sha256": "2da4c3149658992191d9c4a846c26ea0464e365611b8a91e43c9af12ce23dd64"
+    },
+    {
+      "path": "03_workflow/LIGHTING_AND_EXPOSURE_RU.md",
+      "bytes": 4352,
+      "sha256": "a6cb7327f18d6a1f08d0a0d9368fe3ca49676ab409e4a02dde687b1217f7e0c6"
+    },
+    {
+      "path": "03_workflow/PRODUCTION_LOOKDEV_PIPELINE_RU.md",
+      "bytes": 3521,
+      "sha256": "ca177b482205f5ba9350c8821593411cdf3df0c8b6952b3667cff87638fc8120"
+    },
+    {
+      "path": "03_workflow/QA_GATES_AND_REJECTION_RU.md",
+      "bytes": 3403,
+      "sha256": "d26a69e4ddae9e8deb354ddb2116aae4aef5c7a0d98fd27f0be6f0e1676e416b"
+    },
+    {
+      "path": "03_workflow/WEB_GLTF_PARITY_RU.md",
+      "bytes": 2234,
+      "sha256": "aca6995a388d0106664e7f8dff25956d08ed254d6cf29b31a5d1c5f14ce6fdc1"
+    },
+    {
+      "path": "04_recipes/GAS_STATION_SCENE_RECIPE_RU.md",
+      "bytes": 4528,
+      "sha256": "d45bbd6a7b3f6ec0d9badf74cb4043b439d46ac0e0e823908866d5b78fe9a8ba"
+    },
+    {
+      "path": "04_recipes/LIGHTING_RECIPES_RU.md",
+      "bytes": 1469,
+      "sha256": "71bd09db7154e9de5e75ab64a137bee20541fc39575e02e1b8a71e6e3bbfac27"
+    },
+    {
+      "path": "04_recipes/MATERIAL_RECIPES.json",
+      "bytes": 1255,
+      "sha256": "0738c9347837bd4b8e4b14c3a75be2a960d1bd5000ca90d09106e6d782955166"
+    },
+    {
+      "path": "05_tools/USAGE_RU.md",
+      "bytes": 2509,
+      "sha256": "2accd130aedd0192efcba9b863ad079147bf5dd9d244e039e83bc3ba828ee489"
+    },
+    {
+      "path": "05_tools/__pycache__/image_quality_audit.cpython-313.pyc",
+      "bytes": 5921,
+      "sha256": "034e6545c4f4bcd04f13f792e9c5d7ab5d49bb294ac5a97b0675bd989ba3f78e"
+    },
+    {
+      "path": "05_tools/image_quality_audit.py",
+      "bytes": 3505,
+      "sha256": "2d4a57f235ebd635308aa63650e6a197fb89016539768923a4fd4176b566d2fa"
+    },
+    {
+      "path": "05_tools/production_lookdev_tools.py",
+      "bytes": 18018,
+      "sha256": "57b48dec396c6bdce4508df28bf0dffd5eb54aa6c575ca3982b51b9811d89dc1"
+    },
+    {
+      "path": "05_tools/requirements.txt",
+      "bytes": 85,
+      "sha256": "7e3d31f9ab0e2640d6c028936fc5e16280fc12f0436fd7f4211736d1651e9630"
+    },
+    {
+      "path": "05_tools/scene_quality_audit.py",
+      "bytes": 9531,
+      "sha256": "637e7b2d42f2766a7ec4b3e945aba2b4fe89f2c9d78739bd5705636635024ffd"
+    },
+    {
+      "path": "06_skill/blender-production-lookdev/SKILL.md",
+      "bytes": 4550,
+      "sha256": "badee204ecaf73c8367bb118fb28b00c48fbb161a6c93468525eeeb3c894d98c"
+    },
+    {
+      "path": "07_examples/01_upgrade_current_scene.py",
+      "bytes": 2433,
+      "sha256": "19deba7bea21d0a46277ab92108f95a25b38946022dfb4329de09958cc8842e9"
+    },
+    {
+      "path": "07_examples/02_threejs_viewer_setup.js",
+      "bytes": 1072,
+      "sha256": "25a8a2a142d06a905f1bd9cd0970353a46af395ce3acd893583bf466d6bdfa35"
+    },
+    {
+      "path": "08_sources/SOURCES_RU.md",
+      "bytes": 4192,
+      "sha256": "f2550229cc8b0cf3cde4c1ab3536ce5abafd611059c62b995c0843362ed882fe"
+    },
+    {
+      "path": "09_review/QUALITY_REVIEW_RU.md",
+      "bytes": 2806,
+      "sha256": "e6851d92a2caa23f452142299d9707f0beffac26f6e798a63ddd35a91468c4fe"
+    },
+    {
+      "path": "09_review/STATIC_VALIDATION.json",
+      "bytes": 2124,
+      "sha256": "956599985c63931b1d631bee1de0ba5741997e9898a3cf0aa99f40a8ad565c34"
+    },
+    {
+      "path": "09_review/test_patch.py",
+      "bytes": 5483,
+      "sha256": "e553e5f7d5b982ccdfe27d322aa0eb2f6afdc231253c1f3c2edf6f5e8ca7315f"
+    },
+    {
+      "path": "README_RU.md",
+      "bytes": 2158,
+      "sha256": "024e893b67fca5c810ea4910ba8a112ff2b01169e22d7214b1325545f7a5b0f7"
+    },
+    {
+      "path": "V6_CHANGELOG_RU.md",
+      "bytes": 614,
+      "sha256": "8f74fee232b959b7df64a7216a04a8b67fe3c962d5650b28de84be2a97c664b9"
+    },
+    {
+      "path": "reference/current_scene.png",
+      "bytes": 340199,
+      "sha256": "38061dd7f8d0be9f252b8c924e481727a820472f1b2aecb9863e39d46c5abf0f"
+    },
+    {
+      "path": "reference/current_scene_clipping_map.png",
+      "bytes": 179323,
+      "sha256": "95830e7e9929546415e4c6c8b24d2509063ffda3a6a39b8c9f77487f89825bee"
+    }
+  ]
+}

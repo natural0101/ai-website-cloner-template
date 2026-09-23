@@ -1,0 +1,22 @@
+{
+  "status": "pass",
+  "review_date": "2026-06-22",
+  "blender_runtime": "pass",
+  "reference_runtime": "pass",
+  "runtime_test_count": 5,
+  "reference_test_count": 7,
+  "metrics": {
+    "hand_sphere_triangles": 11496,
+    "hand_sphere_validation": "pass",
+    "glb_bytes": 261856,
+    "contour_mask_iou": 0.9759729272419628,
+    "contour_boundary_f1": 1.0,
+    "hole_mask_iou": 0.973586397785686,
+    "hole_count_preserved": true
+  },
+  "reports": [
+    "demo/blender_runtime/blender_runtime_tests.json",
+    "demo/blender_runtime/reference_runtime_tests.json",
+    "10_review/STATIC_VALIDATION.json"
+  ]
+}

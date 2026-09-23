@@ -1,0 +1,33 @@
+{
+  "name": "AI Blender Agent Kit — Research & Feedback Upgrade",
+  "version": "1.4.0",
+  "snapshot_date": "2026-06-22",
+  "base": "AI Blender Agent Kit v3 shape reconstruction",
+  "activation": "optional; complex/reference/multi-part/repeated-failure tasks only",
+  "entry_points": {
+    "human": "research_feedback_upgrade/README_RU.md",
+    "research_summary": "research_feedback_upgrade/00_research/EXECUTIVE_SUMMARY_RU.md",
+    "case_studies": "research_feedback_upgrade/00_research/CASE_STUDIES_RU.md",
+    "agent_prompt": "research_feedback_upgrade/02_agent_memory/PASTE_INTO_AGENT_PROMPT_RU.md",
+    "mcp_hardening": "research_feedback_upgrade/08_install/MCP_HARDENING_RU.md",
+    "staged_skill": "research_feedback_upgrade/05_skills/blender-staged-production/SKILL.md",
+    "structural_skill": "research_feedback_upgrade/05_skills/blender-structural-qa/SKILL.md",
+    "examples": "research_feedback_upgrade/06_examples/examples.jsonl",
+    "quality_review": "research_feedback_upgrade/09_review/QUALITY_REVIEW_RU.md",
+    "static_validation": "research_feedback_upgrade/09_review/STATIC_VALIDATION.json"
+  },
+  "dependencies": {
+    "required_external": [],
+    "optional": [
+      "OpenCV venv from v3 for masks/overlay",
+      "Qdrant/embeddings only at larger example scale"
+    ]
+  },
+  "new_optional_mcp_contracts": 4,
+  "network_default": "off",
+  "runtime_validation": {
+    "pure_python": "required",
+    "blender_v4_modules": "first-run required in owner Blender",
+    "preserved_v3_blender_runtime": "5.1.2"
+  }
+}

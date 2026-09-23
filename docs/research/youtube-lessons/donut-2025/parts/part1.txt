@@ -1,0 +1,757 @@
+00:02 So, this is Blender. It can do 3D modeling, texturing, lighting, shading,
+00:06 modeling, texturing, lighting, shading, and rendering. And I'm going to show you
+00:08 and rendering. And I'm going to show you how to do all of those things whilst you
+00:10 how to do all of those things whilst you make your very own doughut. And I know
+00:13 make your very own doughut. And I know this looks complex and challenging, but
+00:16 this looks complex and challenging, but I promise you it is achievable for even
+00:18 I promise you it is achievable for even a complete beginner that has never
+00:20 a complete beginner that has never opened Blender such as yourself. And I
+00:22 opened Blender such as yourself. And I know this because millions of beginners
+00:24 know this because millions of beginners have already made their doughnut because
+00:26 have already made their doughnut because this is the fifth version of this
+00:28 this is the fifth version of this tutorial. I remake it for every major
+00:30 tutorial. I remake it for every major Blender release. This one for Blender
+00:32 Blender release. This one for Blender 5.0. And speaking of which, if you have
+00:35 5.0. And speaking of which, if you have already made a donut from a previous
+00:36 already made a donut from a previous version, rather than make another one,
+00:39 version, rather than make another one, I've actually just released a course
+00:41 I've actually just released a course designed for postdonut beginners. So, if
+00:44 designed for postdonut beginners. So, if you're interested in that, you can click
+00:45 you're interested in that, you can click the link below. For everybody else, you
+00:47 the link below. For everybody else, you need to download Blender. So, if you
+00:49 need to download Blender. So, if you haven't already, click the link below.
+00:51 haven't already, click the link below. That'll take you to blender.org and then
+00:53 That'll take you to blender.org and then just hit the big download button. Now,
+00:56 just hit the big download button. Now, if you're on Windows, that'll download
+00:57 if you're on Windows, that'll download an executable, which you should install.
+00:59 an executable, which you should install. If you're on a Mac, it's an application
+01:01 If you're on a Mac, it's an application you drag to your applications folder.
+01:03 you drag to your applications folder. And also, if you're at school or you're
+01:05 And also, if you're at school or you're on a work computer that won't let you
+01:07 on a work computer that won't let you install anything, you can still use
+01:09 install anything, you can still use Blender. If you download the portable
+01:12 Blender. If you download the portable zip version of Blender, then just unzip
+01:14 zip version of Blender, then just unzip it. You can run Blender from the folder.
+01:17 it. You can run Blender from the folder. Pretty cool. Anyway, however you got
+01:19 Pretty cool. Anyway, however you got Blender, open it, and you should see
+01:22 Blender, open it, and you should see this. Then just click anywhere off the
+01:24 this. Then just click anywhere off the splash screen to close it. And you're in
+01:26 splash screen to close it. And you're in Blender. Hey, welcome. So this big
+01:30 Blender. Hey, welcome. So this big section, this big gray area here, this
+01:32 section, this big gray area here, this is your 3D viewport. And it's where
+01:34 is your 3D viewport. And it's where you'll spend probably 98% of your time
+01:39 you'll spend probably 98% of your time because it's the it's the 3D world.
+01:40 because it's the it's the 3D world. Whether you're making a character,
+01:42 Whether you're making a character, you're building an environment, it all
+01:44 you're building an environment, it all happens right here. Um, so the first
+01:46 happens right here. Um, so the first thing you need to learn is how to move
+01:48 thing you need to learn is how to move around in this space. And you can orbit
+01:51 around in this space. And you can orbit by middle mouse pushing. So your scroll
+01:54 by middle mouse pushing. So your scroll wheel, if you just push it in until it
+01:56 wheel, if you just push it in until it clicks, that's your middle mouse button.
+01:58 clicks, that's your middle mouse button. And then if you just drag that around,
+02:00 And then if you just drag that around, you can orbit. If you don't have a
+02:01 you can orbit. If you don't have a middle mouse button, a lot of people
+02:03 middle mouse button, a lot of people don't. They're on like a laptop with a
+02:04 don't. They're on like a laptop with a trackpad or something. You guys will
+02:06 trackpad or something. You guys will struggle. It's definitely easier if you
+02:08 struggle. It's definitely easier if you have a mouse. Uh but in a pinch, top
+02:11 have a mouse. Uh but in a pinch, top right hand corner, you just mouse over
+02:12 right hand corner, you just mouse over this little circle and then just click
+02:14 this little circle and then just click and drag on that. Um that'll do the same
+02:16 and drag on that. Um that'll do the same thing. Or the third alternative way to
+02:19 thing. Or the third alternative way to do it, edit preferences and then
+02:21 do it, edit preferences and then underneath input emulate threeb button
+02:24 underneath input emulate threeb button mouse and then if you hold down alt and
+02:26 mouse and then if you hold down alt and then leftclick drag um that will do the
+02:28 then leftclick drag um that will do the same thing. I don't want that. By the
+02:31 same thing. I don't want that. By the way, whilst I am here, a value that you
+02:33 way, whilst I am here, a value that you will want to change if you're on a 4K
+02:35 will want to change if you're on a 4K monitor, you will probably have noticed
+02:37 monitor, you will probably have noticed that like Blender looks like this where
+02:39 that like Blender looks like this where like everything is really super tiny and
+02:41 like everything is really super tiny and you have to squint to see it. So,
+02:43 you have to squint to see it. So, underneath interface, I change my
+02:44 underneath interface, I change my resolution scale to at least a 1.5. Um,
+02:48 resolution scale to at least a 1.5. Um, usually like 1.8. Um, but for tutorials,
+02:51 usually like 1.8. Um, but for tutorials, I go even higher so you can really see
+02:52 I go even higher so you can really see everything, but it's obviously much
+02:54 everything, but it's obviously much easier to use when you can see things
+02:56 easier to use when you can see things clearly. Okay, so middle mouse drag,
+02:58 clearly. Okay, so middle mouse drag, that's how you orbit around. You can see
+03:00 that's how you orbit around. You can see we're focusing on our cube at the
+03:03 we're focusing on our cube at the moment, though. So, how do we move to
+03:04 moment, though. So, how do we move to somewhere else? You do that by shift
+03:07 somewhere else? You do that by shift middle mouse drag, and that will pan you
+03:10 middle mouse drag, and that will pan you somewhere else. You can also over here
+03:13 somewhere else. You can also over here on the the side there, click that little
+03:15 on the the side there, click that little hand. That will do the same thing. But
+03:17 hand. That will do the same thing. But yeah, shift middle mouse drag or middle
+03:19 yeah, shift middle mouse drag or middle mouse drag to orbit. And what about
+03:22 mouse drag to orbit. And what about zoom? You can probably guess, you might
+03:23 zoom? You can probably guess, you might have already done it by mistake, but
+03:25 have already done it by mistake, but just zooming by scrolling in and out on
+03:28 just zooming by scrolling in and out on your wheel. Or again, you can go to the
+03:30 your wheel. Or again, you can go to the little magnifying glass there. Just
+03:31 little magnifying glass there. Just click on that and do that. Or
+03:33 click on that and do that. Or alternatively, control middle mouse and
+03:36 alternatively, control middle mouse and then that will also move you in as well.
+03:38 then that will also move you in as well. So, I've thrown a lot of keyboard
+03:40 So, I've thrown a lot of keyboard shortcuts at you already. Middle mouse
+03:41 shortcuts at you already. Middle mouse for this, shift, middle mouse to pan,
+03:44 for this, shift, middle mouse to pan, um, scroll. If you don't want to have to
+03:46 um, scroll. If you don't want to have to remember all the hotkeys, cuz I'm going
+03:47 remember all the hotkeys, cuz I'm going to throw a lot more at you. If you don't
+03:50 to throw a lot more at you. If you don't want to have to write them down
+03:51 want to have to write them down yourself, I have done it for you. So, I
+03:53 yourself, I have done it for you. So, I put together a Google doc with all of
+03:56 put together a Google doc with all of the most common hotkeys and short key
+03:58 the most common hotkeys and short key shortcuts that you might need to use.
+04:00 shortcuts that you might need to use. Um, and it's free. So, just click the
+04:02 Um, and it's free. So, just click the link below and you can, um, print it
+04:04 link below and you can, um, print it out, you can stick it on your wall. Um,
+04:05 out, you can stick it on your wall. Um, a lot of people do that and it's u big
+04:07 a lot of people do that and it's u big time saver. Okay, now it's really common
+04:09 time saver. Okay, now it's really common to like get lost like one way is to like
+04:11 to like get lost like one way is to like end up upside down like this and then
+04:14 end up upside down like this and then you're like which way is up? How do I,
+04:16 you're like which way is up? How do I, you know, if you just over here these
+04:18 you know, if you just over here these little um these little this gizmo thing,
+04:20 little um these little this gizmo thing, these these colored circle things with
+04:25 these these colored circle things with lines, those are your axes. So if you
+04:27 lines, those are your axes. So if you just click on one of those, that'll
+04:28 just click on one of those, that'll reorient yourself. So the Z, that's the
+04:31 reorient yourself. So the Z, that's the top axis. And then you just you're back,
+04:33 top axis. And then you just you're back, right? you know which way is up because
+04:35 right? you know which way is up because it's it's it's that way, right? Which
+04:36 it's it's it's that way, right? Which way that one is pointing. Another way,
+04:38 way that one is pointing. Another way, like if you got like really off into the
+04:40 like if you got like really off into the weeds, like you were over here, and then
+04:41 weeds, like you were over here, and then you're like, "How do I how do I get back
+04:43 you're like, "How do I how do I get back to where I was?" Um, if you've got an
+04:46 to where I was?" Um, if you've got an object selected and you just want to
+04:48 object selected and you just want to focus on like just fly to it, um, and
+04:50 focus on like just fly to it, um, and this is a really common hotkey. You use
+04:53 this is a really common hotkey. You use it all the time. Uh, it's numpad period,
+04:57 it all the time. Uh, it's numpad period, and that'll just fly you to that. If you
+04:59 and that'll just fly you to that. If you don't have a numpad, like even a lot of
+05:01 don't have a numpad, like even a lot of keyboards today, they don't sell them
+05:02 keyboards today, they don't sell them with numpads anymore, I guess, cuz
+05:05 with numpads anymore, I guess, cuz people aren't accountants. They don't
+05:06 people aren't accountants. They don't need to quickly type in numbers. But I
+05:09 need to quickly type in numbers. But I love them cuz it's really useful for
+05:11 love them cuz it's really useful for Blender. Um, if you don't have one,
+05:13 Blender. Um, if you don't have one, [laughter] um, you can also use the
+05:16 [laughter] um, you can also use the tilda key, which is that little key
+05:18 tilda key, which is that little key underneath your escape key. So, if you
+05:20 underneath your escape key. So, if you hold that down and then just drag over
+05:22 hold that down and then just drag over where it says view selected and then
+05:24 where it says view selected and then release, that'll do the exact same
+05:26 release, that'll do the exact same thing. So, that is how you can quickly
+05:28 thing. So, that is how you can quickly change focus to the selected object. Um,
+05:32 change focus to the selected object. Um, and yeah, as I said, you do this all the
+05:35 and yeah, as I said, you do this all the time. Um, but yeah, I'm going to be
+05:37 time. Um, but yeah, I'm going to be using numpad period from now on. Okay,
+05:40 using numpad period from now on. Okay, so we're making a donut. We do not need
+05:42 so we're making a donut. We do not need our cube here. So, let's delete it. You
+05:44 our cube here. So, let's delete it. You can just hit delete on your keyboard.
+05:46 can just hit delete on your keyboard. Um, or what I like to do is hit X, which
+05:49 Um, or what I like to do is hit X, which is the alternative way. And, um, it's
+05:51 is the alternative way. And, um, it's just easier cuz my finger is like right
+05:53 just easier cuz my finger is like right there. I know it's another hotkey to
+05:54 there. I know it's another hotkey to remember, but you delete stuff a lot as
+05:56 remember, but you delete stuff a lot as well, and it's helpful to not have to
+05:58 well, and it's helpful to not have to find that key. So, X, and then delete.
+06:01 find that key. So, X, and then delete. And now I want to add a new object. And
+06:03 And now I want to add a new object. And I can do that by going to add at the top
+06:05 I can do that by going to add at the top of the screen there. Or alternatively,
+06:07 of the screen there. Or alternatively, the hotkey, another one to throw at you,
+06:09 the hotkey, another one to throw at you, shift A, and that'll just put it
+06:11 shift A, and that'll just put it wherever your cursor is. And it's the
+06:13 wherever your cursor is. And it's the exact same list. But this list here is,
+06:16 exact same list. But this list here is, I mean, it's extensive. There's stuff in
+06:18 I mean, it's extensive. There's stuff in here that I have never used in my 21
+06:20 here that I have never used in my 21 years of using Blender. speaker. Never
+06:23 years of using Blender. speaker. Never ever used it. Don't know what it's for.
+06:25 ever used it. Don't know what it's for. Um, most of the time what you're looking
+06:27 Um, most of the time what you're looking for is underneath mesh. So, these are
+06:29 for is underneath mesh. So, these are your primitive mesh objects. And
+06:32 your primitive mesh objects. And generally, when you're making something,
+06:34 generally, when you're making something, you pick one of these that most
+06:36 you pick one of these that most resembles or is closest to what it is
+06:38 resembles or is closest to what it is you're making. Like, if you're making a
+06:39 you're making. Like, if you're making a mailbox, you might start with a cube.
+06:41 mailbox, you might start with a cube. You're making a a lamp post, you might
+06:43 You're making a a lamp post, you might start with a cylinder. We're starting.
+06:46 start with a cylinder. We're starting. Well, we're trying to make a donut. So,
+06:48 Well, we're trying to make a donut. So, we need to start with a Taurus, which is
+06:51 we need to start with a Taurus, which is basically a donut. Look at that. So,
+06:54 basically a donut. Look at that. So, that's cool. It's a wimpy looking donut
+06:57 that's cool. It's a wimpy looking donut though, right? It's very, very flimsy.
+06:59 though, right? It's very, very flimsy. We want to make it look uh more thicker,
+07:02 We want to make it look uh more thicker, right? So, in the bottom left hand
+07:04 right? So, in the bottom left hand corner, there's a little box that says
+07:06 corner, there's a little box that says add Taurus. And this has additional
+07:08 add Taurus. And this has additional options for us. Now, if you accidentally
+07:11 options for us. Now, if you accidentally clicked off after you added the Taurus,
+07:14 clicked off after you added the Taurus, that box is gone. Um, you can
+07:16 that box is gone. Um, you can momentarily bring it back by hitting F9,
+07:19 momentarily bring it back by hitting F9, but that's only if you haven't changed
+07:20 but that's only if you haven't changed something. So, essentially, yeah, it
+07:23 something. So, essentially, yeah, it it's called the last used function in
+07:25 it's called the last used function in Blender. So, immediately after you do an
+07:27 Blender. So, immediately after you do an action in Blender, sometimes you see in
+07:29 action in Blender, sometimes you see in the bottom lefthand corner additional
+07:31 the bottom lefthand corner additional options which you can tweak and change
+07:33 options which you can tweak and change things if you need. So, if you don't see
+07:35 things if you need. So, if you don't see it, it just means you've done something
+07:36 it, it just means you've done something else and it's gone. Um, but yeah, you
+07:38 else and it's gone. Um, but yeah, you can bring it back uh momentarily by
+07:40 can bring it back uh momentarily by hitting F9 sometimes, but I usually just
+07:42 hitting F9 sometimes, but I usually just like redo it. Um, anyways, so first
+07:45 like redo it. Um, anyways, so first thing I want to change is uh the size of
+07:47 thing I want to change is uh the size of this thing. So, it is 1 m, which is like
+07:50 this thing. So, it is 1 m, which is like 3 ft for the Americans. It's a big
+07:52 3 ft for the Americans. It's a big donut. Um, probably shouldn't be that
+07:53 donut. Um, probably shouldn't be that big. It should be about 10% of that. So,
+07:56 big. It should be about 10% of that. So, 0.1, which is 10 cm, roughly about that.
+07:59 0.1, which is 10 cm, roughly about that. And then if I zoom in by scrolling
+08:01 And then if I zoom in by scrolling forward, I just need to change my minor
+08:04 forward, I just need to change my minor radius until it looks somewhat like a
+08:07 radius until it looks somewhat like a donut. So I want to just uh orbit up
+08:11 donut. So I want to just uh orbit up right and around. So I'm just middle
+08:12 right and around. So I'm just middle mouse moving so I can see the inside.
+08:14 mouse moving so I can see the inside. Then I'll just scroll in like so until
+08:18 Then I'll just scroll in like so until Yeah. And I'm just going to change this
+08:20 Yeah. And I'm just going to change this value until it looks like uh like a
+08:22 value until it looks like uh like a donut. Now you can see as I move this
+08:24 donut. Now you can see as I move this like it's going really quick and I can't
+08:26 like it's going really quick and I can't get it on the right value. So, when
+08:28 get it on the right value. So, when you're clicking and dragging on a value
+08:30 you're clicking and dragging on a value in Blender, if you hold down shift, that
+08:32 in Blender, if you hold down shift, that will use smaller increments.
+08:34 will use smaller increments. [clears throat]
+08:34 [clears throat] Um, and that's another one you use all
+08:36 Um, and that's another one you use all the time. Um, because it's, uh, yeah,
+08:38 the time. Um, because it's, uh, yeah, sometimes you need small values and it's
+08:40 sometimes you need small values and it's helpful to get smaller increments like
+08:42 helpful to get smaller increments like that. So, that's pretty good. I might go
+08:45 that. So, that's pretty good. I might go with that. Yeah, about a 057.
+08:50 with that. Yeah, about a 057. Okay. And then the other thing you can
+08:52 Okay. And then the other thing you can change here is like the resolution of
+08:55 change here is like the resolution of the donut. Um, you know, you can go like
+08:57 the donut. Um, you know, you can go like really PlayStation one graphics maybe.
+09:00 really PlayStation one graphics maybe. Um, I'm going to keep it at 48, but I'm
+09:04 Um, I'm going to keep it at 48, but I'm going to increase the other one to about
+09:08 going to increase the other one to about Yeah, let's go 18 like that. Um,
+09:12 Yeah, let's go 18 like that. Um, 16, 18. Yeah, we'll go 18. Um, and
+09:15 16, 18. Yeah, we'll go 18. Um, and that's just a little bit more
+09:16 that's just a little bit more resolution, and it's just going to help
+09:18 resolution, and it's just going to help us a little bit later on when we start
+09:19 us a little bit later on when we start to shape um the donut. Okay. But once
+09:22 to shape um the donut. Okay. But once I've got that, I can just click off. And
+09:24 I've got that, I can just click off. And now those options are gone. We've
+09:25 now those options are gone. We've committed. That's it. That is the
+09:27 committed. That's it. That is the starting point of our donut. Now, the
+09:30 starting point of our donut. Now, the next thing you're probably wondering is
+09:32 next thing you're probably wondering is it still kind of looks like PlayStation
+09:34 it still kind of looks like PlayStation One graphics, Andrew. Um, and that's
+09:36 One graphics, Andrew. Um, and that's because it has flat shading. So,
+09:39 because it has flat shading. So, basically, there's two states for a
+09:41 basically, there's two states for a mesh. Um, there's smooth shading or
+09:43 mesh. Um, there's smooth shading or there is flat shading, and it defaults
+09:44 there is flat shading, and it defaults to flat. If you want to change it to
+09:46 to flat. If you want to change it to smooth, you just rightclick the object
+09:48 smooth, you just rightclick the object and then go shade smooth like that. And
+09:51 and then go shade smooth like that. And there we go. It's fixed. So it basically
+09:53 there we go. It's fixed. So it basically shades smooth without getting too
+09:54 shades smooth without getting too technical. Anytime there is like two
+09:56 technical. Anytime there is like two faces, it just kind of smooths out that
+09:58 faces, it just kind of smooths out that point like fakery. So it's not actually
+10:02 point like fakery. So it's not actually adding any additional computation times
+10:04 adding any additional computation times which is important. Um but it's
+10:06 which is important. Um but it's appearing to the eye to be smooth. Okay.
+10:09 appearing to the eye to be smooth. Okay. So um in previous doughnut versions we
+10:13 So um in previous doughnut versions we would uh start making the icing. And
+10:15 would uh start making the icing. And although that's fun to make like
+10:17 although that's fun to make like dribbling icing, um it can be a little
+10:19 dribbling icing, um it can be a little complicated. a lot of users uh ran into
+10:22 complicated. a lot of users uh ran into their first uh roadblocks at that that
+10:24 their first uh roadblocks at that that time. So instead, we're going to do
+10:26 time. So instead, we're going to do something a little bit easier to start
+10:27 something a little bit easier to start with um and more practical, and that's
+10:29 with um and more practical, and that's to make a coffee mug. So, we need to add
+10:33 to make a coffee mug. So, we need to add in a new object, which if you can
+10:35 in a new object, which if you can remember from before, it's the add menu
+10:37 remember from before, it's the add menu at the top there, or the hotkey as I
+10:39 at the top there, or the hotkey as I like to use, shift A. And then
+10:41 like to use, shift A. And then underneath mesh, you're looking for
+10:42 underneath mesh, you're looking for something that most resembles the object
+10:44 something that most resembles the object you're trying to create. No prizes for
+10:46 you're trying to create. No prizes for guessing, the cylinder. Okay. So, it
+10:49 guessing, the cylinder. Okay. So, it comes in very very big. It's uh
+10:51 comes in very very big. It's uh completely engulfing our donut. So,
+10:53 completely engulfing our donut. So, again, in the bottom lefthand corner. Uh
+10:56 again, in the bottom lefthand corner. Uh click that little add cylinder. And then
+10:57 click that little add cylinder. And then I'm going to change the radius first of
+10:59 I'm going to change the radius first of all just to bring this back. You can
+11:01 all just to bring this back. You can like do this after the fact like resize
+11:03 like do this after the fact like resize something. Um but it just helps to, you
+11:05 something. Um but it just helps to, you know, at this point see it all together.
+11:07 know, at this point see it all together. Um I think I'm going to make it around
+11:10 Um I think I'm going to make it around holding down shift and just kind of drag
+11:12 holding down shift and just kind of drag it back and forth. Yeah, about.13
+11:15 it back and forth. Yeah, about.13 or exactly.13.
+11:17 or exactly.13. Uh and then the depth. This is just the
+11:18 Uh and then the depth. This is just the height of it. And again, you can change
+11:20 height of it. And again, you can change this later on, but just want to see it
+11:22 this later on, but just want to see it roughly the right size. The big one
+11:24 roughly the right size. The big one that's important is the vertices. And
+11:26 that's important is the vertices. And we're actually going to make this look
+11:28 we're actually going to make this look more low res. Now, why would we make it
+11:31 more low res. Now, why would we make it look more low res? Um cuz now it's
+11:33 look more low res? Um cuz now it's obviously very jagged. The reason for
+11:36 obviously very jagged. The reason for this is that very soon we're going to be
+11:38 this is that very soon we're going to be adding in something called a subsurf
+11:39 adding in something called a subsurf modifier, which adds over the top of our
+11:42 modifier, which adds over the top of our existing mesh. it adds more geometry
+11:45 existing mesh. it adds more geometry like it doubles the geometry and it kind
+11:47 like it doubles the geometry and it kind of smooths it out. So actually if you
+11:49 of smooths it out. So actually if you start too high like this then you're
+11:51 start too high like this then you're adding like doubling that geometry and
+11:53 adding like doubling that geometry and doubling it again and then you can
+11:55 doubling it again and then you can quickly end up with something that's too
+11:57 quickly end up with something that's too computationally heavy. So when you're
+11:59 computationally heavy. So when you're working and you know you're going to be
+12:01 working and you know you're going to be doing something subdiv sometimes it
+12:02 doing something subdiv sometimes it helps to start like chunkier low res. Um
+12:06 helps to start like chunkier low res. Um anyway just just trust me and set it to
+12:09 anyway just just trust me and set it to uh 14 like that. Okay great. So, we've
+12:13 uh 14 like that. Okay great. So, we've got another object and they are
+12:15 got another object and they are completely overlapping. So, how do we
+12:17 completely overlapping. So, how do we separate things? Um, some of you might
+12:19 separate things? Um, some of you might already know this. You can guess right
+12:21 already know this. You can guess right left hand side there, there's a tool
+12:23 left hand side there, there's a tool that looks like it would be able to move
+12:25 that looks like it would be able to move something. It's the move tool. So, this
+12:27 something. It's the move tool. So, this is one way to move things. You activate
+12:30 is one way to move things. You activate that and you get this little gizmo. And
+12:32 that and you get this little gizmo. And look, I can move it and I can separate
+12:33 look, I can move it and I can separate them. Um, so this is moving things along
+12:36 them. Um, so this is moving things along the axes. Um, you can also uh just drag
+12:40 the axes. Um, you can also uh just drag on that uh click and drag on that little
+12:42 on that uh click and drag on that little white circle there. And then that's like
+12:43 white circle there. And then that's like freehand uh drag around. I will say most
+12:47 freehand uh drag around. I will say most Blender users don't actually use and
+12:50 Blender users don't actually use and move things this way because it's a lot
+12:52 move things this way because it's a lot of effort every time you want to move
+12:53 of effort every time you want to move something to like go to the sidebar,
+12:55 something to like go to the sidebar, activate the tool, you know, click it,
+12:58 activate the tool, you know, click it, move it. It's like most people don't do
+13:00 move it. It's like most people don't do that. Instead, they remember the hotkey
+13:01 that. Instead, they remember the hotkey and the hotkey to move in Blender. And
+13:04 and the hotkey to move in Blender. And you'll be using this a lot. So again,
+13:05 you'll be using this a lot. So again, this is on my keyboard shortcut. Um,
+13:08 this is on my keyboard shortcut. Um, it's it's all in there. But the hotkey
+13:09 it's it's all in there. But the hotkey is G. G for grab. Now, you will notice
+13:14 is G. G for grab. Now, you will notice very quickly that when you tap G, the
+13:17 very quickly that when you tap G, the moment you tap it, you are already in
+13:19 moment you tap it, you are already in the move state. So, it's now attached to
+13:22 the move state. So, it's now attached to my cursor even though I didn't click.
+13:24 my cursor even though I didn't click. Okay. So, and here's the other thing. My
+13:26 Okay. So, and here's the other thing. My cursor could be on the other side of the
+13:28 cursor could be on the other side of the screen. Doesn't have to be anywhere near
+13:30 screen. Doesn't have to be anywhere near the object. And then the moment you tap
+13:32 the object. And then the moment you tap G, it's now anchored to that cursor. Um,
+13:36 G, it's now anchored to that cursor. Um, and even more I I think it's cool when
+13:38 and even more I I think it's cool when you go to the other side of the screen,
+13:40 you go to the other side of the screen, it actually your cursor appears on the
+13:42 it actually your cursor appears on the other side. So it's just like an
+13:43 other side. So it's just like an infinitely repeating um thing there.
+13:45 infinitely repeating um thing there. [clears throat] But at first this is
+13:47 [clears throat] But at first this is like hard to wrap your head around
+13:48 like hard to wrap your head around because Blender does this for a lot of
+13:51 because Blender does this for a lot of things like not just moving something
+13:52 things like not just moving something but also rotating something. The moment
+13:54 but also rotating something. The moment I tap R, which is how to rotate
+13:56 I tap R, which is how to rotate something, or S. Okay, that's I thought
+14:00 something, or S. Okay, that's I thought I might as well just teach you all three
+14:01 I might as well just teach you all three at the same time. So, G to move
+14:03 at the same time. So, G to move something, G for grab, R to rotate, or S
+14:06 something, G for grab, R to rotate, or S to scale something. But you'll see in
+14:08 to scale something. But you'll see in each of those states, the moment you hit
+14:10 each of those states, the moment you hit the key, no matter where your cursor is,
+14:12 the key, no matter where your cursor is, it's uh it's in that state. And that's
+14:14 it's uh it's in that state. And that's actually a good thing because as I said,
+14:16 actually a good thing because as I said, the number of times you need to move
+14:17 the number of times you need to move things and rotate and scale things in
+14:19 things and rotate and scale things in 3D, if you had to every single time
+14:22 3D, if you had to every single time change the tool, then move your cursor
+14:24 change the tool, then move your cursor over to it, click it, activate it,
+14:27 over to it, click it, activate it, that's a lot of extra steps. So, it's
+14:29 that's a lot of extra steps. So, it's actually really cool to have this like
+14:32 actually really cool to have this like just one tap key and it's already
+14:34 just one tap key and it's already activated. Um, [clears throat] anyways.
+14:35 activated. Um, [clears throat] anyways. Okay. So, but uh whilst I'm in uh the
+14:39 Okay. So, but uh whilst I'm in uh the move state by tapping G, um I can also
+14:42 move state by tapping G, um I can also uh lock it to a specific axis just like
+14:44 uh lock it to a specific axis just like um with with those arrows that you saw
+14:46 um with with those arrows that you saw before. So, just when it's in that move
+14:48 before. So, just when it's in that move state, you tap the the axis you want to
+14:50 state, you tap the the axis you want to move it on. So, that's the X axis. The Y
+14:54 move it on. So, that's the X axis. The Y brings it back and forwards and the Z is
+14:57 brings it back and forwards and the Z is um up and down. Okay. And that's
+14:59 um up and down. Okay. And that's correct. Blender is Z up, Y backwards
+15:02 correct. Blender is Z up, Y backwards and forwards. Different 3D applications
+15:03 and forwards. Different 3D applications have different things. There's no like
+15:05 have different things. There's no like standard. But yeah, that's how Blenders
+15:07 standard. But yeah, that's how Blenders is. And by the way, if you forget which
+15:10 is. And by the way, if you forget which letter is which axis, you can actually
+15:12 letter is which axis, you can actually see them up there in that little circle
+15:13 see them up there in that little circle there. So again, X, Y, and uh and Z.
+15:17 there. So again, X, Y, and uh and Z. Anyways, I want to move this actually
+15:19 Anyways, I want to move this actually just a little bit further back right
+15:21 just a little bit further back right there. So I want my my donut to be the
+15:24 there. So I want my my donut to be the uh front and center, and I want this to
+15:26 uh front and center, and I want this to be at the back there. But then, how do I
+15:28 be at the back there. But then, how do I change my view? So I'm no longer just
+15:30 change my view? So I'm no longer just pivoting on my donut. I want to shift my
+15:32 pivoting on my donut. I want to shift my focus to that selected object. It's
+15:34 focus to that selected object. It's number pad period or again holding down
+15:37 number pad period or again holding down that tilda key under your escape button
+15:40 that tilda key under your escape button and then hitting uh view selected is the
+15:42 and then hitting uh view selected is the same thing. Okay. So let's make this
+15:45 same thing. Okay. So let's make this look like a coffee mug. So we have to
+15:48 look like a coffee mug. So we have to edit this object. And uh to edit an
+15:51 edit this object. And uh to edit an object we have to change what mode we
+15:53 object we have to change what mode we are in. So in the top leftand corner of
+15:56 are in. So in the top leftand corner of the screen there's a little drop down
+15:58 the screen there's a little drop down which if you click we can change it into
+16:00 which if you click we can change it into edit mode. Okay. So when you're in edit
+16:03 edit mode. Okay. So when you're in edit mode you can see the state has changed.
+16:05 mode you can see the state has changed. The object that was selected now has a
+16:07 The object that was selected now has a bunch of points and lines on it. Um and
+16:10 bunch of points and lines on it. Um and you'll also notice whilst you're in edit
+16:12 you'll also notice whilst you're in edit mode, you can't actually select any
+16:15 mode, you can't actually select any object. And it's it's worth pointing out
+16:17 object. And it's it's worth pointing out this because this is a really common
+16:19 this because this is a really common thing. A lot of beginners, they they
+16:21 thing. A lot of beginners, they they say, "I I don't know what happened, but
+16:22 say, "I I don't know what happened, but I couldn't select anything in Blender."
+16:24 I couldn't select anything in Blender." And usually it's just they're in the
+16:26 And usually it's just they're in the wrong state. They're in edit mode. They
+16:28 wrong state. They're in edit mode. They forgot. And then they tried to like come
+16:31 forgot. And then they tried to like come over here and then click something and
+16:32 over here and then click something and they're like, "Why is it not selecting?"
+16:34 they're like, "Why is it not selecting?" Okay, so you have to be in object mode
+16:37 Okay, so you have to be in object mode if you want to select an object. And if
+16:39 if you want to select an object. And if you want to edit something, you have to
+16:40 you want to edit something, you have to be in edit mode. Um, but going to this
+16:44 be in edit mode. Um, but going to this dropown and doing this time and again
+16:46 dropown and doing this time and again would uh again be annoying. So, Blender,
+16:49 would uh again be annoying. So, Blender, of course, has a hotkey for it, and that
+16:51 of course, has a hotkey for it, and that is tab. So, tab will just cycle you in
+16:55 is tab. So, tab will just cycle you in and out of object and edit mode, just
+16:58 and out of object and edit mode, just those two states. Um, which is great
+17:00 those two states. Um, which is great because you need to use this all the
+17:01 because you need to use this all the time. So, you usually come in, do some
+17:03 time. So, you usually come in, do some editing, uh, go back into object mode,
+17:06 editing, uh, go back into object mode, select something else, edit that one, go
+17:08 select something else, edit that one, go back to this. Um, so that's, uh, yeah,
+17:11 back to this. Um, so that's, uh, yeah, good one to remember. Tab. All right.
+17:13 good one to remember. Tab. All right. So, in edit mode, when I'm in this state
+17:16 So, in edit mode, when I'm in this state here, these little points here, these
+17:18 here, these little points here, these are called vertices. These are the
+17:20 are called vertices. These are the points that make up the um yeah, the
+17:22 points that make up the um yeah, the shape of the mesh, obviously. Um and
+17:25 shape of the mesh, obviously. Um and then you've got um edges. And uh you can
+17:29 then you've got um edges. And uh you can actually select um by changing the
+17:32 actually select um by changing the selection type from vertices, which is
+17:34 selection type from vertices, which is the default, to edges, clicking that
+17:37 the default, to edges, clicking that little button. And then I can click on
+17:38 little button. And then I can click on the edges or select faces. Okay? Like
+17:42 the edges or select faces. Okay? Like this. And again, Blender has hotkeys for
+17:45 this. And again, Blender has hotkeys for everything. So, if you want to just know
+17:46 everything. So, if you want to just know the hotkey, it's one to do verticy
+17:49 the hotkey, it's one to do verticy select, two to do edge select, and then
+17:51 select, two to do edge select, and then three to do face select. Again, make
+17:53 three to do face select. Again, make sure you get my keyboard shortcut
+17:55 sure you get my keyboard shortcut shortcut guide cuz it's uh it's a lot to
+17:57 shortcut guide cuz it's uh it's a lot to remember. So, I want to select the top
+18:00 remember. So, I want to select the top of this uh cup here. It's got a lid on
+18:02 of this uh cup here. It's got a lid on it that I don't want. So, se in face
+18:05 it that I don't want. So, se in face select mode. Selecting that face, I'm
+18:07 select mode. Selecting that face, I'm going to hit X. Now, it's going to ask
+18:10 going to hit X. Now, it's going to ask me what part do you want to delete? Um,
+18:12 me what part do you want to delete? Um, which might sound redundant, but there
+18:14 which might sound redundant, but there is quite a lot of times in Blender you
+18:16 is quite a lot of times in Blender you want to delete, even though you've
+18:17 want to delete, even though you've selected a bunch of faces, you want to
+18:18 selected a bunch of faces, you want to delete the entire vertices of those
+18:21 delete the entire vertices of those faces. So, we have to confirm. We want
+18:23 faces. So, we have to confirm. We want to delete just the faces from this list.
+18:26 to delete just the faces from this list. And there we go. So, we've now got a cup
+18:28 And there we go. So, we've now got a cup with a hole in it. Great. But this cup
+18:32 with a hole in it. Great. But this cup will not do. It is too paper thin. We
+18:35 will not do. It is too paper thin. We could cut our finger on that edge there.
+18:37 could cut our finger on that edge there. So, we need to add some thickness to
+18:39 So, we need to add some thickness to this cup. And while we could do this in
+18:42 this cup. And while we could do this in edit mode, like you could select
+18:43 edit mode, like you could select everything and extrude it in and
+18:45 everything and extrude it in and whatnot, um, we don't need to because
+18:47 whatnot, um, we don't need to because there is actually a function we can do
+18:49 there is actually a function we can do to add thickness to anything without
+18:52 to add thickness to anything without needing to go into edit mode. And that
+18:54 needing to go into edit mode. And that is underneath your modifier stack here.
+18:56 is underneath your modifier stack here. So, if you click this little wrench,
+18:57 So, if you click this little wrench, this little activate modifiers. Let's
+19:00 this little activate modifiers. Let's just drag this out. And if you click add
+19:02 just drag this out. And if you click add modifier at the top there, you can see
+19:03 modifier at the top there, you can see you've got a number of different
+19:05 you've got a number of different options. Um, and the one that we're
+19:07 options. Um, and the one that we're looking for is solidify. So, this is
+19:10 looking for is solidify. So, this is underneath the generate and just in case
+19:12 underneath the generate and just in case this changes for a future version of
+19:13 this changes for a future version of Blender, you can also go to search at
+19:15 Blender, you can also go to search at the top there and you could just type in
+19:17 the top there and you could just type in um solidify from the list. Okay, so now
+19:21 um solidify from the list. Okay, so now now that we've got that, you can see
+19:22 now that we've got that, you can see we've got a bunch of options and you'll
+19:24 we've got a bunch of options and you'll notice that our mesh now has some
+19:25 notice that our mesh now has some thickness to it. And I can change this
+19:28 thickness to it. And I can change this thickness here. Now watch what happens
+19:30 thickness here. Now watch what happens as I enter into edit mode. You will
+19:33 as I enter into edit mode. You will notice as I select these faces here, I
+19:36 notice as I select these faces here, I can't select this thick this inside part
+19:39 can't select this thick this inside part of the uh of the cup there. And that's
+19:42 of the uh of the cup there. And that's an important point because modifiers are
+19:44 an important point because modifiers are not actually adjusting the real mesh. So
+19:47 not actually adjusting the real mesh. So the real mesh still exists here. Um if I
+19:51 the real mesh still exists here. Um if I disable this from the viewport by
+19:52 disable this from the viewport by clicking this little um monitor button
+19:54 clicking this little um monitor button there, you'll see that my mesh has not
+19:56 there, you'll see that my mesh has not changed. This is just applying this
+19:59 changed. This is just applying this effect after the fact. So, it's
+20:01 effect after the fact. So, it's basically in object mode. It's taking
+20:03 basically in object mode. It's taking whatever mesh that you give it, which is
+20:05 whatever mesh that you give it, which is this, and then it's adding thickness to
+20:08 this, and then it's adding thickness to every face essentially. Um, so the
+20:11 every face essentially. Um, so the reason this is um so useful is that this
+20:13 reason this is um so useful is that this is a non-destructive workflow. So, I
+20:16 is a non-destructive workflow. So, I could at any point I could be doing a
+20:18 could at any point I could be doing a bunch of changes to my my mug here. I
+20:20 bunch of changes to my my mug here. I could, you know, we'll get to all that
+20:21 could, you know, we'll get to all that later on. We could change the size and
+20:23 later on. We could change the size and things and then later on I can go m you
+20:25 things and then later on I can go m you know what, I don't I think that's a
+20:26 know what, I don't I think that's a little bit too thick. I'm going to
+20:27 little bit too thick. I'm going to change that and I can come back to that
+20:30 change that and I can come back to that and very quickly um adjust it. So
+20:32 and very quickly um adjust it. So non-destructive and it's obviously very
+20:34 non-destructive and it's obviously very helpful um for a lot of things. [snorts]
+20:36 helpful um for a lot of things. [snorts] Okay. So I've given it some thickness,
+20:39 Okay. So I've given it some thickness, but I also want to round um this corner
+20:42 but I also want to round um this corner here. That's way too jagged. Just like
+20:44 here. That's way too jagged. Just like before I said I we want to um we're
+20:46 before I said I we want to um we're going to add in an extra layer on top
+20:48 going to add in an extra layer on top which adds more geometry. And that is
+20:50 which adds more geometry. And that is called your uh add modify generate
+20:55 called your uh add modify generate subdivision surface. So yeah, all the
+20:58 subdivision surface. So yeah, all the way down there. You use it all the time,
+21:00 way down there. You use it all the time, but it's like buried in there. Okay, so
+21:02 but it's like buried in there. Okay, so subdivision surface. So this appears to
+21:06 subdivision surface. So this appears to have like screwed up the mesh. It's
+21:07 have like screwed up the mesh. It's like, wo, what actually happened there?
+21:09 like, wo, what actually happened there? Let's just increase the uh levels
+21:12 Let's just increase the uh levels viewport. So this is just increasing the
+21:14 viewport. So this is just increasing the number of times that it um doubles the
+21:17 number of times that it um doubles the geometry.
+21:18 geometry. So you can see this is what we start
+21:20 So you can see this is what we start with, right? This is the the start. This
+21:22 with, right? This is the the start. This is one level. Then this is two levels.
+21:24 is one level. Then this is two levels. And then this is three levels. And every
+21:26 And then this is three levels. And every time you do it, it's doubling the
+21:27 time you do it, it's doubling the geometry. Um, and but you can see it's
+21:30 geometry. Um, and but you can see it's giving us the effect we want. It's
+21:31 giving us the effect we want. It's smoothing out that edge there. But
+21:34 smoothing out that edge there. But because of the way that it works, like
+21:35 because of the way that it works, like basically if you look at uh let's go
+21:38 basically if you look at uh let's go back to this. Um, we've got this this
+21:41 back to this. Um, we've got this this hard corner here, right? It's just like
+21:43 hard corner here, right? It's just like a 90° corner. So let me get in a little
+21:45 a 90° corner. So let me get in a little bit closer here so you can kind of see
+21:46 bit closer here so you can kind of see it. Um, yeah, it's like a 90° perfectly
+21:50 it. Um, yeah, it's like a 90° perfectly like that. So, when you add in a
+21:52 like that. So, when you add in a subdivision surface, it's basically
+21:54 subdivision surface, it's basically saying, okay, so there's a point here,
+21:56 saying, okay, so there's a point here, there is a point all the way over here,
+21:58 there is a point all the way over here, and there is a point that's going to go
+22:00 and there is a point that's going to go all like it's it's so far it's off the
+22:02 all like it's it's so far it's off the screen, but it's all the way down there.
+22:03 screen, but it's all the way down there. So, what I need to do is I need to
+22:05 So, what I need to do is I need to average out those points. So, take the
+22:07 average out those points. So, take the middle point of those three. So,
+22:10 middle point of those three. So, essentially from here to
+22:13 essentially from here to somewhere around here. And I'm going to
+22:15 somewhere around here. And I'm going to add in a point like here, right? And
+22:18 add in a point like here, right? And then if you do another level, like level
+22:19 then if you do another level, like level two, it then places a point here. And
+22:22 two, it then places a point here. And then another point here. And then if you
+22:24 then another point here. And then if you do another level, it places another
+22:25 do another level, it places another point here, another point here, another
+22:27 point here, another point here, another point here. And because there's two
+22:29 point here. And because there's two sides to this um uh mug, there's like
+22:32 sides to this um uh mug, there's like another one happening on that side,
+22:34 another one happening on that side, right? So we've now just got this like
+22:36 right? So we've now just got this like really super like ovalshaped edge like
+22:40 really super like ovalshaped edge like this. Okay? Which is why when I turn it
+22:41 this. Okay? Which is why when I turn it on, we get this effect there. So what we
+22:45 on, we get this effect there. So what we first of all need to do in edit mode
+22:48 first of all need to do in edit mode with our uh mug here. Um so I am in I
+22:52 with our uh mug here. Um so I am in I doesn't matter what mode I'm actually in
+22:54 doesn't matter what mode I'm actually in here. Um but what I need to do is
+22:56 here. Um but what I need to do is essentially tighten an edge where that
+22:59 essentially tighten an edge where that that uh that smoothing is happening. So
+23:01 that uh that smoothing is happening. So it's no longer happening from all the
+23:02 it's no longer happening from all the way here to smooth it all the way down
+23:04 way here to smooth it all the way down to there. I want to happen it like just
+23:06 to there. I want to happen it like just to about there. So I need to add in more
+23:08 to about there. So I need to add in more geometry onto this mesh here. So to do
+23:11 geometry onto this mesh here. So to do that uh we need to add a loop cut. That
+23:14 that uh we need to add a loop cut. That is how you add in another level of uh
+23:16 is how you add in another level of uh another edge. So ct controllr will add
+23:20 another edge. So ct controllr will add in this loop cut. I believe you can also
+23:22 in this loop cut. I believe you can also find it from the mesh
+23:26 find it from the mesh like somewhere in here. [clears throat]
+23:28 like somewhere in here. [clears throat] Yeah, there you go. Uh edge loop cut and
+23:30 Yeah, there you go. Uh edge loop cut and slide if you wanted to look it in there.
+23:32 slide if you wanted to look it in there. But it's yeahr. That's another one you
+23:34 But it's yeahr. That's another one you use all the time.
+23:36 use all the time. >> [snorts]
+23:36 >> [snorts] >> So, when I'm in when I hit CtrlR, it's
+23:39 >> So, when I'm in when I hit CtrlR, it's it's saying where do you want to place
+23:41 it's saying where do you want to place the cut in this mesh? Um, and I could
+23:43 the cut in this mesh? Um, and I could place it, you know, anywhere anywhere
+23:45 place it, you know, anywhere anywhere between uh a face essentially. So, I'm
+23:48 between uh a face essentially. So, I'm going to place it along this middle. So,
+23:49 going to place it along this middle. So, you do a single click and then it's
+23:51 you do a single click and then it's saying where do you want to place that
+23:53 saying where do you want to place that vertically on this uh th this this row
+23:58 vertically on this uh th this this row of of faces essentially. Um, so you can
+24:01 of of faces essentially. Um, so you can see as I bring it towards the top there,
+24:02 see as I bring it towards the top there, it's tightening that edge there. Okay.
+24:05 it's tightening that edge there. Okay. And that's exactly what I want. I want
+24:06 And that's exactly what I want. I want that edge to be much tighter than it was
+24:09 that edge to be much tighter than it was um before. Um so that edge is now
+24:12 um before. Um so that edge is now looking good. But now what about this
+24:13 looking good. But now what about this one at the bottom there? This one's
+24:14 one at the bottom there? This one's looking even worse. We got a lot to fix
+24:16 looking even worse. We got a lot to fix here. Um but first I need to do another
+24:18 here. Um but first I need to do another loop cut. So CtrlR and then again single
+24:22 loop cut. So CtrlR and then again single click to confirm I want it on that that
+24:24 click to confirm I want it on that that uh row of faces. And then I'm just
+24:27 uh row of faces. And then I'm just sliding it along until it's you know
+24:29 sliding it along until it's you know roughly about there at the bottom of my
+24:32 roughly about there at the bottom of my mug. Okay. And then you can see it's
+24:37 mug. Okay. And then you can see it's like this whole area here, this this
+24:39 like this whole area here, this this face here, it's become like a like it's
+24:41 face here, it's become like a like it's turned it into a star. And not to get
+24:44 turned it into a star. And not to get too complicated, but basically a subsurf
+24:46 too complicated, but basically a subsurf modifier, it has to has to know what to
+24:49 modifier, it has to has to know what to do. And generally, if there's like faces
+24:51 do. And generally, if there's like faces that are made up of four vertices, this
+24:53 that are made up of four vertices, this is getting complicated. I can tell it
+24:56 is getting complicated. I can tell it knows what to do. It makes it like nice
+24:57 knows what to do. It makes it like nice and smooth. But the moment you have a
+24:59 and smooth. But the moment you have a face that is made up of more than four
+25:01 face that is made up of more than four vertices, it's called an engon. and it
+25:04 vertices, it's called an engon. and it doesn't really know what to do with it.
+25:05 doesn't really know what to do with it. I mean, it does, but you don't know what
+25:08 I mean, it does, but you don't know what it's going to do. Um, and it just can
+25:09 it's going to do. Um, and it just can make things look a little ugly. Endone
+25:11 make things look a little ugly. Endone is kind of like a dirty word in in 3D
+25:13 is kind of like a dirty word in in 3D space. It's like, h, you never want to
+25:15 space. It's like, h, you never want to have an engon. They are actually useful
+25:17 have an engon. They are actually useful and they, you know, do have a purpose,
+25:18 and they, you know, do have a purpose, but generally generally speaking,
+25:21 but generally generally speaking, they're good to uh avoid if you don't
+25:22 they're good to uh avoid if you don't know what you're doing. So, anyway, I
+25:25 know what you're doing. So, anyway, I should tell you what I'm doing. The the
+25:26 should tell you what I'm doing. The the way to fix this is I need to add another
+25:28 way to fix this is I need to add another loop that kind of just goes around here,
+25:31 loop that kind of just goes around here, right? that. So that way I've only got
+25:33 right? that. So that way I've only got from there to there and then I can have
+25:35 from there to there and then I can have my ugly star or whatever happening
+25:38 my ugly star or whatever happening underneath my coffee mug. So I need to
+25:41 underneath my coffee mug. So I need to uh add a loop cut, but I can't add a
+25:42 uh add a loop cut, but I can't add a loop cut on just a single face. Instead,
+25:45 loop cut on just a single face. Instead, what I need to do is um it's called
+25:47 what I need to do is um it's called inset to take a single face and then
+25:50 inset to take a single face and then just like add in a loop around that
+25:52 just like add in a loop around that face. And you do that by hitting I. So I
+25:56 face. And you do that by hitting I. So I and then just like it's already active.
+25:59 and then just like it's already active. Again, this is the the way why I spent a
+26:01 Again, this is the the way why I spent a while to explain it. The moment you
+26:03 while to explain it. The moment you activate a tool, you're already in that
+26:06 activate a tool, you're already in that selection state. So, I hit I and
+26:08 selection state. So, I hit I and wherever my cursor is, it's now going
+26:10 wherever my cursor is, it's now going like, where do you want to put this
+26:12 like, where do you want to put this inset? Okay. So, I'm just moving it back
+26:14 inset? Okay. So, I'm just moving it back and forth until I get it. You know, how
+26:16 and forth until I get it. You know, how tight do I want this edge to look?
+26:19 tight do I want this edge to look? Something like
+26:21 Something like that, maybe. I mean, it's it's
+26:23 that, maybe. I mean, it's it's underneath the coffee mug. doesn't
+26:24 underneath the coffee mug. doesn't really matter that much, but um yeah,
+26:27 really matter that much, but um yeah, something something like that. And there
+26:30 something something like that. And there we go. So, you can see this looks a lot
+26:31 we go. So, you can see this looks a lot nicer. [snorts] And again, because we
+26:34 nicer. [snorts] And again, because we are in a non-destructive workflow, I've
+26:37 are in a non-destructive workflow, I've still got my solidify modifier at the
+26:39 still got my solidify modifier at the top here, right? I could change the
+26:41 top here, right? I could change the thickness of this. I can make this a
+26:44 thickness of this. I can make this a really chunky looking coffee mug or a
+26:46 really chunky looking coffee mug or a really thin one. Um and that is the
+26:49 really thin one. Um and that is the benefit of a non-destructive workflow.
+26:52 benefit of a non-destructive workflow. And then I can also change how how high-
+26:55 And then I can also change how how high- res do I want my coffee mug to look. Um,
+26:58 res do I want my coffee mug to look. Um, and this is the way to work in 3D. This
+27:00 and this is the way to work in 3D. This is the best way to do it because, you
+27:02 is the best way to do it because, you know, if a client wants you to change
+27:03 know, if a client wants you to change something or whatnot, keeping in a
+27:06 something or whatnot, keeping in a flexible um workflow is uh definitely a
+27:10 flexible um workflow is uh definitely a good place to be. Okay, so we have
+27:13 good place to be. Okay, so we have created the start of a coffee mug and we
+27:15 created the start of a coffee mug and we have also created um a donut. Good time
+27:19 have also created um a donut. Good time to save. Good time to save. So, file,
+27:22 to save. Good time to save. So, file, save as, or shift controls and then save
+27:26 save as, or shift controls and then save as.
+27:28 as. So, the way I like to save things, and
+27:30 So, the way I like to save things, and you might want to copy this, is to um
+27:32 you might want to copy this, is to um you come up with a name, you know,
+27:33 you come up with a name, you know, underscore, whatever. Um, and then you
+27:35 underscore, whatever. Um, and then you put a number after it, and then you can
+27:37 put a number after it, and then you can actually see I've already saved my file.
+27:39 actually see I've already saved my file. Um, I don't want to override my existing
+27:42 Um, I don't want to override my existing save in case I need to go back to it for
+27:44 save in case I need to go back to it for whatever reason. So, I just want to add
+27:45 whatever reason. So, I just want to add a number to it. And in other softwares,
+27:47 a number to it. And in other softwares, you know, you have to come here and you
+27:49 you know, you have to come here and you have to type in the number, right? Not
+27:52 have to type in the number, right? Not Blender. Blender has a hotkey for
+27:54 Blender. Blender has a hotkey for everything. If you hit plus or minus on
+27:57 everything. If you hit plus or minus on your numpad or on the little uh field
+28:00 your numpad or on the little uh field here, oh, you can't even see it. I'm
+28:02 here, oh, you can't even see it. I'm right over the top of it right there.
+28:03 right over the top of it right there. This little field, these little plus and
+28:06 This little field, these little plus and minus, it'll automatically add a number
+28:08 minus, it'll automatically add a number to the end of your um file. Um so that's
+28:12 to the end of your um file. Um so that's yeah, really useful. So, I'm just going
+28:14 yeah, really useful. So, I'm just going to add uh a two there, and I'm going to
+28:15 to add uh a two there, and I'm going to hit save. All right. So, if you're
+28:17 hit save. All right. So, if you're watching this in the split version of
+28:19 watching this in the split version of the tutorial, um you can click here to
+28:21 the tutorial, um you can click here to watch part two. Or if you're watching
+28:23 watch part two. Or if you're watching the combined single long video at the
+28:26 the combined single long video at the end, you can just keep on watching. BC
+28:28 end, you can just keep on watching. BC go.

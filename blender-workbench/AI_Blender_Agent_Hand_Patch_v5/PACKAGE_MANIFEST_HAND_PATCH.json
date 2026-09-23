@@ -1,0 +1,29 @@
+{
+  "name": "AI Blender Agent Hand Reconstruction Patch",
+  "version": "1.0.0",
+  "patch_label": "v5",
+  "target_blender": "5.1.x",
+  "activation": "hands_only",
+  "entry_points": {
+    "human": "00_start/START_HERE_RU.md",
+    "agent_prompt": "01_agent_memory/PASTE_INTO_AGENT_PROMPT_RU.md",
+    "specification": "02_spec/HAND_TARGET_SPEC_RU.md",
+    "schema": "02_spec/hand_target.schema.json",
+    "workflow": "03_workflow/HAND_FROM_SINGLE_REFERENCE_RU.md",
+    "qa_gates": "03_workflow/QA_GATES_AND_REJECTION_RU.md",
+    "skill": "05_skill/blender-stylized-hand-reconstruction/SKILL.md",
+    "validator": "04_tools/validate_hand_target.py",
+    "board_generator": "04_tools/make_hand_target_board.py",
+    "quality_review": "07_review/QUALITY_REVIEW_RU.md"
+  },
+  "new_mcp_tools": 0,
+  "blender_addons_required": 0,
+  "external_runtime": {
+    "python": ">=3.10",
+    "required": ["Pillow"],
+    "recommended_for_full_schema_validation": ["jsonschema"]
+  },
+  "bundled_models": false,
+  "bundled_fonts": false,
+  "bundled_third_party_assets": false
+}

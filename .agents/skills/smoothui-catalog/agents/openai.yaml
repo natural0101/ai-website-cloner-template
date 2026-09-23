@@ -1,0 +1,4 @@
+interface:
+  display_name: "SmoothUI Catalog"
+  short_description: "Use SmoothUI components and blocks safely"
+  default_prompt: "Use $smoothui-catalog to choose exact SmoothUI components or blocks for this landing page."

@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "goal": "Stylized two hands holding a sphere",
+  "mode": "TRUE_360",
+  "units": "METERS",
+  "parts": [
+    {
+      "id": "sphere",
+      "name": "Hero_Sphere",
+      "representation": "PRIMITIVES",
+      "dimensions": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "editable_parameters": {
+        "radius": 0.5
+      },
+      "material_group": "hero",
+      "source_confidence": 0.95,
+      "notes": ""
+    },
+    {
+      "id": "left_palm",
+      "name": "Hand_L_Palm",
+      "representation": "PRIMITIVES",
+      "dimensions": [
+        0.42,
+        0.18,
+        0.5
+      ],
+      "editable_parameters": {},
+      "material_group": "skin",
+      "source_confidence": 0.7,
+      "notes": "stylized hidden side inferred"
+    },
+    {
+      "id": "right_palm",
+      "name": "Hand_R_Palm",
+      "representation": "PRIMITIVES",
+      "dimensions": [
+        0.42,
+        0.18,
+        0.5
+      ],
+      "editable_parameters": {},
+      "material_group": "skin",
+      "source_confidence": 0.7,
+      "notes": "mirror candidate"
+    }
+  ],
+  "relations": [
+    {
+      "a": "left_palm",
+      "type": "TOUCHES",
+      "b": "sphere",
+      "minimum_overlap": 0.003,
+      "tolerance": 0.01
+    },
+    {
+      "a": "right_palm",
+      "type": "TOUCHES",
+      "b": "sphere",
+      "minimum_overlap": 0.003,
+      "tolerance": 0.01
+    },
+    {
+      "a": "left_palm",
+      "type": "SYMMETRIC_WITH",
+      "b": "right_palm",
+      "minimum_overlap": 0.0,
+      "tolerance": 0.03
+    }
+  ],
+  "camera": {
+    "hero_view": "front_3q"
+  },
+  "acceptance": {
+    "required_views": [
+      "front",
+      "front_3q",
+      "side",
+      "back"
+    ],
+    "no_floating_parts": true
+  }
+}

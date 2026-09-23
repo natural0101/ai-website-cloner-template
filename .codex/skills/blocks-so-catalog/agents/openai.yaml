@@ -1,0 +1,4 @@
+interface:
+  display_name: "Blocks.so Catalog"
+  short_description: "Select vetted Blocks.so app blocks"
+  default_prompt: "Use $blocks-so-catalog to choose verified Blocks.so blocks for a landing plan."

@@ -1,0 +1,103 @@
+{
+  "version": "1.0",
+  "mode": "HYBRID_HERO",
+  "reference": {
+    "image": "../06_example/example_reference.png",
+    "width": 800,
+    "height": 600,
+    "is_original": true,
+    "crop": [0, 0, 800, 600]
+  },
+  "camera": {
+    "projection": "ORTHO",
+    "resolution": [800, 600],
+    "ortho_scale": 6.0,
+    "locked": true
+  },
+  "layers": [
+    {"id": "background", "z_order": 0},
+    {"id": "hand_hidden_inferred", "z_order": 1},
+    {"id": "object_front", "z_order": 2},
+    {"id": "hand_visible", "z_order": 3},
+    {"id": "cuff", "z_order": 4}
+  ],
+  "hand": {
+    "id": "bottom_hand",
+    "side": "right",
+    "role": "bottom",
+    "landmarks": [
+      {"id": "wrist_inner", "x": 0.22, "y": 0.78, "visibility": "visible"},
+      {"id": "wrist_outer", "x": 0.30, "y": 0.88, "visibility": "visible"},
+      {"id": "palm_center", "x": 0.54, "y": 0.76, "visibility": "visible"},
+      {"id": "palm_heel", "x": 0.39, "y": 0.82, "visibility": "visible"},
+      {"id": "thumb_base", "x": 0.58, "y": 0.72, "visibility": "visible"},
+      {"id": "thumb_tip", "x": 0.69, "y": 0.61, "visibility": "visible"},
+      {"id": "web_thumb_index", "x": 0.64, "y": 0.69, "visibility": "visible"},
+      {"id": "index_tip", "x": 0.80, "y": 0.57, "visibility": "visible"},
+      {"id": "middle_tip", "x": 0.84, "y": 0.62, "visibility": "visible"},
+      {"id": "ring_tip", "x": 0.82, "y": 0.68, "visibility": "visible"},
+      {"id": "little_tip", "x": 0.77, "y": 0.73, "visibility": "visible"},
+      {"id": "valley_index_middle", "x": 0.76, "y": 0.62, "visibility": "visible"},
+      {"id": "valley_middle_ring", "x": 0.77, "y": 0.67, "visibility": "visible"},
+      {"id": "valley_ring_little", "x": 0.74, "y": 0.72, "visibility": "visible"},
+      {"id": "occlusion_enter", "x": 0.42, "y": 0.70, "visibility": "occluded"},
+      {"id": "occlusion_exit", "x": 0.65, "y": 0.54, "visibility": "occluded"}
+    ],
+    "contours": {
+      "visible": [
+        {"x": 0.20, "y": 0.77},
+        {"x": 0.24, "y": 0.72},
+        {"x": 0.35, "y": 0.70},
+        {"x": 0.42, "y": 0.70},
+        {"x": 0.48, "y": 0.82},
+        {"x": 0.61, "y": 0.79},
+        {"x": 0.70, "y": 0.74},
+        {"x": 0.77, "y": 0.73},
+        {"x": 0.82, "y": 0.68},
+        {"x": 0.84, "y": 0.62},
+        {"x": 0.80, "y": 0.57},
+        {"x": 0.74, "y": 0.61},
+        {"x": 0.69, "y": 0.61},
+        {"x": 0.64, "y": 0.69},
+        {"x": 0.58, "y": 0.72},
+        {"x": 0.50, "y": 0.78},
+        {"x": 0.39, "y": 0.82},
+        {"x": 0.30, "y": 0.88},
+        {"x": 0.24, "y": 0.85},
+        {"x": 0.20, "y": 0.77}
+      ],
+      "hidden": [
+        {"x": 0.42, "y": 0.70},
+        {"x": 0.46, "y": 0.59},
+        {"x": 0.53, "y": 0.52},
+        {"x": 0.60, "y": 0.51},
+        {"x": 0.65, "y": 0.54}
+      ],
+      "negative_spaces": [
+        [{"x": 0.73, "y": 0.60}, {"x": 0.76, "y": 0.62}, {"x": 0.74, "y": 0.64}],
+        [{"x": 0.75, "y": 0.65}, {"x": 0.77, "y": 0.67}, {"x": 0.75, "y": 0.69}],
+        [{"x": 0.72, "y": 0.70}, {"x": 0.74, "y": 0.72}, {"x": 0.72, "y": 0.74}]
+      ]
+    },
+    "centerlines": [
+      {"id": "palm", "points": [{"x": 0.39, "y": 0.82, "radius": 0.075}, {"x": 0.54, "y": 0.76, "radius": 0.095}, {"x": 0.68, "y": 0.70, "radius": 0.075}]},
+      {"id": "thumb", "points": [{"x": 0.56, "y": 0.75, "radius": 0.050}, {"x": 0.62, "y": 0.68, "radius": 0.043}, {"x": 0.69, "y": 0.61, "radius": 0.032}]},
+      {"id": "index", "points": [{"x": 0.62, "y": 0.73, "radius": 0.042}, {"x": 0.72, "y": 0.64, "radius": 0.034}, {"x": 0.80, "y": 0.57, "radius": 0.025}]},
+      {"id": "middle", "points": [{"x": 0.63, "y": 0.75, "radius": 0.044}, {"x": 0.75, "y": 0.69, "radius": 0.034}, {"x": 0.84, "y": 0.62, "radius": 0.025}]},
+      {"id": "ring", "points": [{"x": 0.61, "y": 0.77, "radius": 0.041}, {"x": 0.73, "y": 0.73, "radius": 0.032}, {"x": 0.82, "y": 0.68, "radius": 0.024}]},
+      {"id": "little", "points": [{"x": 0.59, "y": 0.79, "radius": 0.035}, {"x": 0.69, "y": 0.77, "radius": 0.028}, {"x": 0.77, "y": 0.73, "radius": 0.021}]},
+      {"id": "wrist", "points": [{"x": 0.22, "y": 0.78, "radius": 0.060}, {"x": 0.30, "y": 0.81, "radius": 0.072}, {"x": 0.39, "y": 0.82, "radius": 0.078}]}
+    ],
+    "depth_profile": [
+      {"id": "palm", "front": 0.10, "back": -0.12, "max_thickness": 0.22, "notes": "rounded, not plate-like"},
+      {"id": "fingers", "front": 0.08, "back": -0.08, "max_thickness": 0.16, "notes": "taper to tips"},
+      {"id": "wrist", "front": 0.09, "back": -0.10, "max_thickness": 0.19, "notes": "blend into cuff"}
+    ]
+  },
+  "gates": {
+    "mask_iou_min": 0.85,
+    "boundary_f1_min": 0.90,
+    "boundary_tolerance_px": 3,
+    "landmark_rmse_max_px": 3.0
+  }
+}

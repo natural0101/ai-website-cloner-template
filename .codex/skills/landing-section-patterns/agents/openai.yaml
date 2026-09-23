@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Section Patterns"
+  short_description: "Pick concrete landing section patterns"
+  default_prompt: "Use $landing-section-patterns to select concrete hero, proof, feature, pricing, CTA, and motion patterns for this landing plan."

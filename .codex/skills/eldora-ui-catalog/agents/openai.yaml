@@ -1,0 +1,4 @@
+interface:
+  display_name: "Eldora UI Catalog"
+  short_description: "Gate Eldora UI landing components"
+  default_prompt: "Use $eldora-ui-catalog to choose a verified Eldora UI component for a landing section."

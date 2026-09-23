@@ -1,0 +1,43 @@
+{
+  "schema": "ai-blender-layer-stack/v1",
+  "collection": "ABT_DEMO_LAYER_STACK",
+  "world_height": 4.0,
+  "layers": [
+    {
+      "name": "LeftHandRelief",
+      "contour_json": "left_hand.contours.json",
+      "depth_y": 0.10,
+      "thickness": 0.20,
+      "bevel": 0.025,
+      "material": {
+        "name": "MAT_Demo_Pink",
+        "base_color": [1.0, 0.28, 0.62, 1.0],
+        "roughness": 0.52
+      }
+    },
+    {
+      "name": "RightHandRelief",
+      "contour_json": "right_hand.contours.json",
+      "depth_y": 0.10,
+      "thickness": 0.20,
+      "bevel": 0.025,
+      "material": {
+        "name": "MAT_Demo_Pink",
+        "base_color": [1.0, 0.28, 0.62, 1.0],
+        "roughness": 0.52
+      }
+    },
+    {
+      "name": "BallRelief",
+      "contour_json": "ball.contours.json",
+      "depth_y": -0.18,
+      "thickness": 0.32,
+      "bevel": 0.035,
+      "material": {
+        "name": "MAT_Demo_Blue",
+        "base_color": [0.12, 0.50, 0.72, 1.0],
+        "roughness": 0.38
+      }
+    }
+  ]
+}

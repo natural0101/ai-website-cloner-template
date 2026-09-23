@@ -1,0 +1,4 @@
+interface:
+  display_name: "Motion Primitives Catalog"
+  short_description: "Choose Motion Primitives for landing motion"
+  default_prompt: "Use $motion-primitives-catalog to choose exact Motion Primitives components for a landing plan with dependency, mobile, and reduced-motion checks."

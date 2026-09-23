@@ -1,0 +1,33 @@
+project_id: ai-website-cloner
+commit_sha: 8dd9cb47dde0
+source_dirty: true
+verified_at: 2026-08-08T11:55:00+03:00
+production:
+  runtime: node-24.14.1
+  build_command: npm run build
+  start_command: node server.js
+  artifact: docker-image
+  services: {}
+local_parity:
+  dockerfile: Dockerfile
+  compose_files:
+    - compose.yaml
+    - compose.parity.yaml
+  base_url: http://ai-website-cloner.localhost:3100
+  data_profile: none
+checks:
+  env_schema: not_applicable
+  production_build: pass
+  migrations_clean: not_applicable
+  health: pass
+  smoke: pass
+  production_endpoint_leak: pass
+known_gaps:
+  - id: vercel-container-equivalence
+    reason: Production deployment target is Vercel while local parity runs the repository's standalone Docker image.
+    risk: Platform routing and edge behavior are not reproduced locally.
+    compensation: Run direct-route smoke against the standalone production build and keep Vercel preview as the release-stage platform check.
+    owner: project
+    review_by: 2026-09-08
+artifact_digest: sha256:8b4de4542b7c161b5aaa8d9617a88c62314485b07952051fefe6f6b1b563fcaf
+status: LOCAL_PARITY_PASS

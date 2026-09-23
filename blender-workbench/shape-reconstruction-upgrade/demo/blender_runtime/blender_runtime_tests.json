@@ -1,0 +1,454 @@
+{
+  "schema": "ai-blender-shape-runtime-tests/v1",
+  "created_utc": "2026-06-22T08:53:43.303183+00:00",
+  "blender": "5.1.2",
+  "python": "3.13.5",
+  "background": true,
+  "status": "pass",
+  "tests": [
+    {
+      "name": "hand_sphere_create_validate_export",
+      "status": "pass",
+      "result": {
+        "create": {
+          "status": "ok",
+          "asset": "RuntimeTest",
+          "root": "RuntimeTest_ROOT",
+          "collection": "ABT_RuntimeTest",
+          "source_collection": "ABT_RuntimeTest_SOURCE",
+          "output_collection": "ABT_RuntimeTest_OUTPUT",
+          "objects": [
+            "RuntimeTest_Sphere",
+            "RuntimeTest_Left_Merged",
+            "RuntimeTest_Right_Merged"
+          ],
+          "hands": [
+            {
+              "status": "ok",
+              "side": "LEFT",
+              "source_collection": "ABT_RuntimeTest_LEFT_SOURCE",
+              "source_parts": [
+                "RuntimeTest_Left_Palm",
+                "RuntimeTest_Left_Finger_1",
+                "RuntimeTest_Left_Finger_1_StartCap",
+                "RuntimeTest_Left_Finger_1_EndCap",
+                "RuntimeTest_Left_Finger_2",
+                "RuntimeTest_Left_Finger_2_StartCap",
+                "RuntimeTest_Left_Finger_2_EndCap",
+                "RuntimeTest_Left_Finger_3",
+                "RuntimeTest_Left_Finger_3_StartCap",
+                "RuntimeTest_Left_Finger_3_EndCap",
+                "RuntimeTest_Left_Finger_4",
+                "RuntimeTest_Left_Finger_4_StartCap",
+                "RuntimeTest_Left_Finger_4_EndCap",
+                "RuntimeTest_Left_Thumb",
+                "RuntimeTest_Left_Thumb_StartCap",
+                "RuntimeTest_Left_Thumb_EndCap",
+                "RuntimeTest_Left_Wrist",
+                "RuntimeTest_Left_Wrist_StartCap",
+                "RuntimeTest_Left_Wrist_EndCap",
+                "RuntimeTest_Left_Cuff"
+              ],
+              "merged_object": "RuntimeTest_Left_Merged"
+            },
+            {
+              "status": "ok",
+              "side": "RIGHT",
+              "source_collection": "ABT_RuntimeTest_RIGHT_SOURCE",
+              "source_parts": [
+                "RuntimeTest_Right_Palm",
+                "RuntimeTest_Right_Finger_1",
+                "RuntimeTest_Right_Finger_1_StartCap",
+                "RuntimeTest_Right_Finger_1_EndCap",
+                "RuntimeTest_Right_Finger_2",
+                "RuntimeTest_Right_Finger_2_StartCap",
+                "RuntimeTest_Right_Finger_2_EndCap",
+                "RuntimeTest_Right_Finger_3",
+                "RuntimeTest_Right_Finger_3_StartCap",
+                "RuntimeTest_Right_Finger_3_EndCap",
+                "RuntimeTest_Right_Finger_4",
+                "RuntimeTest_Right_Finger_4_StartCap",
+                "RuntimeTest_Right_Finger_4_EndCap",
+                "RuntimeTest_Right_Thumb",
+                "RuntimeTest_Right_Thumb_StartCap",
+                "RuntimeTest_Right_Thumb_EndCap",
+                "RuntimeTest_Right_Wrist",
+                "RuntimeTest_Right_Wrist_StartCap",
+                "RuntimeTest_Right_Wrist_EndCap",
+                "RuntimeTest_Right_Cuff"
+              ],
+              "merged_object": "RuntimeTest_Right_Merged"
+            }
+          ],
+          "note": "SOURCE collections preserve editable primitives; export only OUTPUT objects tagged abt_shape_export=true."
+        },
+        "camera": {
+          "status": "ok",
+          "camera": "CAM_REFERENCE",
+          "resolution": [
+            309,
+            250
+          ],
+          "ortho_scale": 5.1912,
+          "world_height": 4.2,
+          "world_width": 5.1912
+        },
+        "silhouette": {
+          "status": "ok",
+          "path": "shape_reconstruction_upgrade/demo/blender_runtime/hand_sphere_silhouette.png",
+          "resolution": [
+            309,
+            250
+          ],
+          "objects": [
+            "RuntimeTest_Sphere",
+            "RuntimeTest_Left_Merged",
+            "RuntimeTest_Right_Merged"
+          ]
+        },
+        "validation": {
+          "status": "pass",
+          "summary": {
+            "objects": 3,
+            "triangles": 11496,
+            "max_triangles": 200000,
+            "errors": 0,
+            "warnings": 0
+          },
+          "errors": [],
+          "warnings": [],
+          "objects": [
+            {
+              "object": "RuntimeTest_Sphere",
+              "triangles": 4992,
+              "boundary_edges": 0,
+              "degenerate_faces": 0,
+              "dimensions": [
+                1.9999995231628418,
+                1.8799993991851807,
+                2.0
+              ]
+            },
+            {
+              "object": "RuntimeTest_Left_Merged",
+              "triangles": 3250,
+              "boundary_edges": 0,
+              "degenerate_faces": 0,
+              "dimensions": [
+                1.9707419872283936,
+                0.6775789260864258,
+                1.6438257694244385
+              ]
+            },
+            {
+              "object": "RuntimeTest_Right_Merged",
+              "triangles": 3254,
+              "boundary_edges": 0,
+              "degenerate_faces": 0,
+              "dimensions": [
+                1.9707145690917969,
+                0.6774393320083618,
+                1.6439061164855957
+              ]
+            }
+          ]
+        },
+        "glb": {
+          "status": "ok",
+          "path": "shape_reconstruction_upgrade/demo/blender_runtime/hand_sphere_runtime_test.glb",
+          "bytes": 261856,
+          "objects": [
+            "RuntimeTest_Sphere",
+            "RuntimeTest_Left_Merged",
+            "RuntimeTest_Right_Merged"
+          ]
+        },
+        "scene": {
+          "status": "ok",
+          "addon_version": "1.0.0",
+          "blender": "5.1.2",
+          "generated_objects": [
+            "CAM_REFERENCE",
+            "RuntimeTest_Left_Palm",
+            "RuntimeTest_Left_Finger_1",
+            "RuntimeTest_Left_Finger_1_StartCap",
+            "RuntimeTest_Left_Finger_1_EndCap",
+            "RuntimeTest_Left_Finger_2",
+            "RuntimeTest_Left_Finger_2_StartCap",
+            "RuntimeTest_Left_Finger_2_EndCap",
+            "RuntimeTest_Left_Finger_3",
+            "RuntimeTest_Left_Finger_3_StartCap",
+            "RuntimeTest_Left_Finger_3_EndCap",
+            "RuntimeTest_Left_Finger_4",
+            "RuntimeTest_Left_Finger_4_StartCap",
+            "RuntimeTest_Left_Finger_4_EndCap",
+            "RuntimeTest_Left_Thumb",
+            "RuntimeTest_Left_Thumb_StartCap",
+            "RuntimeTest_Left_Thumb_EndCap",
+            "RuntimeTest_Left_Wrist",
+            "RuntimeTest_Left_Wrist_StartCap",
+            "RuntimeTest_Left_Wrist_EndCap",
+            "RuntimeTest_Left_Cuff",
+            "RuntimeTest_Right_Palm",
+            "RuntimeTest_Right_Finger_1",
+            "RuntimeTest_Right_Finger_1_StartCap",
+            "RuntimeTest_Right_Finger_1_EndCap",
+            "RuntimeTest_Right_Finger_2",
+            "RuntimeTest_Right_Finger_2_StartCap",
+            "RuntimeTest_Right_Finger_2_EndCap",
+            "RuntimeTest_Right_Finger_3",
+            "RuntimeTest_Right_Finger_3_StartCap",
+            "RuntimeTest_Right_Finger_3_EndCap",
+            "RuntimeTest_Right_Finger_4",
+            "RuntimeTest_Right_Finger_4_StartCap",
+            "RuntimeTest_Right_Finger_4_EndCap",
+            "RuntimeTest_Right_Thumb",
+            "RuntimeTest_Right_Thumb_StartCap",
+            "RuntimeTest_Right_Thumb_EndCap",
+            "RuntimeTest_Right_Wrist",
+            "RuntimeTest_Right_Wrist_StartCap",
+            "RuntimeTest_Right_Wrist_EndCap",
+            "RuntimeTest_Right_Cuff",
+            "RuntimeTest_ROOT",
+            "RuntimeTest_Sphere",
+            "RuntimeTest_Left_Merged",
+            "RuntimeTest_Right_Merged"
+          ],
+          "export_objects": [
+            "RuntimeTest_Sphere",
+            "RuntimeTest_Left_Merged",
+            "RuntimeTest_Right_Merged"
+          ],
+          "source_objects": [
+            "RuntimeTest_Left_Palm",
+            "RuntimeTest_Left_Finger_1",
+            "RuntimeTest_Left_Finger_1_StartCap",
+            "RuntimeTest_Left_Finger_1_EndCap",
+            "RuntimeTest_Left_Finger_2",
+            "RuntimeTest_Left_Finger_2_StartCap",
+            "RuntimeTest_Left_Finger_2_EndCap",
+            "RuntimeTest_Left_Finger_3",
+            "RuntimeTest_Left_Finger_3_StartCap",
+            "RuntimeTest_Left_Finger_3_EndCap",
+            "RuntimeTest_Left_Finger_4",
+            "RuntimeTest_Left_Finger_4_StartCap",
+            "RuntimeTest_Left_Finger_4_EndCap",
+            "RuntimeTest_Left_Thumb",
+            "RuntimeTest_Left_Thumb_StartCap",
+            "RuntimeTest_Left_Thumb_EndCap",
+            "RuntimeTest_Left_Wrist",
+            "RuntimeTest_Left_Wrist_StartCap",
+            "RuntimeTest_Left_Wrist_EndCap",
+            "RuntimeTest_Left_Cuff",
+            "RuntimeTest_Right_Palm",
+            "RuntimeTest_Right_Finger_1",
+            "RuntimeTest_Right_Finger_1_StartCap",
+            "RuntimeTest_Right_Finger_1_EndCap",
+            "RuntimeTest_Right_Finger_2",
+            "RuntimeTest_Right_Finger_2_StartCap",
+            "RuntimeTest_Right_Finger_2_EndCap",
+            "RuntimeTest_Right_Finger_3",
+            "RuntimeTest_Right_Finger_3_StartCap",
+            "RuntimeTest_Right_Finger_3_EndCap",
+            "RuntimeTest_Right_Finger_4",
+            "RuntimeTest_Right_Finger_4_StartCap",
+            "RuntimeTest_Right_Finger_4_EndCap",
+            "RuntimeTest_Right_Thumb",
+            "RuntimeTest_Right_Thumb_StartCap",
+            "RuntimeTest_Right_Thumb_EndCap",
+            "RuntimeTest_Right_Wrist",
+            "RuntimeTest_Right_Wrist_StartCap",
+            "RuntimeTest_Right_Wrist_EndCap",
+            "RuntimeTest_Right_Cuff"
+          ],
+          "camera": "CAM_REFERENCE"
+        }
+      }
+    },
+    {
+      "name": "contour_import_and_render",
+      "status": "pass",
+      "result": {
+        "created": {
+          "status": "ok",
+          "source": "shape_reconstruction_upgrade/demo/combined.contours.json",
+          "objects": [
+            "RuntimeContour_1"
+          ],
+          "reconstruction_iou": 0.9915042901221522,
+          "hole_count": 0
+        },
+        "camera": {
+          "status": "ok",
+          "camera": "CAM_REFERENCE",
+          "resolution": [
+            309,
+            250
+          ],
+          "ortho_scale": 4.944,
+          "world_height": 4.0,
+          "world_width": 4.944
+        },
+        "render": {
+          "status": "ok",
+          "path": "shape_reconstruction_upgrade/demo/blender_runtime/contour_blender_mask.png",
+          "resolution": [
+            309,
+            250
+          ],
+          "objects": [
+            "RuntimeContour_1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "hole_preservation_render",
+      "status": "pass",
+      "result": {
+        "created": {
+          "status": "ok",
+          "source": "shape_reconstruction_upgrade/demo/hole_test.contours.json",
+          "objects": [
+            "RuntimeHole_1"
+          ],
+          "reconstruction_iou": 0.9800884955752213,
+          "hole_count": 1
+        },
+        "render": {
+          "status": "ok",
+          "path": "shape_reconstruction_upgrade/demo/blender_runtime/hole_blender_mask.png",
+          "resolution": [
+            309,
+            250
+          ],
+          "objects": [
+            "RuntimeHole_1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "layer_stack_import_and_render",
+      "status": "pass",
+      "result": {
+        "created": {
+          "status": "ok",
+          "config": "shape_reconstruction_upgrade/demo/layer_stack.example.json",
+          "layers": [
+            {
+              "status": "ok",
+              "source": "shape_reconstruction_upgrade/demo/left_hand.contours.json",
+              "objects": [
+                "LeftHandRelief_1"
+              ],
+              "reconstruction_iou": 0.997125977965831,
+              "hole_count": 0
+            },
+            {
+              "status": "ok",
+              "source": "shape_reconstruction_upgrade/demo/right_hand.contours.json",
+              "objects": [
+                "RightHandRelief_1"
+              ],
+              "reconstruction_iou": 0.9976179132920439,
+              "hole_count": 0
+            },
+            {
+              "status": "ok",
+              "source": "shape_reconstruction_upgrade/demo/ball.contours.json",
+              "objects": [
+                "BallRelief_1"
+              ],
+              "reconstruction_iou": 0.9971735887571642,
+              "hole_count": 0
+            }
+          ]
+        },
+        "render": {
+          "status": "ok",
+          "path": "shape_reconstruction_upgrade/demo/blender_runtime/layer_stack_blender_mask.png",
+          "resolution": [
+            309,
+            250
+          ],
+          "objects": [
+            "LeftHandRelief_1",
+            "RightHandRelief_1",
+            "BallRelief_1"
+          ]
+        }
+      }
+    },
+    {
+      "name": "mcp_dispatcher_allowlist",
+      "status": "pass",
+      "result": {
+        "success": {
+          "ok": true,
+          "action": "shape.create_part",
+          "dispatcher_version": "1.0.0",
+          "result": {
+            "status": "ok",
+            "kind": "ELLIPSOID",
+            "objects": [
+              "DispatcherPart"
+            ]
+          }
+        },
+        "allowlist_rejection": {
+          "ok": false,
+          "action": "shape.not_allowed",
+          "dispatcher_version": "1.0.0",
+          "error_type": "ShapeDispatchError",
+          "message": "Unknown action: 'shape.not_allowed'. Allowed: ['shape.apply_reference_fit', 'shape.create_cupping_hand', 'shape.create_hand_sphere', 'shape.create_part', 'shape.export_glb', 'shape.import_contours', 'shape.import_layer_stack', 'shape.render_silhouette', 'shape.scene_report', 'shape.setup_reference_camera', 'shape.validate', 'shape.voxel_union']",
+          "traceback_tail": [
+            "Traceback (most recent call last):",
+            "  File \"shape_reconstruction_upgrade/04_blender_tools/shape_dispatcher.py\", line 174, in dispatch",
+            "    raise ShapeDispatchError(",
+            "        f\"Unknown action: {action!r}. Allowed: {sorted(_ACTIONS)}\"",
+            "    )",
+            "shape_dispatcher.ShapeDispatchError: Unknown action: 'shape.not_allowed'. Allowed: ['shape.apply_reference_fit', 'shape.create_cupping_hand', 'shape.create_hand_sphere', 'shape.create_part', 'shape.export_glb', 'shape.import_contours', 'shape.import_layer_stack', 'shape.render_silhouette', 'shape.scene_report', 'shape.setup_reference_camera', 'shape.validate', 'shape.voxel_union']"
+          ]
+        },
+        "fit_guard": {
+          "ok": false,
+          "action": "shape.apply_reference_fit",
+          "dispatcher_version": "1.0.0",
+          "error_type": "ShapeToolError",
+          "message": "apply_reference_fit requires confirm=True",
+          "traceback_tail": [
+            "  File \"shape_reconstruction_upgrade/04_blender_tools/shape_dispatcher.py\", line 161, in <lambda>",
+            "    \"shape.apply_reference_fit\": lambda a: _call(st.apply_reference_fit, a),",
+            "                                           ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^",
+            "  File \"shape_reconstruction_upgrade/04_blender_tools/shape_dispatcher.py\", line 148, in _call",
+            "    return function(**kwargs)",
+            "  File \"shape_reconstruction_upgrade/04_blender_tools/shape_tools.py\", line 1016, in apply_reference_fit",
+            "    raise ShapeToolError(\"apply_reference_fit requires confirm=True\")",
+            "shape_tools.ShapeToolError: apply_reference_fit requires confirm=True"
+          ]
+        },
+        "fit_applied": {
+          "ok": true,
+          "action": "shape.apply_reference_fit",
+          "dispatcher_version": "1.0.0",
+          "result": {
+            "status": "ok",
+            "root": "DispatcherFitRoot",
+            "mode": "UNIFORM",
+            "location": [
+              -0.0013731076614931226,
+              0.0,
+              -0.006540676113218069
+            ],
+            "scale": [
+              1.077243447303772,
+              1.077243447303772,
+              1.077243447303772
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

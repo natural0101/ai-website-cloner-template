@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Motion Safety Gate"
+  short_description: "Audit landing motion for accessibility and performance."
+  default_prompt: "Use $landing-motion-safety-gate to audit landing-page motion for reduced motion, performance, and implementation risk."

@@ -1,0 +1,7 @@
+{
+  "video_id": "u9n5PJZMzLU",
+  "position": 149,
+  "status": "missing_visual_or_audio",
+  "evidence": "metadata-only",
+  "reason": "В папке источника есть только u9n5PJZMzLU.info.json и thumbnail; transcript.json и VTT отсутствуют. Ролик длится 9 секунд, заголовок — «Тот самый критик в BLENDER #blender». Содержательные техники по одним метаданным не извлекались."
+}

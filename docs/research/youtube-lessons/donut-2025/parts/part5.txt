@@ -1,0 +1,907 @@
+00:03 It's time to texture these bad boys. Finally, after hinting at it for so
+00:05 Finally, after hinting at it for so long.
+00:06 long. Um so, we added some simple materials
+00:09 Um so, we added some simple materials and uh that is actually fine for some
+00:12 and uh that is actually fine for some types of objects. Like, you might
+00:13 types of objects. Like, you might actually have a plate and go like, it's
+00:15 actually have a plate and go like, it's just white plate. Doesn't need any
+00:17 just white plate. Doesn't need any texture. But, most things need texture.
+00:20 texture. But, most things need texture. So, I'm going to select my uh table
+00:22 So, I'm going to select my uh table floor here. I'm going to go to the
+00:24 floor here. I'm going to go to the material panel right here. And I'm going
+00:27 material panel right here. And I'm going to add a new material since it doesn't
+00:28 to add a new material since it doesn't have one. And um let's look at how to
+00:32 have one. And um let's look at how to add a texture. So, right here where
+00:34 add a texture. So, right here where we've got base color, if we want to add
+00:36 we've got base color, if we want to add a color texture, we just click on this
+00:39 a color texture, we just click on this little uh yellow dot next to it. I know
+00:41 little uh yellow dot next to it. I know that's not clear. It will become clear
+00:43 that's not clear. It will become clear when I show you nodes. Um but, when I
+00:44 when I show you nodes. Um but, when I click this, you get this uh slide-out
+00:46 click this, you get this uh slide-out menu with a bunch of different options
+00:48 menu with a bunch of different options here. Um and the one that I'm looking
+00:50 here. Um and the one that I'm looking for says image texture. Okay. So, now I
+00:53 for says image texture. Okay. So, now I can hit um open.
+00:55 can hit um open. And just to demonstrate this, I'm going
+00:57 And just to demonstrate this, I'm going to select a wood texture that I
+00:58 to select a wood texture that I downloaded off the internet just to show
+01:00 downloaded off the internet just to show you how this works. Now, on this note,
+01:03 you how this works. Now, on this note, if you happen to see this, if you use an
+01:05 if you happen to see this, if you use an image texture that you find online, it's
+01:07 image texture that you find online, it's because there is a new feature feature.
+01:10 because there is a new feature feature. Uh
+01:10 Uh it that there's a purpose. There's a
+01:12 it that there's a purpose. There's a There's a new feature in Blender 5.0
+01:14 There's a new feature in Blender 5.0 where if it identifies in the name
+01:17 where if it identifies in the name anything from the number 1,000 to 2,000,
+01:19 anything from the number 1,000 to 2,000, I think, um it'll think that is a UDIM,
+01:23 I think, um it'll think that is a UDIM, which is a completely whole, you know,
+01:25 which is a completely whole, you know, production professional workflow kind of
+01:27 production professional workflow kind of thing.
+01:28 thing. Um it'll think it's a UDIM. And it
+01:31 Um it'll think it's a UDIM. And it Anyways, what you need to do is then
+01:32 Anyways, what you need to do is then change this to single image. But, most
+01:34 change this to single image. But, most of the time, most images, if it doesn't
+01:36 of the time, most images, if it doesn't have those numbers uh a string at the
+01:39 have those numbers uh a string at the end, it should just load in fine.
+01:41 end, it should just load in fine. Anyways, let's say you had an image like
+01:43 Anyways, let's say you had an image like this. Um you wanted the table to look uh
+01:45 this. Um you wanted the table to look uh wood, right? We're not going to do that,
+01:47 wood, right? We're not going to do that, but you know, just just to show you.
+01:49 but you know, just just to show you. Um
+01:50 Um you would see it it's okay, right? But,
+01:53 you would see it it's okay, right? But, there is no bump information. Okay? Um
+01:56 there is no bump information. Okay? Um and that is because, of course, the 3D
+01:58 and that is because, of course, the 3D software doesn't know that there's
+02:01 software doesn't know that there's supposed to be crevices here, right?
+02:03 supposed to be crevices here, right? Little dips in between the table, the
+02:05 Little dips in between the table, the the fine tooth uh grain of it. It has no
+02:08 the fine tooth uh grain of it. It has no idea because it's just taken with a
+02:10 idea because it's just taken with a single camera. It would have no idea how
+02:12 single camera. It would have no idea how to guest guest what that true
+02:14 to guest guest what that true information should be. I mean, there is
+02:16 information should be. I mean, there is technically a way to guess it, but it
+02:17 technically a way to guess it, but it never really turns out well. Um so, I'm
+02:19 never really turns out well. Um so, I'm not even going to bother showing you. Um
+02:21 not even going to bother showing you. Um so, most of the time, when you're
+02:23 so, most of the time, when you're talking about texturing in 3D um and
+02:25 talking about texturing in 3D um and using image textures, like textures from
+02:27 using image textures, like textures from the real world, um you don't just grab a
+02:30 the real world, um you don't just grab a random image texture that you find
+02:32 random image texture that you find online. You need to use a PBR textures,
+02:35 online. You need to use a PBR textures, which stands for physically based
+02:37 which stands for physically based rendering textures. And there are many
+02:40 rendering textures. And there are many different places that you can get PBR
+02:41 different places that you can get PBR textures from. The best website that I
+02:43 textures from. The best website that I think is Polygon, p o l i i g o n dot
+02:48 think is Polygon, p o l i i g o n dot com. The link is below.
+02:50 com. The link is below. Um and I think it's the best website
+02:51 Um and I think it's the best website because it's my website. It's my
+02:54 because it's my website. It's my company.
+02:55 company. Um which I created 10 years ago, and it
+02:57 Um which I created 10 years ago, and it is now the fastest growing texture
+03:00 is now the fastest growing texture library
+03:01 library um online. Um so, we've got
+03:03 um online. Um so, we've got photographers all over the world, and
+03:05 photographers all over the world, and they use specialized equipment to go out
+03:07 they use specialized equipment to go out into the world and they capture surfaces
+03:10 into the world and they capture surfaces um usually like photograph the surface
+03:12 um usually like photograph the surface like hundreds of times, which is what
+03:14 like hundreds of times, which is what enables you to actually capture all of
+03:17 enables you to actually capture all of that height information, the bump, uh
+03:19 that height information, the bump, uh the shininess reflectiveness of
+03:21 the shininess reflectiveness of materials.
+03:22 materials. Um and actually capture all of the maps
+03:24 Um and actually capture all of the maps that you can see here, for example.
+03:26 that you can see here, for example. These weird-looking maps um is exactly
+03:28 These weird-looking maps um is exactly what Blender um needs to
+03:31 what Blender um needs to uh to to make the material look
+03:33 uh to to make the material look realistic. So, we've got a bunch of
+03:34 realistic. So, we've got a bunch of different categories, obviously like
+03:36 different categories, obviously like almost anything you want to create, um
+03:38 almost anything you want to create, um you can find the textures um on here.
+03:40 you can find the textures um on here. But, for just this tutorial, if you go
+03:43 But, for just this tutorial, if you go to polygon.com/a
+03:45 to polygon.com/a donut, the link for that is also below.
+03:47 donut, the link for that is also below. Um but, this has the uh six textures
+03:51 Um but, this has the uh six textures that you'll actually need to follow
+03:52 that you'll actually need to follow along for this video.
+03:54 along for this video. Um they're all free. We've made them
+03:55 Um they're all free. We've made them free. All you need to do is get a free
+03:57 free. All you need to do is get a free account, um and you can download all of
+03:59 account, um and you can download all of those by just clicking them and then
+04:01 those by just clicking them and then hitting uh download. And also, if you
+04:03 hitting uh download. And also, if you scroll down, uh we've got some premium
+04:05 scroll down, uh we've got some premium textures here if you have uh a
+04:06 textures here if you have uh a subscription with us um that you could
+04:09 subscription with us um that you could use for the cafe scene that we're making
+04:11 use for the cafe scene that we're making to kind of spruce it up, make it your
+04:13 to kind of spruce it up, make it your own, add some variation there. Um so,
+04:15 own, add some variation there. Um so, we've included some ones here that go
+04:17 we've included some ones here that go well uh with the scene. Um and if you
+04:19 well uh with the scene. Um and if you use this link, you'll get 10% off uh any
+04:21 use this link, you'll get 10% off uh any any uh plan you choose. So, the first
+04:23 any uh plan you choose. So, the first texture I want you to start with is uh
+04:26 texture I want you to start with is uh it's going to be our cafe table. Um and
+04:28 it's going to be our cafe table. Um and obviously, you could, you know, you
+04:30 obviously, you could, you know, you could use any texture that. You could
+04:31 could use any texture that. You could use, you know, some of the ones down
+04:32 use, you know, some of the ones down there if you wanted to. Um but, I want
+04:34 there if you wanted to. Um but, I want you to start with this one, this
+04:35 you to start with this one, this concrete texture. Um because we're going
+04:38 concrete texture. Um because we're going to make this look like a concrete table,
+04:39 to make this look like a concrete table, something that, you know, a lot of cafes
+04:41 something that, you know, a lot of cafes can sometimes have. Now, we actually
+04:43 can sometimes have. Now, we actually have a Blender add-on, which makes
+04:45 have a Blender add-on, which makes downloading and importing these things
+04:46 downloading and importing these things even simpler. But, I want to give you
+04:48 even simpler. But, I want to give you the traditional way to import PBR
+04:50 the traditional way to import PBR textures first, so that you know how to
+04:52 textures first, so that you know how to use PBR textures just flat. Um and then
+04:54 use PBR textures just flat. Um and then I want to show you the easy way after.
+04:56 I want to show you the easy way after. So, once you've got your free account,
+04:58 So, once you've got your free account, you can come back here, and you can
+04:59 you can come back here, and you can click on download, this big download
+05:01 click on download, this big download button. So, that'll give you an 8K uh
+05:04 button. So, that'll give you an 8K uh texture. You probably don't need it. You
+05:05 texture. You probably don't need it. You could probably get by with four, but I'm
+05:07 could probably get by with four, but I'm going to get the 8K just to show you how
+05:09 going to get the 8K just to show you how it looks. Now, this will download a zip
+05:11 it looks. Now, this will download a zip file like here. Okay? So, it should be
+05:13 file like here. Okay? So, it should be fairly quick. It's about 289 megs. Once
+05:16 fairly quick. It's about 289 megs. Once you've downloaded this texture, I need
+05:18 you've downloaded this texture, I need you to unzip it. So, with Windows, you
+05:20 you to unzip it. So, with Windows, you just right-click and go uh extract all.
+05:22 just right-click and go uh extract all. Uh if you're on a Mac, you just
+05:24 Uh if you're on a Mac, you just double-click it, and it should just
+05:25 double-click it, and it should just unzip itself. Now that I've got that,
+05:27 unzip itself. Now that I've got that, you can
+05:32 It's the stuff that's in here. This is the good stuff. This is the one we
+05:33 the good stuff. This is the one we actually need to use. So, I'm going to
+05:36 actually need to use. So, I'm going to uh just copy this folder uh location,
+05:39 uh just copy this folder uh location, and then uh back in Blender, for my
+05:42 and then uh back in Blender, for my selected plane here, underneath base
+05:44 selected plane here, underneath base color, I'm just going to uh just like
+05:46 color, I'm just going to uh just like before, you know, select image texture
+05:48 before, you know, select image texture if you haven't already. Then, I'm going
+05:50 if you haven't already. Then, I'm going to click open. And then, a lot of these
+05:52 to click open. And then, a lot of these images look pretty similar. There's very
+05:54 images look pretty similar. There's very little detail across them. There is
+05:55 little detail across them. There is some, uh but the one we're looking for
+05:57 some, uh but the one we're looking for is _base color. So, that is the one
+06:00 is _base color. So, that is the one we're going to start with. Okay. So,
+06:02 we're going to start with. Okay. So, this has given us a nice clean de-lit
+06:06 this has given us a nice clean de-lit concrete floor texture, but the same
+06:08 concrete floor texture, but the same problem. We don't have that height
+06:10 problem. We don't have that height information there. And that's because,
+06:11 information there. And that's because, just like before, we've only loaded in
+06:13 just like before, we've only loaded in information into the base color. So,
+06:15 information into the base color. So, it's it's almost like this has been
+06:16 it's it's almost like this has been printed on cardboard. That's kind of the
+06:18 printed on cardboard. That's kind of the appearance there. So, we need to load in
+06:20 appearance there. So, we need to load in the other PBR texture uh maps, they're
+06:23 the other PBR texture uh maps, they're called uh all of those uh different uh
+06:26 called uh all of those uh different uh images that we downloaded. And we could,
+06:29 images that we downloaded. And we could, you know, import and do them the same
+06:30 you know, import and do them the same way by clicking these little dot and
+06:31 way by clicking these little dot and then go image texture. But, it's very
+06:33 then go image texture. But, it's very fiddly. And this view here, you can
+06:35 fiddly. And this view here, you can probably tell is like it's not designed
+06:37 probably tell is like it's not designed for like complex texturing work. If you
+06:40 for like complex texturing work. If you want to do complex texturing work, you
+06:42 want to do complex texturing work, you should click on the shading tab at the
+06:44 should click on the shading tab at the top of your screen. Now, this view looks
+06:46 top of your screen. Now, this view looks completely different. You've got a 3D
+06:48 completely different. You've got a 3D view at the top. You've got these nodes
+06:50 view at the top. You've got these nodes here, which are very useful. And then,
+06:52 here, which are very useful. And then, you got two over here that I think are
+06:53 you got two over here that I think are kind of pointless. I don't really think
+06:56 kind of pointless. I don't really think they should be here.
+06:57 they should be here. Um I've never really wanted them. So,
+06:59 Um I've never really wanted them. So, I'm going to right-click on the uh
+07:01 I'm going to right-click on the uh like the divider between these little
+07:03 like the divider between these little windows here. I'm going to say join
+07:05 windows here. I'm going to say join left. And then, I'm going to do the same
+07:07 left. And then, I'm going to do the same for the bottom, join left. And then, I
+07:09 for the bottom, join left. And then, I also I want to flip it because I haven't
+07:12 also I want to flip it because I haven't I don't really like having like the top
+07:14 I don't really like having like the top view and this. It's like it's too
+07:16 view and this. It's like it's too wide-screen to like look at things like
+07:18 wide-screen to like look at things like this. So, instead, I'm going to
+07:19 this. So, instead, I'm going to right-click this, say join uh down. And
+07:23 right-click this, say join uh down. And then, at the top of my screen here, the
+07:25 then, at the top of my screen here, the top of the little uh divider there,
+07:27 top of the little uh divider there, until I get that little uh little
+07:28 until I get that little uh little arrows, I'm going to right-click, and
+07:30 arrows, I'm going to right-click, and then I'm going to say vertical split.
+07:32 then I'm going to say vertical split. And then, to make this one on the
+07:33 And then, to make this one on the right-hand side, those same shader nodes
+07:35 right-hand side, those same shader nodes that we had from before, click from this
+07:37 that we had from before, click from this little drop-down at the top. Uh by the
+07:39 little drop-down at the top. Uh by the way, if you don't see it, um you just
+07:40 way, if you don't see it, um you just have to like middle mouse like grab and
+07:43 have to like middle mouse like grab and pull across, and you will get uh all the
+07:45 pull across, and you will get uh all the way to the end there.
+07:46 way to the end there. Uh but yeah, if I click that and then go
+07:48 Uh but yeah, if I click that and then go shader editor,
+07:49 shader editor, then close this by hitting the N key.
+07:52 then close this by hitting the N key. It's a lot of steps. Uh but now, I have
+07:56 It's a lot of steps. Uh but now, I have my shader nodes. So, the shader nodes
+07:58 my shader nodes. So, the shader nodes over here, this is actually the same
+08:00 over here, this is actually the same information as what we have in our
+08:03 information as what we have in our material over here. For example, if I
+08:05 material over here. For example, if I was to uh adjust this roughness, you can
+08:08 was to uh adjust this roughness, you can see that it's adjusting both of those
+08:10 see that it's adjusting both of those values there. And when we added in this,
+08:12 values there. And when we added in this, and we we clicked image texture, it was
+08:15 and we we clicked image texture, it was basically in the background adding in
+08:17 basically in the background adding in this node here, which loaded in the
+08:19 this node here, which loaded in the image texture. So, this is a it's a
+08:21 image texture. So, this is a it's a simplified view. If you want to do like
+08:23 simplified view. If you want to do like small changes to a material, you use
+08:25 small changes to a material, you use this panel here. If you want to do
+08:27 this panel here. If you want to do anything more complex than that, you use
+08:30 anything more complex than that, you use the shader nodes here. And it's pretty
+08:32 the shader nodes here. And it's pretty self-explanatory to understand how
+08:34 self-explanatory to understand how shader nodes work. It's like over here,
+08:37 shader nodes work. It's like over here, this is your material output. It's the
+08:39 this is your material output. It's the final material. And generally, you have
+08:41 final material. And generally, you have a shader, which is something like this,
+08:43 a shader, which is something like this, principled BSDF, that is the shader that
+08:45 principled BSDF, that is the shader that you use for like 99% of materials now.
+08:48 you use for like 99% of materials now. And then, you just have a bunch of
+08:50 And then, you just have a bunch of values. And then, you can connect things
+08:52 values. And then, you can connect things into this um to do different things. And
+08:54 into this um to do different things. And I'm going to show you how we can like
+08:55 I'm going to show you how we can like tweak this texture and do a bunch of
+08:56 tweak this texture and do a bunch of stuff. Um but, first, let's load in some
+08:59 stuff. Um but, first, let's load in some of those PBR texture maps. By the way,
+09:01 of those PBR texture maps. By the way, if you're wondering uh the one the view
+09:03 if you're wondering uh the one the view on the left-hand side of the screen
+09:04 on the left-hand side of the screen here, why does this look different? This
+09:06 here, why does this look different? This is because, and again, a middle mouse
+09:07 is because, and again, a middle mouse drag along the top there, um
+09:10 drag along the top there, um we we talked about the 3D viewport. We
+09:12 we we talked about the 3D viewport. We talked about the rendered view mode. We
+09:14 talked about the rendered view mode. We didn't talk about this one. This is the
+09:15 didn't talk about this one. This is the material preview mode. And it's
+09:17 material preview mode. And it's literally designed for previewing
+09:19 literally designed for previewing materials because it loads in a like
+09:21 materials because it loads in a like fake world view around a called an HDR,
+09:25 fake world view around a called an HDR, which you can actually swap out here, so
+09:27 which you can actually swap out here, so you can see, you know, different types
+09:29 you can see, you know, different types of uh environments. But, it's a way to
+09:31 of uh environments. But, it's a way to like quickly visualize a material
+09:34 like quickly visualize a material um without having to like change a bunch
+09:36 um without having to like change a bunch of lighting to understand how the
+09:38 of lighting to understand how the material's going to look cuz materials
+09:39 material's going to look cuz materials look very different in different uh
+09:41 look very different in different uh lighting setups. So, it's actually a
+09:42 lighting setups. So, it's actually a very useful mode, um and it makes sense.
+09:45 very useful mode, um and it makes sense. It's called material preview. So, let's
+09:46 It's called material preview. So, let's load in another image. So, I'm going to
+09:48 load in another image. So, I'm going to hit uh uh I could hit shift A, or I
+09:50 hit uh uh I could hit shift A, or I could just go add at the top of the
+09:51 could just go add at the top of the screen there. It's cool. The Blender's
+09:53 screen there. It's cool. The Blender's hot keys are the exact same ones
+09:54 hot keys are the exact same ones everywhere. So, shift A is the same as
+09:56 everywhere. So, shift A is the same as shift A over there, right? Add.
+09:58 shift A over there, right? Add. And I'm going to go texture and I'm
+10:00 And I'm going to go texture and I'm going to say image texture. Okay. And
+10:02 going to say image texture. Okay. And now it's just asking where do you want
+10:03 now it's just asking where do you want to drop it, so I can just drop it
+10:05 to drop it, so I can just drop it anywhere. And I'm going to click open.
+10:07 anywhere. And I'm going to click open. Then I'm going to navigate to that
+10:08 Then I'm going to navigate to that folder where all of the images are. And
+10:10 folder where all of the images are. And the first one I'm going to load in is
+10:12 the first one I'm going to load in is this one called underscore normal, the
+10:14 this one called underscore normal, the purple one.
+10:16 purple one. And it's you can remember it as the
+10:17 And it's you can remember it as the normal map because it's normal to ask
+10:20 normal map because it's normal to ask why is that purple? That's how I
+10:22 why is that purple? That's how I remember it.
+10:23 remember it. >> [laughter]
+10:28 >> Then yeah, just hit open on that. And the place that you would put that,
+10:30 And the place that you would put that, you could guess, is the normal input,
+10:32 you could guess, is the normal input, that little purple input there on our
+10:35 that little purple input there on our shader there. So, the way you connect
+10:38 shader there. So, the way you connect something to something else is you just
+10:40 something to something else is you just where there's a point, you just click
+10:42 where there's a point, you just click that point and you just drag out and
+10:44 that point and you just drag out and connect it to another point and then you
+10:46 connect it to another point and then you release. And then it is connected.
+10:49 release. And then it is connected. Now, you can see that there is some bump
+10:51 Now, you can see that there is some bump information now. But you wouldn't know
+10:53 information now. But you wouldn't know it, but this is actually the wrong
+10:55 it, but this is actually the wrong What's It's partly the way to connect
+10:57 What's It's partly the way to connect something, but we need to do something
+10:59 something, but we need to do something else. First of all, you can see that
+11:01 else. First of all, you can see that between here and here Whoops.
+11:04 between here and here Whoops. We've gone from a yellow input to a
+11:07 We've gone from a yellow input to a purple input. Now, it's okay to go from
+11:09 purple input. Now, it's okay to go from like yellow to gray because gray just
+11:11 like yellow to gray because gray just means gray scale, so you can go from
+11:13 means gray scale, so you can go from color information to gray information,
+11:14 color information to gray information, that's fine. But normal is like vector
+11:17 that's fine. But normal is like vector information. Yeah, without getting
+11:19 information. Yeah, without getting technical, like the normal is the way
+11:21 technical, like the normal is the way the faces, like that invisible line of
+11:23 the faces, like that invisible line of the faces, and this is like faking which
+11:25 the faces, and this is like faking which direction each of those pixels has.
+11:28 direction each of those pixels has. Um
+11:29 Um But basically, we need to add something
+11:30 But basically, we need to add something between here and here to convert this
+11:33 between here and here to convert this from color information into vector
+11:35 from color information into vector information. And we can do that by
+11:37 information. And we can do that by hitting shift A to add again, and then
+11:40 hitting shift A to add again, and then going to displacement in this drop-down
+11:42 going to displacement in this drop-down and clicking normal map. You can also,
+11:45 and clicking normal map. You can also, if you can't find it, you can go to the
+11:46 if you can't find it, you can go to the search bar and you can type in normal
+11:48 search bar and you can type in normal map as well. All right, once you've got
+11:50 map as well. All right, once you've got this normal map, you then just need to
+11:51 this normal map, you then just need to drag it over that line until it lights
+11:54 drag it over that line until it lights up, and then you just want to do a
+11:55 up, and then you just want to do a single click and it will connect it.
+11:57 single click and it will connect it. Okay. So, now it is correctly connected.
+12:01 Okay. So, now it is correctly connected. But it But still, it's just not quite
+12:03 But it But still, it's just not quite right. There are There is a lot of steps
+12:05 right. There are There is a lot of steps to like manually connecting PBR texture
+12:07 to like manually connecting PBR texture maps, which is why I want to show you
+12:08 maps, which is why I want to show you the fast way to do this after this. But
+12:11 the fast way to do this after this. But I need to show you this because you
+12:12 I need to show you this because you might be using PBR texture maps from
+12:13 might be using PBR texture maps from elsewhere or from like production files
+12:15 elsewhere or from like production files and stuff, and you need to know how to
+12:16 and stuff, and you need to know how to actually manually connect them. So, when
+12:19 actually manually connect them. So, when you're working with PBR texture maps,
+12:22 you're working with PBR texture maps, the only texture that should have the
+12:25 the only texture that should have the color space sRGB is your base color,
+12:28 color space sRGB is your base color, okay?
+12:30 okay? Every other map should have the color
+12:31 Every other map should have the color space set to non-color. And again,
+12:34 space set to non-color. And again, without going technical I keep saying
+12:36 without going technical I keep saying that because you shaders are very
+12:37 that because you shaders are very technical.
+12:39 technical. It It basically it's it's it's
+12:41 It It basically it's it's it's converting it to linear space. So, it's
+12:43 converting it to linear space. So, it's using that
+12:44 using that Or it's actually not doing any
+12:45 Or it's actually not doing any conversion. It's just saying like let's
+12:47 conversion. It's just saying like let's use the raw values from that and
+12:50 use the raw values from that and just use it linear. I don't Yeah,
+12:52 just use it linear. I don't Yeah, anyway.
+12:53 anyway. >> [laughter]
+12:54 >> [laughter] >> Other Other software sometimes call
+12:56 >> Other Other software sometimes call those maps, but our Blender's is a
+12:58 those maps, but our Blender's is a non-color data. Okay. So, now that we've
+13:00 non-color data. Okay. So, now that we've got that, look, we've got bump across
+13:03 got that, look, we've got bump across our concrete there. And if we went into
+13:05 our concrete there. And if we went into the rendered view at the top there,
+13:07 the rendered view at the top there, you could see if I took my lamp at the
+13:09 you could see if I took my lamp at the top there, and then I brought this like
+13:11 top there, and then I brought this like way down to the
+13:13 way down to the plane that you can see we get this like
+13:14 plane that you can see we get this like nice gritty shadows cast across the
+13:18 nice gritty shadows cast across the surface there.
+13:19 surface there. Um
+13:20 Um And this is how you make materials that
+13:21 And this is how you make materials that look realistic. You can't get this
+13:24 look realistic. You can't get this information any other way than by
+13:27 information any other way than by very expensively capturing these
+13:30 very expensively capturing these surfaces, and I know that because I've
+13:32 surfaces, and I know that because I've seen the bills. I know how much it costs
+13:34 seen the bills. I know how much it costs to capture surfaces like this.
+13:36 to capture surfaces like this. And it can be thousands. That's where we
+13:38 And it can be thousands. That's where we started, and over the years we've got
+13:40 started, and over the years we've got that price way way down.
+13:42 that price way way down. But it's it's a very expensive capturing
+13:45 But it's it's a very expensive capturing process. It's not easy to do. It's not
+13:47 process. It's not easy to do. It's not fun. It's very boring to do. So, unless
+13:50 fun. It's very boring to do. So, unless you really want to go into that space,
+13:52 you really want to go into that space, it's not something you want to try to
+13:54 it's not something you want to try to do.
+13:55 do. Anyways, so that's the normal map, but
+13:56 Anyways, so that's the normal map, but there is another map which is useful.
+13:59 there is another map which is useful. So, I'm going to hit shift A to add
+14:01 So, I'm going to hit shift A to add another map, and I'm going to say
+14:03 another map, and I'm going to say texture, and I'm looking for image
+14:06 texture, and I'm looking for image texture. Okay. And then I'm going to
+14:08 texture. Okay. And then I'm going to click open on this, and this time I'm
+14:10 click open on this, and this time I'm looking for the one with underscore
+14:12 looking for the one with underscore roughness at the end of the name.
+14:15 roughness at the end of the name. Okay. And then just like before, I need
+14:17 Okay. And then just like before, I need to make sure my color space is set to
+14:18 to make sure my color space is set to non-color data. And then finally, I want
+14:21 non-color data. And then finally, I want to drag this out to plug into my
+14:24 to drag this out to plug into my roughness input.
+14:26 roughness input. Now, when you do that, you'll see the
+14:27 Now, when you do that, you'll see the material goes very very dull. So, it was
+14:30 material goes very very dull. So, it was like, you know, before when we set this
+14:32 like, you know, before when we set this to like shiny like this,
+14:34 to like shiny like this, when we connect this in here it goes
+14:35 when we connect this in here it goes dull because concrete is dull. So, this
+14:37 dull because concrete is dull. So, this is actually like the correct value for
+14:39 is actually like the correct value for concrete. We like calibrated it to make
+14:41 concrete. We like calibrated it to make sure. So, this is is that. Now, it's
+14:44 sure. So, this is is that. Now, it's very often that you actually want to
+14:46 very often that you actually want to customize something. Like, for example,
+14:48 customize something. Like, for example, cafe tables often have concrete that has
+14:51 cafe tables often have concrete that has been like buffed or like coated in some
+14:53 been like buffed or like coated in some sort of gloss or something like that or
+14:56 sort of gloss or something like that or an epoxy. So, it can It It's totally
+14:58 an epoxy. So, it can It It's totally fine to just want to have like the free
+15:01 fine to just want to have like the free control of the slider there and not use
+15:03 control of the slider there and not use it. Like, the maps are there if you need
+15:06 it. Like, the maps are there if you need them, right? If you really want to go
+15:07 them, right? If you really want to go for something realistic, you would use
+15:09 for something realistic, you would use them all, but sometimes you don't, and
+15:11 them all, but sometimes you don't, and it's totally fine to just disconnect
+15:12 it's totally fine to just disconnect them. Now, the other maps here, by the
+15:14 them. Now, the other maps here, by the way, if you're curious, this yellow one,
+15:15 way, if you're curious, this yellow one, ORM, we don't use that in Blender,
+15:18 ORM, we don't use that in Blender, that's used by game engines. Polygon
+15:20 that's used by game engines. Polygon provides them because we, you know,
+15:21 provides them because we, you know, serve all the different renderers and
+15:23 serve all the different renderers and softwares out there. Displacement is a
+15:25 softwares out there. Displacement is a different method than normal map. We're
+15:28 different method than normal map. We're actually going to use that on the donut.
+15:30 actually going to use that on the donut. Metallic is if the material contains
+15:32 Metallic is if the material contains metal, that's the only time you would
+15:34 metal, that's the only time you would use that. And then the other one is
+15:35 use that. And then the other one is occlusion map, an ambient occlusion map.
+15:38 occlusion map, an ambient occlusion map. That's if it there's like deep crevices,
+15:40 That's if it there's like deep crevices, like if it's like a pebble pathway or
+15:41 like if it's like a pebble pathway or something like that. This is the actual
+15:43 something like that. This is the actual like shadows that like collects inside
+15:45 like shadows that like collects inside of crevices.
+15:46 of crevices. But we don't need that. Honestly, most
+15:49 But we don't need that. Honestly, most of the time these three maps, the base
+15:50 of the time these three maps, the base color, the normal map, and the
+15:52 color, the normal map, and the roughness, that is like 90% materials.
+15:55 roughness, that is like 90% materials. And that's really all that you need for
+15:56 And that's really all that you need for those. But it is still very finicky to
+16:00 those. But it is still very finicky to do this, right? Am I wrong? Like, having
+16:02 do this, right? Am I wrong? Like, having to remember the color space and connect
+16:04 to remember the color space and connect this and convert that and like even just
+16:06 this and convert that and like even just these three things was like 30 clicks.
+16:09 these three things was like 30 clicks. So, that is why most people that are
+16:12 So, that is why most people that are dealing with PBR textures don't want to
+16:14 dealing with PBR textures don't want to have to do this. They want to use an
+16:16 have to do this. They want to use an add-on like
+16:18 add-on like the Polygon add-on. So, at the top of
+16:20 the Polygon add-on. So, at the top of the page on polygon.com \{{}slash} donut,
+16:23 the page on polygon.com \{{}slash} donut, you can click this link that says
+16:24 you can click this link that says download Polygon add-on, or you can just
+16:26 download Polygon add-on, or you can just go to \{{}slash} Blender. This will show
+16:29 go to \{{}slash} Blender. This will show you how to install it. If you don't want
+16:30 you how to install it. If you don't want to read that, I'll show you how to do it
+16:32 to read that, I'll show you how to do it right now. Unlike before, when you have
+16:35 right now. Unlike before, when you have your zip file, do not unzip it. Blender
+16:37 your zip file, do not unzip it. Blender actually needs this zip in order to
+16:40 actually needs this zip in order to properly install it. So, what you do is
+16:42 properly install it. So, what you do is you drag out and you release the zip
+16:44 you drag out and you release the zip file from anywhere on the computer, and
+16:47 file from anywhere on the computer, and then it will say install this because
+16:49 then it will say install this because it'll recognize it as an add-on, and
+16:50 it'll recognize it as an add-on, and then you say yep, install, and you say
+16:52 then you say yep, install, and you say okay. Now, if you go to edit
+16:55 okay. Now, if you go to edit preferences, then go to add-ons, you
+16:57 preferences, then go to add-ons, you should see one there called Polygon at
+16:59 should see one there called Polygon at the top there, which means it has been
+17:01 the top there, which means it has been successfully installed. If it didn't
+17:03 successfully installed. If it didn't successfully install, maybe you're on a
+17:04 successfully install, maybe you're on a Mac and maybe it actually automatically
+17:06 Mac and maybe it actually automatically unzipped itself, in which case you need
+17:08 unzipped itself, in which case you need to rezip it and then drag it over. But
+17:11 to rezip it and then drag it over. But yeah, it should install if it is
+17:12 yeah, it should install if it is properly zipped. Now, once you have done
+17:15 properly zipped. Now, once you have done that, in your 3D viewport over here, if
+17:18 that, in your 3D viewport over here, if you hit N, which brings up your
+17:21 you hit N, which brings up your properties, you should see a tab there
+17:23 properties, you should see a tab there that says Polygon. Then if you just like
+17:25 that says Polygon. Then if you just like one-click login, this will take you here
+17:28 one-click login, this will take you here and then it will just say login
+17:29 and then it will just say login confirmed. Go back into Blender and you
+17:32 confirmed. Go back into Blender and you should see now we've got materials in a
+17:36 should see now we've got materials in a scroll bar, right? Which is pretty cool,
+17:38 scroll bar, right? Which is pretty cool, and I can type in anything I want. Let's
+17:40 and I can type in anything I want. Let's say
+17:41 say sprinkles cuz I know there's some
+17:43 sprinkles cuz I know there's some sprinkles materials here, for example.
+17:45 sprinkles materials here, for example. But you can also browse by category,
+17:48 But you can also browse by category, right? You can look at all the different
+17:49 right? You can look at all the different ones. And importantly, this will
+17:51 ones. And importantly, this will actually download it. So, one-click
+17:54 actually download it. So, one-click download like this, and then one-click
+17:56 download like this, and then one-click apply, and look at this.
+17:59 apply, and look at this. All of this has been set up
+18:00 All of this has been set up automatically. All of these are
+18:02 automatically. All of these are automatically set to non-color. We've
+18:04 automatically set to non-color. We've got the exact precise
+18:08 got the exact precise correct use of every single map that is
+18:11 correct use of every single map that is ready to go.
+18:12 ready to go. But anyway, go back to my previous
+18:14 But anyway, go back to my previous material here, and let's go to
+18:18 material here, and let's go to free category, and then let's use
+18:21 free category, and then let's use another one. So, this speckled glazed
+18:25 another one. So, this speckled glazed ceramic plate.
+18:27 ceramic plate. And by the way, you can like click the
+18:28 And by the way, you can like click the little drop-down there if you want to
+18:30 little drop-down there if you want to see something online to get like better
+18:32 see something online to get like better picture for it,
+18:33 picture for it, you can quickly view it that way. But
+18:36 you can quickly view it that way. But this is the one we want to apply to our
+18:38 this is the one we want to apply to our plate here. So, with my plate selected,
+18:41 plate here. So, with my plate selected, I need to first of all hit download.
+18:43 I need to first of all hit download. I've already done it, which is why I
+18:44 I've already done it, which is why I don't see it, but you hit download and
+18:46 don't see it, but you hit download and it'll just save it to your folder, which
+18:48 it'll just save it to your folder, which is in your preferences. And then with an
+18:51 is in your preferences. And then with an object selected, you should be able to
+18:53 object selected, you should be able to hit apply. If you don't see the apply
+18:55 hit apply. If you don't see the apply box, it means that you haven't got an
+18:57 box, it means that you haven't got an object selected, so make sure one is
+18:58 object selected, so make sure one is selected in order to click that box.
+19:01 selected in order to click that box. Okay. So, we have correctly
+19:04 Okay. So, we have correctly applied it. You can see all the nodes
+19:05 applied it. You can see all the nodes are there. It's the correct material.
+19:07 are there. It's the correct material. Why isn't it showing up on our object?
+19:09 Why isn't it showing up on our object? Now, this isn't a fault of the texture
+19:10 Now, this isn't a fault of the texture or anything like that. This is to do
+19:13 or anything like that. This is to do with texture mapping, which is the next
+19:16 with texture mapping, which is the next thing to understand when it comes to
+19:18 thing to understand when it comes to textures. Is textures are 2D, right? 2D.
+19:21 textures. Is textures are 2D, right? 2D. And our objects are obviously 3D. So,
+19:24 And our objects are obviously 3D. So, how do you apply a texture to an object?
+19:27 how do you apply a texture to an object? There are so many different ways. And
+19:29 There are so many different ways. And the most common way is to use UV
+19:32 the most common way is to use UV unwrapping, which is the default method,
+19:34 unwrapping, which is the default method, which is what it's actually looking for
+19:36 which is what it's actually looking for right now. You can see that's the
+19:37 right now. You can see that's the texture coordinate that it's called in
+19:39 texture coordinate that it's called in is UVs. And for something like a plate,
+19:42 is UVs. And for something like a plate, this is the most simplest thing ever cuz
+19:44 this is the most simplest thing ever cuz it's just creating UVs. So, in edit
+19:47 it's just creating UVs. So, in edit mode, so just tab, and then select your
+19:50 mode, so just tab, and then select your entire mesh like that. Then hit U, U for
+19:54 entire mesh like that. Then hit U, U for unwrap, and then select unwrap angle
+19:57 unwrap, and then select unwrap angle based. And look, now the texture has
+20:00 based. And look, now the texture has been applied. So, what did that actually
+20:02 been applied. So, what did that actually do? If you go to your UV editing tab at
+20:05 do? If you go to your UV editing tab at the top of your screen there, just click
+20:07 the top of your screen there, just click that, you will see, and let's uh focus
+20:09 that, you will see, and let's uh focus on our object, so number pad right
+20:11 on our object, so number pad right there, and I'll just uh turn this off so
+20:13 there, and I'll just uh turn this off so we can see the mesh underneath it, and
+20:15 we can see the mesh underneath it, and this one as well. And let's look at uh
+20:17 this one as well. And let's look at uh the wireframe. Okay, so when we UV
+20:19 the wireframe. Okay, so when we UV unwrapped it, it basically took I mean,
+20:21 unwrapped it, it basically took I mean, it in in the case of something as flat
+20:23 it in in the case of something as flat as this, it just took a snapshot of it,
+20:25 as this, it just took a snapshot of it, and then it put it into the 2D space
+20:27 and then it put it into the 2D space over here. And from your drop down, you
+20:29 over here. And from your drop down, you could actually change it to the color
+20:30 could actually change it to the color map, and you could see where it's
+20:32 map, and you could see where it's actually applied to on it. So, if I
+20:34 actually applied to on it. So, if I select a point right here on the mesh,
+20:36 select a point right here on the mesh, you can see which point is actually
+20:37 you can see which point is actually selected there. So, it's right next to
+20:39 selected there. So, it's right next to this little spot, and you can see there
+20:42 this little spot, and you can see there is this spot in the ceramic there, okay?
+20:44 is this spot in the ceramic there, okay? And as I uh
+20:46 And as I uh if I was to select everything with A,
+20:48 if I was to select everything with A, and then if I was to hit uh to rotate,
+20:51 and then if I was to hit uh to rotate, you can see that the texture is being
+20:53 you can see that the texture is being updated over there. In fact, if I turn
+20:55 updated over there. In fact, if I turn off the overlay there just to uh see it
+20:57 off the overlay there just to uh see it more clearly, and then I turn on the
+20:58 more clearly, and then I turn on the thickness, right?
+21:00 thickness, right? Watch this. As I select everything in
+21:02 Watch this. As I select everything in edit mode, I can move this around, and
+21:05 edit mode, I can move this around, and the texture coordinates are updating in
+21:07 the texture coordinates are updating in real time. Okay, I can also scale this
+21:09 real time. Okay, I can also scale this by hitting S, and this is a really
+21:11 by hitting S, and this is a really common thing you do, because like often
+21:13 common thing you do, because like often a mesh is a completely different size to
+21:15 a mesh is a completely different size to the captured size of the object. Um in
+21:17 the captured size of the object. Um in Polygon's case, for like detailed
+21:19 Polygon's case, for like detailed textures like this, this is a 30 by 30
+21:21 textures like this, this is a 30 by 30 cm texture, which is actually probably
+21:23 cm texture, which is actually probably pretty perfect for a plate. Maybe a
+21:25 pretty perfect for a plate. Maybe a maybe a plate should be a little bit uh
+21:28 maybe a plate should be a little bit uh scaled in like that, so that the dots
+21:30 scaled in like that, so that the dots are a little bit bigger. But, you could
+21:31 are a little bit bigger. But, you could see this is very, very easy to do. Let's
+21:34 see this is very, very easy to do. Let's go back to layout over here. I'm going
+21:36 go back to layout over here. I'm going to select the icing now, and let's do uh
+21:39 to select the icing now, and let's do uh one that's a little bit more
+21:40 one that's a little bit more complicated. So, I'm going to hit N to
+21:43 complicated. So, I'm going to hit N to bring up the properties again. I'm going
+21:44 bring up the properties again. I'm going to scroll down, so this is in the
+21:46 to scroll down, so this is in the textures free category. Scrolling down,
+21:48 textures free category. Scrolling down, and I'm looking for the strawberry pink
+21:50 and I'm looking for the strawberry pink uh glaze. Okay, so we got this
+21:52 uh glaze. Okay, so we got this strawberry pink um texture, right? And
+21:55 strawberry pink um texture, right? And this was actually captured um by
+21:59 this was actually captured um by literally pouring a bunch of icing into
+22:01 literally pouring a bunch of icing into a pan, um and then using a stereoscopic
+22:04 a pan, um and then using a stereoscopic scanner to capture it from all
+22:05 scanner to capture it from all dimensions, so that you get this like
+22:07 dimensions, so that you get this like really interesting like that height
+22:09 really interesting like that height information there, the little bumps of
+22:11 information there, the little bumps of like the sugar crystals and stuff
+22:13 like the sugar crystals and stuff popping through. Pretty cool. Anyways,
+22:15 popping through. Pretty cool. Anyways, let's hit apply on that.
+22:18 let's hit apply on that. Okay, you could see there is some
+22:21 Okay, you could see there is some texture on here, unlike the plate which
+22:23 texture on here, unlike the plate which came in like nothing. And the reason for
+22:25 came in like nothing. And the reason for that is that when you add in um a torus,
+22:28 that is that when you add in um a torus, like certain primitives, we added in a
+22:30 like certain primitives, we added in a torus, it actually comes in with UV
+22:33 torus, it actually comes in with UV unwrapping already created, okay? So,
+22:34 unwrapping already created, okay? So, with this this one here.
+22:36 with this this one here. So, it's already got some UVs, but all
+22:39 So, it's already got some UVs, but all that extra work that we did at the
+22:40 that extra work that we did at the bottom there, like extruding some things
+22:42 bottom there, like extruding some things down, that's all been missed, all of the
+22:44 down, that's all been missed, all of the way that things have been shifted,
+22:45 way that things have been shifted, because now it's lumpy, all of that is
+22:47 because now it's lumpy, all of that is missing as well. So, it would help to
+22:49 missing as well. So, it would help to actually UV unwrap this again, and
+22:52 actually UV unwrap this again, and project these points in a way that
+22:54 project these points in a way that actually match matches the mesh. So, the
+22:58 actually match matches the mesh. So, the way to think about this is what if this
+23:01 way to think about this is what if this mesh was made of paper, and we had to
+23:03 mesh was made of paper, and we had to lay the paper flat over onto this
+23:05 lay the paper flat over onto this texture on the left-hand side over here?
+23:08 texture on the left-hand side over here? Where would you place the cuts on the
+23:11 Where would you place the cuts on the mesh in order to lay it flat? And in the
+23:13 mesh in order to lay it flat? And in the case of something like this, where I
+23:16 case of something like this, where I would place the cuts would be
+23:17 would place the cuts would be essentially along the edge, right along
+23:21 essentially along the edge, right along here. Okay, so if I alt click along that
+23:24 here. Okay, so if I alt click along that edge there, that should select all the
+23:26 edge there, that should select all the way around it. So, do check that it goes
+23:28 way around it. So, do check that it goes all the way around it. Um if it doesn't,
+23:30 all the way around it. Um if it doesn't, then it just this next step will come
+23:32 then it just this next step will come out a little bit funny. Um anyways, now
+23:35 out a little bit funny. Um anyways, now that I've selected that, to add a cut,
+23:38 that I've selected that, to add a cut, we're going to hit control E,
+23:40 we're going to hit control E, and then I'm going to select mark seam,
+23:43 and then I'm going to select mark seam, okay? And now, if I was to go back into
+23:46 okay? And now, if I was to go back into uh wireframe mode here, and then just
+23:48 uh wireframe mode here, and then just turn off the selection, you should see
+23:51 turn off the selection, you should see that we've got a line here that is red.
+23:53 that we've got a line here that is red. By the way, the one next to it that is
+23:54 By the way, the one next to it that is purple, that is the one that has the
+23:56 purple, that is the one that has the crease, which we added when we used the
+23:58 crease, which we added when we used the solidify thing to make it cling to the
+24:00 solidify thing to make it cling to the uh to the donut a little bit better. So,
+24:02 uh to the donut a little bit better. So, we've got this line that goes all the
+24:04 we've got this line that goes all the way around it, okay? And that has done a
+24:07 way around it, okay? And that has done a cut. Now, nothing has changed yet,
+24:09 cut. Now, nothing has changed yet, because we still haven't UV unwrapped
+24:10 because we still haven't UV unwrapped it, and that's okay, because we need to
+24:12 it, and that's okay, because we need to do one more
+24:13 do one more right in the middle of our donut. If you
+24:15 right in the middle of our donut. If you just select like a random point on the
+24:17 just select like a random point on the inside of the donut there, then hit your
+24:20 inside of the donut there, then hit your focus key, um tilde three or numpad
+24:23 focus key, um tilde three or numpad period,
+24:24 period, then you should be able to get in nice
+24:26 then you should be able to get in nice and close to it. Now that I'm here, I'm
+24:28 and close to it. Now that I'm here, I'm going to do the same thing, so hold down
+24:30 going to do the same thing, so hold down alt, and then select this line here, and
+24:32 alt, and then select this line here, and now I'm going to hit control E, and do
+24:35 now I'm going to hit control E, and do another seam. Okay, now that I've done
+24:37 another seam. Okay, now that I've done that, select the entire mesh, and just
+24:39 that, select the entire mesh, and just like before, to unwrap it, it's U, U to
+24:42 like before, to unwrap it, it's U, U to unwrap, and unwrap angle based. Now,
+24:45 unwrap, and unwrap angle based. Now, watch what happens.
+24:47 watch what happens. Ready?
+24:50 Ready? Well, that's taking a long time. I don't
+24:51 Well, that's taking a long time. I don't know why it took that long. [laughter]
+24:52 know why it took that long. [laughter] I've never seen it stall like that
+24:54 I've never seen it stall like that before, okay? Anyways, but look,
+24:57 before, okay? Anyways, but look, that is perfect. That's pretty well
+24:59 that is perfect. That's pretty well perfect. I mean, there's probably a
+25:01 perfect. I mean, there's probably a little bit of stretching there. There's
+25:02 little bit of stretching there. There's always going to be stretching, guys.
+25:04 always going to be stretching, guys. You'll never get it perfect, but as long
+25:06 You'll never get it perfect, but as long as the stretching is minimal, like that
+25:08 as the stretching is minimal, like that is pretty well good. It's laid flat,
+25:10 is pretty well good. It's laid flat, like it looks almost like a cowhide rug,
+25:12 like it looks almost like a cowhide rug, you know, like the and the dead animal
+25:15 you know, like the and the dead animal that's been stretched out. It looks like
+25:17 that's been stretched out. It looks like that, but like that's that's how it
+25:18 that, but like that's that's how it works, right? So, now if I go into
+25:20 works, right? So, now if I go into material view, look at this now.
+25:23 material view, look at this now. We no longer have I mean, you couldn't
+25:25 We no longer have I mean, you couldn't really see it clearly before, but you no
+25:26 really see it clearly before, but you no longer have the stretching um that was
+25:29 longer have the stretching um that was happening there. It's now been properly
+25:31 happening there. It's now been properly um
+25:32 um stretched across it. It's been properly
+25:34 stretched across it. It's been properly mapped, and so we've got the texture
+25:35 mapped, and so we've got the texture going all the way in there. Now, the
+25:37 going all the way in there. Now, the scale of this is probably wrong. So, um
+25:40 scale of this is probably wrong. So, um I like to like change the scale here,
+25:41 I like to like change the scale here, and I want to see it over there. So, I
+25:43 and I want to see it over there. So, I like to turn off my over uh overlays at
+25:46 like to turn off my over uh overlays at the top there. So, you can just click
+25:47 the top there. So, you can just click that little box, that'll turn off
+25:49 that little box, that'll turn off everything, so you kind of can see
+25:50 everything, so you kind of can see what's selected, and now I can just
+25:51 what's selected, and now I can just change the scale here,
+25:53 change the scale here, um and I could make it bigger or
+25:55 um and I could make it bigger or smaller, um
+25:57 smaller, um but yeah, you can play with the size,
+25:59 but yeah, you can play with the size, and and try and get it good. But, why
+26:01 and and try and get it good. But, why does it look so pale and pink and like
+26:03 does it look so pale and pink and like not as fun as it was before? Well, it's
+26:05 not as fun as it was before? Well, it's because when we added in that texture,
+26:07 because when we added in that texture, right? When we clicked this, it overrode
+26:10 right? When we clicked this, it overrode overrode um
+26:13 overrode um the material that we had before. So, if
+26:15 the material that we had before. So, if you go back to your shading tab, you'll
+26:17 you go back to your shading tab, you'll see we got all these textures, and for
+26:19 see we got all these textures, and for example, before we had a pink color that
+26:21 example, before we had a pink color that was in the base color. Now, it's been
+26:23 was in the base color. Now, it's been overridden with the actual strawberry
+26:25 overridden with the actual strawberry color, which was captured with the
+26:26 color, which was captured with the camera. However, that strawberry is a
+26:28 camera. However, that strawberry is a little paler than what I want. So, I'm
+26:31 little paler than what I want. So, I'm actually going to disconnect it, because
+26:32 actually going to disconnect it, because there's not actually that much
+26:34 there's not actually that much information in color when it's something
+26:36 information in color when it's something like this. All the information is in the
+26:38 like this. All the information is in the bump. So, we can really just get by with
+26:40 bump. So, we can really just get by with Actually, we don't need metallic, cuz
+26:42 Actually, we don't need metallic, cuz there's definitely no metal in it. Um
+26:44 there's definitely no metal in it. Um I'm going to keep the roughness. That's
+26:45 I'm going to keep the roughness. That's okay to keep, because I just actually
+26:47 okay to keep, because I just actually want to see that. I'm going to
+26:48 want to see that. I'm going to disconnect this, which is the subsurface
+26:51 disconnect this, which is the subsurface amount, um because I want to control
+26:53 amount, um because I want to control that myself as well. And I'm just going
+26:55 that myself as well. And I'm just going to leave the roughness and the normal,
+26:57 to leave the roughness and the normal, and that's it. Oh, I should explain how
+26:58 and that's it. Oh, I should explain how I was disconnecting those. So, if you
+27:00 I was disconnecting those. So, if you hold down control and then right-click
+27:03 hold down control and then right-click drag, that is how you can disconnect.
+27:05 drag, that is how you can disconnect. You can also just click these points,
+27:06 You can also just click these points, and then just disconnect like that, but
+27:08 and then just disconnect like that, but I prefer to control right-click drag,
+27:10 I prefer to control right-click drag, and that'll cut it. Um sever the tie.
+27:14 and that'll cut it. Um sever the tie. And now that I'm here, I'm just going to
+27:15 And now that I'm here, I'm just going to set these values to what I had before,
+27:17 set these values to what I had before, you know, just playing it by eye, what
+27:19 you know, just playing it by eye, what pink color looks good. Set my subsurface
+27:22 pink color looks good. Set my subsurface amount radius to one, and then I'll
+27:24 amount radius to one, and then I'll change this uh scale value till it looks
+27:27 change this uh scale value till it looks nice. But, there you go. I've now got my
+27:29 nice. But, there you go. I've now got my fleshy pink donut,
+27:32 fleshy pink donut, um
+27:32 um but I I now have this lovely bubbly um
+27:36 but I I now have this lovely bubbly um sugar crystals real glaze going on the
+27:39 sugar crystals real glaze going on the donut.
+27:40 donut. All right, now let's do another fun one.
+27:41 All right, now let's do another fun one. Let's do the donut itself. Now, this is
+27:44 Let's do the donut itself. Now, this is a an interesting one that I had my team
+27:46 a an interesting one that I had my team do um before we did
+27:48 do um before we did uh before I started recording. Um I had
+27:50 uh before I started recording. Um I had them go out and scan a real donut, scan
+27:53 them go out and scan a real donut, scan it all the way around, and then map it
+27:55 it all the way around, and then map it to a torus, and then just get the
+27:56 to a torus, and then just get the extracted data. And because this has
+27:59 extracted data. And because this has been already UV unwrapped to map the
+28:02 been already UV unwrapped to map the exact square, just like what we um uh
+28:05 exact square, just like what we um uh sorry.
+28:07 sorry. Yeah, just like what is captured for
+28:09 Yeah, just like what is captured for this this type of map here, now I can
+28:11 this this type of map here, now I can just apply this, and it'll automatically
+28:13 just apply this, and it'll automatically do it. So, let's do that. Hit apply, and
+28:15 do it. So, let's do that. Hit apply, and that's pretty good. Like that's nice
+28:17 that's pretty good. Like that's nice color, we've got nice bump there. If we
+28:19 color, we've got nice bump there. If we bring back our icing, you can see that's
+28:21 bring back our icing, you can see that's already pretty good, right? But, there
+28:24 already pretty good, right? But, there is something else that we can do,
+28:25 is something else that we can do, because when I was talking about
+28:27 because when I was talking about shading, you might remember I mentioned
+28:29 shading, you might remember I mentioned that there is two different ways of um
+28:32 that there is two different ways of um uh creating normal I sorry, creating
+28:35 uh creating normal I sorry, creating bumps, right? And the the the normal
+28:37 bumps, right? And the the the normal one, the purple one, that's the one
+28:39 one, the purple one, that's the one we've been using uh thus far. But,
+28:41 we've been using uh thus far. But, there's another one here, which comes in
+28:42 there's another one here, which comes in disconnected, and it's the displacement
+28:45 disconnected, and it's the displacement map. Now, in the newer versions of um
+28:48 map. Now, in the newer versions of um the Polygon add-on, like the next
+28:50 the Polygon add-on, like the next version that's coming out after this,
+28:52 version that's coming out after this, you'll be able to in this last use box
+28:54 you'll be able to in this last use box here, you'll have an option that says um
+28:56 here, you'll have an option that says um displacement and I sorry, displacement
+28:59 displacement and I sorry, displacement type. You can currently see it in
+29:01 type. You can currently see it in Cycles, so if you use that, you can
+29:03 Cycles, so if you use that, you can change it here to displacement and bump.
+29:05 change it here to displacement and bump. But, because Eevee only just came with
+29:08 But, because Eevee only just came with this feature to enable displacement,
+29:09 this feature to enable displacement, it's not yet there.
+29:11 it's not yet there. Um so, we would have to connect it um
+29:13 Um so, we would have to connect it um ourselves. But, essentially all it's
+29:15 ourselves. But, essentially all it's doing is when you change that little
+29:17 doing is when you change that little drop down there, if I grab all these
+29:19 drop down there, if I grab all these things here, hit G to move them down,
+29:21 things here, hit G to move them down, and then I sever this tie with the
+29:23 and then I sever this tie with the normal, and then I take my displacement,
+29:26 normal, and then I take my displacement, don't put it in the normal input though,
+29:28 don't put it in the normal input though, put it in the displacement output of the
+29:30 put it in the displacement output of the material here. And what this is doing
+29:33 material here. And what this is doing now
+29:35 now is well, it's it's still a fake bump,
+29:36 is well, it's it's still a fake bump, but the other setting that it would
+29:38 but the other setting that it would enable is here in your material
+29:40 enable is here in your material properties, right down here at the
+29:42 properties, right down here at the bottom, where it says displacement, it
+29:43 bottom, where it says displacement, it would change that to displacement and
+29:45 would change that to displacement and bump. And now, if I select my icing, it
+29:48 bump. And now, if I select my icing, it H to hide it, um you can see that the
+29:51 H to hide it, um you can see that the mesh has changed, right? This is the
+29:53 mesh has changed, right? This is the underlying mesh. It's now kind of
+29:54 underlying mesh. It's now kind of expanded. And this is actually the
+29:57 expanded. And this is actually the captured data of the height, and it's
+29:59 captured data of the height, and it's being projected out of the donut. But,
+30:01 being projected out of the donut. But, it can only use the actual data, which
+30:04 it can only use the actual data, which is on the mesh, okay? So, it currently
+30:07 is on the mesh, okay? So, it currently looks kind of like chunky, um because
+30:10 looks kind of like chunky, um because there's not enough information. So, if
+30:11 there's not enough information. So, if you go to your modifier panel here, and
+30:14 you go to your modifier panel here, and then what would we add to more add more
+30:15 then what would we add to more add more geometry? We would add in another
+30:18 geometry? We would add in another subdivision surface.
+30:20 subdivision surface. And now, when we do that, if I increase
+30:22 And now, when we do that, if I increase this,
+30:23 this, you can see if I increase it two, three,
+30:25 you can see if I increase it two, three, four times in the viewport, you can see
+30:27 four times in the viewport, you can see I get a lot more data come through.
+30:30 I get a lot more data come through. Okay, I I think three is about it. Um
+30:32 Okay, I I think three is about it. Um I'm just going to I'll I'll set render
+30:34 I'm just going to I'll I'll set render to three or four. Yeah, I'll set it to
+30:36 to three or four. Yeah, I'll set it to three. That should be fine.
+30:38 three. That should be fine. Um it comes in a little bit projected.
+30:40 Um it comes in a little bit projected. If you want to change the scale of it,
+30:41 If you want to change the scale of it, you can also do that
+30:43 you can also do that um here. I could change the scale from
+30:45 um here. I could change the scale from .2 to about .15.
+30:48 .2 to about .15. Also, you should see how it looks with
+30:49 Also, you should see how it looks with your icing. So, I'm going to hit Alt H.
+30:52 your icing. So, I'm going to hit Alt H. Um you can see it's actually, yeah,
+30:53 Um you can see it's actually, yeah, clipping through it. So, I'll select my
+30:55 clipping through it. So, I'll select my donut again, and I'll change the scale
+30:57 donut again, and I'll change the scale here to about
+30:58 here to about .12.
+31:01 .12. Like that. And then, of course, the
+31:02 Like that. And then, of course, the other value that this is missing is the
+31:04 other value that this is missing is the subsurface scattering, because again, we
+31:06 subsurface scattering, because again, we overrode the the placeholder stuff that
+31:09 overrode the the placeholder stuff that we had there before. So, in here, I'm
+31:11 we had there before. So, in here, I'm going to sever this connection, and then
+31:12 going to sever this connection, and then I'm going to set this to one, and then
+31:14 I'm going to set this to one, and then I'll just make this, you know, whatever.
+31:16 I'll just make this, you know, whatever. And look, you can make this look like so
+31:18 And look, you can make this look like so buttery nice. Like look at how soft and
+31:20 buttery nice. Like look at how soft and fluffy this donut looks.
+31:23 fluffy this donut looks. How cool is that?
+31:26 How cool is that? Like that.
+31:27 Like that. Bring it back. Look at that. We've got
+31:29 Bring it back. Look at that. We've got real icing with the real crystals. We've
+31:31 real icing with the real crystals. We've got real donut that has been captured
+31:34 got real donut that has been captured and projected onto our torus.
+31:36 and projected onto our torus. Um and that's just two materials, which
+31:38 Um and that's just two materials, which is really cool. The final object to
+31:40 is really cool. The final object to texture is our mug, and I'm going to do
+31:43 texture is our mug, and I'm going to do that in the next part, because we need
+31:45 that in the next part, because we need to go much deeper into UV unwrapping and
+31:47 to go much deeper into UV unwrapping and show how to unwrap a custom object. So,
+31:50 show how to unwrap a custom object. So, join me in the next video.

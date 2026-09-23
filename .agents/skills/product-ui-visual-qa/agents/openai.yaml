@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product UI Visual QA"
+  short_description: "Screenshot QA for product UI"
+  default_prompt: "Use $product-ui-visual-qa to audit a dashboard, editor, AI workbench, or product UI with screenshots, states, accessibility, and no-overlap checks."

@@ -47,6 +47,13 @@ GEMINI.md
 # Docs / research (large, not needed at runtime)
 docs
 scripts
+blender-workbench
+.playwright-cli
+output
+design-deliverables
+план разработки топового лендинга
+external-skills
+codex-resets-ru-package
 
 # Docker files themselves (no need to copy into image)
 Dockerfile

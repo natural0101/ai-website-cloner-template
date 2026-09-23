@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Responsive Viewport Storyboard"
+  short_description: "Plan desktop/mobile viewport composition"
+  default_prompt: "Use $landing-responsive-viewport-storyboard to turn a landing plan into explicit desktop, tablet and mobile viewport frames before implementation."

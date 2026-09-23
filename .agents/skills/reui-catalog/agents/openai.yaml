@@ -1,0 +1,4 @@
+interface:
+  display_name: "ReUI Catalog"
+  short_description: "Select gated ReUI registry items"
+  default_prompt: "Use $reui-catalog to select exact ReUI components for a landing plan."

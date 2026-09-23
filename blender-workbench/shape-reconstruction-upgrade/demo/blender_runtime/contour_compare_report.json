@@ -1,0 +1,82 @@
+{
+  "schema": "ai-blender-silhouette-report/v1",
+  "created_utc": "2026-06-22T08:53:46.818260+00:00",
+  "resolution": [
+    309,
+    250
+  ],
+  "alignment": {
+    "mode": "none",
+    "candidate_to_reference_affine_px": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ]
+    ]
+  },
+  "metrics": {
+    "mask_iou": 0.9759729272419628,
+    "dice": 0.9878403836273334,
+    "boundary": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0,
+      "symmetric_chamfer_px": 0.3807010054588318,
+      "symmetric_chamfer_normalized": 0.00095781491280441
+    },
+    "reference_area_px": 23591,
+    "candidate_area_px": 23121,
+    "area_ratio_candidate_over_reference": 0.9800771480649401,
+    "reference_holes": 0,
+    "candidate_holes": 0,
+    "centroid_distance_normalized": 0.002129472718211102
+  },
+  "screen_space": {
+    "reference_bbox_px": {
+      "x": 34,
+      "y": 42,
+      "width": 241,
+      "height": 186
+    },
+    "candidate_bbox_px": {
+      "x": 34,
+      "y": 42,
+      "width": 240,
+      "height": 185
+    },
+    "reference_centroid_px": [
+      154.2006273578907,
+      137.3262684922216
+    ],
+    "candidate_centroid_px": [
+      153.64253276242377,
+      136.68993555642058
+    ],
+    "delta_candidate_to_reference_px": [
+      0.5580945954669403,
+      0.6363329358010219
+    ],
+    "suggested_scale_x": 1.0041666666666667,
+    "suggested_scale_z": 1.0054054054054054
+  },
+  "blender_world_suggestion": {
+    "assumed_orthographic_world_height": 4.0,
+    "translate_x": 0.008929513527471044,
+    "translate_z": -0.010181326972816351,
+    "scale_x": 1.0041666666666667,
+    "scale_z": 1.0054054054054054,
+    "note": "Apply only to the common blockout/root after camera resolution and ortho_scale match the reference."
+  },
+  "quality_gate": {
+    "mask_iou_min": 0.85,
+    "boundary_f1_min": 0.9,
+    "pass": true
+  },
+  "suggestions": []
+}

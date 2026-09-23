@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product UI Component Sourcing"
+  short_description: "Choose primitives for product UI"
+  default_prompt: "Use $product-ui-component-sourcing to choose safe component sources and primitives for a dashboard, editor, AI workbench, or product UI."

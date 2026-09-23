@@ -1,0 +1,20 @@
+[
+  {
+    "video_id": "6GLHDS2vRd0",
+    "status": "unresolved_after_visual_review",
+    "inspected_storyboard_pages": 8,
+    "reason": "All storyboard pages show only the finished animated short and credits. No Blender interface, production breakdown, readable tool name, modifier, addon, or parameter is visible, and captions/audio are unavailable. A production technique cannot be inferred safely from the rendered result."
+  },
+  {
+    "video_id": "u9n5PJZMzLU",
+    "status": "unresolved_after_visual_review",
+    "inspected_storyboard_pages": 1,
+    "reason": "The sole low-resolution storyboard repeats vertically cropped footage of a person or television scene. It contains no readable Blender interface, technique, addon, or technical on-screen text; metadata and title alone are insufficient."
+  },
+  {
+    "video_id": "kvYqHYgHXSI",
+    "status": "unresolved_after_visual_review",
+    "inspected_storyboard_pages": 7,
+    "reason": "The storyboards visibly show a stylized snow mesh being added around the house, then manually stretched and refined, but the triggering operator or addon name and its settings are never legible. The audio caption at that moment is corrupted as «нажимаем отно». The evidence cannot distinguish a snow addon/operator from a manual, metaball, remesh, particle, or other geometry workflow, so no exact technique or addon was assigned."
+  }
+]

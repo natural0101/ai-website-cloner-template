@@ -1,0 +1,17 @@
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runner
+    image: ai-website-cloner:local-parity
+    environment:
+      NODE_ENV: production
+    ports:
+      - "127.0.0.1:${PARITY_PORT:-3100}:3000"
+    read_only: true
+    tmpfs:
+      - /tmp
+      - /app/.next/cache:uid=1000,gid=1000
+    security_opt:
+      - no-new-privileges:true

@@ -1,0 +1,19 @@
+{
+  "blender_version": "5.1.1",
+  "version_tuple": [
+    5,
+    1,
+    1
+  ],
+  "background": true,
+  "capabilities": {
+    "ops.object.text_add": true,
+    "ops.object.convert": true,
+    "ops.object.modifier_apply": true,
+    "ops.export_scene.gltf": true,
+    "ops.wm.save_as_mainfile": true,
+    "data.materials.new": true,
+    "types.GeometryNodeTree": true
+  },
+  "python_version": "3.13.9"
+}

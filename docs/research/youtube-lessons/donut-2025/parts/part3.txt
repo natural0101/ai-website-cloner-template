@@ -1,0 +1,847 @@
+00:03 Welcome back. In this part, we are going to be making the icing. Yes, the
+00:06 to be making the icing. Yes, the exciting icing for our donut. Um, and my
+00:08 exciting icing for our donut. Um, and my apologies. I did say in the last part we
+00:10 apologies. I did say in the last part we were going to do the texturing and
+00:12 were going to do the texturing and lighting and stuff, but I just realized
+00:14 lighting and stuff, but I just realized like we should do we should finish the
+00:15 like we should do we should finish the modeling cuz we just modeled this thing.
+00:17 modeling cuz we just modeled this thing. So, let's finish focusing on modeling
+00:19 So, let's finish focusing on modeling before we jump to uh another concept.
+00:21 before we jump to uh another concept. So, we're going to do some icing. Yay.
+00:24 So, we're going to do some icing. Yay. Um, but first, we do have quite a lot of
+00:26 Um, but first, we do have quite a lot of objects going on in our scene. We got a
+00:27 objects going on in our scene. We got a camera lamp. We got an object, an image
+00:30 camera lamp. We got an object, an image and stuff. We should try to organize
+00:32 and stuff. We should try to organize some things. And some of you might have
+00:33 some things. And some of you might have noticed in the top right hand corner,
+00:35 noticed in the top right hand corner, you've got a list of all of your
+00:37 you've got a list of all of your objects, right? This is called your
+00:40 objects, right? This is called your outliner. Um, and it is a like a
+00:43 outliner. Um, and it is a like a spreadsheet version of all the objects
+00:46 spreadsheet version of all the objects that are in your scene. And uh we're
+00:48 that are in your scene. And uh we're going to use it later on to like
+00:49 going to use it later on to like organize like create collections so it's
+00:51 organize like create collections so it's like easier to see and organize things.
+00:53 like easier to see and organize things. But the first thing we need to do is
+00:54 But the first thing we need to do is just add names to things that make
+00:57 just add names to things that make sense. Um, so for example, our mug here
+00:59 sense. Um, so for example, our mug here is currently called cylinder. So if we
+01:01 is currently called cylinder. So if we had a big scene with lots of objects
+01:03 had a big scene with lots of objects going on, we can't find it. So it's a
+01:04 going on, we can't find it. So it's a good habit to name your objects. So
+01:06 good habit to name your objects. So there's a number of different ways you
+01:07 there's a number of different ways you can name something. Um, one is you can
+01:10 can name something. Um, one is you can just double click it in the outliner,
+01:12 just double click it in the outliner, right? You can see now I can type in a
+01:14 right? You can see now I can type in a name like mug. Uh, you can also in your
+01:17 name like mug. Uh, you can also in your 3D viewport, you can hit F2, which is
+01:20 3D viewport, you can hit F2, which is the same hotkey in uh like Windows, I
+01:22 the same hotkey in uh like Windows, I don't know, maybe Mac, but for renaming.
+01:24 don't know, maybe Mac, but for renaming. Um, and then I can just type in a name
+01:26 Um, and then I can just type in a name like donut. Um, and you can also do that
+01:29 like donut. Um, and you can also do that in uh the outliner as well. You can just
+01:31 in uh the outliner as well. You can just hit F2 and that'll also um also do the
+01:33 hit F2 and that'll also um also do the renaming. So there we go. So now we got
+01:35 renaming. So there we go. So now we got names that actually make sense. Um, I
+01:37 names that actually make sense. Um, I don't actually need the image anymore
+01:39 don't actually need the image anymore even though I just renamed it. So I'm
+01:40 even though I just renamed it. So I'm just going to delete that. All right. So
+01:42 just going to delete that. All right. So we've now just got a camera, we got a
+01:44 we've now just got a camera, we got a donut, a light, and a mug. Great. So
+01:48 donut, a light, and a mug. Great. So let's make that icing. I'm going to move
+01:51 let's make that icing. I'm going to move my mug out of the way. So G and then X.
+01:53 my mug out of the way. So G and then X. So, I'm just going to throw it to the
+01:55 So, I'm just going to throw it to the side so we don't see it anymore. And
+01:56 side so we don't see it anymore. And let's focus on our doughut. So, we want
+02:00 let's focus on our doughut. So, we want to make some icing. And when it comes to
+02:03 to make some icing. And when it comes to something as challenging as icing and
+02:05 something as challenging as icing and and really anything that there's so many
+02:07 and really anything that there's so many different ways to make things in 3D, and
+02:11 different ways to make things in 3D, and every single method has a pro and a con.
+02:14 every single method has a pro and a con. So, for example, there is a fluid
+02:16 So, for example, there is a fluid simulator in Blender. It's not very
+02:18 simulator in Blender. It's not very good. Um, but it exists and it is a way
+02:21 good. Um, but it exists and it is a way you could create icing. You could
+02:24 you could create icing. You could actually like create an object and then
+02:25 actually like create an object and then simulate it falling and splatting over
+02:27 simulate it falling and splatting over it. The reason we're not going to do
+02:29 it. The reason we're not going to do that though is that one, it's incredibly
+02:31 that though is that one, it's incredibly [snorts] complicated. There's so many
+02:33 [snorts] complicated. There's so many things that can go wrong with the
+02:34 things that can go wrong with the simulation. Blender Simulator is not
+02:36 simulation. Blender Simulator is not very good. Um, and then also you don't
+02:38 very good. Um, and then also you don't have any control over the final result.
+02:40 have any control over the final result. You have to keep re-aking things. It's
+02:42 You have to keep re-aking things. It's it's horrible. But there is another way
+02:44 it's horrible. But there is another way and that is to just do it by hand. And
+02:46 and that is to just do it by hand. And at first that seems slower, but you have
+02:48 at first that seems slower, but you have much more control over it and it's
+02:50 much more control over it and it's actually pretty easy to do. So I'm going
+02:52 actually pretty easy to do. So I'm going to show you how to do that. And it's
+02:53 to show you how to do that. And it's also a great way to introduce some more
+02:55 also a great way to introduce some more tools and things and get you familiar
+02:57 tools and things and get you familiar with different areas of Blender. So
+02:59 with different areas of Blender. So icing follows the shape of the thing
+03:01 icing follows the shape of the thing that it's on. So really icing is
+03:04 that it's on. So really icing is basically the shape that we've got. It's
+03:06 basically the shape that we've got. It's basically half of this doughut. So if we
+03:09 basically half of this doughut. So if we got half the doughut, we're halfway
+03:11 got half the doughut, we're halfway there. Then we just need to add some
+03:12 there. Then we just need to add some variation to it to make it look like
+03:14 variation to it to make it look like icing. So what I'm going to do is
+03:16 icing. So what I'm going to do is duplicate my donut. So shift D. That is
+03:19 duplicate my donut. So shift D. That is how you duplicate. Uh you can also just
+03:22 how you duplicate. Uh you can also just go object and then say duplicate objects
+03:24 go object and then say duplicate objects there. Shift D. Um and when you do this,
+03:27 there. Shift D. Um and when you do this, you are in the duplicated state and it's
+03:29 you are in the duplicated state and it's saying now where do you want to place
+03:31 saying now where do you want to place that thing? Um and we don't want to
+03:33 that thing? Um and we don't want to place it anywhere. We want to leave it
+03:34 place it anywhere. We want to leave it exactly where it was. And so I'm going
+03:36 exactly where it was. And so I'm going to hit escape. Now when you do that, it
+03:38 to hit escape. Now when you do that, it hasn't um cancelled the duplication cuz
+03:40 hasn't um cancelled the duplication cuz you can see at the top there we've now
+03:42 you can see at the top there we've now got donut and then donut. 001. So there
+03:45 got donut and then donut. 001. So there is two objects still there. They're just
+03:47 is two objects still there. They're just exactly in the exact same spot fighting
+03:49 exactly in the exact same spot fighting for space. Something you actually never
+03:51 for space. Something you actually never want to have is two objects sharing the
+03:53 want to have is two objects sharing the exact same space cuz then when a camera
+03:55 exact same space cuz then when a camera moves or something happens uh in an
+03:56 moves or something happens uh in an animation you see like flickering. Um
+03:59 animation you see like flickering. Um really really bad. Anyways, um I'm going
+04:01 really really bad. Anyways, um I'm going to double click that and I'm going to
+04:03 to double click that and I'm going to call it icing just so that I can uh
+04:05 call it icing just so that I can uh quickly tell the two apart. [snorts] And
+04:08 quickly tell the two apart. [snorts] And I want to delete the bottom half of my
+04:10 I want to delete the bottom half of my doughut. So I'm going to go into front
+04:12 doughut. So I'm going to go into front view mode like that. And I need to uh go
+04:15 view mode like that. And I need to uh go into edit mode next. And I want to
+04:17 into edit mode next. And I want to select the bottom half of my donut. Um
+04:20 select the bottom half of my donut. Um this is face select. Current. Let's go
+04:22 this is face select. Current. Let's go verticy select. Okay. And if I was to
+04:25 verticy select. Okay. And if I was to click and then just drag over the bottom
+04:28 click and then just drag over the bottom half of my doughut, it would appear as
+04:30 half of my doughut, it would appear as though as we have got half the doughut.
+04:33 though as we have got half the doughut. However, and this is an area of blender
+04:35 However, and this is an area of blender that is not clear uh until you run into
+04:37 that is not clear uh until you run into problems. But if I was to change my
+04:39 problems. But if I was to change my orbit, you can see it hasn't actually
+04:41 orbit, you can see it hasn't actually selected half the donut. It's only
+04:43 selected half the donut. It's only selected what it could see from that
+04:45 selected what it could see from that view. So you have to turn on toggle
+04:48 view. So you have to turn on toggle X-ray first or go into wireframe mode.
+04:51 X-ray first or go into wireframe mode. Um but uh yeah, you have to turn that on
+04:54 Um but uh yeah, you have to turn that on first, then do your selection. And now
+04:56 first, then do your selection. And now it will actually select all the way
+04:58 it will actually select all the way through an object to the other side as
+05:00 through an object to the other side as well. By the way, if you find that you
+05:02 well. By the way, if you find that you can't do this this drag selection that
+05:05 can't do this this drag selection that I've got, if you've got instead a circle
+05:08 I've got, if you've got instead a circle over your cursor like like what I have
+05:10 over your cursor like like what I have here, um what that means is you have
+05:12 here, um what that means is you have tapped the W key by mistake, which will
+05:15 tapped the W key by mistake, which will cycle through in the top little uh side
+05:17 cycle through in the top little uh side of your screen there. Um different
+05:20 of your screen there. Um different selection modes. I wish it was not W.
+05:24 selection modes. I wish it was not W. That's one of my complaints I've made to
+05:25 That's one of my complaints I've made to the Blender team. W is so close to the
+05:28 the Blender team. W is so close to the other keys you need on your keyboard. So
+05:30 other keys you need on your keyboard. So many people hit this, they hit the wrong
+05:32 many people hit this, they hit the wrong key and then they're in this thing and
+05:33 key and then they're in this thing and then like nothing nothing works. So like
+05:35 then like nothing nothing works. So like yeah, you want to be in this mode most
+05:38 yeah, you want to be in this mode most of the time. Um but yeah, you can change
+05:40 of the time. Um but yeah, you can change to these other modes if you wanted to,
+05:41 to these other modes if you wanted to, you know, do a special selection or
+05:43 you know, do a special selection or something as well. But anyways, that is
+05:45 something as well. But anyways, that is how to to fix that. And also just to to
+05:47 how to to fix that. And also just to to call it out as well, we're going to be
+05:49 call it out as well, we're going to be doing some like stuff with this icing
+05:51 doing some like stuff with this icing that's going to maybe mess some things
+05:52 that's going to maybe mess some things up and you might run into some issues. I
+05:54 up and you might run into some issues. I got to call it out again. I've got an
+05:56 got to call it out again. I've got an unstuck yourself guide, troubleshooting
+05:58 unstuck yourself guide, troubleshooting guide for just this tutorial. It is
+06:00 guide for just this tutorial. It is free. Just click the link below um and
+06:02 free. Just click the link below um and it'll take you there. Um because I want
+06:04 it'll take you there. Um because I want you guys to be able to get through this
+06:06 you guys to be able to get through this tutorial, but there's so many little
+06:07 tutorial, but there's so many little things that you could experience in
+06:09 things that you could experience in this. So um we're going to add it to
+06:11 this. So um we're going to add it to that guide um to try and help you. And
+06:13 that guide um to try and help you. And if you can't find um the answer to your
+06:15 if you can't find um the answer to your your problem in there, um hit up the
+06:17 your problem in there, um hit up the Discord. Uh the link for that is also um
+06:20 Discord. Uh the link for that is also um in it. So I'll link to my website and
+06:21 in it. So I'll link to my website and all the links will be there. So check
+06:22 all the links will be there. So check that out um if you run into issues. All
+06:24 that out um if you run into issues. All right. So, I've got the bottom half of
+06:26 right. So, I've got the bottom half of my donut. We have to delete it. So, I'm
+06:29 my donut. We have to delete it. So, I'm going to hit X. When you do this, it's
+06:31 going to hit X. When you do this, it's saying which part of it you want to
+06:33 saying which part of it you want to delete. Now, this is one of those cases
+06:34 delete. Now, this is one of those cases where it actually matters like which one
+06:36 where it actually matters like which one of these you select cuz if you were to
+06:38 of these you select cuz if you were to select vertices, cuz it would appear as
+06:40 select vertices, cuz it would appear as though that's what you need to delete.
+06:42 though that's what you need to delete. But if you did that, you'll notice
+06:44 But if you did that, you'll notice you've got now less than half because
+06:47 you've got now less than half because along with the vertices selected is that
+06:50 along with the vertices selected is that final line that is cut through the
+06:52 final line that is cut through the middle there. So, I don't want to delete
+06:53 middle there. So, I don't want to delete that final line. and I want to delete
+06:55 that final line. and I want to delete the other stuff. So, in my options here,
+06:57 the other stuff. So, in my options here, I've got an option for faces, which if
+07:00 I've got an option for faces, which if we try that, you can see is the solution
+07:02 we try that, you can see is the solution because when you uh deleting the faces,
+07:04 because when you uh deleting the faces, you're only deleting what are like what
+07:06 you're only deleting what are like what is a whole face, but these individual
+07:08 is a whole face, but these individual points here don't make up a whole face.
+07:10 points here don't make up a whole face. This part does, so that's left behind,
+07:12 This part does, so that's left behind, but all the other stuff was deleted. So,
+07:14 but all the other stuff was deleted. So, anyways, we should now have half of a
+07:17 anyways, we should now have half of a donut. So, I'm going to turn off toggle
+07:19 donut. So, I'm going to turn off toggle X-ray now so I can see it. And if we
+07:22 X-ray now so I can see it. And if we clicked off, you'll see that it actually
+07:24 clicked off, you'll see that it actually just looks exactly like a donut because
+07:26 just looks exactly like a donut because again, they're sharing the exact same
+07:28 again, they're sharing the exact same space. I do know it's there if I select
+07:30 space. I do know it's there if I select it in the uh little outliner there, but
+07:33 it in the uh little outliner there, but it's uh completely invisible. So, the
+07:35 it's uh completely invisible. So, the first thing I want to do is I want to
+07:36 first thing I want to do is I want to add some thickness to this icing. And
+07:38 add some thickness to this icing. And this is something you should know how to
+07:40 this is something you should know how to do. You should know it. If you don't
+07:42 do. You should know it. If you don't know it, you've not been paying
+07:43 know it, you've not been paying attention. Um but if you go to your
+07:47 attention. Um but if you go to your modifiers, there is a modifier. Another
+07:49 modifiers, there is a modifier. Another clue. uh it is of course the solidify
+07:52 clue. uh it is of course the solidify modifier which adds thickness to any
+07:55 modifier which adds thickness to any face. So now that we've added that you
+07:58 face. So now that we've added that you think something's broken, it's not
+07:59 think something's broken, it's not working. It is working. It's just that
+08:01 working. It is working. It's just that by default the solidify will uh add
+08:03 by default the solidify will uh add thickness inside. So if you change this
+08:06 thickness inside. So if you change this offset here to be the inverted, which is
+08:08 offset here to be the inverted, which is one, it will now add the thickness the
+08:10 one, it will now add the thickness the other way, which is what we need. Okay,
+08:13 other way, which is what we need. Okay, so that's great. But of course, it
+08:15 so that's great. But of course, it doesn't look very good. There's a a
+08:17 doesn't look very good. There's a a quote which uh I always repeat. Uh
+08:20 quote which uh I always repeat. Uh imperfection is the digital perfection
+08:23 imperfection is the digital perfection because the reason this looks fake, it's
+08:25 because the reason this looks fake, it's just perfectly straight. There's no way
+08:26 just perfectly straight. There's no way to get a laser cut icing across a donut
+08:29 to get a laser cut icing across a donut like this unless you're using 3D
+08:31 like this unless you're using 3D software. So, we need to add randomness
+08:33 software. So, we need to add randomness to this edge here in order for it to
+08:35 to this edge here in order for it to look realistic to our eye. So, I need to
+08:38 look realistic to our eye. So, I need to go into edit mode. And when we do that,
+08:41 go into edit mode. And when we do that, we can't see the mesh because we've got
+08:43 we can't see the mesh because we've got our solidifier blocking our view. So,
+08:45 our solidifier blocking our view. So, I'm going to click this disable in
+08:47 I'm going to click this disable in viewport just to hide it so that I can
+08:49 viewport just to hide it so that I can see it. So, when I turn it back on, I I
+08:51 see it. So, when I turn it back on, I I know it's there, but just while I'm
+08:53 know it's there, but just while I'm editing it, in order to see it, I need
+08:54 editing it, in order to see it, I need to be able to um have it turned off. So,
+08:58 to be able to um have it turned off. So, to add randomness, what I could do is I
+09:00 to add randomness, what I could do is I could come in here and I could select
+09:01 could come in here and I could select one point like this. I could hit G and I
+09:05 one point like this. I could hit G and I could move it down. Okay? Then I could
+09:08 could move it down. Okay? Then I could get the point next to it and I could
+09:09 get the point next to it and I could move this one down and then this one.
+09:12 move this one down and then this one. And I could do this and do this and we
+09:15 And I could do this and do this and we could put ourselves to sleep trying to
+09:17 could put ourselves to sleep trying to make this donut [laughter] look good and
+09:18 make this donut [laughter] look good and it would it would take forever. Um, but
+09:21 it would it would take forever. Um, but thankfully in 3D there are tools for
+09:24 thankfully in 3D there are tools for everything to make your life easier. And
+09:26 everything to make your life easier. And so one such tool is at the top here,
+09:28 so one such tool is at the top here, your proportional editing tool. What
+09:31 your proportional editing tool. What this does is now when I hit G,
+09:35 this does is now when I hit G, it'll move everything at once. Um, no.
+09:38 it'll move everything at once. Um, no. It what it will do is it will it will uh
+09:41 It what it will do is it will it will uh move everything with a fall-off area
+09:43 move everything with a fall-off area around it. The reason it's moving the
+09:45 around it. The reason it's moving the entire mesh with it is that the fall-off
+09:48 entire mesh with it is that the fall-off is so big that it's actually outside of
+09:50 is so big that it's actually outside of our view at the moment. This was
+09:52 our view at the moment. This was actually something I I called out in my
+09:54 actually something I I called out in my uh usability talk at the Blender
+09:55 uh usability talk at the Blender conference last year. Um, we could do
+09:58 conference last year. Um, we could do better than this, but basically if you
+10:00 better than this, but basically if you zoom way out, you will see there is a
+10:02 zoom way out, you will see there is a circle around it. Um, and that's how big
+10:05 circle around it. Um, and that's how big it is. So, what we need to do is whilst
+10:07 it is. So, what we need to do is whilst we're in this move state is we need to
+10:09 we're in this move state is we need to reduce that. And you do that by
+10:11 reduce that. And you do that by scrolling down. Scroll down, down, down,
+10:14 scrolling down. Scroll down, down, down, down, down. Oh, no, that was the wrong
+10:16 down, down. Oh, no, that was the wrong direction. Scroll up. Sorry. Scroll up,
+10:18 direction. Scroll up. Sorry. Scroll up, not down. And that will make it scroll.
+10:20 not down. And that will make it scroll. Ed smaller. So, scroll up to make it
+10:22 Ed smaller. So, scroll up to make it smaller. Scroll down to make it bigger.
+10:24 smaller. Scroll down to make it bigger. I just completely brain farted. If you
+10:27 I just completely brain farted. If you don't have a scroll wheel, by the way,
+10:28 don't have a scroll wheel, by the way, and this is another thing to call out.
+10:30 and this is another thing to call out. When you're in a move state like we are
+10:32 When you're in a move state like we are right now, you can see along the bottom
+10:34 right now, you can see along the bottom of our screen, you've got a list and
+10:37 of our screen, you've got a list and that only appeared there when you're in
+10:38 that only appeared there when you're in that state. When I when I turn it off,
+10:40 that state. When I when I turn it off, all those options are gone. But whilst
+10:42 all those options are gone. But whilst I'm in this state, there's a bunch of
+10:43 I'm in this state, there's a bunch of options there. And the keyboard shortcut
+10:45 options there. And the keyboard shortcut is actually right there. Page up and
+10:47 is actually right there. Page up and page down. Okay, so that is how we can
+10:51 page down. Okay, so that is how we can increase or decrease. So again, if you
+10:54 increase or decrease. So again, if you if you don't see the the circle, you
+10:56 if you don't see the the circle, you just have to keep holding page down or
+10:59 just have to keep holding page down or scrolling up um until it goes uh down to
+11:03 scrolling up um until it goes uh down to something that you can see basically.
+11:05 something that you can see basically. Anyways, now that we are in that state,
+11:07 Anyways, now that we are in that state, I'm going to hit zed, okay, to grab uh
+11:11 I'm going to hit zed, okay, to grab uh sorry. Yeah. So, whilst I'm doing I I
+11:13 sorry. Yeah. So, whilst I'm doing I I don't want to just like freehand do it
+11:15 don't want to just like freehand do it because if I if I pull it down like
+11:16 because if I if I pull it down like this, if it like if I watch what
+11:18 this, if it like if I watch what happens. If I do it on the edge here
+11:20 happens. If I do it on the edge here like this, it appears as though it's
+11:22 like this, it appears as though it's it's pulling it straight down, right?
+11:23 it's pulling it straight down, right? And I do this and this. But actually, if
+11:25 And I do this and this. But actually, if you looked at it, these would be
+11:27 you looked at it, these would be slightly skewed a little bit. Um, just
+11:30 slightly skewed a little bit. Um, just because of like we're working in 3D.
+11:32 because of like we're working in 3D. We're looking at things from a different
+11:33 We're looking at things from a different perspective. Sometimes things appear to
+11:35 perspective. Sometimes things appear to be going down, but they're actually at
+11:37 be going down, but they're actually at like a slight angle. So, it helps to um
+11:41 like a slight angle. So, it helps to um when you're moving something to think of
+11:43 when you're moving something to think of which axis it's going on. So, I want it
+11:44 which axis it's going on. So, I want it to go straight down. So, G and then zed.
+11:47 to go straight down. So, G and then zed. And now I'm going to pull it down. Okay.
+11:49 And now I'm going to pull it down. Okay. That was a lot of work just to do this
+11:50 That was a lot of work just to do this one little bit. I'm sorry. All right.
+11:53 one little bit. I'm sorry. All right. Okay. So, we've pulled it down.
+11:54 Okay. So, we've pulled it down. Excellent. Um I'll do a little bit more
+11:56 Excellent. Um I'll do a little bit more as well. I'll just do a little bit here.
+11:58 as well. I'll just do a little bit here. I'll do a little bit here. You can like
+12:01 I'll do a little bit here. You can like [clears throat] play with the um the
+12:03 [clears throat] play with the um the amount the the fall-off
+12:06 amount the the fall-off like so. You know, you can play with it.
+12:09 like so. You know, you can play with it. All right, cool. Now, if we turn on our
+12:10 All right, cool. Now, if we turn on our solidifier modifier, we've got the
+12:12 solidifier modifier, we've got the thickness back, and you can see we've
+12:14 thickness back, and you can see we've got some variation to uh to the donut
+12:17 got some variation to uh to the donut there. So, let's let's continue on here.
+12:19 there. So, let's let's continue on here. So, let's pull this like so. I don't
+12:22 So, let's pull this like so. I don't want to go too far cuz we're going to
+12:23 want to go too far cuz we're going to add some some dribbles soon. Dribble
+12:27 add some some dribbles soon. Dribble sounds gross, but you know the little
+12:30 sounds gross, but you know the little runoff droplets
+12:33 runoff droplets that uh that's going to go down down the
+12:35 that uh that's going to go down down the donut
+12:37 donut like so. Okay, that is pretty good. Now,
+12:40 like so. Okay, that is pretty good. Now, you can see it's like partly like
+12:43 you can see it's like partly like intersecting it. Um, and that's
+12:45 intersecting it. Um, and that's obviously because we've got proportional
+12:47 obviously because we've got proportional editing, so it's actually kind of moving
+12:48 editing, so it's actually kind of moving some of these ones that are up top and
+12:50 some of these ones that are up top and pulling it down as well. It's fine with
+12:52 pulling it down as well. It's fine with the solidify modifier, but we're
+12:53 the solidify modifier, but we're actually going to end up fixing it when
+12:55 actually going to end up fixing it when we uh when we do the dribble anyway cuz
+12:57 we uh when we do the dribble anyway cuz I'm going to introduce another modifier
+12:58 I'm going to introduce another modifier that's going to fix this. Um but
+13:01 that's going to fix this. Um but anyways, let's do this. Let's do the
+13:02 anyways, let's do this. Let's do the dribble part. So, I'm going to look for
+13:04 dribble part. So, I'm going to look for an area. Yeah. Like let's go Yeah. And
+13:07 an area. Yeah. Like let's go Yeah. And here where this bit's like running down.
+13:09 here where this bit's like running down. Um and I'm going to um I want to make
+13:12 Um and I'm going to um I want to make this like a dribble that goes down the
+13:14 this like a dribble that goes down the donut here. And currently I can't really
+13:18 donut here. And currently I can't really continue to pull this. Like I could I
+13:20 continue to pull this. Like I could I could like get like a sharp point like
+13:22 could like get like a sharp point like that, but that does not look very good,
+13:24 that, but that does not look very good, right? We need more geometry
+13:26 right? We need more geometry essentially. So you might remember the
+13:28 essentially. So you might remember the hotkey. If we want to extrude something,
+13:30 hotkey. If we want to extrude something, it is E. But I can't just extrude one
+13:33 it is E. But I can't just extrude one point like that. Okay? Because there's
+13:34 point like that. Okay? Because there's no face there. There's nothing that's
+13:36 no face there. There's nothing that's actually going to be rendered if I just
+13:38 actually going to be rendered if I just pull one point down. So I need to select
+13:40 pull one point down. So I need to select two points. Okay? So two points like
+13:43 two points. Okay? So two points like this. If I hit E and then zed and then
+13:46 this. If I hit E and then zed and then pull down and then release. And then if
+13:49 pull down and then release. And then if I bring back my solidify modifier, you
+13:51 I bring back my solidify modifier, you can see we've got more geometry. Doesn't
+13:54 can see we've got more geometry. Doesn't look very good though. Um, so let's add
+13:57 look very good though. Um, so let's add in another modifier. The same one that
+14:00 in another modifier. The same one that we used on the mug as well. It's the
+14:02 we used on the mug as well. It's the subdivision surface modifier. [snorts]
+14:05 subdivision surface modifier. [snorts] Um, as I say, you use these all the
+14:07 Um, as I say, you use these all the time. Use it for most objects probably
+14:09 time. Use it for most objects probably have a subdivision modifier cuz it's so
+14:11 have a subdivision modifier cuz it's so useful. Um, but one of the things it's
+14:13 useful. Um, but one of the things it's good for is it like besides adding
+14:14 good for is it like besides adding detail, it like smooths things out for
+14:17 detail, it like smooths things out for us. So that little hard little block
+14:19 us. So that little hard little block that we had there has now turned into a
+14:21 that we had there has now turned into a smoothed droplet looking shape which is
+14:24 smoothed droplet looking shape which is exactly what we want. But look,
+14:27 exactly what we want. But look, it has separated from the donut. Now in
+14:31 it has separated from the donut. Now in previous tutorials um I actually did
+14:32 previous tutorials um I actually did like a thing that showed you how to like
+14:34 like a thing that showed you how to like use this but make it like snap onto the
+14:36 use this but make it like snap onto the donut and it got all complicated.
+14:38 donut and it got all complicated. Everyone screwed up their mesh at this
+14:40 Everyone screwed up their mesh at this point. Um you can do this by hand as
+14:42 point. Um you can do this by hand as well. you can like come in here and like
+14:44 well. you can like come in here and like try to pull this in piece by piece, but
+14:48 try to pull this in piece by piece, but it's actually not necessary because
+14:50 it's actually not necessary because there is a modifier that will just do it
+14:52 there is a modifier that will just do it for you. Um, so if you go to your add
+14:54 for you. Um, so if you go to your add modifier stack, and then go to deform,
+14:56 modifier stack, and then go to deform, and then you're looking for the one
+14:58 and then you're looking for the one called shrink wrap. And by the way,
+15:00 called shrink wrap. And by the way, again, if you can't find it, just go up
+15:02 again, if you can't find it, just go up to here, type in shrink wrap, and you'll
+15:04 to here, type in shrink wrap, and you'll also find it there. So shrink wrap, what
+15:07 also find it there. So shrink wrap, what this is going to do, it's going to
+15:07 this is going to do, it's going to shrink it onto a mesh. But you have to
+15:09 shrink it onto a mesh. But you have to define the mesh first in order to see it
+15:12 define the mesh first in order to see it because if you don't, it just has no
+15:13 because if you don't, it just has no effect. Absolutely. That's what the red
+15:15 effect. Absolutely. That's what the red is h showing you. It's not doing
+15:16 is h showing you. It's not doing anything. So your target um yeah, you
+15:20 anything. So your target um yeah, you can actually like select it from the
+15:21 can actually like select it from the drop down or what most people do, you
+15:22 drop down or what most people do, you click the little eyropper and then you
+15:24 click the little eyropper and then you select the object. Bam. All right, now
+15:27 select the object. Bam. All right, now it's working. And now we've got some
+15:28 it's working. And now we've got some serious Z fighting where the uh faces
+15:31 serious Z fighting where the uh faces are overlapping. And this is horrible.
+15:33 are overlapping. And this is horrible. You never want this. All right. So, you
+15:36 You never want this. All right. So, you will remember uh when I was talking
+15:37 will remember uh when I was talking about the modifier that it works top to
+15:40 about the modifier that it works top to bottom. So, essentially what we've done
+15:41 bottom. So, essentially what we've done is we've gone uh add thickness, then add
+15:46 is we've gone uh add thickness, then add detail, and then shrink wrap all of that
+15:48 detail, and then shrink wrap all of that thickness onto the donut itself. So,
+15:51 thickness onto the donut itself. So, what we need to do is change the order
+15:52 what we need to do is change the order of this um and not go halfway cuz that
+15:55 of this um and not go halfway cuz that also won't do anything. Um we need to go
+15:58 also won't do anything. Um we need to go all the way to the top so the shrink
+15:59 all the way to the top so the shrink wrap is happening first. So, it's
+16:01 wrap is happening first. So, it's snapping it onto the mesh. Then, it's
+16:04 snapping it onto the mesh. Then, it's adding the solidify modifier. Then,
+16:07 adding the solidify modifier. Then, underneath that, it's adding the subsurf
+16:09 underneath that, it's adding the subsurf modifier. And we can actually increase
+16:11 modifier. And we can actually increase this, make it a level two for the
+16:13 this, make it a level two for the viewport. And you can see it just adds a
+16:15 viewport. And you can see it just adds a little bit um extra detail there. Okay.
+16:18 little bit um extra detail there. Okay. Um and you can go even higher, of
+16:20 Um and you can go even higher, of course, but you know, you will get uh
+16:23 course, but you know, you will get uh eventually it'll just get so slow for
+16:24 eventually it'll just get so slow for your computer and there's not really
+16:25 your computer and there's not really going to be any point, but you can just
+16:26 going to be any point, but you can just go to level two for now. Okay. So, uh,
+16:29 go to level two for now. Okay. So, uh, to quickly show you as well what the
+16:31 to quickly show you as well what the shrink wrap is actually doing. Um,
+16:33 shrink wrap is actually doing. Um, because it's really it's not that clear.
+16:36 because it's really it's not that clear. Um, but yeah, this is this is where it's
+16:38 Um, but yeah, this is this is where it's that little piece is overhanging and
+16:40 that little piece is overhanging and then it's essentially looking for the
+16:42 then it's essentially looking for the nearest point um to find this mesh
+16:45 nearest point um to find this mesh underneath it and then it is just
+16:47 underneath it and then it is just snapping it uh to that point. So, it's
+16:50 snapping it uh to that point. So, it's it's pretty good. Like I can drag this
+16:52 it's pretty good. Like I can drag this like pretty far down like but there is
+16:54 like pretty far down like but there is an extent I can so I'm just doing
+16:56 an extent I can so I'm just doing another extrusion on this point. So, as
+16:57 another extrusion on this point. So, as I pull it down, you can see it like it
+16:59 I pull it down, you can see it like it kind of loses it. There's a point where
+17:01 kind of loses it. There's a point where it just won't find the mesh anymore. So,
+17:04 it just won't find the mesh anymore. So, there's a point like at which you should
+17:06 there's a point like at which you should start to pull things into the mesh. It's
+17:07 start to pull things into the mesh. It's not magic. It's not going to just
+17:08 not magic. It's not going to just magically find it. So, if I just pull it
+17:10 magically find it. So, if I just pull it all the way out there, there's no way
+17:11 all the way out there, there's no way it's going to be able to find it. So
+17:13 it's going to be able to find it. So there is uh a limit, but you can see
+17:16 there is uh a limit, but you can see this is it does make our job a lot
+17:18 this is it does make our job a lot easier because I can um I can pull it
+17:20 easier because I can um I can pull it down and I can start to make um you know
+17:23 down and I can start to make um you know some some big dribbles along my mesh
+17:26 some some big dribbles along my mesh here. And I don't have to really worry
+17:28 here. And I don't have to really worry that much about the uh the placement
+17:32 that much about the uh the placement because it's just going to automatically
+17:33 because it's just going to automatically snap itself to the donut. I just have to
+17:35 snap itself to the donut. I just have to make sure the dribbles are straight. Um,
+17:37 make sure the dribbles are straight. Um, and if you look at reference, which you
+17:39 and if you look at reference, which you should be doing, um, I'll put some
+17:41 should be doing, um, I'll put some reference on, um, my, uh, the link below
+17:43 reference on, um, my, uh, the link below on my website, so you can have a look
+17:45 on my website, so you can have a look and just kind of go through it. Um, but
+17:47 and just kind of go through it. Um, but yeah, usually when when like droplets
+17:49 yeah, usually when when like droplets form, they kind of like the gravity kind
+17:52 form, they kind of like the gravity kind of like builds at a point and it kind of
+17:54 of like builds at a point and it kind of like gets sucked from the top. And so
+17:55 like gets sucked from the top. And so you end up with like this thin bit in
+17:57 you end up with like this thin bit in the middle and then this like globule,
+17:59 the middle and then this like globule, which is a crazy word, um, at the bottom
+18:02 which is a crazy word, um, at the bottom there. But essentially, it just means
+18:04 there. But essentially, it just means the piece at the bottom, I'm just going
+18:05 the piece at the bottom, I'm just going to make a little bit thicker than the
+18:07 to make a little bit thicker than the pieces above it. Okay, so that's one,
+18:10 pieces above it. Okay, so that's one, but we should do more. So I'm going to
+18:12 but we should do more. So I'm going to go around and I'm going to add more. Um,
+18:15 go around and I'm going to add more. Um, and just repeat the same thing. Just do
+18:16 and just repeat the same thing. Just do an extrusion on these little points
+18:18 an extrusion on these little points there and just kind of drag it down. So,
+18:22 there and just kind of drag it down. So, let's do that because yeah, I remember
+18:25 let's do that because yeah, I remember the first doughut that I ever made. Oh,
+18:29 the first doughut that I ever made. Oh, way way back in the day, making the
+18:31 way way back in the day, making the first doughut. Um, and I really like I I
+18:35 first doughut. Um, and I really like I I did one little dribble going down it.
+18:37 did one little dribble going down it. And then I always wanted to frame the
+18:39 And then I always wanted to frame the the camera so that it was looking at
+18:41 the camera so that it was looking at that cuz that was the most interesting
+18:42 that cuz that was the most interesting part of the donut. And then I learned
+18:44 part of the donut. And then I learned like ah just exaggerate. Just add little
+18:47 like ah just exaggerate. Just add little dribbles everywhere. That is a big part
+18:50 dribbles everywhere. That is a big part of being an artist is you look at
+18:52 of being an artist is you look at reality and then you find the bits that
+18:54 reality and then you find the bits that are actually pleasing and then you
+18:56 are actually pleasing and then you exaggerate it. And that's what I'm
+18:59 exaggerate it. And that's what I'm doing. So, you know, donuts typically
+19:01 doing. So, you know, donuts typically don't have this many dribbles, but it's
+19:03 don't have this many dribbles, but it's very pleasing. It just makes it look
+19:04 very pleasing. It just makes it look very like gooey and like, oh, there's so
+19:08 very like gooey and like, oh, there's so much icing. Um, and you can see, by the
+19:10 much icing. Um, and you can see, by the way, I'm not doing the same shape also
+19:12 way, I'm not doing the same shape also everywhere. So, this is like a half one,
+19:14 everywhere. So, this is like a half one, right? And I'm kind of looking for like
+19:16 right? And I'm kind of looking for like where I can add um some different
+19:18 where I can add um some different shapes. Why is that? There's a gap
+19:21 shapes. Why is that? There's a gap there. Oh, okay. Oh, no. Yeah, I was uh
+19:26 there. Oh, okay. Oh, no. Yeah, I was uh recording
+19:27 recording uh for this this tutorial and I recorded
+19:30 uh for this this tutorial and I recorded something and then I like reverted it.
+19:31 something and then I like reverted it. But I've now got a giant face here where
+19:33 But I've now got a giant face here where there should be not a giant face there.
+19:36 there should be not a giant face there. So, what do you do? You you've
+19:37 So, what do you do? You you've accidentally got this thing. There is uh
+19:40 accidentally got this thing. There is uh and this is you obviously don't have to
+19:41 and this is you obviously don't have to do this because this is not your
+19:44 do this because this is not your problem. Um but I'm just going to use
+19:46 problem. Um but I'm just going to use the knife tool which is a way to do an
+19:49 the knife tool which is a way to do an incision on a mesh and just add more
+19:51 incision on a mesh and just add more geometry like freehand. So I've just uh
+19:54 geometry like freehand. So I've just uh fixed that little problem that I had
+19:56 fixed that little problem that I had there. But uh you hopefully should not
+19:58 there. But uh you hopefully should not have that problem. Um yeah, let's I'm
+20:00 have that problem. Um yeah, let's I'm going to just pull this down. I'm going
+20:01 going to just pull this down. I'm going to turn on proportional editing. I'm
+20:02 to turn on proportional editing. I'm going to add a little bit that's going
+20:04 going to add a little bit that's going down. And let's select these two. Turn
+20:06 down. And let's select these two. Turn off proportional. Let's add another
+20:09 off proportional. Let's add another little bit that's going right here. Add
+20:11 little bit that's going right here. Add a little bit of variance. And let's add
+20:14 a little bit of variance. And let's add Let's add another big one right here.
+20:17 Let's add another big one right here. Pull this one down. But this is the fun
+20:20 Pull this one down. But this is the fun part, you know? I mean, aside from the
+20:21 part, you know? I mean, aside from the finicky like going like sideways,
+20:24 finicky like going like sideways, looking at where it appears and then
+20:25 looking at where it appears and then straightening it. But you get to kind of
+20:28 straightening it. But you get to kind of like shape things and just like with
+20:31 like shape things and just like with your eye just just play with it. It's
+20:34 your eye just just play with it. It's actually one of the cool things of of
+20:36 actually one of the cool things of of 3D. Um, it's also why a lot of people
+20:38 3D. Um, it's also why a lot of people get into 3D is they want to do art, but
+20:42 get into 3D is they want to do art, but whenever they pick up a pencil, they
+20:44 whenever they pick up a pencil, they just can't get the lines where they want
+20:45 just can't get the lines where they want it. And the great thing about 3D is is
+20:48 it. And the great thing about 3D is is that you've got points and you can move
+20:50 that you've got points and you can move those points after the fact. You're not
+20:52 those points after the fact. You're not drawing freehand. So, if you there's no
+20:55 drawing freehand. So, if you there's no case where you like screw up a line and
+20:58 case where you like screw up a line and you have to like rub it out and try
+21:00 you have to like rub it out and try again. Like, you just grab a point and
+21:02 again. Like, you just grab a point and just kind of like move it around um like
+21:05 just kind of like move it around um like I'm doing right now.
+21:07 I'm doing right now. So, that's one of the uh one of the joys
+21:09 So, that's one of the uh one of the joys of of 3D. I'm just trying to just doing
+21:12 of of 3D. I'm just trying to just doing filler talk if you can't tell. Just grab
+21:15 filler talk if you can't tell. Just grab a few pieces, move them all down
+21:16 a few pieces, move them all down together. Why not? There we go. That's
+21:19 together. Why not? There we go. That's kind of interesting. I might add I might
+21:22 kind of interesting. I might add I might just take this one at the bottom there
+21:24 just take this one at the bottom there off. And I'll just maybe pull these out
+21:28 off. And I'll just maybe pull these out just so we've got more variance that
+21:30 just so we've got more variance that goes all the way around it. But play
+21:32 goes all the way around it. But play with it as much you want. Um, you know,
+21:34 with it as much you want. Um, you know, you can pause this and, you know, play
+21:35 you can pause this and, you know, play with it. Um, but I'm just trying to make
+21:37 with it. Um, but I'm just trying to make it look generally appealing. Now, one
+21:40 it look generally appealing. Now, one way to improve this, you'll notice that
+21:42 way to improve this, you'll notice that the icing is separating from it, right?
+21:44 the icing is separating from it, right? It's going uh it's going up right there.
+21:47 It's going uh it's going up right there. And again, that's because of how subsurf
+21:48 And again, that's because of how subsurf modifiers work. There's a point here and
+21:50 modifiers work. There's a point here and there's a point here. So, it has to uh
+21:53 there's a point here. So, it has to uh it has to make this really rounded
+21:56 it has to make this really rounded shape. But real liquid when it is uh in
+21:59 shape. But real liquid when it is uh in this state when it's clinging to an
+22:00 this state when it's clinging to an object uh this part here as as it hits
+22:04 object uh this part here as as it hits it that part will be like solid right
+22:07 it that part will be like solid right and then the rest of it like this part
+22:09 and then the rest of it like this part is round but then this part is like
+22:11 is round but then this part is like hugging the actual surface. So
+22:13 hugging the actual surface. So thankfully we can do that. There is a
+22:16 thankfully we can do that. There is a setting in the solidifier setting
+22:18 setting in the solidifier setting options which I might have to move.
+22:20 options which I might have to move. There we go. So we can see it. Um,
+22:23 There we go. So we can see it. Um, underneath edge data, there is an option
+22:25 underneath edge data, there is an option here for a crease. Okay, so what a
+22:28 here for a crease. Okay, so what a crease is doing, we didn't really talk
+22:29 crease is doing, we didn't really talk about it with the mug, but it's
+22:30 about it with the mug, but it's essentially on an edge, it's creasing it
+22:33 essentially on an edge, it's creasing it and saying like instead of like doing
+22:35 and saying like instead of like doing that huge rounded thing, just kind of
+22:37 that huge rounded thing, just kind of tighten it on that edge. Very similar to
+22:39 tighten it on that edge. Very similar to adding the geometry like what we did on
+22:40 adding the geometry like what we did on the mug, but this is a way to do it
+22:42 the mug, but this is a way to do it without adding extra geometry. It does
+22:44 without adding extra geometry. It does kind of add a little bit of stretching,
+22:46 kind of add a little bit of stretching, um, but it's not really that noticeable
+22:48 um, but it's not really that noticeable on something like this. But that is very
+22:51 on something like this. But that is very very nice, very solid. Um, it's hugging
+22:54 very nice, very solid. Um, it's hugging it and it looks very pleasing.
+22:58 it and it looks very pleasing. Excellent. Now, we could as well I
+23:00 Excellent. Now, we could as well I didn't actually do this for my final
+23:01 didn't actually do this for my final one. Um, because I forgot. [laughter]
+23:04 one. Um, because I forgot. [laughter] Um, but I I realized after I was like,
+23:05 Um, but I I realized after I was like, "Oh, yeah. I guess like the part that's
+23:07 "Oh, yeah. I guess like the part that's on the inside of the donut." Yeah, I I
+23:10 on the inside of the donut." Yeah, I I forgot to do that. Um, but yeah, you can
+23:12 forgot to do that. Um, but yeah, you can also like do the exact same thing just
+23:14 also like do the exact same thing just playing with it. If you find like it's
+23:16 playing with it. If you find like it's kind of hard to like look at it inside
+23:18 kind of hard to like look at it inside the donut, if you just select the middle
+23:21 the donut, if you just select the middle row. So if you just hold down alt and
+23:23 row. So if you just hold down alt and then select on that middle row, you can
+23:24 then select on that middle row, you can use the same focus um button. So numpad
+23:27 use the same focus um button. So numpad period or tilda and then view. And then
+23:30 period or tilda and then view. And then that will just lock it on to those
+23:32 that will just lock it on to those selected vertices. So that focus key
+23:34 selected vertices. So that focus key that I mentioned, it works on uh in edit
+23:36 that I mentioned, it works on uh in edit mode as well, which is good. So yeah, I
+23:38 mode as well, which is good. So yeah, I could just pull these down like this and
+23:40 could just pull these down like this and just, you know, the camera's not really
+23:42 just, you know, the camera's not really going to notice it. You just want to
+23:44 going to notice it. You just want to make sure that it's, you know, not
+23:46 make sure that it's, you know, not perfectly straight like mine was in the
+23:49 perfectly straight like mine was in the uh final render. Um it it doesn't really
+23:51 uh final render. Um it it doesn't really like who's going to notice, you know,
+23:53 like who's going to notice, you know, who's going to tell really? Um annoying
+23:57 who's going to tell really? Um annoying people are going to point it out if the
+24:00 people are going to point it out if the inside part's too straight. All right.
+24:03 inside part's too straight. All right. So, that's pretty good. Um actually,
+24:05 So, that's pretty good. Um actually, something I might do cuz I noticed like
+24:07 something I might do cuz I noticed like looking from the top cuz this is where
+24:08 looking from the top cuz this is where the camera's going to be like we're not
+24:10 the camera's going to be like we're not really able to see much donut. like the
+24:11 really able to see much donut. like the icing is a little bit too far down. So,
+24:13 icing is a little bit too far down. So, I'm just going to grab some of these
+24:14 I'm just going to grab some of these points here using proportional editing.
+24:16 points here using proportional editing. I'm just going to pull them up to just
+24:18 I'm just going to pull them up to just expose a little bit more of the
+24:21 expose a little bit more of the underlying doughut, which is definitely
+24:22 underlying doughut, which is definitely going to make the doughnut look a little
+24:24 going to make the doughnut look a little bit more handmade, you know? Um cuz like
+24:26 bit more handmade, you know? Um cuz like obviously a probably a professional
+24:29 obviously a probably a professional donut from Crispy Cream or something
+24:30 donut from Crispy Cream or something doesn't have this much variance in it,
+24:32 doesn't have this much variance in it, but it's okay. It does kind of help it
+24:34 but it's okay. It does kind of help it give it a uh yeah, realistic kind of
+24:37 give it a uh yeah, realistic kind of look. Now, there's one thing that would
+24:40 look. Now, there's one thing that would really improve the look of this icing,
+24:43 really improve the look of this icing, and that is thickness variation. Because
+24:46 and that is thickness variation. Because if you go around it, you'll see that the
+24:48 if you go around it, you'll see that the exact, you know, the distance from here
+24:50 exact, you know, the distance from here to here is the exact same thing as like,
+24:53 to here is the exact same thing as like, you know, what it would be over here to
+24:54 you know, what it would be over here to here. And that's just not the case.
+24:56 here. And that's just not the case. We've got like icing that is dribbling
+24:59 We've got like icing that is dribbling down. These little droplets are kind of
+25:01 down. These little droplets are kind of like breaking away. And what happens
+25:03 like breaking away. And what happens when those droplets break and then they
+25:04 when those droplets break and then they kind of stop? They build up, right? So,
+25:07 kind of stop? They build up, right? So, we should actually see these kind of
+25:09 we should actually see these kind of like swell a little bit. They should be
+25:12 like swell a little bit. They should be a little bit rounder at the heads of
+25:15 a little bit rounder at the heads of each of these points. Also, along the
+25:17 each of these points. Also, along the edges here, every little edge here
+25:20 edges here, every little edge here should be a little bit more inflated
+25:22 should be a little bit more inflated than the rest of it. And although that
+25:24 than the rest of it. And although that sounds like nothing, when you when you
+25:27 sounds like nothing, when you when you do it, when you actually add this little
+25:28 do it, when you actually add this little detail, it really does improve the
+25:31 detail, it really does improve the realism. So, we can't do that because
+25:33 realism. So, we can't do that because all we've got is these little points
+25:35 all we've got is these little points here. Okay. So, just like what we did
+25:38 here. Okay. So, just like what we did with the mug, there comes a time where
+25:39 with the mug, there comes a time where you need to break the um break the uh
+25:43 you need to break the um break the uh non-destructive workflow and apply your
+25:46 non-destructive workflow and apply your modifiers. So, this shrink wrap here, by
+25:49 modifiers. So, this shrink wrap here, by the way, when you apply something, you
+25:50 the way, when you apply something, you have to apply it in like top to bottom.
+25:53 have to apply it in like top to bottom. So, even really, although we really just
+25:55 So, even really, although we really just we only want to apply the solidify.
+25:57 we only want to apply the solidify. That's the main one we want to do. Um,
+25:59 That's the main one we want to do. Um, we have to first of all apply this the
+26:01 we have to first of all apply this the shrink wrap because that's the one that
+26:02 shrink wrap because that's the one that is first and that's the one like if we
+26:05 is first and that's the one like if we if we applied this one first, we would
+26:07 if we applied this one first, we would lose uh the the the shrink wrap would
+26:09 lose uh the the the shrink wrap would have to go after and it would just yeah,
+26:11 have to go after and it would just yeah, it would screw it up. So, we have to
+26:12 it would screw it up. So, we have to apply the shrink wrap first. So, go here
+26:14 apply the shrink wrap first. So, go here and click apply. Okay. Now, in edit
+26:17 and click apply. Okay. Now, in edit mode, you can see we've still got those
+26:19 mode, you can see we've still got those single points, but they're now snapped
+26:20 single points, but they're now snapped to the mesh. All right. But it means we
+26:23 to the mesh. All right. But it means we no longer have that automatic snapping.
+26:25 no longer have that automatic snapping. So, if I was to pull these out, you can
+26:26 So, if I was to pull these out, you can see they're now separated from the mesh.
+26:28 see they're now separated from the mesh. So, just keep that in mind. Um, we still
+26:31 So, just keep that in mind. Um, we still can't edit the mesh there because we
+26:32 can't edit the mesh there because we haven't applied the solidify. So, I'm
+26:34 haven't applied the solidify. So, I'm going to apply the solidify now. And now
+26:36 going to apply the solidify now. And now we've got these points here. Okay. So,
+26:39 we've got these points here. Okay. So, now if I wanted to with just these
+26:40 now if I wanted to with just these points, I could pull some of these
+26:42 points, I could pull some of these points out. Turning off proportional
+26:44 points out. Turning off proportional editing. And I could just pull them out
+26:46 editing. And I could just pull them out a little bit. And that's better. But we
+26:49 a little bit. And that's better. But we don't have enough detail here. We need
+26:50 don't have enough detail here. We need more geometry to play with in order to
+26:53 more geometry to play with in order to add this extra detail. So, we need to
+26:55 add this extra detail. So, we need to apply our subsurf modifier. So, I'm
+26:58 apply our subsurf modifier. So, I'm going to on here I'm going to hit apply.
+27:00 going to on here I'm going to hit apply. And actually, there's a hotkey if you
+27:01 And actually, there's a hotkey if you want to don't want to have to go to the
+27:02 want to don't want to have to go to the drop down each time. Ctrl A will apply
+27:05 drop down each time. Ctrl A will apply the selected uh modifier. And now in
+27:08 the selected uh modifier. And now in edit mode, look at this. Now, we've got
+27:10 edit mode, look at this. Now, we've got all this extra geometry to play with.
+27:13 all this extra geometry to play with. So, now if I wanted to, I could turn on
+27:15 So, now if I wanted to, I could turn on proportional editing. I could select one
+27:17 proportional editing. I could select one point. I could try and get a kind of a
+27:20 point. I could try and get a kind of a shape like this. That would be probably
+27:22 shape like this. That would be probably the best way to do it if I was
+27:23 the best way to do it if I was restricted to edit mode. And that'll get
+27:26 restricted to edit mode. And that'll get me some of the way there. I could, you
+27:28 me some of the way there. I could, you know, pull individual points out. I
+27:30 know, pull individual points out. I could try and do that. But you can see
+27:31 could try and do that. But you can see it's it's very finicky. And it's really
+27:34 it's it's very finicky. And it's really it's not the tool to use because, like I
+27:37 it's not the tool to use because, like I said, there are tools for everything in
+27:39 said, there are tools for everything in 3D to try to help you to um yeah, to to
+27:42 3D to try to help you to um yeah, to to to do things better. So, go to the top
+27:45 to do things better. So, go to the top of your screen. We're currently in
+27:46 of your screen. We're currently in layout. That's all we've done so far.
+27:48 layout. That's all we've done so far. We're going to swap to sculpting. All
+27:50 We're going to swap to sculpting. All right. Now, when you swap to a new one
+27:52 right. Now, when you swap to a new one of these views here, it'll uh it's
+27:55 of these views here, it'll uh it's assuming the default view of Blender,
+27:57 assuming the default view of Blender, which is like when everything was like
+27:58 which is like when everything was like 10 m long or whatever. So, our donut is
+28:01 10 m long or whatever. So, our donut is tiny. So, we have to focus on the
+28:03 tiny. So, we have to focus on the selected object. So, I'm just going to
+28:05 selected object. So, I'm just going to hit numpad period. Um, that hasn't
+28:08 hit numpad period. Um, that hasn't worked. [laughter] Okay, don't worry
+28:10 worked. [laughter] Okay, don't worry about that. Um, all right.
+28:11 about that. Um, all right. [clears throat]
+28:12 [clears throat] So, instead of in sculpt mode, change to
+28:14 So, instead of in sculpt mode, change to object mode. Then hit numpad period or
+28:19 object mode. Then hit numpad period or view selected and then now jump back to
+28:22 view selected and then now jump back to sculpt mode. And now we're back to For
+28:24 sculpt mode. And now we're back to For some reason I thought focus worked in uh
+28:26 some reason I thought focus worked in uh in sculpt mode. Yeah. All right.
+28:28 in sculpt mode. Yeah. All right. Sometimes you just teach something and
+28:29 Sometimes you just teach something and then you go, "Oh, that never worked.
+28:31 then you go, "Oh, that never worked. What was I talking about?" Anyway, um
+28:33 What was I talking about?" Anyway, um okay. In sculpt mode now, and make sure
+28:36 okay. In sculpt mode now, and make sure you're looking at the correct one, okay,
+28:38 you're looking at the correct one, okay, not the donut, but the icing itself. If
+28:40 not the donut, but the icing itself. If I was to now
+28:42 I was to now draw over this, you can see we're
+28:44 draw over this, you can see we're drawing into the mesh of the icing.
+28:47 drawing into the mesh of the icing. Isn't that cool? All right. So, what I
+28:50 Isn't that cool? All right. So, what I want to do is I want to change my brush
+28:52 want to do is I want to change my brush and I want to find the one brush which
+28:53 and I want to find the one brush which is really going to help us here and it
+28:55 is really going to help us here and it is this one, the inflate deflate brush.
+28:58 is this one, the inflate deflate brush. Now, your brush size here can be
+29:00 Now, your brush size here can be controlled by the size at the top or
+29:02 controlled by the size at the top or there is a hotkey F. And when you hit F,
+29:05 there is a hotkey F. And when you hit F, you just choose with your mouse like how
+29:07 you just choose with your mouse like how big the size needs to be. Okay. So, I
+29:09 big the size needs to be. Okay. So, I can pull out. And then now, if I just
+29:12 can pull out. And then now, if I just draw over that little gobuille there,
+29:15 draw over that little gobuille there, the end piece, it just adds a little bit
+29:18 the end piece, it just adds a little bit of inflation.
+29:20 of inflation. And I'm So, I'm just pulling it around
+29:22 And I'm So, I'm just pulling it around just slightly. I don't want to go too
+29:24 just slightly. I don't want to go too far, but just adding these little
+29:26 far, but just adding these little inflated points will really help this to
+29:29 inflated points will really help this to look realistic. The other thing is you
+29:31 look realistic. The other thing is you can actually shape some of the the mesh
+29:33 can actually shape some of the the mesh as well. So, there's another brush that
+29:34 as well. So, there's another brush that I use all the time, which is the grab
+29:36 I use all the time, which is the grab brush. You just uh essentially just pull
+29:40 brush. You just uh essentially just pull mesh like that. So that's another easy
+29:42 mesh like that. So that's another easy way to just kind of move pieces around
+29:46 way to just kind of move pieces around like so. You can just shape things like
+29:48 like so. You can just shape things like this. Add a little bit of extra detail
+29:50 this. Add a little bit of extra detail if you want. Yeah.
+29:54 if you want. Yeah. And all is well.
+29:59 So you can see I I'm doing a little bit on the edge here again because all the
+30:01 on the edge here again because all the edges there should have a little bit of
+30:03 edges there should have a little bit of buildup of the fluid because that's
+30:05 buildup of the fluid because that's where gravity kind of makes it stall and
+30:08 where gravity kind of makes it stall and like stop cuz it just kind of like runs
+30:09 like stop cuz it just kind of like runs out of um like the the tension will be
+30:12 out of um like the the tension will be more than the gravity that's pulling it
+30:14 more than the gravity that's pulling it down. Um you get the idea. Anyways, play
+30:19 down. Um you get the idea. Anyways, play with that as much as you like.
+30:22 with that as much as you like. But of course we have some homework to
+30:25 But of course we have some homework to finish off this video. So, what I want
+30:27 finish off this video. So, what I want you to make is this hidden object, which
+30:32 you to make is this hidden object, which is a plate for your doughnut. So, have a
+30:36 is a plate for your doughnut. So, have a look at the shape here that I've got and
+30:38 look at the shape here that I've got and have a think about how you would go
+30:40 have a think about how you would go about creating this and try to do it
+30:42 about creating this and try to do it yourself. Just give it a step. Even if
+30:44 yourself. Just give it a step. Even if you don't feel confident, you don't feel
+30:45 you don't feel confident, you don't feel like you could uh achieve it, just give
+30:47 like you could uh achieve it, just give it a go. Um, there's a hint, we've got
+30:50 it a go. Um, there's a hint, we've got some modifiers on the right here. And I
+30:52 some modifiers on the right here. And I will also show you what the wireframe
+30:55 will also show you what the wireframe looks like. um cuz that will probably
+30:57 looks like. um cuz that will probably help some people out as well. Okay, so
+31:00 help some people out as well. Okay, so that's a pretty big hint. Um but yeah,
+31:03 that's a pretty big hint. Um but yeah, give a go without any instruction from
+31:05 give a go without any instruction from me. Have a stab at that. In the next
+31:07 me. Have a stab at that. In the next part, I'll very quickly show you how to
+31:09 part, I'll very quickly show you how to uh how to create this. Um if you're get
+31:12 uh how to create this. Um if you're get completely lost, you can join me in that
+31:14 completely lost, you can join me in that part, but please have a go at trying to
+31:16 part, but please have a go at trying to do it yourself. Anyway, go ahead, join
+31:18 do it yourself. Anyway, go ahead, join me in the next part after you have tried
+31:20 me in the next part after you have tried to create this by

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Asset Art Direction"
+  short_description: "Plan hero, image, video and 3D assets"
+  default_prompt: "Use $landing-asset-art-direction to define the landing page asset direction and production specs."

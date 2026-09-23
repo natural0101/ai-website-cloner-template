@@ -1,0 +1,2149 @@
+{
+  "channel": {
+    "name": "3D SHVYREV",
+    "handle": "@3D_SHVYREV",
+    "channel_id": "UCv12mUx2DahFIxs9nZLDKNw",
+    "url": "https://www.youtube.com/@3D_SHVYREV"
+  },
+  "generated_at": "2026-07-30T15:07:48.625358+00:00",
+  "counts": {
+    "total": 237,
+    "videos": 40,
+    "shorts": 197
+  },
+  "entries": [
+    {
+      "position": 1,
+      "source_kind": "video",
+      "video_id": "lVflgFmmxfA",
+      "title": "Пейзаж в Blender 5.2 с нуля! | Добавление растений",
+      "url": "https://www.youtube.com/watch?v=lVflgFmmxfA",
+      "duration_seconds": 1528.0,
+      "duration": "25:28"
+    },
+    {
+      "position": 2,
+      "source_kind": "video",
+      "video_id": "99lAzxKeV9c",
+      "title": "Обновления Blender 5.2 | Новая симуляция",
+      "url": "https://www.youtube.com/watch?v=99lAzxKeV9c",
+      "duration_seconds": 639.0,
+      "duration": "10:39"
+    },
+    {
+      "position": 3,
+      "source_kind": "video",
+      "video_id": "WfF-W8WqDqY",
+      "title": "Запекание в Blender ПРОСТО! | Основы процедурных материалов",
+      "url": "https://www.youtube.com/watch?v=WfF-W8WqDqY",
+      "duration_seconds": 865.0,
+      "duration": "14:25"
+    },
+    {
+      "position": 4,
+      "source_kind": "video",
+      "video_id": "T_MlDrVk1m8",
+      "title": "Обновления Blender 5.1 | Новые вершины",
+      "url": "https://www.youtube.com/watch?v=T_MlDrVk1m8",
+      "duration_seconds": 485.0,
+      "duration": "08:05"
+    },
+    {
+      "position": 5,
+      "source_kind": "video",
+      "video_id": "59HavvH5H_8",
+      "title": "Игрушка Hornet в Blender | Уроки для начинающих",
+      "url": "https://www.youtube.com/watch?v=59HavvH5H_8",
+      "duration_seconds": 1462.0,
+      "duration": "24:22"
+    },
+    {
+      "position": 6,
+      "source_kind": "video",
+      "video_id": "v0KOSJrnltU",
+      "title": "Обновления Blender 5.0 | Новый рубеж",
+      "url": "https://www.youtube.com/watch?v=v0KOSJrnltU",
+      "duration_seconds": 681.0,
+      "duration": "11:21"
+    },
+    {
+      "position": 7,
+      "source_kind": "video",
+      "video_id": "kGblQk16MY0",
+      "title": "Фатальные ошибки новичков в Blender | Полная версия",
+      "url": "https://www.youtube.com/watch?v=kGblQk16MY0",
+      "duration_seconds": 1016.0,
+      "duration": "16:56"
+    },
+    {
+      "position": 8,
+      "source_kind": "video",
+      "video_id": "diQZpgDNKhg",
+      "title": "Плюшевый олень в Blender | Уроки для начинающих",
+      "url": "https://www.youtube.com/watch?v=diQZpgDNKhg",
+      "duration_seconds": 989.0,
+      "duration": "16:29"
+    },
+    {
+      "position": 9,
+      "source_kind": "video",
+      "video_id": "O8W6oAZG6LU",
+      "title": "Как легко анимировать все в Blender, используя Shape Keys",
+      "url": "https://www.youtube.com/watch?v=O8W6oAZG6LU",
+      "duration_seconds": 901.0,
+      "duration": "15:01"
+    },
+    {
+      "position": 10,
+      "source_kind": "video",
+      "video_id": "hA1--jm52dM",
+      "title": "Обновления Blender 4.5 | Обзор всех функций",
+      "url": "https://www.youtube.com/watch?v=hA1--jm52dM",
+      "duration_seconds": 392.0,
+      "duration": "06:32"
+    },
+    {
+      "position": 11,
+      "source_kind": "video",
+      "video_id": "6GLHDS2vRd0",
+      "title": "Тайна мастерской | Мульт в Blender",
+      "url": "https://www.youtube.com/watch?v=6GLHDS2vRd0",
+      "duration_seconds": 69.0,
+      "duration": "01:09"
+    },
+    {
+      "position": 12,
+      "source_kind": "video",
+      "video_id": "5DHDe23K6Fw",
+      "title": "Поясняю за камеру в Blender 3D | Топ 8 крутых фишек!",
+      "url": "https://www.youtube.com/watch?v=5DHDe23K6Fw",
+      "duration_seconds": 762.0,
+      "duration": "12:42"
+    },
+    {
+      "position": 13,
+      "source_kind": "video",
+      "video_id": "zo7uEXdoH2Q",
+      "title": "Самый точный 3D Трекинг в Blender ПРОСТО! | Новый способ",
+      "url": "https://www.youtube.com/watch?v=zo7uEXdoH2Q",
+      "duration_seconds": 828.0,
+      "duration": "13:48"
+    },
+    {
+      "position": 14,
+      "source_kind": "video",
+      "video_id": "3xK18Su0LzM",
+      "title": "Игровая модель гранаты Red Bull в Blender с нуля! | Запекание",
+      "url": "https://www.youtube.com/watch?v=3xK18Su0LzM",
+      "duration_seconds": 3811.0,
+      "duration": "01:03:31"
+    },
+    {
+      "position": 15,
+      "source_kind": "video",
+      "video_id": "dg8K1-IN1Jo",
+      "title": "Урок по 3D для начинающих в Blender - Комната с рабочим местом (изометрия)",
+      "url": "https://www.youtube.com/watch?v=dg8K1-IN1Jo",
+      "duration_seconds": 2249.0,
+      "duration": "37:29"
+    },
+    {
+      "position": 16,
+      "source_kind": "video",
+      "video_id": "5cH_GWLoS4M",
+      "title": "Обновлении Blender 4.4 | Что нового?",
+      "url": "https://www.youtube.com/watch?v=5cH_GWLoS4M",
+      "duration_seconds": 361.0,
+      "duration": "06:01"
+    },
+    {
+      "position": 17,
+      "source_kind": "video",
+      "video_id": "pdUO34s1BZs",
+      "title": "Blender 1.0 - Каким он был? Обзор всех версий самой популярной программы для 3D моделирования",
+      "url": "https://www.youtube.com/watch?v=pdUO34s1BZs",
+      "duration_seconds": 608.0,
+      "duration": "10:08"
+    },
+    {
+      "position": 18,
+      "source_kind": "video",
+      "video_id": "TY78w-UwBfk",
+      "title": "Риг и анимации авто в Blender | RBC + Rig a car",
+      "url": "https://www.youtube.com/watch?v=TY78w-UwBfk",
+      "duration_seconds": 793.0,
+      "duration": "13:13"
+    },
+    {
+      "position": 19,
+      "source_kind": "video",
+      "video_id": "p--JWcnPLYU",
+      "title": "Моделирование авто в Blender | Porsche Cayman 718",
+      "url": "https://www.youtube.com/watch?v=p--JWcnPLYU",
+      "duration_seconds": 38.0,
+      "duration": "00:38"
+    },
+    {
+      "position": 20,
+      "source_kind": "video",
+      "video_id": "UPrLOsq2sO0",
+      "title": "Стилизованный рендер в Blender | Создание шейдеров",
+      "url": "https://www.youtube.com/watch?v=UPrLOsq2sO0",
+      "duration_seconds": 1403.0,
+      "duration": "23:23"
+    },
+    {
+      "position": 21,
+      "source_kind": "video",
+      "video_id": "id0CIaa5pFQ",
+      "title": "Комната в изометрии | Уроки для начинающих в Blender",
+      "url": "https://www.youtube.com/watch?v=id0CIaa5pFQ",
+      "duration_seconds": 1320.0,
+      "duration": "22:00"
+    },
+    {
+      "position": 22,
+      "source_kind": "video",
+      "video_id": "fNZxLaSbWPg",
+      "title": "ТОП аддонов для Blender | Уроки по Blender",
+      "url": "https://www.youtube.com/watch?v=fNZxLaSbWPg",
+      "duration_seconds": 660.0,
+      "duration": "11:00"
+    },
+    {
+      "position": 23,
+      "source_kind": "video",
+      "video_id": "MquvWMNAjpo",
+      "title": "Обновление BLENDER 4.3 | Обзор новых фишек",
+      "url": "https://www.youtube.com/watch?v=MquvWMNAjpo",
+      "duration_seconds": 522.0,
+      "duration": "08:42"
+    },
+    {
+      "position": 24,
+      "source_kind": "video",
+      "video_id": "MKXq00mBwY8",
+      "title": "Интерьер спальни в Blender просто!",
+      "url": "https://www.youtube.com/watch?v=MKXq00mBwY8",
+      "duration_seconds": 2842.0,
+      "duration": "47:22"
+    },
+    {
+      "position": 25,
+      "source_kind": "video",
+      "video_id": "_lBD0a385vw",
+      "title": "Пейзаж в Blender с нуля! | Растения в блендер",
+      "url": "https://www.youtube.com/watch?v=_lBD0a385vw",
+      "duration_seconds": 1645.0,
+      "duration": "27:25"
+    },
+    {
+      "position": 26,
+      "source_kind": "video",
+      "video_id": "_uhF3s9H6L4",
+      "title": "3D Трекинг лица в Blender! | GeoTracker | Трекинг видео",
+      "url": "https://www.youtube.com/watch?v=_uhF3s9H6L4",
+      "duration_seconds": 1156.0,
+      "duration": "19:16"
+    },
+    {
+      "position": 27,
+      "source_kind": "video",
+      "video_id": "BWT83uzCe34",
+      "title": "3D Сканирование ПРОСТО! | Запечка в BLENDER",
+      "url": "https://www.youtube.com/watch?v=BWT83uzCe34",
+      "duration_seconds": 752.0,
+      "duration": "12:32"
+    },
+    {
+      "position": 28,
+      "source_kind": "video",
+      "video_id": "1FvBi03Lp40",
+      "title": "BLENDER 4.2 | Обзор функций и нового рендера!",
+      "url": "https://www.youtube.com/watch?v=1FvBi03Lp40",
+      "duration_seconds": 424.0,
+      "duration": "07:04"
+    },
+    {
+      "position": 29,
+      "source_kind": "video",
+      "video_id": "OmqtNJREy80",
+      "title": "Реалистичная вода и капли в BLENDER ПРОСТО! | Набор аддонов",
+      "url": "https://www.youtube.com/watch?v=OmqtNJREy80",
+      "duration_seconds": 999.0,
+      "duration": "16:39"
+    },
+    {
+      "position": 30,
+      "source_kind": "video",
+      "video_id": "4Txc9qQ0UeE",
+      "title": "Трекинг в Blender ОЧЕНЬ ПРОСТО! | GeoTracker | Трекинг вертикального видео",
+      "url": "https://www.youtube.com/watch?v=4Txc9qQ0UeE",
+      "duration_seconds": 1675.0,
+      "duration": "27:55"
+    },
+    {
+      "position": 31,
+      "source_kind": "video",
+      "video_id": "qxtmJbDLDUQ",
+      "title": "Текстурить шины в Blender ПРОСТО! | Tyre in Blender",
+      "url": "https://www.youtube.com/watch?v=qxtmJbDLDUQ",
+      "duration_seconds": 1032.0,
+      "duration": "17:12"
+    },
+    {
+      "position": 32,
+      "source_kind": "video",
+      "video_id": "Tp2d-nDZ2lw",
+      "title": "Гэри в BLENDER за 1 МИНУТУ и 1 ЧАС",
+      "url": "https://www.youtube.com/watch?v=Tp2d-nDZ2lw",
+      "duration_seconds": 372.0,
+      "duration": "06:12"
+    },
+    {
+      "position": 33,
+      "source_kind": "video",
+      "video_id": "QrXsUw6y5YM",
+      "title": "3D Трекинг в Blender ПРОСТО! | GeoTracker | Трекинг по видео",
+      "url": "https://www.youtube.com/watch?v=QrXsUw6y5YM",
+      "duration_seconds": 1113.0,
+      "duration": "18:33"
+    },
+    {
+      "position": 34,
+      "source_kind": "video",
+      "video_id": "g65crfy9jWk",
+      "title": "Добавление растений на сцену в BLENDER 3D | Аддон Gscatter",
+      "url": "https://www.youtube.com/watch?v=g65crfy9jWk",
+      "duration_seconds": 381.0,
+      "duration": "06:21"
+    },
+    {
+      "position": 35,
+      "source_kind": "video",
+      "video_id": "LGcIQky9ftc",
+      "title": "3D модели на фотографиях в Blender | Размещение 3д моделей",
+      "url": "https://www.youtube.com/watch?v=LGcIQky9ftc",
+      "duration_seconds": 431.0,
+      "duration": "07:11"
+    },
+    {
+      "position": 36,
+      "source_kind": "video",
+      "video_id": "SEz2ynPfdsY",
+      "title": "Горох за 1 МИНУТУ / 10 МИНУТ / 1 ЧАС В BLENDER 3D",
+      "url": "https://www.youtube.com/watch?v=SEz2ynPfdsY",
+      "duration_seconds": 314.0,
+      "duration": "05:14"
+    },
+    {
+      "position": 37,
+      "source_kind": "video",
+      "video_id": "fJOgMvhHMb8",
+      "title": "3D Трекинг в Blender и After Effects | Трекинг по видео",
+      "url": "https://www.youtube.com/watch?v=fJOgMvhHMb8",
+      "duration_seconds": 713.0,
+      "duration": "11:53"
+    },
+    {
+      "position": 38,
+      "source_kind": "video",
+      "video_id": "8_oRBFeHjFc",
+      "title": "Гайд по риггингу ( rigacar ) и анимации автомобилей в BLENDER",
+      "url": "https://www.youtube.com/watch?v=8_oRBFeHjFc",
+      "duration_seconds": 719.0,
+      "duration": "11:59"
+    },
+    {
+      "position": 39,
+      "source_kind": "video",
+      "video_id": "m6UTEa9jw9I",
+      "title": "Наклейки в Blender 3D просто и быстро!",
+      "url": "https://www.youtube.com/watch?v=m6UTEa9jw9I",
+      "duration_seconds": 293.0,
+      "duration": "04:53"
+    },
+    {
+      "position": 40,
+      "source_kind": "video",
+      "video_id": "eJWJwrELsvI",
+      "title": "Создание дома и снега в BLENDER за 33 мин для начинающих",
+      "url": "https://www.youtube.com/watch?v=eJWJwrELsvI",
+      "duration_seconds": 2019.0,
+      "duration": "33:39"
+    },
+    {
+      "position": 1,
+      "source_kind": "short",
+      "video_id": "5tvJso63hbs",
+      "title": "Чиним Blender новыми аддонами #blender #addons",
+      "url": "https://www.youtube.com/watch?v=5tvJso63hbs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 2,
+      "source_kind": "short",
+      "video_id": "UXxlGK2YPHI",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=UXxlGK2YPHI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 3,
+      "source_kind": "short",
+      "video_id": "2OBe_vMVVCU",
+      "title": "Зачем соблюдать топологию в Blender 3D? #blender3d",
+      "url": "https://www.youtube.com/watch?v=2OBe_vMVVCU",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 4,
+      "source_kind": "short",
+      "video_id": "Srf5JoiOgu0",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=Srf5JoiOgu0",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 5,
+      "source_kind": "short",
+      "video_id": "vgnjkCHpdiI",
+      "title": "Обновление Blender 5.2 | Симуляция ткани и волос #blender",
+      "url": "https://www.youtube.com/watch?v=vgnjkCHpdiI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 6,
+      "source_kind": "short",
+      "video_id": "pwXFv3m8Alg",
+      "title": "ИИ помощник в Blender | Новый аддон #blender #addons",
+      "url": "https://www.youtube.com/watch?v=pwXFv3m8Alg",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 7,
+      "source_kind": "short",
+      "video_id": "QIF3D7K96T4",
+      "title": "Аддоны для Blender для упрощения жизни #blender #addons",
+      "url": "https://www.youtube.com/watch?v=QIF3D7K96T4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 8,
+      "source_kind": "short",
+      "video_id": "BzfrEuZW4vc",
+      "title": "Меня взломали в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=BzfrEuZW4vc",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 9,
+      "source_kind": "short",
+      "video_id": "oSu4RP6NY2Y",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=oSu4RP6NY2Y",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 10,
+      "source_kind": "short",
+      "video_id": "mgeJyPGD14g",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=mgeJyPGD14g",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 11,
+      "source_kind": "short",
+      "video_id": "3Ers7j1WAOQ",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=3Ers7j1WAOQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 12,
+      "source_kind": "short",
+      "video_id": "xlKy4tZ8T9A",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=xlKy4tZ8T9A",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 13,
+      "source_kind": "short",
+      "video_id": "TzvE3eMoJPs",
+      "title": "Запекание пирожков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=TzvE3eMoJPs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 14,
+      "source_kind": "short",
+      "video_id": "iudXYCtK2gQ",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=iudXYCtK2gQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 15,
+      "source_kind": "short",
+      "video_id": "SGVWZM_7Iqw",
+      "title": "Лучшие аддоны для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=SGVWZM_7Iqw",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 16,
+      "source_kind": "short",
+      "video_id": "L4_VKuEsWks",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=L4_VKuEsWks",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 17,
+      "source_kind": "short",
+      "video_id": "-oZF9047MKc",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=-oZF9047MKc",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 18,
+      "source_kind": "short",
+      "video_id": "xBnnxgo-ReY",
+      "title": "Анимация в BLENDER | Фатальные ошибки #blender",
+      "url": "https://www.youtube.com/watch?v=xBnnxgo-ReY",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 19,
+      "source_kind": "short",
+      "video_id": "5ZwdROOkjic",
+      "title": "Водичка в BLENDER | Фатальные ошибки #blender",
+      "url": "https://www.youtube.com/watch?v=5ZwdROOkjic",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 20,
+      "source_kind": "short",
+      "video_id": "3yq_bTq4p4Y",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=3yq_bTq4p4Y",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 21,
+      "source_kind": "short",
+      "video_id": "cZTJP6RwktQ",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=cZTJP6RwktQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 22,
+      "source_kind": "short",
+      "video_id": "9ZZlE9k9BW0",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=9ZZlE9k9BW0",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 23,
+      "source_kind": "short",
+      "video_id": "_l0tOEl8AAs",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=_l0tOEl8AAs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 24,
+      "source_kind": "short",
+      "video_id": "A1jMRP_y0OY",
+      "title": "Лайфхак для BLENDER | Деформация подошвы #blender",
+      "url": "https://www.youtube.com/watch?v=A1jMRP_y0OY",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 25,
+      "source_kind": "short",
+      "video_id": "m2_5HekCcT8",
+      "title": "Шаловливые пальчики в Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=m2_5HekCcT8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 26,
+      "source_kind": "short",
+      "video_id": "E5gKtNYWg0s",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=E5gKtNYWg0s",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 27,
+      "source_kind": "short",
+      "video_id": "nMHUAoneJ-w",
+      "title": "Обновление в BLENDER 5.1 #blender",
+      "url": "https://www.youtube.com/watch?v=nMHUAoneJ-w",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 28,
+      "source_kind": "short",
+      "video_id": "vmAaWmfu1tc",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=vmAaWmfu1tc",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 29,
+      "source_kind": "short",
+      "video_id": "pZ_q2HdI3xs",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=pZ_q2HdI3xs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 30,
+      "source_kind": "short",
+      "video_id": "9zljFrgtJ8k",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=9zljFrgtJ8k",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 31,
+      "source_kind": "short",
+      "video_id": "IcRZnc4QOW4",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=IcRZnc4QOW4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 32,
+      "source_kind": "short",
+      "video_id": "buI97T9QsZw",
+      "title": "Управляю рулем в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=buI97T9QsZw",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 33,
+      "source_kind": "short",
+      "video_id": "i-Aa5AHbex8",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=i-Aa5AHbex8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 34,
+      "source_kind": "short",
+      "video_id": "FtLu69K30pI",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=FtLu69K30pI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 35,
+      "source_kind": "short",
+      "video_id": "VwlDeEt0wdE",
+      "title": "Forza Horizon в Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=VwlDeEt0wdE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 36,
+      "source_kind": "short",
+      "video_id": "z9FU3UQWEdY",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=z9FU3UQWEdY",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 37,
+      "source_kind": "short",
+      "video_id": "v028VSznhb4",
+      "title": "Ломаю Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=v028VSznhb4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 38,
+      "source_kind": "short",
+      "video_id": "F6Wsf1kfF6I",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=F6Wsf1kfF6I",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 39,
+      "source_kind": "short",
+      "video_id": "SVIx7V1VTiw",
+      "title": "Подсказки в BLENDER 3D #blender",
+      "url": "https://www.youtube.com/watch?v=SVIx7V1VTiw",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 40,
+      "source_kind": "short",
+      "video_id": "rWV5lbDiORc",
+      "title": "Hornet в BLENDER 3D #blender",
+      "url": "https://www.youtube.com/watch?v=rWV5lbDiORc",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 41,
+      "source_kind": "short",
+      "video_id": "JcYuvA_oYbA",
+      "title": "Космос в Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=JcYuvA_oYbA",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 42,
+      "source_kind": "short",
+      "video_id": "v7lyGNGD9m0",
+      "title": "Автоматический риг в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=v7lyGNGD9m0",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 43,
+      "source_kind": "short",
+      "video_id": "ISH_0OfL4mU",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=ISH_0OfL4mU",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 44,
+      "source_kind": "short",
+      "video_id": "63SwHTVw82I",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=63SwHTVw82I",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 45,
+      "source_kind": "short",
+      "video_id": "Zo1uUwUIjDI",
+      "title": "Зачем моделить авто в Blender 3D? #blender",
+      "url": "https://www.youtube.com/watch?v=Zo1uUwUIjDI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 46,
+      "source_kind": "short",
+      "video_id": "RBolbabR_c8",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=RBolbabR_c8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 47,
+      "source_kind": "short",
+      "video_id": "VG8gK7JXimg",
+      "title": "Анимация и лианы в Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=VG8gK7JXimg",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 48,
+      "source_kind": "short",
+      "video_id": "fy9Ktp8WtU8",
+      "title": "Обновление BLENDER 5.0 #blender",
+      "url": "https://www.youtube.com/watch?v=fy9Ktp8WtU8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 49,
+      "source_kind": "short",
+      "video_id": "bYyE3QsK6qE",
+      "title": "Города и туман в Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=bYyE3QsK6qE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 50,
+      "source_kind": "short",
+      "video_id": "6gdzCQvcKXg",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=6gdzCQvcKXg",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 51,
+      "source_kind": "short",
+      "video_id": "PfQE5fzR_WE",
+      "title": "Укрощение камеры в Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=PfQE5fzR_WE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 52,
+      "source_kind": "short",
+      "video_id": "S8ydlb7ZMl4",
+      "title": "Камень из куба в Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=S8ydlb7ZMl4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 53,
+      "source_kind": "short",
+      "video_id": "br_S9ZiB644",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=br_S9ZiB644",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 54,
+      "source_kind": "short",
+      "video_id": "J6M7FVDqD7I",
+      "title": "Дома в Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=J6M7FVDqD7I",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 55,
+      "source_kind": "short",
+      "video_id": "VO_0mw_rYk8",
+      "title": "Волосня в BLENDER | Фатальные ошибки #blender",
+      "url": "https://www.youtube.com/watch?v=VO_0mw_rYk8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 56,
+      "source_kind": "short",
+      "video_id": "OkWlo7DSkJg",
+      "title": "Трава в Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=OkWlo7DSkJg",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 57,
+      "source_kind": "short",
+      "video_id": "IcxqCp3lW9k",
+      "title": "Скрытые функции в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=IcxqCp3lW9k",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 58,
+      "source_kind": "short",
+      "video_id": "pKtSQaCPwXk",
+      "title": "Genshin теперь в Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=pKtSQaCPwXk",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 59,
+      "source_kind": "short",
+      "video_id": "NOUFi0hcV9w",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=NOUFi0hcV9w",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 60,
+      "source_kind": "short",
+      "video_id": "a50wnyWioVM",
+      "title": "Упрощаю Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=a50wnyWioVM",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 61,
+      "source_kind": "short",
+      "video_id": "7rIxqWyix3Q",
+      "title": "Фатальные ошибки анимации в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=7rIxqWyix3Q",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 62,
+      "source_kind": "short",
+      "video_id": "uFC0uX9ZmOs",
+      "title": "Одежда в Blender | Топ 3 аддонов #blender #addons",
+      "url": "https://www.youtube.com/watch?v=uFC0uX9ZmOs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 63,
+      "source_kind": "short",
+      "video_id": "oF3YktDtmMs",
+      "title": "Новый аддон для 3D трекинга в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=oF3YktDtmMs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 64,
+      "source_kind": "short",
+      "video_id": "bv69HaUp3yo",
+      "title": "Мнем кота в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=bv69HaUp3yo",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 65,
+      "source_kind": "short",
+      "video_id": "wj5lwtQGmnI",
+      "title": "Дикий ТОП аддонов для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=wj5lwtQGmnI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 66,
+      "source_kind": "short",
+      "video_id": "Ipkze1Nfitw",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=Ipkze1Nfitw",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 67,
+      "source_kind": "short",
+      "video_id": "YkTKz-b1IGI",
+      "title": "Топ полезных аддонов для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=YkTKz-b1IGI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 68,
+      "source_kind": "short",
+      "video_id": "Heqed0Mu_iQ",
+      "title": "Управление телефоном в Blender #blender",
+      "url": "https://www.youtube.com/watch?v=Heqed0Mu_iQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 69,
+      "source_kind": "short",
+      "video_id": "-52atAJ2a2U",
+      "title": "Фишки обновления Blender 4.5 #blender",
+      "url": "https://www.youtube.com/watch?v=-52atAJ2a2U",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 70,
+      "source_kind": "short",
+      "video_id": "D2TseFz9ESM",
+      "title": "Топ крутых аддонов для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=D2TseFz9ESM",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 71,
+      "source_kind": "short",
+      "video_id": "MgAO4lgtkiI",
+      "title": "Лайфхаки с камерой в Blender #blender",
+      "url": "https://www.youtube.com/watch?v=MgAO4lgtkiI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 72,
+      "source_kind": "short",
+      "video_id": "9uCmeGcCKxQ",
+      "title": "Топ полезных аддонов для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=9uCmeGcCKxQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 73,
+      "source_kind": "short",
+      "video_id": "ELbRLFYjsvo",
+      "title": "Аддон c котом в Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=ELbRLFYjsvo",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 74,
+      "source_kind": "short",
+      "video_id": "FtJd0wmcTUQ",
+      "title": "Паук в Blender с риггингом и анимацией #blender",
+      "url": "https://www.youtube.com/watch?v=FtJd0wmcTUQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 75,
+      "source_kind": "short",
+      "video_id": "SZTu3TMvneU",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=SZTu3TMvneU",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 76,
+      "source_kind": "short",
+      "video_id": "uKL8XDr6o28",
+      "title": "Аддоны для физики в Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=uKL8XDr6o28",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 77,
+      "source_kind": "short",
+      "video_id": "GUdQvlo3ANE",
+      "title": "Простой 3D Трекинг в Blender и AE #blender",
+      "url": "https://www.youtube.com/watch?v=GUdQvlo3ANE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 78,
+      "source_kind": "short",
+      "video_id": "gmeqnk8oxqo",
+      "title": "Аддоны для анимаций в Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=gmeqnk8oxqo",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 79,
+      "source_kind": "short",
+      "video_id": "MEnbuvD-M3g",
+      "title": "Запекание в Blender это ПРОСТО! #blender",
+      "url": "https://www.youtube.com/watch?v=MEnbuvD-M3g",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 80,
+      "source_kind": "short",
+      "video_id": "jSkRjW1zmxI",
+      "title": "Топ аддонов для лысых в Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=jSkRjW1zmxI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 81,
+      "source_kind": "short",
+      "video_id": "cyz_V8J0-PQ",
+      "title": "ТУН ТУН ТУН за 1 час! В BLENDER 3D #blender",
+      "url": "https://www.youtube.com/watch?v=cyz_V8J0-PQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 82,
+      "source_kind": "short",
+      "video_id": "ukxepXJOqXc",
+      "title": "Топ аддонов для \"долбежки\" моделей в Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=ukxepXJOqXc",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 83,
+      "source_kind": "short",
+      "video_id": "0Jrgm9rPqpE",
+      "title": "Топ фишек в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=0Jrgm9rPqpE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 84,
+      "source_kind": "short",
+      "video_id": "Ip3aHlgj0-4",
+      "title": "Полезные аддоны для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=Ip3aHlgj0-4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 85,
+      "source_kind": "short",
+      "video_id": "ilqX1FgfcL4",
+      "title": "Гайды для новичков в BLENDER #blender3d",
+      "url": "https://www.youtube.com/watch?v=ilqX1FgfcL4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 86,
+      "source_kind": "short",
+      "video_id": "BUOWAELJYWo",
+      "title": "Аддоны для всего! (Blender) #blender #addons",
+      "url": "https://www.youtube.com/watch?v=BUOWAELJYWo",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 87,
+      "source_kind": "short",
+      "video_id": "RGke93XQdrQ",
+      "title": "Топ фишек в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=RGke93XQdrQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 88,
+      "source_kind": "short",
+      "video_id": "sWNQ1sHCELY",
+      "title": "Топ 3 лучших аддонов для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=sWNQ1sHCELY",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 89,
+      "source_kind": "short",
+      "video_id": "Fhc3_u7kNZc",
+      "title": "Обновление Blender 4.4 #blender",
+      "url": "https://www.youtube.com/watch?v=Fhc3_u7kNZc",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 90,
+      "source_kind": "short",
+      "video_id": "akyLP0Jqz64",
+      "title": "Идеальные модельки в Blender #blender",
+      "url": "https://www.youtube.com/watch?v=akyLP0Jqz64",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 91,
+      "source_kind": "short",
+      "video_id": "qtliVoopEdg",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=qtliVoopEdg",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 92,
+      "source_kind": "short",
+      "video_id": "d_F06saX1HY",
+      "title": "Первая версия Blender 1.0 #blender",
+      "url": "https://www.youtube.com/watch?v=d_F06saX1HY",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 93,
+      "source_kind": "short",
+      "video_id": "3GPYwG-RQdU",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=3GPYwG-RQdU",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 94,
+      "source_kind": "short",
+      "video_id": "JLglRfOZtGg",
+      "title": "Топ Аддонов для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=JLglRfOZtGg",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 95,
+      "source_kind": "short",
+      "video_id": "xQo5bAw-xJE",
+      "title": "Анимация и RIG авто в BLENDER просто! #blender",
+      "url": "https://www.youtube.com/watch?v=xQo5bAw-xJE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 96,
+      "source_kind": "short",
+      "video_id": "p_8rgT3e1Hc",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=p_8rgT3e1Hc",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 97,
+      "source_kind": "short",
+      "video_id": "sDeAgPFTrq4",
+      "title": "Аддоны для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=sDeAgPFTrq4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 98,
+      "source_kind": "short",
+      "video_id": "UCegsTRP_ZQ",
+      "title": "Ам Ням в Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=UCegsTRP_ZQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 99,
+      "source_kind": "short",
+      "video_id": "7yz11GiSICk",
+      "title": "Как сделать 2д рендер в Blender #blender",
+      "url": "https://www.youtube.com/watch?v=7yz11GiSICk",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 100,
+      "source_kind": "short",
+      "video_id": "ipsM6qkaDzA",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=ipsM6qkaDzA",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 101,
+      "source_kind": "short",
+      "video_id": "GLbO-PaxhtY",
+      "title": "Как сделать монитор из старого iPad #blender",
+      "url": "https://www.youtube.com/watch?v=GLbO-PaxhtY",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 102,
+      "source_kind": "short",
+      "video_id": "lV60JmMzCek",
+      "title": "Топ 3 аддонов для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=lV60JmMzCek",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 103,
+      "source_kind": "short",
+      "video_id": "b_YN3yg7MHw",
+      "title": "Анимация паука в Blender #blender",
+      "url": "https://www.youtube.com/watch?v=b_YN3yg7MHw",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 104,
+      "source_kind": "short",
+      "video_id": "4Jik8JalLiE",
+      "title": "Обоюдные аддоны для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=4Jik8JalLiE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 105,
+      "source_kind": "short",
+      "video_id": "UaBKW0ytxoY",
+      "title": "Своя комната в Blender #blender",
+      "url": "https://www.youtube.com/watch?v=UaBKW0ytxoY",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 106,
+      "source_kind": "short",
+      "video_id": "WaMdeafgWYs",
+      "title": "Лучшие аддоны для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=WaMdeafgWYs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 107,
+      "source_kind": "short",
+      "video_id": "v5CW1hTDJ0c",
+      "title": "Полезные аддоны для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=v5CW1hTDJ0c",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 108,
+      "source_kind": "short",
+      "video_id": "8IIX6Mfta_o",
+      "title": "Топ нужных аддонов для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=8IIX6Mfta_o",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 109,
+      "source_kind": "short",
+      "video_id": "qhAmNpLSaws",
+      "title": "Когда крашнулся Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=qhAmNpLSaws",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 110,
+      "source_kind": "short",
+      "video_id": "9Lt1NrTKRa4",
+      "title": "Топ аддонов для домов в Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=9Lt1NrTKRa4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 111,
+      "source_kind": "short",
+      "video_id": "cB8Im9LAq1o",
+      "title": "Подсолнух из Plants VS Zombies в Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=cB8Im9LAq1o",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 112,
+      "source_kind": "short",
+      "video_id": "tDc04by68Rs",
+      "title": "Топ 3 аддонов для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=tDc04by68Rs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 113,
+      "source_kind": "short",
+      "video_id": "D70oeIOg23o",
+      "title": "Обновление Blender 4.3 #blender",
+      "url": "https://www.youtube.com/watch?v=D70oeIOg23o",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 114,
+      "source_kind": "short",
+      "video_id": "MCosgbR0NzI",
+      "title": "Подборка аддонов для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=MCosgbR0NzI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 115,
+      "source_kind": "short",
+      "video_id": "Ccayarl2HKA",
+      "title": "Топ аддон для Blender и Substance painter #blender #addons",
+      "url": "https://www.youtube.com/watch?v=Ccayarl2HKA",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 116,
+      "source_kind": "short",
+      "video_id": "0bwyw3vy7hY",
+      "title": "Реалистичный свет в Blender #blender",
+      "url": "https://www.youtube.com/watch?v=0bwyw3vy7hY",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 117,
+      "source_kind": "short",
+      "video_id": "lNSdFEU5zQE",
+      "title": "Сборка аддонов для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=lNSdFEU5zQE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 118,
+      "source_kind": "short",
+      "video_id": "LKCnGRdXyCE",
+      "title": "Физика ткани в Blender для интерьера #blender",
+      "url": "https://www.youtube.com/watch?v=LKCnGRdXyCE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 119,
+      "source_kind": "short",
+      "video_id": "4QsslVcswgc",
+      "title": "Аддон с нейронкой для Blende #blender #addons",
+      "url": "https://www.youtube.com/watch?v=4QsslVcswgc",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 120,
+      "source_kind": "short",
+      "video_id": "MUAp0IWJPEs",
+      "title": "Спидран по Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=MUAp0IWJPEs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 121,
+      "source_kind": "short",
+      "video_id": "82TRY4y1gXE",
+      "title": "Аддоны для Blender для простой жизни #blender #addons",
+      "url": "https://www.youtube.com/watch?v=82TRY4y1gXE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 122,
+      "source_kind": "short",
+      "video_id": "-pURcXWTUV0",
+      "title": "Растения для Blender #blender #addons",
+      "url": "https://www.youtube.com/watch?v=-pURcXWTUV0",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 123,
+      "source_kind": "short",
+      "video_id": "BV7w2b3BItY",
+      "title": "Аддоны для Blender для упрощения жизни #blender #addons",
+      "url": "https://www.youtube.com/watch?v=BV7w2b3BItY",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 124,
+      "source_kind": "short",
+      "video_id": "I8G9aZBxPok",
+      "title": "Пейзаж и растения в BLENDER Просто! #blender",
+      "url": "https://www.youtube.com/watch?v=I8G9aZBxPok",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 125,
+      "source_kind": "short",
+      "video_id": "grh5GtFakSM",
+      "title": "Основные ошибки в Blender #blender",
+      "url": "https://www.youtube.com/watch?v=grh5GtFakSM",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 126,
+      "source_kind": "short",
+      "video_id": "ggwOqONDcdE",
+      "title": "Базовые ADDONS для Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=ggwOqONDcdE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 127,
+      "source_kind": "short",
+      "video_id": "0mSSv9uZQ0E",
+      "title": "Основные ADDONS для Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=0mSSv9uZQ0E",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 128,
+      "source_kind": "short",
+      "video_id": "cXlxM7fQybU",
+      "title": "Трекинг в Blender #blender",
+      "url": "https://www.youtube.com/watch?v=cXlxM7fQybU",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 129,
+      "source_kind": "short",
+      "video_id": "sTHQ3Yl1kQs",
+      "title": "Базовые ошибки в BLENDER  #blender",
+      "url": "https://www.youtube.com/watch?v=sTHQ3Yl1kQs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 130,
+      "source_kind": "short",
+      "video_id": "v0TdPJv1uGw",
+      "title": "Аддоны для BLENDER, которые все изменят #blender",
+      "url": "https://www.youtube.com/watch?v=v0TdPJv1uGw",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 131,
+      "source_kind": "short",
+      "video_id": "8FRQDWucQBg",
+      "title": "Подборка полезных аддонов для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=8FRQDWucQBg",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 132,
+      "source_kind": "short",
+      "video_id": "xVP5MIK2nYI",
+      "title": "Сканирование в BLENDER ПРОСТО! #blender",
+      "url": "https://www.youtube.com/watch?v=xVP5MIK2nYI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 133,
+      "source_kind": "short",
+      "video_id": "1k144TNB3bI",
+      "title": "BLENDER не для слабонервных #blender",
+      "url": "https://www.youtube.com/watch?v=1k144TNB3bI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 134,
+      "source_kind": "short",
+      "video_id": "_ZXBv5j-KH8",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=_ZXBv5j-KH8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 135,
+      "source_kind": "short",
+      "video_id": "NRXgdoocmBM",
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=NRXgdoocmBM",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 136,
+      "source_kind": "short",
+      "video_id": "NhlqUJRxBwo",
+      "title": "Топ крутых аддонов для Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=NhlqUJRxBwo",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 137,
+      "source_kind": "short",
+      "video_id": "k0HyJ9_Vczs",
+      "title": "Пряня из \"Шрек\" в Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=k0HyJ9_Vczs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 138,
+      "source_kind": "short",
+      "video_id": "3HnVcGn_e9g",
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=3HnVcGn_e9g",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 139,
+      "source_kind": "short",
+      "video_id": "Qtvsy0HhneM",
+      "title": "Фатальные ошибки в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=Qtvsy0HhneM",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 140,
+      "source_kind": "short",
+      "video_id": "t1iL-VlOt18",
+      "title": "Набор аддонов для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=t1iL-VlOt18",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 141,
+      "source_kind": "short",
+      "video_id": "VAlhrx7eni8",
+      "title": "Новый BLENDER 4.2 стал лучше? #blender",
+      "url": "https://www.youtube.com/watch?v=VAlhrx7eni8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 142,
+      "source_kind": "short",
+      "video_id": "76czTtc3Tu8",
+      "title": "Полезные аддоны для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=76czTtc3Tu8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 143,
+      "source_kind": "short",
+      "video_id": "1-FstUy3Tf0",
+      "title": "Вода и капли в BLENDER ПРОСТО! #blender",
+      "url": "https://www.youtube.com/watch?v=1-FstUy3Tf0",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 144,
+      "source_kind": "short",
+      "video_id": "RgQa0uZth3I",
+      "title": "Бимо из \"Время приключений\" в Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=RgQa0uZth3I",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 145,
+      "source_kind": "short",
+      "video_id": "jwii_ri6xaU",
+      "title": "Подборка аддонов для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=jwii_ri6xaU",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 146,
+      "source_kind": "short",
+      "video_id": "6fUbz3-v7NQ",
+      "title": "Фатальные ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=6fUbz3-v7NQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 147,
+      "source_kind": "short",
+      "video_id": "RUklAwciH14",
+      "title": "Аддоны для BLENDER \"...Админки, х.....\" #blender",
+      "url": "https://www.youtube.com/watch?v=RUklAwciH14",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 148,
+      "source_kind": "short",
+      "video_id": "_hxnSgq5jig",
+      "title": "Аддоны для BLENDER \"на черный день\" #blender",
+      "url": "https://www.youtube.com/watch?v=_hxnSgq5jig",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 149,
+      "source_kind": "short",
+      "video_id": "u9n5PJZMzLU",
+      "title": "Тот самый критик в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=u9n5PJZMzLU",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 150,
+      "source_kind": "short",
+      "video_id": "4s2_7rjWrNY",
+      "title": "Трекинг в Blender ПРОСТО! #blender",
+      "url": "https://www.youtube.com/watch?v=4s2_7rjWrNY",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 151,
+      "source_kind": "short",
+      "video_id": "LoGjUIZG7tM",
+      "title": "Топ 3 крутых аддонов для BLENDER 2ч. #blender",
+      "url": "https://www.youtube.com/watch?v=LoGjUIZG7tM",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 152,
+      "source_kind": "short",
+      "video_id": "Z_FYNvjPLEI",
+      "title": "Ошибки новичков в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=Z_FYNvjPLEI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 153,
+      "source_kind": "short",
+      "video_id": "S373SvrinrA",
+      "title": "Аддоны для BLENDER, которые все изменят #blender",
+      "url": "https://www.youtube.com/watch?v=S373SvrinrA",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 154,
+      "source_kind": "short",
+      "video_id": "kx9Nv5BE0_A",
+      "title": "Аддоны для BLENDER упрощающие жизнь #blender",
+      "url": "https://www.youtube.com/watch?v=kx9Nv5BE0_A",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 155,
+      "source_kind": "short",
+      "video_id": "xDFvjKEubrQ",
+      "title": "Текстуры шин в Blender #blender",
+      "url": "https://www.youtube.com/watch?v=xDFvjKEubrQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 156,
+      "source_kind": "short",
+      "video_id": "XhrZGN6RcX4",
+      "title": "Топ дополнений для BLENDER (тянка в комплекте) #blender",
+      "url": "https://www.youtube.com/watch?v=XhrZGN6RcX4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 157,
+      "source_kind": "short",
+      "video_id": "-QUc4W1gyU8",
+      "title": "Гэри из Губки Боба в Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=-QUc4W1gyU8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 158,
+      "source_kind": "short",
+      "video_id": "QeNhqHb_daM",
+      "title": "Ошибки новичков в BLENDER  #blender",
+      "url": "https://www.youtube.com/watch?v=QeNhqHb_daM",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 159,
+      "source_kind": "short",
+      "video_id": "yjwlhZX0Gu8",
+      "title": "Топ крутых аддонов для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=yjwlhZX0Gu8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 160,
+      "source_kind": "short",
+      "video_id": "ZuuZmzGdx_I",
+      "title": "Растения в Blender 3D (Plants VS Zombies) #blender",
+      "url": "https://www.youtube.com/watch?v=ZuuZmzGdx_I",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 161,
+      "source_kind": "short",
+      "video_id": "x8lq3bDPX9w",
+      "title": "Выдаю базу про освещение в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=x8lq3bDPX9w",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 162,
+      "source_kind": "short",
+      "video_id": "lzCxhI2Qo0w",
+      "title": "Топовые аддоны для BLENDER | Еще больше ассетов и материалов! #blender",
+      "url": "https://www.youtube.com/watch?v=lzCxhI2Qo0w",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 163,
+      "source_kind": "short",
+      "video_id": "pHLbdd7p3OU",
+      "title": "3D Трекинг в Blender #blender",
+      "url": "https://www.youtube.com/watch?v=pHLbdd7p3OU",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 164,
+      "source_kind": "short",
+      "video_id": "DiAb82taWqo",
+      "title": "Топ полезных аддонов для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=DiAb82taWqo",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 165,
+      "source_kind": "short",
+      "video_id": "zXk1VV_9kkQ",
+      "title": "WALL-E в Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=zXk1VV_9kkQ",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 166,
+      "source_kind": "short",
+      "video_id": "T1MWBFMWDNE",
+      "title": "Пончик в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=T1MWBFMWDNE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 167,
+      "source_kind": "short",
+      "video_id": "tUOR7TJPNDU",
+      "title": "Бесплатные аддоны для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=tUOR7TJPNDU",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 168,
+      "source_kind": "short",
+      "video_id": "jZwWJ3Pl9Kc",
+      "title": "Ошибки новичков в BLENDER  #blender",
+      "url": "https://www.youtube.com/watch?v=jZwWJ3Pl9Kc",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 169,
+      "source_kind": "short",
+      "video_id": "wHC3aDUqctk",
+      "title": "Топ аддонов для Блендер 3D #blender",
+      "url": "https://www.youtube.com/watch?v=wHC3aDUqctk",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 170,
+      "source_kind": "short",
+      "video_id": "juAnIF1169g",
+      "title": "Горох из Plants VS Zombies в Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=juAnIF1169g",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 171,
+      "source_kind": "short",
+      "video_id": "UmfFilj4br8",
+      "title": "Противостояние BLENDER и 3ds MAX #blender",
+      "url": "https://www.youtube.com/watch?v=UmfFilj4br8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 172,
+      "source_kind": "short",
+      "video_id": "-4pVGMGLoN8",
+      "title": "Топ 3 аддонов для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=-4pVGMGLoN8",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 173,
+      "source_kind": "short",
+      "video_id": "KDJ21WfZ_8w",
+      "title": "Очевидные ошибки при моделировании в BLENDER  #blender",
+      "url": "https://www.youtube.com/watch?v=KDJ21WfZ_8w",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 174,
+      "source_kind": "short",
+      "video_id": "baR4SoykYF4",
+      "title": "3D Трекинг в Blender и After Effects #blender",
+      "url": "https://www.youtube.com/watch?v=baR4SoykYF4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 175,
+      "source_kind": "short",
+      "video_id": "629L0vGCp_Y",
+      "title": "Топ крутых аддонов для Blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=629L0vGCp_Y",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 176,
+      "source_kind": "short",
+      "video_id": "R_FDVkqlzUA",
+      "title": "Как заригать любое авто в BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=R_FDVkqlzUA",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 177,
+      "source_kind": "short",
+      "video_id": "G3JmvP9Y2MU",
+      "title": "Типичный BLENDER  #blender",
+      "url": "https://www.youtube.com/watch?v=G3JmvP9Y2MU",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 178,
+      "source_kind": "short",
+      "video_id": "sujkcPtvXNE",
+      "title": "Топ 3 полезных аддона для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=sujkcPtvXNE",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 179,
+      "source_kind": "short",
+      "video_id": "jZ1JcpBQoww",
+      "title": "Топ крутых аддонов для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=jZ1JcpBQoww",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 180,
+      "source_kind": "short",
+      "video_id": "H-BM3X4Z8oM",
+      "title": "Прыгающий арбуз в blender 3D #blender",
+      "url": "https://www.youtube.com/watch?v=H-BM3X4Z8oM",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 181,
+      "source_kind": "short",
+      "video_id": "Ut-oa4GrTlk",
+      "title": "Признаки зрелого парня в BLENDER 3д #blender",
+      "url": "https://www.youtube.com/watch?v=Ut-oa4GrTlk",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 182,
+      "source_kind": "short",
+      "video_id": "9XJlhD-Z0L4",
+      "title": "Топ 3 полезных аддонов для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=9XJlhD-Z0L4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 183,
+      "source_kind": "short",
+      "video_id": "i6WDjfNARq4",
+      "title": "Ошибки при моделировании в BLENDER  #blender",
+      "url": "https://www.youtube.com/watch?v=i6WDjfNARq4",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 184,
+      "source_kind": "short",
+      "video_id": "w2spIBARjPk",
+      "title": "Топ аддонов для BLENDER #blender",
+      "url": "https://www.youtube.com/watch?v=w2spIBARjPk",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 185,
+      "source_kind": "short",
+      "video_id": "igfZMVpGfMY",
+      "title": "Рик и Морти! В BLENDER 3D #blender",
+      "url": "https://www.youtube.com/watch?v=igfZMVpGfMY",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 186,
+      "source_kind": "short",
+      "video_id": "8IItaPEQHnA",
+      "title": "Аддоны для блендер, которые изменят вашу жизнь #blender",
+      "url": "https://www.youtube.com/watch?v=8IItaPEQHnA",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 187,
+      "source_kind": "short",
+      "video_id": "VzpuLqER2Ss",
+      "title": "Робот за 1 час! В BLENDER 3D #blender",
+      "url": "https://www.youtube.com/watch?v=VzpuLqER2Ss",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 188,
+      "source_kind": "short",
+      "video_id": "mmMubNMUXeM",
+      "title": "Топ 3 полезных аддона для блендер #blender",
+      "url": "https://www.youtube.com/watch?v=mmMubNMUXeM",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 189,
+      "source_kind": "short",
+      "video_id": "w5Znomr7lrs",
+      "title": "Кто еще не делал пончик в блендере? #blender",
+      "url": "https://www.youtube.com/watch?v=w5Znomr7lrs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 190,
+      "source_kind": "short",
+      "video_id": "qL5Rb7SnORk",
+      "title": "Наклейки в blender 3d #blender",
+      "url": "https://www.youtube.com/watch?v=qL5Rb7SnORk",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 191,
+      "source_kind": "short",
+      "video_id": "8EEymZjwtsA",
+      "title": "Новый вид газировки \"Гори оно все огнем\" (Timelapse)",
+      "url": "https://www.youtube.com/watch?v=8EEymZjwtsA",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 192,
+      "source_kind": "short",
+      "video_id": "RBHkWp3Vbog",
+      "title": "Топ 3 бесплатных аддона для блендер #blender",
+      "url": "https://www.youtube.com/watch?v=RBHkWp3Vbog",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 193,
+      "source_kind": "short",
+      "video_id": "adB6HtZIU64",
+      "title": "Кружка пива в 3д #blender #blender3d #blendertutorial #блендер3д",
+      "url": "https://www.youtube.com/watch?v=adB6HtZIU64",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 194,
+      "source_kind": "short",
+      "video_id": "d0uhsrQdSks",
+      "title": "Спидран по блендеру | Speedrun by blender #blender",
+      "url": "https://www.youtube.com/watch?v=d0uhsrQdSks",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 195,
+      "source_kind": "short",
+      "video_id": "GkaJvxCovFs",
+      "title": "Уточка застряла в 3д машине #blender",
+      "url": "https://www.youtube.com/watch?v=GkaJvxCovFs",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 196,
+      "source_kind": "short",
+      "video_id": "kvYqHYgHXSI",
+      "title": "Добавил снег очень просто #blender #shorts",
+      "url": "https://www.youtube.com/watch?v=kvYqHYgHXSI",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    },
+    {
+      "position": 197,
+      "source_kind": "short",
+      "video_id": "61ssGWuPxqk",
+      "title": "Учу лепить грибочек в blender #shorts",
+      "url": "https://www.youtube.com/watch?v=61ssGWuPxqk",
+      "duration_seconds": 0.0,
+      "duration": "00:00"
+    }
+  ]
+}

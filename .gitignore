@@ -47,3 +47,20 @@ next-env.d.ts
 
 # Local temp files
 temp/
+
+# Generated local workbench output
+.playwright-cli/
+tmp/
+output/
+__pycache__/
+*.py[cod]
+
+# Machine-local agent hooks (absolute executable paths)
+.claude/settings.json
+.codex/hooks.json
+
+# Optional local reference checkouts and downloaded source media
+blender-workbench/vendor/*
+!blender-workbench/vendor/THIRD_PARTY_NOTICES.md
+external-skills/
+docs/research/youtube-lessons/**/sources/

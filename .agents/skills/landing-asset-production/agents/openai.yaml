@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Asset Production"
+  short_description: "Turn landing asset ideas into production queues"
+  default_prompt: "Use $landing-asset-production to create a production queue for screenshots, generated images, diagrams, video, icons, 3D, GLB, prompts, alt text, performance, and QA."

@@ -1,0 +1,168 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.codex/blender/3d-shvyrev-technique.schema.json",
+  "title": "3D SHVYREV Blender technique",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "category",
+    "source",
+    "task",
+    "prerequisites",
+    "actions",
+    "parameters",
+    "validation",
+    "failure_fixes",
+    "project_adoption",
+    "status"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^shvyrev_[a-z0-9_]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "modeling",
+        "sculpting",
+        "topology",
+        "uv",
+        "materials",
+        "baking",
+        "geometry-nodes",
+        "simulation",
+        "rigging",
+        "animation",
+        "camera-tracking",
+        "lighting",
+        "rendering",
+        "compositing",
+        "workflow",
+        "addons",
+        "export",
+        "qa"
+      ]
+    },
+    "source": {
+      "type": "object",
+      "required": [
+        "video_id",
+        "source_kind",
+        "url",
+        "timecodes"
+      ],
+      "properties": {
+        "video_id": {
+          "type": "string",
+          "minLength": 6
+        },
+        "source_kind": {
+          "enum": [
+            "video",
+            "short"
+          ]
+        },
+        "url": {
+          "type": "string",
+          "format": "uri"
+        },
+        "timecodes": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1
+        },
+        "visual_evidence": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "blender_versions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "task": {
+      "type": "string",
+      "minLength": 3
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "parameters": {
+      "type": "object"
+    },
+    "validation": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "minItems": 1
+    },
+    "failure_fixes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "project_adoption": {
+      "type": "object",
+      "required": [
+        "decision",
+        "targets"
+      ],
+      "properties": {
+        "decision": {
+          "enum": [
+            "pending",
+            "adopt",
+            "adapt",
+            "reject"
+          ]
+        },
+        "targets": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "reason": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "status": {
+      "enum": [
+        "EXTRACTED",
+        "VISUALLY_REVIEWED",
+        "RUNTIME_TESTED",
+        "ADOPTED",
+        "REJECTED"
+      ]
+    }
+  },
+  "additionalProperties": false
+}

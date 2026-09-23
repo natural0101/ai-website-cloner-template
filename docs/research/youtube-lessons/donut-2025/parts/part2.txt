@@ -1,0 +1,832 @@
+00:02 Welcome back. It is time to make our coffee mug look like a coffee mug and
+00:04 coffee mug look like a coffee mug and not like a sad little cup. So, [gasps]
+00:08 not like a sad little cup. So, [gasps] we could try to model this from our
+00:12 we could try to model this from our imagination cuz like, hey, we all pick
+00:14 imagination cuz like, hey, we all pick up coffee mugs. We know what they look
+00:15 up coffee mugs. We know what they look like or we think we know what they look
+00:18 like or we think we know what they look like. Something that you learn very
+00:20 like. Something that you learn very quickly in 3D is that uh when you model
+00:23 quickly in 3D is that uh when you model something from imagination, it almost
+00:25 something from imagination, it almost always comes out looking a little bit
+00:28 always comes out looking a little bit funny. And the reason for that is that
+00:30 funny. And the reason for that is that your brain is very good at like
+00:32 your brain is very good at like abstracting away the information that
+00:34 abstracting away the information that isn't important to it. Like if you just
+00:36 isn't important to it. Like if you just close your eyes right now and just think
+00:38 close your eyes right now and just think of a doorork knob, like what does a door
+00:40 of a doorork knob, like what does a door do look like, right? If you had to make
+00:42 do look like, right? If you had to make one in Blender, what would it be? It's
+00:44 one in Blender, what would it be? It's like, okay, well, it's like a sphere
+00:46 like, okay, well, it's like a sphere bit. You like grip it, you turn it, and
+00:48 bit. You like grip it, you turn it, and there's like a cylinder thing at the
+00:49 there's like a cylinder thing at the back, and there's a cylinder that
+00:50 back, and there's a cylinder that connects it, and that's kind of that's
+00:52 connects it, and that's kind of that's kind of it. But then if you were to make
+00:55 kind of it. But then if you were to make that, you end up with something that
+00:56 that, you end up with something that looks really basic and boring and bad
+01:00 looks really basic and boring and bad and then you go actually look at a real
+01:02 and then you go actually look at a real doorork knob and you forget there's all
+01:04 doorork knob and you forget there's all this other detail that's just not
+01:06 this other detail that's just not important to your brain. Like the little
+01:07 important to your brain. Like the little lip inside, the little hole that's on
+01:09 lip inside, the little hole that's on there that so you can put a key in to
+01:11 there that so you can put a key in to kind of like pry it open or a uh like a
+01:14 kind of like pry it open or a uh like a a rim that kind of like cuts into it so
+01:16 a rim that kind of like cuts into it so there's like a separate seam around it.
+01:18 there's like a separate seam around it. There's the privacy lock on the front.
+01:20 There's the privacy lock on the front. all these things that just don't matter
+01:22 all these things that just don't matter to you when you're turning a handle and
+01:24 to you when you're turning a handle and so you forgot that they even existed
+01:26 so you forgot that they even existed because you never even saw it really. So
+01:28 because you never even saw it really. So the same thing applies to even something
+01:31 the same thing applies to even something as common as a coffee mug. So it helps
+01:34 as common as a coffee mug. So it helps when possible to use reference images.
+01:37 when possible to use reference images. Now you can get reference images from
+01:40 Now you can get reference images from anywhere because we have the power of
+01:42 anywhere because we have the power of the internet and you can type in
+01:45 the internet and you can type in handmade coffee mug and you can pick any
+01:47 handmade coffee mug and you can pick any mug you want to create. Um, and uh,
+01:51 mug you want to create. Um, and uh, there's a lot. And you know, if you want
+01:53 there's a lot. And you know, if you want to pick one of these, if you want to
+01:55 to pick one of these, if you want to just go on Google images, uh, you can
+01:57 just go on Google images, uh, you can pick one of these and and go for it. I'm
+01:59 pick one of these and and go for it. I'm going to give you an image that I've
+02:01 going to give you an image that I've used. Um, but you can there's there's
+02:03 used. Um, but you can there's there's some really pretty ones here. And I was,
+02:06 some really pretty ones here. And I was, uh, actually shocked [laughter]
+02:08 uh, actually shocked [laughter] just whilst like clicking on some of
+02:11 just whilst like clicking on some of these sites before, I was like, "Oh
+02:13 these sites before, I was like, "Oh yeah, like that's a cute cute little
+02:15 yeah, like that's a cute cute little handmade mug." And then you go like, "Oh
+02:18 handmade mug." And then you go like, "Oh my gosh,
+02:20 my gosh, $123.25
+02:28 and that's a discount from 145." [gasps] And then you think like, "Oh, it must be
+02:29 And then you think like, "Oh, it must be like a one of one like, you know, a
+02:31 like a one of one like, you know, a unique thing." Like, no, there's like
+02:33 unique thing." Like, no, there's like nine reviews. Like people are buying it.
+02:36 nine reviews. Like people are buying it. I I'm like I don't know. I
+02:39 I I'm like I don't know. I [clears throat] got to make more money
+02:40 [clears throat] got to make more money or something. Like I don't know how
+02:41 or something. Like I don't know how people are buying $123 coffee mugs. I
+02:46 people are buying $123 coffee mugs. I think it's also like we forget what
+02:47 think it's also like we forget what labor costs, you know, like you think
+02:49 labor costs, you know, like you think like a coffee mug is like $2, right? Or
+02:51 like a coffee mug is like $2, right? Or a dollar or it's free. Like it's just
+02:53 a dollar or it's free. Like it's just there's so many of them it doesn't even
+02:55 there's so many of them it doesn't even matter. But like no, like to hand make
+02:58 matter. But like no, like to hand make something like obviously any of these
+03:01 something like obviously any of these mugs, they're they take more than a few
+03:04 mugs, they're they take more than a few hours to make if you're making it by
+03:05 hours to make if you're making it by hand. So like yeah, $33 is probably like
+03:09 hand. So like yeah, $33 is probably like break even for them. I don't probably
+03:10 break even for them. I don't probably not even making any [laughter] money,
+03:11 not even making any [laughter] money, but it's just like Yeah. Anyways, whole
+03:15 but it's just like Yeah. Anyways, whole side topic of like the economy of
+03:17 side topic of like the economy of handmade ceramic mugs. Um, but people
+03:20 handmade ceramic mugs. Um, but people are buying them for $123.
+03:22 are buying them for $123. All right. So, all that is to say is I
+03:25 All right. So, all that is to say is I want you to get an image. And the one
+03:27 want you to get an image. And the one I'm going to use, uh, the link for this
+03:29 I'm going to use, uh, the link for this is below. Um, and uh, it's on my
+03:32 is below. Um, and uh, it's on my website. I've got all the links to
+03:33 website. I've got all the links to everything we're going to be using in
+03:34 everything we're going to be using in this tutorial. Um, but there there's two
+03:36 this tutorial. Um, but there there's two ways to add images. Uh, so one way is to
+03:38 ways to add images. Uh, so one way is to go to the ad menu and then just go image
+03:40 go to the ad menu and then just go image and then say reference. Um, and then you
+03:43 and then say reference. Um, and then you just pick wherever the reference is. Um,
+03:44 just pick wherever the reference is. Um, and you can drop it in the alternative
+03:46 and you can drop it in the alternative way. Um, and it's something that we
+03:48 way. Um, and it's something that we didn't used to be able to do, and that's
+03:50 didn't used to be able to do, and that's to just, uh, drag over from wherever it
+03:53 to just, uh, drag over from wherever it is on your computer and then just drop
+03:54 is on your computer and then just drop it into Blender, and it will recognize
+03:56 it into Blender, and it will recognize it as an image, and it will bring it in
+03:57 it as an image, and it will bring it in as an image object. So, either of those
+04:00 as an image object. So, either of those ways will work. So, this is the image.
+04:02 ways will work. So, this is the image. This is the one we're going to use. Now,
+04:04 This is the one we're going to use. Now, if you quickly orbit around, you'll
+04:05 if you quickly orbit around, you'll notice that it's come in at a funny
+04:07 notice that it's come in at a funny angle. Um, now, but I don't know why
+04:10 angle. Um, now, but I don't know why Blender does this. I think I think it's
+04:12 Blender does this. I think I think it's because they they think they people want
+04:14 because they they think they people want it locked to the perspective that they
+04:16 it locked to the perspective that they were at when they brought it in there,
+04:18 were at when they brought it in there, but that I've [clears throat] never
+04:19 but that I've [clears throat] never needed that. So, we just need to clear
+04:21 needed that. So, we just need to clear this rotation and then rotate it to the
+04:22 this rotation and then rotate it to the the way we want. So, to clear the
+04:24 the way we want. So, to clear the rotation, I'm going to hit alt R. The
+04:27 rotation, I'm going to hit alt R. The alternative way, object, clear rotation.
+04:30 alternative way, object, clear rotation. Alt R. It's the same thing. Um, now it's
+04:32 Alt R. It's the same thing. Um, now it's flat. So, now we need to rotate it
+04:34 flat. So, now we need to rotate it proper upright so that it is flat on to,
+04:37 proper upright so that it is flat on to, you know, how it should be relative to
+04:39 you know, how it should be relative to the scene. So, I need to rotate it. So,
+04:41 the scene. So, I need to rotate it. So, I'm going to hit R. So, but we're now in
+04:44 I'm going to hit R. So, but we're now in freehand rotate mode. And it's again,
+04:46 freehand rotate mode. And it's again, it's it's relative to where we were
+04:48 it's it's relative to where we were looking at it. Um, which is, uh, yeah,
+04:50 looking at it. Um, which is, uh, yeah, this this funny angle. So, uh, if you
+04:53 this this funny angle. So, uh, if you remember from before, when we're in a
+04:55 remember from before, when we're in a move state, like rotate, scale, or grab,
+04:57 move state, like rotate, scale, or grab, uh, we can lock something to a specific
+04:59 uh, we can lock something to a specific axis whilst we're in this mode by just
+05:02 axis whilst we're in this mode by just tapping the letter of that axis. And if
+05:05 tapping the letter of that axis. And if you don't know the letter, you can see
+05:06 you don't know the letter, you can see we we really want it on this red line
+05:08 we we really want it on this red line here. And that red top right hand corner
+05:11 here. And that red top right hand corner that is the X axis. So I'm going to hit
+05:13 that is the X axis. So I'm going to hit X. There we go. So now it is locked to
+05:16 X. There we go. So now it is locked to that axis which is good. And now we want
+05:18 that axis which is good. And now we want it to be 90°. So you could either hold
+05:20 it to be 90°. So you could either hold down control and you can see in the top
+05:23 down control and you can see in the top uh what that does is that's now um
+05:25 uh what that does is that's now um moving it in 5° increments. Or you could
+05:28 moving it in 5° increments. Or you could just type in the number 90 on your
+05:31 just type in the number 90 on your keyboard and then hit enter. And there
+05:33 keyboard and then hit enter. And there we go. So that's how we bring it in and
+05:36 we go. So that's how we bring it in and uh clear the rotation and set it up. So,
+05:39 uh clear the rotation and set it up. So, all right. Now, it's way too big. So,
+05:41 all right. Now, it's way too big. So, hotkey to scale something. S. Okay. S to
+05:45 hotkey to scale something. S. Okay. S to scale. And now I'm just going to scale
+05:46 scale. And now I'm just going to scale this down. And I can't see my mug. So,
+05:48 this down. And I can't see my mug. So, my mug is behind it. So, let me just
+05:50 my mug is behind it. So, let me just move my mug I'll move my mug forward.
+05:53 move my mug I'll move my mug forward. So, let's move it forward to there.
+05:55 So, let's move it forward to there. Okay. All right. And then now, um, I'm
+06:00 Okay. All right. And then now, um, I'm going to look at it like front on. Okay.
+06:02 going to look at it like front on. Okay. So, I can do that by clicking this
+06:03 So, I can do that by clicking this little uh minus Y at the top there.
+06:05 little uh minus Y at the top there. That'll do front on. or the hotkeys. Um,
+06:07 That'll do front on. or the hotkeys. Um, because I use my numpad. For those of
+06:09 because I use my numpad. For those of you blessed with a numpad, you'll you'll
+06:10 you blessed with a numpad, you'll you'll like it. You can hit numpad one, that's
+06:12 like it. You can hit numpad one, that's front view, numpad three, that's side
+06:14 front view, numpad three, that's side view, or numpad 7, that is top view. Um,
+06:17 view, or numpad 7, that is top view. Um, but I use those uh a lot. But again, you
+06:20 but I use those uh a lot. But again, you can use these if you don't have it.
+06:21 can use these if you don't have it. Okay, so front view, and then I'm going
+06:23 Okay, so front view, and then I'm going to scroll in to zoom. Shift middle mouse
+06:27 to scroll in to zoom. Shift middle mouse to pan to the side. And now I'm going to
+06:29 to pan to the side. And now I'm going to move this over here. And I'm going to
+06:31 move this over here. And I'm going to scale this down again to get it roughly
+06:34 scale this down again to get it roughly to be the size of my my mug here cuz I
+06:37 to be the size of my my mug here cuz I know that this mug is right relative to
+06:38 know that this mug is right relative to the donut. So, it should be good. And
+06:40 the donut. So, it should be good. And then what I'm looking at um for the size
+06:43 then what I'm looking at um for the size of this image here is I want the top of
+06:45 of this image here is I want the top of this rim here to roughly match the
+06:48 this rim here to roughly match the bottom down there. So, this like I want
+06:50 bottom down there. So, this like I want that to match that. So, it's still a
+06:52 that to match that. So, it's still a little bit too big. Um and you'll notice
+06:54 little bit too big. Um and you'll notice I can't really easily do it from this
+06:57 I can't really easily do it from this angle. I mean I I can but the the
+06:59 angle. I mean I I can but the the problem is is that this photograph is
+07:01 problem is is that this photograph is taken with a camera from the real world
+07:04 taken with a camera from the real world where there is perspective but we are
+07:06 where there is perspective but we are looking in 3D and actually when we're in
+07:08 looking in 3D and actually when we're in an axis like this the reason it all
+07:10 an axis like this the reason it all becomes flattened is because it is in
+07:12 becomes flattened is because it is in perspective mode. If you click that
+07:14 perspective mode. If you click that little button there that'll actually put
+07:15 little button there that'll actually put you back into perspective mode and you
+07:17 you back into perspective mode and you can see how things get distorted and
+07:19 can see how things get distorted and like angles and things. So the best
+07:21 like angles and things. So the best reference is actually reference which is
+07:23 reference is actually reference which is in orthographic like blueprints for
+07:24 in orthographic like blueprints for something but you usually don't have
+07:26 something but you usually don't have that. So you just go from something like
+07:28 that. So you just go from something like this and just kind of best guess it.
+07:30 this and just kind of best guess it. Anyways, okay, cool. So that's roughly
+07:33 Anyways, okay, cool. So that's roughly roughly the right size of uh of image.
+07:37 roughly the right size of uh of image. Now we can model by going into uh edit
+07:40 Now we can model by going into uh edit mode by hitting tab toggle in and out of
+07:42 mode by hitting tab toggle in and out of edit mode. And we can start to shape
+07:45 edit mode. And we can start to shape this to look like this mug here. So the
+07:48 this to look like this mug here. So the first thing that we'll notice is like
+07:49 first thing that we'll notice is like the general broad shape of the mug is
+07:52 the general broad shape of the mug is that it actually kind of tapers towards
+07:54 that it actually kind of tapers towards the top. both lines are kind of tapered
+07:56 the top. both lines are kind of tapered upwards. Um, and then there's like a
+07:58 upwards. Um, and then there's like a kind of a midpoint around about here
+08:01 kind of a midpoint around about here where it starts to invert and it goes in
+08:03 where it starts to invert and it goes in the other direction. Okay. So, it's very
+08:05 the other direction. Okay. So, it's very smooth object and perfect for using
+08:07 smooth object and perfect for using subsurf modifier, which is what we've
+08:09 subsurf modifier, which is what we've already got. So, to get that taper going
+08:12 already got. So, to get that taper going up to the side, I want to shrink the top
+08:14 up to the side, I want to shrink the top of the mug here just a little bit. So,
+08:17 of the mug here just a little bit. So, I'm going to hold down alt and uh I'm
+08:20 I'm going to hold down alt and uh I'm going to go into edge select mode at the
+08:22 going to go into edge select mode at the top there and then alt and then just
+08:24 top there and then alt and then just leftclick on that line there. Not on
+08:27 leftclick on that line there. Not on like like a middle point like here or
+08:28 like like a middle point like here or it'll select a different edge, but just
+08:30 it'll select a different edge, but just on the middle there. And then now I want
+08:32 on the middle there. And then now I want to scale this in to just shrink the size
+08:35 to scale this in to just shrink the size just a little bit. So, I'm going to
+08:36 just a little bit. So, I'm going to scale that to there. And then I'm going
+08:39 scale that to there. And then I'm going to select the line underneath it and I'm
+08:41 to select the line underneath it and I'm going to do the same thing. So, alt
+08:43 going to do the same thing. So, alt click on that line, that edge, uh and
+08:45 click on that line, that edge, uh and then just scale it. you know, about
+08:47 then just scale it. you know, about halfway there. [snorts]
+08:49 halfway there. [snorts] Now, I want to create um this like
+08:52 Now, I want to create um this like widened point right here. And you can
+08:55 widened point right here. And you can see like from here, like there's there's
+08:57 see like from here, like there's there's a lip at the bottom, but like from here
+08:59 a lip at the bottom, but like from here to here, and then it goes up, I'd say
+09:01 to here, and then it goes up, I'd say probably 20% up the mug, that's where
+09:04 probably 20% up the mug, that's where that middle point is. So, this line is
+09:06 that middle point is. So, this line is close, but I'd probably pull it up a
+09:08 close, but I'd probably pull it up a little bit. So, I'm going to double tap
+09:10 little bit. So, I'm going to double tap G, and that'll let me slide that edge
+09:12 G, and that'll let me slide that edge there. And I'll put it to Yeah, it's
+09:16 there. And I'll put it to Yeah, it's about there. And now I want to pull it
+09:18 about there. And now I want to pull it out to make it a little bit uh a little
+09:20 out to make it a little bit uh a little bit thicker. So, I'm going to hit S and
+09:22 bit thicker. So, I'm going to hit S and just pull that out
+09:26 just pull that out to about there. And now I can see this
+09:28 to about there. And now I can see this line here is not quite right. So, I'm
+09:30 line here is not quite right. So, I'm going to scale this one out as well,
+09:32 going to scale this one out as well, just a little bit. Okay, that's roughly
+09:35 just a little bit. Okay, that's roughly the right shape. Okay. Now, this bit at
+09:38 the right shape. Okay. Now, this bit at the bottom here. Okay. So, I can see
+09:41 the bottom here. Okay. So, I can see already that I need a little bit more
+09:43 already that I need a little bit more detail. So, I'm actually going to have
+09:44 detail. So, I'm actually going to have to slide this line up here. So, I'm
+09:46 to slide this line up here. So, I'm going to hit uh double G to just kind of
+09:50 going to hit uh double G to just kind of slide it up. And I'm going to pull it to
+09:51 slide it up. And I'm going to pull it to about there. You can see now we've got
+09:53 about there. You can see now we've got kind of a more curved taper on that edge
+09:56 kind of a more curved taper on that edge there. And I'm going to hit S to scale.
+09:59 there. And I'm going to hit S to scale. And I'm going to double tap G again.
+10:02 And I'm going to double tap G again. And I'm just by eye just guessing to try
+10:04 And I'm just by eye just guessing to try to get this form here.
+10:06 to get this form here. Um but you can see you can very quickly
+10:09 Um but you can see you can very quickly start to shape any sort of object you
+10:11 start to shape any sort of object you want um by just moving sliding lines
+10:14 want um by just moving sliding lines around and um scaling things. Okay. So
+10:18 around and um scaling things. Okay. So now obviously this face at the bottom
+10:19 now obviously this face at the bottom here. So if I go into face select mode
+10:21 here. So if I go into face select mode or by just hitting three um this has to
+10:24 or by just hitting three um this has to be this little uh lip at the bottom
+10:28 be this little uh lip at the bottom there. What do you call that? I guess
+10:29 there. What do you call that? I guess like a lip. It's probably a word for it.
+10:31 like a lip. It's probably a word for it. All the all the pottery people watching
+10:33 All the all the pottery people watching this tutorial going to tell me what it
+10:35 this tutorial going to tell me what it is and they'll also tell me about the
+10:37 is and they'll also tell me about the price of manual labor and why that
+10:39 price of manual labor and why that coffee mug was quite well priced I'm
+10:42 coffee mug was quite well priced I'm sure. [laughter]
+10:44 sure. [laughter] Um anyways uh I'm going to yeah I'll
+10:48 Um anyways uh I'm going to yeah I'll scale it in a little bit. I'm just
+10:49 scale it in a little bit. I'm just trying to guess like where would it
+10:51 trying to guess like where would it start? But you know you just do it by
+10:52 start? But you know you just do it by eye. I think about there. Okay. And now
+10:56 eye. I think about there. Okay. And now with this face here selected, I need
+10:58 with this face here selected, I need more geometry cuz I want to actually
+10:59 more geometry cuz I want to actually pull it out from that face there. Um,
+11:02 pull it out from that face there. Um, but I can't just like pull it down,
+11:04 but I can't just like pull it down, right? Cuz now it's stretching it. I
+11:05 right? Cuz now it's stretching it. I need more geometry. Um, and so that is
+11:08 need more geometry. Um, and so that is called an extrusion. And thankfully the
+11:11 called an extrusion. And thankfully the hotkey for extrusion is just the first
+11:13 hotkey for extrusion is just the first letter of its name, which is E. E for
+11:16 letter of its name, which is E. E for extrusion. And just like inset and
+11:18 extrusion. And just like inset and everything else in Blender, the moment
+11:19 everything else in Blender, the moment you tap it, you're now in that mode. Um,
+11:22 you tap it, you're now in that mode. Um, I can pull it upwards, I could pull it
+11:23 I can pull it upwards, I could pull it downwards. Um, obviously downwards is
+11:25 downwards. Um, obviously downwards is what we want. So, I'm going to do a
+11:27 what we want. So, I'm going to do a single click right there. Okay. And then
+11:31 single click right there. Okay. And then now if I go back and just look at it in
+11:33 now if I go back and just look at it in object mode. Um, and by the way, if you
+11:35 object mode. Um, and by the way, if you want to see it like the donut, you want
+11:37 want to see it like the donut, you want to make it look uh smooth, you can as
+11:39 to make it look uh smooth, you can as well by going to shade smooth. Um, and
+11:41 well by going to shade smooth. Um, and that's okay. But you can see that this
+11:43 that's okay. But you can see that this line here, this is a much tighter line.
+11:46 line here, this is a much tighter line. Okay. Um, and the reason that this is
+11:48 Okay. Um, and the reason that this is happening is of course because of
+11:49 happening is of course because of subsurf modifier um, and the way that it
+11:52 subsurf modifier um, and the way that it works. Um, it's essentially going from
+11:56 works. Um, it's essentially going from here
+11:58 here to here and then kind of like I guess
+12:01 to here and then kind of like I guess like a a midpoint in the middle there.
+12:02 like a a midpoint in the middle there. And it's trying to taper from there all
+12:05 And it's trying to taper from there all the way in. But then also from this
+12:07 the way in. But then also from this point here, it now has to taper from
+12:09 point here, it now has to taper from there to kind of smooth out that line.
+12:12 there to kind of smooth out that line. So we end up with just kind of like this
+12:14 So we end up with just kind of like this like very smoothed out little nub. Um,
+12:17 like very smoothed out little nub. Um, but to fix it, we just have to add in
+12:19 but to fix it, we just have to add in more geometry so that it doesn't start
+12:21 more geometry so that it doesn't start the smooth so so much further up. So to
+12:23 the smooth so so much further up. So to do that, we need another loop cut, which
+12:25 do that, we need another loop cut, which you might remember the hotkey or you can
+12:27 you might remember the hotkey or you can find it in the menu, edge, loop cut, and
+12:29 find it in the menu, edge, loop cut, and slide, but it is ctrlr. So ctrlr. When
+12:33 slide, but it is ctrlr. So ctrlr. When you're in this mode, where do you want
+12:34 you're in this mode, where do you want to put it first? So do a single click on
+12:36 to put it first? So do a single click on this face here. So click and then it's
+12:39 this face here. So click and then it's now saying where do you want to slide it
+12:40 now saying where do you want to slide it to? So I'm going to slide one to the
+12:43 to? So I'm going to slide one to the bottom like so. And then I need another
+12:45 bottom like so. And then I need another one right above it. So, I did a click
+12:47 one right above it. So, I did a click there to confirm it. So, I'm going to
+12:49 there to confirm it. So, I'm going to hit CtrlR. And now placing it on the
+12:52 hit CtrlR. And now placing it on the exact same place. And I'm just going to
+12:54 exact same place. And I'm just going to pull it up. And there we go. And now you
+12:56 pull it up. And there we go. And now you can see it's much tighter at the bottom
+12:58 can see it's much tighter at the bottom there. Um, and it looks good. Uh, and if
+13:00 there. Um, and it looks good. Uh, and if you really wanted to clean up this
+13:02 you really wanted to clean up this bottom base there, you can see we kind
+13:03 bottom base there, you can see we kind of got that like starfishy pattern
+13:05 of got that like starfishy pattern happening. You could do the same thing
+13:06 happening. You could do the same thing we did before, which is select that face
+13:08 we did before, which is select that face there and then do an inset. It's not
+13:10 there and then do an inset. It's not really that essential. No one's really
+13:12 really that essential. No one's really going to notice it, but you might. and
+13:15 going to notice it, but you might. and maybe you want to clean it up. So, yeah,
+13:18 maybe you want to clean it up. So, yeah, but that's pretty good. That's that's
+13:20 but that's pretty good. That's that's great. That's a good start to the mug.
+13:22 great. That's a good start to the mug. Um, it looks good. Awesome. Well done.
+13:25 Um, it looks good. Awesome. Well done. Now, it's time for the challenge of
+13:28 Now, it's time for the challenge of making this handle. So, you can see it
+13:31 making this handle. So, you can see it starts about here and then obviously
+13:35 starts about here and then obviously extrudes around and goes back into
+13:38 extrudes around and goes back into itself and is joined here. So, how do we
+13:41 itself and is joined here. So, how do we do this? So basically whenever whenever
+13:44 do this? So basically whenever whenever there is a join and you can see there's
+13:45 there is a join and you can see there's like you know like a nice like uh bevel
+13:48 like you know like a nice like uh bevel edge there kind of thing it has to
+13:50 edge there kind of thing it has to physically be part of the geometry of
+13:52 physically be part of the geometry of this. You can't just have it like
+13:54 this. You can't just have it like existing out in in space cuz then it
+13:56 existing out in in space cuz then it won't appear to be joined together. So
+13:58 won't appear to be joined together. So essentially we have to find somewhere on
+14:00 essentially we have to find somewhere on this mesh to start the handle from. Um
+14:04 this mesh to start the handle from. Um and that point is actually here. Right
+14:06 and that point is actually here. Right here which is why I've modeled it this
+14:08 here which is why I've modeled it this way. Right here is where I'm going to
+14:09 way. Right here is where I'm going to extrude out. Um, now before I show you
+14:12 extrude out. Um, now before I show you how to uh extrude, I first of all want
+14:14 how to uh extrude, I first of all want to show you I'm going to do something
+14:16 to show you I'm going to do something and it's going to mess it up and I'm
+14:17 and it's going to mess it up and I'm going to then show you why we need to do
+14:19 going to then show you why we need to do something else first before we start
+14:21 something else first before we start extruding. So, if I was to extrude this
+14:23 extruding. So, if I was to extrude this out, um, we could do the whole handle
+14:25 out, um, we could do the whole handle here, get it back there, make it look
+14:27 here, get it back there, make it look perfect, and then later on look at our
+14:29 perfect, and then later on look at our mug and go, "Oh no,
+14:31 mug and go, "Oh no, what is going on?"
+14:34 what is going on?" The reason this happens is because of
+14:37 The reason this happens is because of you might remember the solidify modifier
+14:39 you might remember the solidify modifier which these modifiers they're not part
+14:41 which these modifiers they're not part of the mesh, right? It's it's happening
+14:44 of the mesh, right? It's it's happening after
+14:45 after um after the fact. So it's adding a
+14:49 um after the fact. So it's adding a thickness to any mesh that we have here
+14:51 thickness to any mesh that we have here and it's now adding a thickness to the
+14:53 and it's now adding a thickness to the actual handle itself. So how do we fix
+14:57 actual handle itself. So how do we fix that? We fix that by making making this
+15:00 that? We fix that by making making this go from a modifier to real like actually
+15:03 go from a modifier to real like actually bake it into the mesh so that it's
+15:05 bake it into the mesh so that it's actually real geometry. Um, and the way
+15:07 actually real geometry. Um, and the way you do that is uh first of all, let me
+15:09 you do that is uh first of all, let me just undo all of those. Ctrl Z, of
+15:13 just undo all of those. Ctrl Z, of course. The way you do it is by going to
+15:15 course. The way you do it is by going to the modifier and then in the little drop
+15:17 the modifier and then in the little drop down in the top there, right next to
+15:19 down in the top there, right next to that little camera icon, there is an
+15:21 that little camera icon, there is an apply. So when you click that, it's
+15:23 apply. So when you click that, it's disappeared. And now when you go into
+15:25 disappeared. And now when you go into edit mode though, you can see all that
+15:27 edit mode though, you can see all that geometry that wasn't there before is now
+15:30 geometry that wasn't there before is now actually part of it. And you can see it
+15:31 actually part of it. And you can see it if you turn off the subsurf modifier. So
+15:33 if you turn off the subsurf modifier. So I can now make changes to the inner part
+15:36 I can now make changes to the inner part of my uh model there without it having
+15:38 of my uh model there without it having affecting um the rest of it. So it's
+15:40 affecting um the rest of it. So it's actual real uh mesh that we can we can
+15:43 actual real uh mesh that we can we can manipulate. Um obviously the downside is
+15:45 manipulate. Um obviously the downside is it's no longer uh non-destructive. So
+15:47 it's no longer uh non-destructive. So that slider that we had for changing the
+15:49 that slider that we had for changing the thickness of the mug, we no longer have
+15:51 thickness of the mug, we no longer have the slider. It would just mean if we
+15:52 the slider. It would just mean if we wanted to change the thickness of the of
+15:54 wanted to change the thickness of the of the mug, we would have to like do it
+15:56 the mug, we would have to like do it ourselves, like selecting all that stuff
+15:58 ourselves, like selecting all that stuff and doing it. But that's fine. You have
+16:00 and doing it. But that's fine. You have to uh break uh break the workflow
+16:02 to uh break uh break the workflow eventually to add in customization. But
+16:04 eventually to add in customization. But there you go. So anyways, now that I've
+16:06 there you go. So anyways, now that I've got this, now when I select this face
+16:08 got this, now when I select this face here, I can start to do the extrusion.
+16:11 here, I can start to do the extrusion. So importantly, make sure you're
+16:12 So importantly, make sure you're selecting the right face. If you were to
+16:14 selecting the right face. If you were to select this one by mistake and then
+16:16 select this one by mistake and then start trying to do your handle and then
+16:18 start trying to do your handle and then like twist it around, you it would start
+16:20 like twist it around, you it would start to get screwed up very very quickly. So,
+16:22 to get screwed up very very quickly. So, make sure that you've got this red line
+16:25 make sure that you've got this red line that's like intersecting your mug there
+16:28 that's like intersecting your mug there that it is. Yeah. Like it's that one.
+16:30 that it is. Yeah. Like it's that one. It's like bang on to the middle. And you
+16:32 It's like bang on to the middle. And you can actually check if you go into top
+16:34 can actually check if you go into top view mode. It should be directly in the
+16:37 view mode. It should be directly in the middle of uh of the mug there. Okay. So,
+16:40 middle of uh of the mug there. Okay. So, with that selected, I'm going to go into
+16:42 with that selected, I'm going to go into front view mode with uh numpad one or
+16:44 front view mode with uh numpad one or hitting that little uh green thing. And
+16:47 hitting that little uh green thing. And then I'm going to hit again the hotkey
+16:49 then I'm going to hit again the hotkey that we use for extrusion is E to
+16:51 that we use for extrusion is E to extrude out. Now, when you do that, it's
+16:54 extrude out. Now, when you do that, it's using the normals, the hidden um it's
+16:57 using the normals, the hidden um it's like the hidden direction of each of the
+16:59 like the hidden direction of each of the faces that are on your mesh. Okay? So,
+17:02 faces that are on your mesh. Okay? So, it's kind of extruding it out like that.
+17:04 it's kind of extruding it out like that. For most of you watching this, the
+17:06 For most of you watching this, the extrusion there worked perfectly. But
+17:08 extrusion there worked perfectly. But every now and then you go to extrude
+17:10 every now and then you go to extrude something and it doesn't work. And it's
+17:12 something and it doesn't work. And it's because there's something wrong with the
+17:13 because there's something wrong with the normals of the face that you tried to
+17:15 normals of the face that you tried to extrude from. Basically, it would just
+17:17 extrude from. Basically, it would just mean um you would have to clear the
+17:19 mean um you would have to clear the normals first. So basically, you would
+17:21 normals first. So basically, you would select the the face, then hit shift N,
+17:24 select the the face, then hit shift N, and it would clear normals. I've got, by
+17:27 and it would clear normals. I've got, by the way, throughout this tutorial that
+17:29 the way, throughout this tutorial that you're going to run into a lot of
+17:30 you're going to run into a lot of problems that I I might not be able to
+17:32 problems that I I might not be able to explain to you. So, I've actually
+17:34 explain to you. So, I've actually created um a troubleshooting guide
+17:36 created um a troubleshooting guide called the unstuckyour yourself guide.
+17:38 called the unstuckyour yourself guide. So, the link for that is below as well,
+17:40 So, the link for that is below as well, but this is just like a database of all
+17:42 but this is just like a database of all the problems you might run into whilst
+17:43 the problems you might run into whilst you're doing this tutorial because we
+17:45 you're doing this tutorial because we noticed um on the uh Blender Guru
+17:47 noticed um on the uh Blender Guru Discord, link for that is below as well
+17:49 Discord, link for that is below as well where you can ask questions and share
+17:51 where you can ask questions and share your renders and stuff. Um a lot of
+17:53 your renders and stuff. Um a lot of people are asking the same questions.
+17:55 people are asking the same questions. So, we put together this like FAQ
+17:56 So, we put together this like FAQ troubleshooting guide and um please make
+17:59 troubleshooting guide and um please make use of that. So there'll probably be
+18:01 use of that. So there'll probably be when when you're modeling things, people
+18:03 when when you're modeling things, people will run into issues. So just uh have a
+18:04 will run into issues. So just uh have a look at that if you run into an issue
+18:06 look at that if you run into an issue first. Anyways, sorry to really
+18:09 first. Anyways, sorry to really painfully slowly do this, but we've
+18:11 painfully slowly do this, but we've extruded out a little bit. Um now I'm
+18:14 extruded out a little bit. Um now I'm going to move this up. So just grabbing.
+18:16 going to move this up. So just grabbing. So G to grab. I'm going to move up. And
+18:19 So G to grab. I'm going to move up. And I might actually now I'm going to tab
+18:21 I might actually now I'm going to tab out to so that I can select my image. So
+18:23 out to so that I can select my image. So I'm in object mode. And I'm actually
+18:25 I'm in object mode. And I'm actually just going to move this over. So G and
+18:28 just going to move this over. So G and then X. move it over to be about there.
+18:32 then X. move it over to be about there. Okay.
+18:34 Okay. And that'll just enable me to kind of
+18:36 And that'll just enable me to kind of see relative to to the mug where it
+18:39 see relative to to the mug where it should go. Like what is the shape? I
+18:40 should go. Like what is the shape? I could do it by eye, but yeah, I figure
+18:42 could do it by eye, but yeah, I figure might as well just it's right there.
+18:43 might as well just it's right there. Might as well just grab it and pull it
+18:44 Might as well just grab it and pull it over. So, um I need to position this
+18:48 over. So, um I need to position this about here, but you can see it's kind of
+18:49 about here, but you can see it's kind of getting like skewed, right? Um and that
+18:51 getting like skewed, right? Um and that is because it's uh it's obviously coming
+18:54 is because it's uh it's obviously coming in at like a like this slanted angle.
+18:56 in at like a like this slanted angle. So, with that face selected, um, I need
+18:59 So, with that face selected, um, I need to rotate it. So, I'm going to hit R to
+19:01 to rotate it. So, I'm going to hit R to rotate. Like so. Okay. So, like that.
+19:05 rotate. Like so. Okay. So, like that. All right. And I might
+19:08 All right. And I might Just trying to think. All right. I
+19:10 Just trying to think. All right. I definitely need a loop cut because
+19:12 definitely need a loop cut because obviously that bit that's coming out
+19:13 obviously that bit that's coming out looking like a knob on our mug there.
+19:16 looking like a knob on our mug there. So, I'm going to hit CtrlR to create a
+19:18 So, I'm going to hit CtrlR to create a loop cut. And I'm going to pull it down
+19:20 loop cut. And I'm going to pull it down just so that I can see it's like where
+19:21 just so that I can see it's like where where it should join basically at the
+19:23 where it should join basically at the base there. All right. Great. And now
+19:26 base there. All right. Great. And now face select mode. Select that face
+19:28 face select mode. Select that face again. And now we just have to keep
+19:30 again. And now we just have to keep extruding around. But what I want to do
+19:32 extruding around. But what I want to do is I want to scale. Just make the handle
+19:34 is I want to scale. Just make the handle look a little bit thinner. So I'm going
+19:36 look a little bit thinner. So I'm going to select this top edge here. And I'm
+19:38 to select this top edge here. And I'm going to double tap G just so that I can
+19:40 going to double tap G just so that I can slide it downwards a little bit to just
+19:42 slide it downwards a little bit to just make it a little bit thinner cuz that
+19:45 make it a little bit thinner cuz that handle obviously doesn't look as as fat
+19:47 handle obviously doesn't look as as fat as uh as what we had there. So all
+19:50 as uh as what we had there. So all right. So face select mode now. And now
+19:52 right. So face select mode now. And now I'm going to start to extrude. So
+19:53 I'm going to start to extrude. So another extrusion. G to reposition. R to
+19:56 another extrusion. G to reposition. R to rotate it. And I just want to rotate it
+19:59 rotate it. And I just want to rotate it so that it kind of follows the contours
+20:01 so that it kind of follows the contours of uh of this. So I'm going to be
+20:03 of uh of this. So I'm going to be rotating it like this kind of angle as
+20:05 rotating it like this kind of angle as we go around. So now E to do another
+20:08 we go around. So now E to do another extrusion. Click. G. Click. R.
+20:14 extrusion. Click. G. Click. R. Now, by the way, there is another way to
+20:16 Now, by the way, there is another way to extrude which is actually kind of
+20:17 extrude which is actually kind of perfect for this. Um, but if you hold
+20:20 perfect for this. Um, but if you hold down control and then rightclick, it
+20:24 down control and then rightclick, it will not only extrude, but it will also
+20:26 will not only extrude, but it will also rotate the faces so that they align. And
+20:29 rotate the faces so that they align. And it can be a little helpful um, a bit
+20:32 it can be a little helpful um, a bit more easier than doing this like E, G,
+20:35 more easier than doing this like E, G, R, S, G, R, like, so just holding down
+20:39 R, S, G, R, like, so just holding down control and then rightclick
+20:41 control and then rightclick will just place these little points um,
+20:44 will just place these little points um, and will rotate them so that you don't
+20:46 and will rotate them so that you don't have to do all that rotation yourself.
+20:47 have to do all that rotation yourself. It really only works for these kind of
+20:49 It really only works for these kind of appendages like this, but might as well
+20:50 appendages like this, but might as well use it because it's a very um handy way
+20:52 use it because it's a very um handy way to do it. Okay, cool. So, now now the
+20:55 to do it. Okay, cool. So, now now the tricky bit. It's not really that tricky.
+20:57 tricky bit. It's not really that tricky. It's it's relatively easy to solve, but
+20:59 It's it's relatively easy to solve, but it's it's a conundrum, right? Like how
+21:01 it's it's a conundrum, right? Like how do we make this mesh with the rest of
+21:04 do we make this mesh with the rest of the mesh? Um, and you do that by like
+21:08 the mesh? Um, and you do that by like the wrong way to do this would be to
+21:10 the wrong way to do this would be to just like kind of like smush them
+21:12 just like kind of like smush them together, right? And this is kind of
+21:14 together, right? And this is kind of like early 3D stuff. like a lot of stuff
+21:16 like early 3D stuff. like a lot of stuff was like this. This kind of mashed stuff
+21:18 was like this. This kind of mashed stuff and intersected it together, but then
+21:20 and intersected it together, but then you don't get that edge there where it
+21:22 you don't get that edge there where it like catches the light. And the only way
+21:24 like catches the light. And the only way to really get that is to actually
+21:26 to really get that is to actually physically like join this mesh together.
+21:29 physically like join this mesh together. So this face here has to be connected to
+21:31 So this face here has to be connected to this face somehow. Um and the easiest
+21:34 this face somehow. Um and the easiest way in this case to do is to first of
+21:37 way in this case to do is to first of all we can see that this line here is
+21:39 all we can see that this line here is like cutting into the middle of this uh
+21:42 like cutting into the middle of this uh this this copy, right? So, we really
+21:44 this this copy, right? So, we really need to just add a line that goes around
+21:46 need to just add a line that goes around there to make this this area here like
+21:49 there to make this this area here like one face to match um this sorry this
+21:52 one face to match um this sorry this this this handle. So, I'm going to add
+21:55 this this handle. So, I'm going to add that line by hitting CtrlR loop cut
+21:58 that line by hitting CtrlR loop cut click and then I'm going to slide it up
+21:59 click and then I'm going to slide it up to be you know roughly about there.
+22:02 to be you know roughly about there. That's fine. And then now um because
+22:06 That's fine. And then now um because I've intersected it that that went too
+22:08 I've intersected it that that went too far. Um so I'm holding down Z. Um, now
+22:11 far. Um so I'm holding down Z. Um, now this is a way of quickly changing the
+22:13 this is a way of quickly changing the mode that you're you're viewing
+22:14 mode that you're you're viewing something in. Um, and we'll we'll get to
+22:17 something in. Um, and we'll we'll get to these other two once we get to materials
+22:19 these other two once we get to materials rendering and stuff, but for now, if you
+22:20 rendering and stuff, but for now, if you just swap to wireframe mode, this will
+22:23 just swap to wireframe mode, this will show you through the mesh. Um, there is
+22:25 show you through the mesh. Um, there is another way to see through a mesh, and
+22:26 another way to see through a mesh, and that is to at the top there, that little
+22:29 that is to at the top there, that little X-ray or alt Z is a hotkey for it. Um,
+22:32 X-ray or alt Z is a hotkey for it. Um, but that's that's another way to do it.
+22:34 but that's that's another way to do it. Um, but yeah, that you can see that's
+22:35 Um, but yeah, that you can see that's that's wireframe. And then, oh, hang on
+22:37 that's wireframe. And then, oh, hang on a second. Nope, that's that's X-ray.
+22:39 a second. Nope, that's that's X-ray. This is wireframe. But yeah, they're
+22:41 This is wireframe. But yeah, they're they're are they're pretty similar.
+22:42 they're are they're pretty similar. Anyways, so I'm gonna select my my face
+22:45 Anyways, so I'm gonna select my my face here and I'm just going to pull it out
+22:47 here and I'm just going to pull it out just so that I can just just grab it
+22:49 just so that I can just just grab it basically. And now I can go back to my
+22:50 basically. And now I can go back to my solid view as before. Okay, so I touched
+22:53 solid view as before. Okay, so I touched on this briefly before, but like a mesh
+22:55 on this briefly before, but like a mesh is made up of these individual points,
+22:57 is made up of these individual points, right? This is what you're seeing when
+22:58 right? This is what you're seeing when you're in uh verticy mode, these
+23:00 you're in uh verticy mode, these individual points. Um and each of those
+23:02 individual points. Um and each of those points when you have four together,
+23:04 points when you have four together, three or more actually, um you can
+23:06 three or more actually, um you can create a face. Um and so that's what
+23:08 create a face. Um and so that's what that is. So essentially I need to create
+23:10 that is. So essentially I need to create a new face for this section right here.
+23:13 a new face for this section right here. So let's do that now. So I'm going to
+23:15 So let's do that now. So I'm going to select those two and I've just selected
+23:16 select those two and I've just selected them by holding down uh shift like this.
+23:19 them by holding down uh shift like this. And then I'm just going to hit F. Face.
+23:22 And then I'm just going to hit F. Face. Okay. And then I can do the same on this
+23:24 Okay. And then I can do the same on this side
+23:26 side like that. And then I'm going to do the
+23:28 like that. And then I'm going to do the same on the top.
+23:31 same on the top. And then I'm going to do the same
+23:32 And then I'm going to do the same underneath.
+23:34 underneath. Okay. All right. So I've done it. But
+23:38 Okay. All right. So I've done it. But and I did it deliberately this way
+23:39 and I did it deliberately this way because I need to show you um the the
+23:41 because I need to show you um the the reason for this this issue here. So
+23:44 reason for this this issue here. So we've got yeah we we've we've got the
+23:46 we've got yeah we we've we've got the faces so they should be going smoothly
+23:47 faces so they should be going smoothly across here. But because of the way
+23:49 across here. But because of the way meshes work and the way they try to
+23:51 meshes work and the way they try to sorry the way shoot uh smooth shading
+23:53 sorry the way shoot uh smooth shading works is it does it based on like a
+23:56 works is it does it based on like a continuous flow of faces. And you will
+23:59 continuous flow of faces. And you will have noticed that when we created this
+24:01 have noticed that when we created this there was actually a face that is inside
+24:04 there was actually a face that is inside here before we joined it. Okay, which
+24:06 here before we joined it. Okay, which and I'll I'll show you. If we go into
+24:08 and I'll I'll show you. If we go into here, this area here, you should see
+24:10 here, this area here, you should see there is a face that is right here. So,
+24:13 there is a face that is right here. So, because that exists, the smooth shader
+24:15 because that exists, the smooth shader doesn't actually know that it's supposed
+24:17 doesn't actually know that it's supposed to continue on because there's a face
+24:18 to continue on because there's a face that goes down. So, it's now kind of
+24:20 that goes down. So, it's now kind of mixed. It doesn't know like it has to
+24:23 mixed. It doesn't know like it has to create a smooth shading here, but then
+24:25 create a smooth shading here, but then also one on the top there. And so, it's
+24:26 also one on the top there. And so, it's done this weird um hybrid thing where
+24:30 done this weird um hybrid thing where it's like it's tried to do it, but
+24:32 it's like it's tried to do it, but there's clearly something going on
+24:33 there's clearly something going on underneath. So, what we need to do is
+24:34 underneath. So, what we need to do is just delete that face. So, again, in
+24:36 just delete that face. So, again, in face select mode, you select that inner
+24:38 face select mode, you select that inner face there. And by the way, when you're
+24:40 face there. And by the way, when you're working in 3D, this is a really common
+24:42 working in 3D, this is a really common thing beginners do. They select the
+24:44 thing beginners do. They select the wrong face. So, you can see how quickly
+24:46 wrong face. So, you can see how quickly that like they're right next to each
+24:48 that like they're right next to each other, that point there, right? But
+24:51 other, that point there, right? But selecting one or the other, it it just
+24:52 selecting one or the other, it it just happens all the time. So, a thing that a
+24:54 happens all the time. So, a thing that a lot of 3D artists do is when they've
+24:56 lot of 3D artists do is when they've selected something before they delete
+24:57 selected something before they delete it, you just do a quick orbit around and
+24:59 it, you just do a quick orbit around and that'll just like break the perspective
+25:01 that'll just like break the perspective and just to verify that that is the
+25:04 and just to verify that that is the actual one I mean to select. Okay. Then
+25:07 actual one I mean to select. Okay. Then I'm going to hit X and I'm going to say
+25:09 I'm going to hit X and I'm going to say faces. Okay. But it's not just that one,
+25:12 faces. Okay. But it's not just that one, right? Like that. Actually, that that
+25:14 right? Like that. Actually, that that should be fixed soon, but anyway, I'll
+25:15 should be fixed soon, but anyway, I'll show you how. Um, and then there's one
+25:17 show you how. Um, and then there's one on the inside here as well. Okay. Cuz
+25:18 on the inside here as well. Okay. Cuz when we joined it, there was there was a
+25:20 when we joined it, there was there was a face here and there was a face over
+25:21 face here and there was a face over there. So I'm now going to delete that
+25:22 there. So I'm now going to delete that face by hitting X and then say faces.
+25:26 face by hitting X and then say faces. Okay, now that's done.
+25:29 Okay, now that's done. This should be correct. But the reason
+25:31 This should be correct. But the reason it's not is one I think if I need to
+25:33 it's not is one I think if I need to right click and say shade smooth and
+25:35 right click and say shade smooth and that has fixed it. What on what can
+25:37 that has fixed it. What on what can happen sometimes is when you've fixed up
+25:39 happen sometimes is when you've fixed up some geometry um you might need to uh
+25:44 some geometry um you might need to uh recalculate the normals like which and
+25:46 recalculate the normals like which and again to bring up the normals there's a
+25:48 again to bring up the normals there's a secret hidden line uh that every face on
+25:50 secret hidden line uh that every face on your your object has and they're always
+25:52 your your object has and they're always pointing outward like that. But when
+25:54 pointing outward like that. But when you've created new mesh and you've kind
+25:56 you've created new mesh and you've kind of fix things or whatnot, you can end up
+25:58 of fix things or whatnot, you can end up with one of these lines that goes the
+26:00 with one of these lines that goes the wrong direction. Um and I'll show you
+26:02 wrong direction. Um and I'll show you that actually if I just do this.
+26:04 that actually if I just do this. um that's what it might look like. You
+26:06 um that's what it might look like. You get this weird like black shading
+26:08 get this weird like black shading artifacts. Um that's very ugly. So to
+26:11 artifacts. Um that's very ugly. So to fix that, you select your entire mesh
+26:13 fix that, you select your entire mesh and then you hit shift N and that will
+26:16 and then you hit shift N and that will recalculate it. Um and now you can see
+26:18 recalculate it. Um and now you can see the smooth shading is correct. And just
+26:21 the smooth shading is correct. And just to show you quickly as well, um the way
+26:23 to show you quickly as well, um the way I did it just then where we like created
+26:25 I did it just then where we like created it and then we deleted the faces. Don't
+26:27 it and then we deleted the faces. Don't do this. I'm just going to show you like
+26:28 do this. I'm just going to show you like actually what you would do cuz it's not
+26:31 actually what you would do cuz it's not this tedious. Normally, if you had this
+26:33 this tedious. Normally, if you had this problem, you would actually select this
+26:35 problem, you would actually select this face and this face first. You delete
+26:37 face and this face first. You delete them ahead of time and then actually,
+26:40 them ahead of time and then actually, and there's a faster way to have uh
+26:41 and there's a faster way to have uh created this this join here. Um you can
+26:44 created this this join here. Um you can select that entire edge loop with alt
+26:46 select that entire edge loop with alt then shift alt select that. And now I
+26:49 then shift alt select that. And now I could rightclick and say bridge edge
+26:52 could rightclick and say bridge edge loops, which you only can do if you've
+26:54 loops, which you only can do if you've got the exact same number of uh vertices
+26:56 got the exact same number of uh vertices on one side as the other. But I want to
+26:58 on one side as the other. But I want to just show you physically creating those
+27:00 just show you physically creating those points with uh vertices cuz that is a
+27:03 points with uh vertices cuz that is a really common way to to model to join
+27:05 really common way to to model to join things together. You select the four
+27:07 things together. You select the four vertices, you create a new face.
+27:09 vertices, you create a new face. Anyways, look at that. We've got what
+27:11 Anyways, look at that. We've got what looks like a handle coming out of the
+27:13 looks like a handle coming out of the mug. Now, if we look at our reference
+27:14 mug. Now, if we look at our reference here, um we've got it pretty close, but
+27:17 here, um we've got it pretty close, but you can see that there's like it's
+27:19 you can see that there's like it's sharp, right? There's there's clearly
+27:21 sharp, right? There's there's clearly like a crease here and a crease here.
+27:23 like a crease here and a crease here. Um, and we can do that just by adding in
+27:26 Um, and we can do that just by adding in more loop cuts. So, I'm going to add in
+27:30 more loop cuts. So, I'm going to add in uh well, I guess there's two ways to do
+27:31 uh well, I guess there's two ways to do it. One, I can actually just select this
+27:33 it. One, I can actually just select this edge here. So, holding down alt, just
+27:35 edge here. So, holding down alt, just select that and then double tap G and I
+27:37 select that and then double tap G and I can bring that in. Um, but when I do
+27:39 can bring that in. Um, but when I do that, this area becomes a little bit
+27:42 that, this area becomes a little bit straight. Um, maybe not what I wanted.
+27:44 straight. Um, maybe not what I wanted. Let's have a look at front mode. Um,
+27:47 Let's have a look at front mode. Um, yeah, I might want a little bit more
+27:48 yeah, I might want a little bit more detail there, which case I would add a
+27:50 detail there, which case I would add a loop cut. Um, but you know, it's really
+27:52 loop cut. Um, but you know, it's really up to you. You might be able to just,
+27:54 up to you. You might be able to just, you know, move this around and just kind
+27:56 you know, move this around and just kind of shape it. Like, look, we're really
+27:58 of shape it. Like, look, we're really we're learning Blender. That's really
+28:00 we're learning Blender. That's really the [laughter] goal of this. It's not
+28:02 the [laughter] goal of this. It's not necessarily to make a physically
+28:05 necessarily to make a physically accurate uh mug. I don't want to over
+28:08 accurate uh mug. I don't want to over complicate things and make things feel
+28:10 complicate things and make things feel like you have to do everything
+28:12 like you have to do everything perfectly, but I also don't want to end
+28:13 perfectly, but I also don't want to end up with like a trash result and then
+28:15 up with like a trash result and then everyone be like, "Oh, we did all that
+28:17 everyone be like, "Oh, we did all that effort and now it looks garbage." Um,
+28:19 effort and now it looks garbage." Um, but you know, you could spend a lot of
+28:21 but you know, you could spend a lot of effort. You know, you could even try and
+28:22 effort. You know, you could even try and get like if you look at, you know, uh
+28:25 get like if you look at, you know, uh there would be probably like a little
+28:26 there would be probably like a little line here like like the kind of, you
+28:29 line here like like the kind of, you know what I mean? Like on the inner
+28:30 know what I mean? Like on the inner inner part of the the thing, you could
+28:32 inner part of the the thing, you could try and create that. You could really
+28:33 try and create that. You could really add a lot of detail. The only thing I'm
+28:35 add a lot of detail. The only thing I'm really going to fix is right here where
+28:37 really going to fix is right here where it's pinching. I'm just going to select
+28:39 it's pinching. I'm just going to select that edge there and I'm going to double
+28:41 that edge there and I'm going to double tap G. I'm just going to slide it up so
+28:43 tap G. I'm just going to slide it up so there's just a little less pinching. And
+28:45 there's just a little less pinching. And then this part here like you can see the
+28:48 then this part here like you can see the shape of this face is being very
+28:50 shape of this face is being very distorted. Right? You generally want to
+28:52 distorted. Right? You generally want to keep things as close to a squareish
+28:55 keep things as close to a squareish shape as possible generally. Um and so
+28:58 shape as possible generally. Um and so I'm just going to select this edge at
+29:00 I'm just going to select this edge at the bottom there. Double tap G. And I'm
+29:02 the bottom there. Double tap G. And I'm just going to pull it out just to
+29:03 just going to pull it out just to relieve a little bit of the the tension
+29:05 relieve a little bit of the the tension there. And
+29:08 there. And I mean that's I mean you can Yeah,
+29:09 I mean that's I mean you can Yeah, there's obviously there's like a tighter
+29:11 there's obviously there's like a tighter line there but this will do. this this
+29:14 line there but this will do. this this is enough to be uh perceived as a coffee
+29:17 is enough to be uh perceived as a coffee mug. Now, if you want to just move ahead
+29:20 mug. Now, if you want to just move ahead with the tutorial and get on to the next
+29:22 with the tutorial and get on to the next part, which is going to be on uh
+29:23 part, which is going to be on uh materials and lighting, um you can you
+29:26 materials and lighting, um you can you can do that. However, if you want a
+29:28 can do that. However, if you want a little bit of a challenge, like a little
+29:29 little bit of a challenge, like a little bit of a homework, um where you can try
+29:32 bit of a homework, um where you can try to use some skills but by yourself, you
+29:35 to use some skills but by yourself, you will see looking at the photo here that
+29:37 will see looking at the photo here that we also have a saucer, a little tiny
+29:40 we also have a saucer, a little tiny plate for our mug. Um, now I didn't
+29:43 plate for our mug. Um, now I didn't include that in my final image. Um, I
+29:46 include that in my final image. Um, I just had the coffee mug just sitting on
+29:47 just had the coffee mug just sitting on the table. Um, but this is a great very
+29:51 the table. Um, but this is a great very small thing that you could try to model
+29:52 small thing that you could try to model by yourself using the skills that you've
+29:55 by yourself using the skills that you've just learned um to to create something
+29:58 just learned um to to create something new. So, how would you go about adding
+30:00 new. So, how would you go about adding that saucer? You could have a have a try
+30:03 that saucer? You could have a have a try at it. It it's a completely separate
+30:04 at it. It it's a completely separate object obviously to your mug here. So,
+30:06 object obviously to your mug here. So, even if you screw it up, worst case
+30:08 even if you screw it up, worst case scenario is you just delete it and then,
+30:10 scenario is you just delete it and then, you know, you'll still end up with
+30:11 you know, you'll still end up with something that I actually had for my
+30:14 something that I actually had for my final result, which was a mug without a
+30:16 final result, which was a mug without a saucer. But, if you want to add that in,
+30:18 saucer. But, if you want to add that in, it'll be a way to kind of take some of
+30:20 it'll be a way to kind of take some of the lessons that you've uh you've you've
+30:22 the lessons that you've uh you've you've picked up already and then try to
+30:24 picked up already and then try to remember them and the different steps
+30:25 remember them and the different steps and the things um required to create it.
+30:28 and the things um required to create it. Because whilst you've just created
+30:30 Because whilst you've just created something now, it's the best time to try
+30:32 something now, it's the best time to try to recall that memory so that in the
+30:34 to recall that memory so that in the future, maybe in a few days or a few
+30:36 future, maybe in a few days or a few weeks from now, when you try to do
+30:37 weeks from now, when you try to do something yourself, it'll be a lot more
+30:39 something yourself, it'll be a lot more readily available to recall that
+30:41 readily available to recall that information. So, if you want to have a
+30:43 information. So, if you want to have a go at doing that, uh, feel free to.
+30:45 go at doing that, uh, feel free to. Otherwise, join me in the next part and
+30:47 Otherwise, join me in the next part and we'll get on to some materials and
+30:49 we'll get on to some materials and texturing.

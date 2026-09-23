@@ -1,0 +1,4 @@
+interface:
+  display_name: "HextaUI Catalog"
+  short_description: "Use HextaUI app blocks safely"
+  default_prompt: "Use $hextaui-catalog to choose exact HextaUI components or app blocks for this landing plan."

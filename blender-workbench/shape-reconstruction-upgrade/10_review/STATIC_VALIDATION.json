@@ -1,0 +1,154 @@
+{
+  "status": "pass",
+  "errors": [],
+  "checks": [
+    {
+      "check": "required:README_RU.md",
+      "pass": true
+    },
+    {
+      "check": "required:01_agent_memory/AGENT_MEMORY_CARD_RU.md",
+      "pass": true
+    },
+    {
+      "check": "required:03_workflows/TRUE_3D_FROM_PRIMITIVES_RU.md",
+      "pass": true
+    },
+    {
+      "check": "required:04_blender_tools/shape_tools.py",
+      "pass": true
+    },
+    {
+      "check": "required:04_blender_tools/shape_dispatcher.py",
+      "pass": true
+    },
+    {
+      "check": "required:05_external_tools/reference_preprocess.py",
+      "pass": true
+    },
+    {
+      "check": "required:07_mcp/tool_manifest_shape.json",
+      "pass": true
+    },
+    {
+      "check": "required:skills/blender-shape-reconstruction/SKILL.md",
+      "pass": true
+    },
+    {
+      "check": "required:demo/combined.contours.json",
+      "pass": true
+    },
+    {
+      "check": "required:demo/layer_stack.example.json",
+      "pass": true
+    },
+    {
+      "check": "py_compile:04_blender_tools/shape_dispatcher.py",
+      "pass": true
+    },
+    {
+      "check": "py_compile:04_blender_tools/shape_tools.py",
+      "pass": true
+    },
+    {
+      "check": "py_compile:05_external_tools/reference_preprocess.py",
+      "pass": true
+    },
+    {
+      "check": "py_compile:06_examples/01_create_hand_sphere_true3d.py",
+      "pass": true
+    },
+    {
+      "check": "py_compile:06_examples/02_create_mascot_from_primitives.py",
+      "pass": true
+    },
+    {
+      "check": "py_compile:06_examples/03_import_contour_relief.py",
+      "pass": true
+    },
+    {
+      "check": "py_compile:06_examples/04_import_layer_stack.py",
+      "pass": true
+    },
+    {
+      "check": "py_compile:06_examples/05_dispatch_via_mcp.py",
+      "pass": true
+    },
+    {
+      "check": "py_compile:07_mcp/semantic_shape_adapter.py",
+      "pass": true
+    },
+    {
+      "check": "py_compile:10_review/run_blender_runtime_tests.py",
+      "pass": true
+    },
+    {
+      "check": "py_compile:10_review/run_reference_tests.py",
+      "pass": true
+    },
+    {
+      "check": "py_compile:10_review/validate_upgrade.py",
+      "pass": true
+    },
+    {
+      "check": "json:07_mcp/tool_manifest_shape.json",
+      "pass": true
+    },
+    {
+      "check": "json:10_review/AUTOMATED_VALIDATION.json",
+      "pass": true
+    },
+    {
+      "check": "json:10_review/STATIC_VALIDATION.json",
+      "pass": true
+    },
+    {
+      "check": "json:PACKAGE_MANIFEST_SHAPE.json",
+      "pass": true
+    },
+    {
+      "check": "json:demo/ball.contours.json",
+      "pass": true
+    },
+    {
+      "check": "json:demo/blender_runtime/blender_runtime_tests.json",
+      "pass": true
+    },
+    {
+      "check": "json:demo/blender_runtime/contour_compare_report.json",
+      "pass": true
+    },
+    {
+      "check": "json:demo/blender_runtime/hole_compare_report.json",
+      "pass": true
+    },
+    {
+      "check": "json:demo/blender_runtime/reference_runtime_tests.json",
+      "pass": true
+    },
+    {
+      "check": "json:demo/combined.contours.json",
+      "pass": true
+    },
+    {
+      "check": "json:demo/hole_test.contours.json",
+      "pass": true
+    },
+    {
+      "check": "json:demo/layer_stack.example.json",
+      "pass": true
+    },
+    {
+      "check": "json:demo/left_hand.contours.json",
+      "pass": true
+    },
+    {
+      "check": "json:demo/right_hand.contours.json",
+      "pass": true
+    },
+    {
+      "check": "json:demo/silhouette_report.json",
+      "pass": true
+    }
+  ]
+}

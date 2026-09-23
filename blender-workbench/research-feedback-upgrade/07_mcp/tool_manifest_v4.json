@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "activation": "optional_complex_tasks_only",
+  "tools": [
+    {
+      "name": "research.retrieve_examples",
+      "read_only": true,
+      "implementation": "04_python/retrieval_index.py",
+      "input": {
+        "query": "string",
+        "top_k": "integer<=5",
+        "required_tags": "string[]"
+      },
+      "output": "ranked example records"
+    },
+    {
+      "name": "quality.capability_probe",
+      "read_only": true,
+      "implementation": "04_blender/capability_probe.py::probe",
+      "input": {},
+      "output": "version and capabilities"
+    },
+    {
+      "name": "quality.scene_audit",
+      "read_only": true,
+      "implementation": "04_blender/scene_qa.py::audit_scene",
+      "input": {
+        "object_names": "string[]?",
+        "contact_tolerance": "number",
+        "floating_tolerance": "number"
+      },
+      "output": "structural report"
+    },
+    {
+      "name": "workflow.stage_state",
+      "read_only": false,
+      "implementation": "04_python/stage_orchestrator.py",
+      "input": {
+        "operation": "create|record|review|approve|rollback|memory",
+        "payload": "object"
+      },
+      "output": "stage state"
+    }
+  ]
+}

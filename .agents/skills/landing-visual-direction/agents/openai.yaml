@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Visual Direction"
+  short_description: "Create concrete landing-page style tiles"
+  default_prompt: "Use $landing-visual-direction to create a concrete visual style tile with typography, color, spacing, radius, surfaces, assets, motion feel, and section style rules."

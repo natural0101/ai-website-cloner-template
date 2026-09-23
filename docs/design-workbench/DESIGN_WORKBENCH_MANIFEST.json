@@ -1,0 +1,129 @@
+{
+  "version": 1,
+  "name": "Universal Design Workbench",
+  "purpose": "Reusable knowledge base for product-grade UI, dashboards, admin tools, AI design studios, canvas editors, websites, motion, 3D/WebGL, component systems, proof/data integrity, and final visual QA.",
+  "notLandingOnly": true,
+  "commands": {
+    "check": "npm run design:check",
+    "handoffAuto": "npm run design:handoff -- \"<target-project>\"",
+    "handoffWrite": "npm run design:handoff -- \"<target-project>\" --write",
+    "handoffPack": "npm run design:handoff -- \"<target-project>\" --pack",
+    "pack": "npm run design:pack -- \"<target-project>\"",
+    "installAgentRules": "npm run design:install-agent-rules -- \"<target-project>\"",
+    "packetCheck": "npm run design:packet-check -- \"<target-project>\"",
+    "briefCheck": "npm run design:brief-check -- \"<target-project>\"",
+    "finalCheck": "npm run design:final-check -- \"<target-project>\"",
+    "targetAudit": "npm run design:target-audit -- \"<target-project>\"",
+    "targetAuditWrite": "npm run design:target-audit -- \"<target-project>\" --write",
+    "handoffMode": "npm run design:handoff -- \"<target-project>\" --mode dashboard|universal|forgestudio|scratch|qa"
+  },
+  "handoffModes": {
+    "auto": "Inspect target files and choose forgestudio, dashboard, scratch, or universal.",
+    "handoff": "Compact packet prompt.",
+    "universal": "General product UI, dashboard, editor, app, or site improvement.",
+    "forgestudio": "ForgeStudio-like AI design app, canvas editor, proposal/diff, verification, ledger, export.",
+    "dashboard": "Dashboard, admin panel, records UI, data tool, or operations surface.",
+    "scratch": "Product UI from scratch.",
+    "qa": "Final product UI QA."
+  },
+  "packetFiles": [
+    "DESIGN_AGENT_HANDOFF.md",
+    ".design-agent/README.md",
+    ".design-agent/prompt.txt",
+    ".design-agent/working-brief.md",
+    ".design-agent/manifest.json",
+    ".design-agent/acceptance-checklist.md",
+    ".design-agent/final-report-template.md",
+    ".design-agent/AGENTS_SNIPPET.md"
+  ],
+  "firstRead": [
+    "docs/design-workbench/AGENT_START_HERE.md",
+    "docs/design-workbench/EXTERNAL_AGENT_HANDOFF.md",
+    "docs/design-workbench/FORGESTUDIO_CONTEXT.md",
+    "docs/design-workbench/AI_DESIGN_APP_TRUSTED_VERTICAL.md",
+    "docs/design-workbench/UNIVERSAL_DESIGN_RUNBOOK.md",
+    "docs/design-workbench/UNIVERSAL_PRODUCT_DESIGN_BRIEF.md",
+    "docs/design-workbench/PRODUCT_SURFACE_BLUEPRINTS.md",
+    "docs/design-workbench/PRODUCT_UI_SCREEN_RECIPES.md",
+    "docs/design-workbench/PRODUCT_UI_DASHBOARD_ADMIN_PLAYBOOK.md",
+    "docs/design-workbench/PRODUCT_UI_INFORMATION_ARCHITECTURE.md",
+    "docs/design-workbench/PRODUCT_UI_INTERACTION_MODEL.md",
+    "docs/design-workbench/PRODUCT_UI_COPY_STATUS_LANGUAGE.md",
+    "docs/design-workbench/PRODUCT_UI_DECISION_REVIEW_COCKPIT.md",
+    "docs/design-workbench/AI_DESIGN_APP_SCREEN_BLUEPRINT.md",
+    "docs/design-workbench/AI_WORKBENCH_INTERACTION_FLOWS.md",
+    "docs/design-workbench/AI_WORKBENCH_IMPLEMENTATION_SLICES.md",
+    "docs/design-workbench/PRODUCT_UI_DESIGN_SYSTEM_BASELINE.md",
+    "docs/design-workbench/PRODUCT_UI_IMPLEMENTATION_SLICE_CONTRACT.md",
+    "docs/design-workbench/PRODUCT_UI_COMPONENT_BLUEPRINTS.md",
+    "docs/design-workbench/COMPONENT_STATE_SPEC.md",
+    "docs/design-workbench/PRODUCT_UI_COMPONENT_SOURCING.md",
+    "docs/design-workbench/PRODUCT_UI_QUALITY_GATE.md",
+    "docs/design-workbench/PRODUCT_UI_TOP_DESIGN_BENCHMARK.md",
+    "docs/design-workbench/PRODUCT_UI_REVIEW_RUBRIC.md",
+    "docs/design-workbench/PRODUCT_UI_VISUAL_QA.md",
+    "docs/design-workbench/VISUAL_QA_EVIDENCE_PLAYBOOK.md",
+    "docs/design-workbench/AGENT_REPORT_EXAMPLES.md",
+    "docs/design-workbench/AGENT_PROMPTS.md"
+  ],
+  "coreContracts": [
+    "docs/design-workbench/UNIVERSAL_PRODUCT_DESIGN_BRIEF.md",
+    "docs/design-workbench/PRODUCT_UI_INFORMATION_ARCHITECTURE.md",
+    "docs/design-workbench/PRODUCT_UI_INTERACTION_MODEL.md",
+    "docs/design-workbench/PRODUCT_UI_COPY_STATUS_LANGUAGE.md",
+    "docs/design-workbench/PRODUCT_UI_DECISION_REVIEW_COCKPIT.md",
+    "docs/design-workbench/AI_DESIGN_APP_TRUSTED_VERTICAL.md",
+    "docs/design-workbench/PRODUCT_UI_IMPLEMENTATION_SLICE_CONTRACT.md",
+    "docs/design-workbench/PRODUCT_UI_QUALITY_GATE.md",
+    "docs/design-workbench/PRODUCT_UI_TOP_DESIGN_BENCHMARK.md",
+    "docs/design-workbench/PRODUCT_UI_REVIEW_RUBRIC.md",
+    "docs/design-workbench/VISUAL_QA_EVIDENCE_PLAYBOOK.md"
+  ],
+  "skills": [
+    {
+      "name": "product-ui-design-orchestrator",
+      "path": ".codex/skills/product-ui-design-orchestrator/SKILL.md",
+      "useFor": "Routing product UI work across runbook, IA, interactions, copy/status, decision/review, implementation slice, components, and QA."
+    },
+    {
+      "name": "product-design-taste",
+      "path": ".codex/skills/product-design-taste/SKILL.md",
+      "useFor": "Taste and craft decisions for dashboards, SaaS apps, AI studios, canvas editors, data tools, and product websites."
+    },
+    {
+      "name": "design-ai-workbench-screens",
+      "path": ".codex/skills/design-ai-workbench-screens/SKILL.md",
+      "useFor": "ForgeStudio-like AI design workbench screens, proposal/diff review, verification, ledger, export, and canvas workflows."
+    },
+    {
+      "name": "product-ui-component-sourcing",
+      "path": ".codex/skills/product-ui-component-sourcing/SKILL.md",
+      "useFor": "Choosing local primitives, headless components, focused libraries, or catalog components without demo-data or landing bias."
+    },
+    {
+      "name": "product-ui-visual-qa",
+      "path": ".codex/skills/product-ui-visual-qa/SKILL.md",
+      "useFor": "Final browser/screenshot QA, responsive/no-overlap review, state/copy/decision checks, accessibility, proof/data integrity, and verdict."
+    }
+  ],
+  "nonNegotiables": [
+    "Do not force landing-page structure onto dashboards, editors, admin panels, data tools, or AI workbenches.",
+    "Working briefs must pass substance checks before coding: user/job/object, product object model, visual system contract, workflow/action path, data/source truth, route/screen, closest product surface blueprint, screen recipe/state specs, local files to inspect/change, component state plan, verification evidence, and top-design target.",
+    "Before coding, fill PRODUCT_UI_IMPLEMENTATION_SLICE_CONTRACT.md.",
+    "Do not pass isolated decorative component work as a product slice.",
+    "Final implementation-slice reporting must preserve the working brief's route/screen, primary object, workflow/actions, data/source truth, and states.",
+    "Final reports must include visual-system evidence naming typography/type scale, spacing/density rhythm, surfaces/radius/borders, color/status/contrast, and target-local tokens/components.",
+    "Final reports must include information architecture evidence naming route/screen map, navigation/app shell, main/context zones, and responsive/recovery behavior.",
+    "Final reports must include interaction evidence naming primary actions/transitions, pending-success-failure states, recovery/permission behavior, and affected object/control.",
+    "Final reports must include copy/status language evidence naming affected object, state/status, reason or next action, and evidence/source/sample label.",
+    "Final reports must include decision/review cockpit evidence naming decision question, options/comparison, evidence/risk, action, after-state, and audit/recovery path.",
+    "Final reports must include component-state evidence naming changed components/controls, checked states, and screenshot/browser/manual/keyboard/responsive proof.",
+    "Do not fake metrics, proof, screenshots, imported assets, agent status, or completed work.",
+    "AI-design-app work must expose the trusted vertical: project, design search, import, object comment/task, proposal, preview/diff, verification, approval, transaction, ledger, export/reopen.",
+    "External AI output remains proposal-only until preview/diff, verification, approval, transaction, and ledger evidence exist.",
+    "AI design app working briefs must fill AI Design App Invariants before coding: proposal-only, preview/diff, verification, human approval, transaction/ledger evidence, agent connection/scopes, comment-to-task bridge, pending proposal/approval bridge, failure/recovery handling, and export/reopen recovery.",
+    "AI design app final reports must prove the operational pattern in `Operational pattern checked`, including agent connection/scopes, comment-to-task bridge, pending proposal/approval bridge, failure/recovery handling, and export/reopen recovery, not only show attractive panels.",
+    "Top-design handoff must pass the five-second test: primary object, state, risk, next action, recovery, and evidence are visible without reading implementation notes.",
+    "Final handoff needs real commands, screenshots/browser checks, or an explicit remaining-risk note."
+  ]
+}

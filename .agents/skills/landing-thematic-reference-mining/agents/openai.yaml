@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Thematic Reference Mining"
+  short_description: "Find close landing references"
+  default_prompt: "Use $landing-thematic-reference-mining to find thematically close landing references before scoring."

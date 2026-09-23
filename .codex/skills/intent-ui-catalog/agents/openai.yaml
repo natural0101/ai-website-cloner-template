@@ -1,0 +1,4 @@
+interface:
+  display_name: "Intent UI Catalog"
+  short_description: "Select vetted Intent UI components"
+  default_prompt: "Use $intent-ui-catalog to choose verified Intent UI components for a landing plan."

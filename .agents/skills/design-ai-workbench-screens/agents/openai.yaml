@@ -1,0 +1,4 @@
+interface:
+  display_name: "AI Workbench Screens"
+  short_description: "Screen patterns for AI design apps"
+  default_prompt: "Use $design-ai-workbench-screens to plan or improve a ForgeStudio-like AI design workbench with canvas, inspector, proposals, verification, and history."

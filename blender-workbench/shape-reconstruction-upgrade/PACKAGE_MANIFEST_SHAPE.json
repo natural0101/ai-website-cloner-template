@@ -1,0 +1,40 @@
+{
+  "name": "Shape Reconstruction Upgrade",
+  "version": "1.0.0",
+  "target_blender": "5.1.x",
+  "validated_runtime": {
+    "blender": "5.1.2",
+    "python": "3.13.5",
+    "background": true,
+    "status": "pass"
+  },
+  "entry_points": {
+    "human": "00_start/START_HERE_RU.md",
+    "agent_memory": "01_agent_memory/AGENT_MEMORY_CARD_RU.md",
+    "agent_prompt": "01_agent_memory/PASTE_INTO_AGENT_PROMPT_RU.md",
+    "agent_skill": "skills/blender-shape-reconstruction/SKILL.md",
+    "blender_tools": "04_blender_tools",
+    "dispatcher": "04_blender_tools/shape_dispatcher.py",
+    "external_reference_tool": "05_external_tools/reference_preprocess.py",
+    "mcp_manifest": "07_mcp/tool_manifest_shape.json",
+    "quality_review": "10_review/QUALITY_REVIEW_RU.md",
+    "runtime_tests": "demo/blender_runtime/blender_runtime_tests.json",
+    "reference_tests": "demo/blender_runtime/reference_runtime_tests.json"
+  },
+  "mcp_tools": 12,
+  "activation": "optional; only volumetric figure/reference reconstruction tasks",
+  "network_required": false,
+  "bundled_ai_models": false,
+  "bundled_third_party_assets": false,
+  "demo_reference": "synthetic and created for this package",
+  "test_summary": {
+    "hand_sphere_triangles": 11496,
+    "hand_sphere_validation": "pass",
+    "glb_bytes": 261856,
+    "contour_mask_iou": 0.9759729272419628,
+    "contour_boundary_f1": 1.0,
+    "hole_mask_iou": 0.973586397785686,
+    "hole_count_preserved": true
+  },
+  "license": "MIT"
+}

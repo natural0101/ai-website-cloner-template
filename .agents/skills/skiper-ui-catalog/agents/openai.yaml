@@ -1,0 +1,4 @@
+interface:
+  display_name: "Skiper UI Catalog"
+  short_description: "Gate Skiper UI motion components"
+  default_prompt: "Use $skiper-ui-catalog to choose a verified Skiper UI component for a landing section."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Motion Storyboard"
+  short_description: "Storyboard purposeful landing motion"
+  default_prompt: "Use $landing-motion-storyboard to turn section ideas into precise motion specs and reduced-motion fallbacks."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tailark Section Catalog"
+  short_description: "Select verified Tailark marketing blocks"
+  default_prompt: "Use $tailark-section-catalog to choose verified Tailark section blocks for a landing plan."

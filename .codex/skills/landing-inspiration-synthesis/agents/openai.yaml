@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Inspiration Synthesis"
+  short_description: "Turn references into section decisions"
+  default_prompt: "Use $landing-inspiration-synthesis to translate scored references into concrete landing section decisions."

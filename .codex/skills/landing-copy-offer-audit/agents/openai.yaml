@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Copy Offer Audit"
+  short_description: "Audit landing copy, offer and CTA"
+  default_prompt: "Use $landing-copy-offer-audit to audit this landing page copy, offer, CTA, proof, and objections."

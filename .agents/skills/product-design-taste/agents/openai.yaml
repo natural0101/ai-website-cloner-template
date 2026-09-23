@@ -1,0 +1,4 @@
+interface:
+  display_name: "Product Design Taste"
+  short_description: "Taste rules for product UI"
+  default_prompt: "Use $product-design-taste to design or improve a dashboard, editor, AI design studio, or product UI with workflow-first taste."

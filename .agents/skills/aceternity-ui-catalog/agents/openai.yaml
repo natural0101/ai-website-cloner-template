@@ -1,0 +1,4 @@
+interface:
+  display_name: "Aceternity UI Catalog"
+  short_description: "Choose Aceternity UI blocks safely"
+  default_prompt: "Use $aceternity-ui-catalog to choose Aceternity UI components or block references with license, dependency, adaptation, mobile, reduced-motion, and QA checks."
