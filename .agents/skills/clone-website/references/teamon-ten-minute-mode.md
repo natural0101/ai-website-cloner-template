@@ -20,6 +20,31 @@ BASIC_KB_PASS обязателен: фактические ответы из и�
 про LLM на каждый вопрос не разрешают обход KB-first или отказ от BASIC_KB_PASS.
 Сначала записать это правило, затем исправлять поведение в разрешённом scope.
 
+## Native iframe copies: provider isolation and actual browser paint
+
+Before retaining a third-party widget script inside a native-source wrapper
+iframe, inspect its frame detection and mount target. A provider may treat any
+`window !== window.parent` as its own widget frame and mount React into
+`document.body`, erasing the complete cloned page. Verified example: myReviews
+`blockWidget.js` on Badaev Pro, 06.10.2026. A well-formed HTML file or HTTP200 does
+not rule out this runtime replacement.
+
+When that exact behavior is proved, keep the archived original immutable,
+back up the copy bytes and remove only the offending provider script and its
+matching inline initialization. Mark the existing source widget container inert;
+do not invent replacement testimonials, redesign the page or disable unrelated
+Tilda scripts. Verify every remaining native script byte-for-byte, source page
+records and exact rollback. Require a fresh browser DOM and actual painted
+desktop/mobile screenshots before claiming the copy repaired.
+
+An IAB screenshot can be blank while an iframe has a populated DOM and visible
+computed geometry when the browser surface is hidden. Compare the direct copied
+source document and wrapper, inspect real rectangles/viewport, then use the
+documented browser visibility control and capture painted pixels again. If the
+visible surface renders the unchanged copy, fix the observation procedure;
+do not change source CSS/HTML to compensate for a hidden capture. Keep DOM,
+painted pixels and native-control checks as separate receipts.
+
 Прямая инструкция владельца от 06.10.2026: использовать этот клонер; целевой предел — 10 минут на весь клиентский комплект. Это рабочий бюджет, а не заявление о уже измеренном результате. Правила полноты источников и проверки конечного результата сохраняются.
 
 ## Единый вход
