@@ -5,6 +5,16 @@ description: Reverse-engineer and clone one or more websites in one shot — ext
 
 # Clone Website
 
+## TeamON company kits — owner time budget
+
+For TeamON company website + AI + sales-deck work, first read
+[references/teamon-ten-minute-mode.md](references/teamon-ten-minute-mode.md).
+The owner requires this cloner and a ten-minute end-to-end target. Reuse the
+prepared workbench, existing One/Lite transport and accepted deck canon; overlap
+source extraction and building as described below. Keep full source coverage and
+actual checks; never claim the time target was achieved from a plan or dry-run.
+
+
 You are about to reverse-engineer and rebuild **the target URL or URLs in the user's request** as pixel-perfect clones.
 
 When multiple URLs are provided, preserve every pathname as a distinct route and isolate each target's research, screenshots, components, and assets. URLs that differ only by query string or fragment share a pathname, so resolve their route and state behavior explicitly in the output plan. Parallelize page work only after the shared foundation and output plan are fixed so concurrent builders cannot overwrite one another.
