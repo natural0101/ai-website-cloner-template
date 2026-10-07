@@ -96,3 +96,45 @@ This complements the existing One/Codex and native-copy contract; current owner 
   Known unsupported contacts/prices/legal role тестировать отдельно как GAP.
   HTTP bytes, browser controls, PDF pixels, owner acceptance, sent receipt и
   CRM reconciliation считать разными результатами.
+
+
+### Native route and Speaker controls recovery — 07.10.2026
+
+- Read attributes through lxml `element.get("href")` / `element.get("src")`;
+  `element["href"]` indexes children and raises TypeError. CSS `url("")` or empty
+  regex groups are absent dependencies: use a default and skip the empty value,
+  rather than `next(...)` without a default. Keep frozen input bytes immutable.
+- Reuse retained assets by exact URL filename digest plus validated body SHA.
+  Failed rows are not done rows. Clear only the exact owned worker's dead claims;
+  preserve live claims and let independent slug workers share a bounded GET pool.
+  Reconcile a repaired row from its final manifest, not a stale failed receipt.
+- Preserve same-page fragments and copied own routes inside the native iframe:
+  source `#about` / `#contacts` remain fragments, copied child URLs point to their
+  exact `source.html` with `target="_self"`. Do not strip locale prefixes to invent
+  aliases. Follow only observed source URLs and verified redirect chains.
+- A retained native theme script does not prove its event handler was bound.
+  First inspect the exact source script, button selectors, breakpoint and CSS
+  classes. For WordPress Speaker, the observed selector was
+  `.main-menu-toggle[aria-controls="main-menu"]`, breakpoint 600 px; resize adds
+  `mobile-menu` to `.main-navigation`. Toggle uses `animate`/`show` on navigation,
+  `mobile-menu-active` on html and `toggled` on the button. The source's reversed
+  aria-expanded assignment is corrected to the actual open state.
+- If binding is proved absent, add only a narrow isolated handler using those
+  original states. Preserve native script bytes and existing CSS, prevent double
+  toggles, and keep fetch/XHR/form/payment/messenger transports inactive. A local
+  cookie acknowledgment may dismiss its notice without storing or sending data.
+  Do not redesign the menu or add a framework/provider.
+- Concrete validated example: RU Shkilev copy, 47 applied files externally
+  cache-busted HTTP 200 with matching SHA; root source index and existing CSS
+  unchanged. Root's actual CUA review verified desktop/mobile painted pixels,
+  mobile open and close, exact Russian services navigation, three KB turns and
+  reloaded history, provider/model calls=0. This proof covers the reviewed
+  controls, not every control on every copied source page.
+  Server receipts:
+  `/var/lib/teamon-one/ops/new25-20261007-v1/actual-ui-v1/152-NATIVE-EXTERNAL.json`
+  and `152-BROWSER-REVIEW.json`, plus
+  `152-core-nav-root-apply-v1/APPLY.json`.
+- Publish repeatable rules from fresh remote file SHA, run quick_validate on
+  server-only copies and verify exact remote content read-back. Concurrent skill
+  updates require a fresh re-read; never replace a newer reference with an older
+  local or validation snapshot.
