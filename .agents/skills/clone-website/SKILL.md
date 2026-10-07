@@ -583,3 +583,12 @@ When done, report:
 ## Server-only frozen KB and owner batch — 07.10.2026
 
 For TeamON copies, read [the frozen-authority batch contract](references/teamon-frozen-kb-batch-20261007.md) before another batch. Preserve the selected source pixels and scripts, ordered page authority and literal source spans. Lossless packing, semantic metadata and mock history never replace actual public browser/native One proof. Root alone applies the owner-scoped operator; public limits, old jobs, session TTL and One host remain intact.
+
+## Native controls and parser recovery — 07.10.2026
+
+Before another native copy, apply the route, lxml attribute, empty CSS dependency
+and source-theme binding rules in
+[the server-only frozen batch contract](references/teamon-frozen-kb-batch-20261007.md#native-route-and-speaker-controls-recovery--07102026).
+The Shkilev Speaker repair preserved source CSS/script bytes and passed actual
+desktop/mobile menu open-close and Russian child navigation. File SHA/HTTP,
+painted pixels, KB/history and owner acceptance remain separate gates.
