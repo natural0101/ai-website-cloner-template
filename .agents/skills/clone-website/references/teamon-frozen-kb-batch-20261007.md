@@ -138,3 +138,55 @@ This complements the existing One/Codex and native-copy contract; current owner 
   server-only copies and verify exact remote content read-back. Concurrent skill
   updates require a fresh re-read; never replace a newer reference with an older
   local or validation snapshot.
+
+
+### Reviewed outreach handoff and queued delivery reconciliation — 07.10.2026
+
+- Root remains the sole sender and production/CRM writer. A staged descriptor is
+  not executable review: the service requires exact
+  `ROOT_REVIEWED_EXACT_BODY_AND_MATERIALS` / `Codex root`, matching stable identity,
+  body SHA, descriptor SHA and current plan SHA. Diagnose predicate booleans before
+  changing transports; a bind timeout may be a rejected descriptor rather than
+  network failure.
+- A root-approved descriptor correction changes descriptor SHA and then plan SHA.
+  After fresh identity/body/unsent CRM read-back, root may reconcile only the
+  existing CRM preparation claim and binding authority to that new exact plan.
+  Preserve prior SHA and failure evidence. Do not create another CRM record/chat,
+  reset source/history or weaken generic identity gates to resume the same draft.
+- If the existing worker already created the exact empty Chatwoot binding but
+  the runner has no durable BOUND_EMPTY_HISTORY_VERIFIED receipt, review account,
+  inbox, assignee, contact identifier, native peer and both histories. Root then
+  calls the existing `rt.bind` to verify GETs and write the existing receipt,
+  followed by the existing scoped CRM bind. Resume only after those read-backs;
+  the runner's bound branch reads pre-send CRM before another bind.
+- Chatwoot acceptance and native delivery are separate. For an accepted outgoing
+  message with a timed-out runner, retain the original message ID, plan/body pins,
+  timeout metadata and native journal. Reconcile native history, bridge state and
+  operation intent before any retry. An existing unknown/attempted native send
+  cannot be replayed. If the guard rejected the message before native intent and
+  POST, restore the same queued Chatwoot message through the existing worker;
+  never submit another Chatwoot POST for it.
+- A legacy account-wide owner10 guard can count earlier follow-ups as well as the
+  current campaign. An explicit owner25 batch authorizes only its frozen cohort,
+  exact Moscow day and <=25 unique reviewed recipient attempts. A narrow exception
+  must check owner/selection SHA, exact root-reviewed plan/descriptor/release/body,
+  existing receipt/CW binding, fresh profile and empty native history; unrelated
+  owner10 behavior, native429 stop and 45-minute baseline freshness stay intact.
+  Other pending/unknown cohort attempts hold the next item until reconciliation.
+- Root uses the existing `rt.await_service_delivery` for the same CW message and
+  body, preserves prior timeout fields while recording sent_verified/native ID/
+  journal, then runs existing CRM reconciliation. Count a sent kit only after
+  native delivery and exact CRM read-back.
+- Proven example: Shkilev's original CW953 was delivered once as native1620657039
+  after root scoped guard repair, with no second CW POST. Existing147 receipt now
+  has sent_verified, crmReconciled=true, bridgeHeld=false and
+  reconciledAfterTimeout=true; lastError/failureAt retained.
+  Exact server receipt:
+  `/var/lib/teamon-tenchat/operations/campaign-20261007-chatwoot-147.json`.
+- Prioritization must occur before expensive preparation, not only before the
+  final per-chat loop. Diagnosed source: native list30 versus bound state134;
+  104 missing bindings each performed serial verification/group GET before
+  priority sorting. A staged ordering candidate services exact queued/prepared
+  priority bindings before that old scan, retaining all134 chats once and the
+  unchanged per-chat send/import guards. Offline order/full-scan proof is not
+  production latency proof; require an actual next-delivery timing measurement.
