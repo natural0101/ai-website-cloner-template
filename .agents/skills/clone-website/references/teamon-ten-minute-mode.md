@@ -179,3 +179,31 @@ painted pixels and native-control checks as separate receipts.
   дизайна, PACKAGE_READY, отправка и CRM read-back считать раздельно.
   При запрете новых LLM turns не менять fallback `qaStatus=CONFIGURED_UNTESTED`
   на VERIFIED из-за базовых KB ответов; сохранить исходные failed receipts.
+
+## Server-only presentation finish when Windows saving is forbidden — 07.10.2026
+
+The current owner TenChat no-local-files rule overrides the earlier Windows
+PowerPoint workflow: no local PPTX/PDF, image, archive, script or TEMP/transfer file.
+On the approved server, reuse an already exported exact eligible pair when its
+actual bytes, source identity, final pages and current material readiness pass.
+An old ready flag, generic PDF or another company's deck is not a prepared pair.
+
+Verified alternative: existing213 LibreOffice24.2.7.2, static Rubik and existing
+pymupdf/python-pptx environment can export editable canon-derived PPTX server-only.
+Keep owner-v4 source/client PPTX immutable; keep exporter compatibility input separate.
+An unchanged LO export can move text baselines and inherit theme shadows despite
+empty effectLst. Measure canonical role baselines from actual PowerPoint-reference
+and LO PDFs; compensate only matching role Y offsets in the exporter copy and set
+shape effectRef idx0. Preserve geometry/sizes/content/media/links and record all SHA.
+Every derivative still needs all4 actual final PDF pages, full real KB quote,
+Rubik spans, logo alpha/proportions and exact active URI rectangles checked.
+View server PDF rasters by SSH/base64 in memory; nothing is saved on Windows.
+
+Truthful exporter provenance is mandatory: LibreOffice is not PowerPoint.
+The verified corrected canary is
+/var/lib/teamon-tenchat/operations/new25-20261007-v1/deck-server-canary/export-compat-v2/.
+Source client/canon PPTX stayed exact, brand ink94/94 at1.5 and3URI exact;
+failed first export is retained. Technical/native/PDF PASS is separate from
+individual owner acceptance, package readiness, retention, publication and send.
+Use existing One KB-first factual answers; finalize page2 from a real pinned answer,
+not a fabricated source quotation or a new LLM test. Staging grants no send authority.
