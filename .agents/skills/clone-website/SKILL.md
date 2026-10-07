@@ -579,3 +579,7 @@ When done, report:
 - Build status (`npm run build` result)
 - Visual QA results (any remaining discrepancies)
 - Any known gaps or limitations
+
+## Server-only frozen KB and owner batch — 07.10.2026
+
+For TeamON copies, read [the frozen-authority batch contract](references/teamon-frozen-kb-batch-20261007.md) before another batch. Preserve the selected source pixels and scripts, ordered page authority and literal source spans. Lossless packing, semantic metadata and mock history never replace actual public browser/native One proof. Root alone applies the owner-scoped operator; public limits, old jobs, session TTL and One host remain intact.
